@@ -33,14 +33,9 @@
 	});
 
 	function glossary() {
-		var production_servers = ["futuresfundamentals.cmegroup.com", "static.ff.cme.vsadev.com"]
-		if (production_servers.indexOf(window.location.hostname) != -1) {
-			var glossaryJsonURL  = "/glossary.json";
-		} else {
-			var glossaryJsonURL  = "/glossary/?format=json";
-		}
-
-		var $pullJson = $.ajax({
+	//	var glossaryJsonURL  = "/content/themes/futures-fundamentals-responsive/assets_imported_from_prototype/js/data/glossaryterms.json",
+		var glossaryJsonURL  = "/glossary/?format=json",
+		$pullJson = $.ajax({
                         url: glossaryJsonURL,
                         async: false,
                         dataType: 'json',
@@ -51,7 +46,28 @@
                   });
 
 		var glossary = dataJ;
+		/*
+		glossaryTitleDefArray = [];
+		glossaryTitleSlugArray = [];
 
+	    i = 0;
+	    dataDfnLength = dataJ.length;
+	    for(i ; i < dataDfnLength ; i++) {
+
+	        allDef = dataJ[i].definition;
+	        allTitle = dataJ[i].term;
+	        allSlug = dataJ[i].slug;
+	        glossaryTitleDefArray.push({
+	            key: allTitle,
+	            value: allDef
+	        });
+	        glossaryTitleSlugArray.push({
+	            key: allTitle,
+	            value: allSlug
+	        });
+
+	    }
+	    */
 
 	    function find_glossary_term(the_term) {
 		    the_term = the_term.toLowerCase();
