@@ -66,12 +66,12 @@
 				$('.restuls-message').html("Keep Learning");
 				$('.results-icon').css('background-position', '50% 0px');
 				shareTitle = "I’m a Market Amateur!";
-				shareText = "I took the “Hedger or Speculator?” quiz at Futures Fundamentals. Try it out for yourself, and see whether you’re a fellow amateur—or a dynamo. ";
+				shareText = "I took the Hedger vs. Speculator quiz on FuturesFundamentals.com. Try it out for yourself, and see if you're a fellow amateur—or a dynamo. ";
 				facebookUrl = location.href + "market-amateur-share/";
 			} else if (score > 5) {
 				$('.restuls-message').html("Nice Job!");
 				shareTitle = "I’m a Market Dynamo!";
-				shareText = "I got a high score in the “Hedger or Speculator?” quiz at Futures Fundamentals. Try it out, and see how you measure up. ";
+				shareText = "I took the Hedger vs. Speculator quiz on FuturesFundamentals.com. Try it out for yourself, and see if you're a fellow dynamo. ";
 				facebookUrl = location.href + "market-dynamo-share/";
 				if ($(window).width() > 991 ) {
 					$('.results-icon').css('background-position', '50% -575px');
@@ -82,7 +82,7 @@
 				$('.restuls-message').html("Not Bad!");
 				$('.results-icon').css('background-position', '50% 50%');
 				shareTitle = "I’m a Market Up-and-Comer! ";
-				shareText = "I didn’t do too badly on the “Hedger or Speculator?” quiz at Futures Fundamentals. Try it out, and see how you do. ";
+				shareText = "I took the Hedger vs. Speculator quiz on FuturesFundamentals.com. Try it out for yourself, and see if you're a fellow up-and-comer—or a dynamo. ";
 				facebookUrl = location.href + "market-comer-share/";
 			}
 

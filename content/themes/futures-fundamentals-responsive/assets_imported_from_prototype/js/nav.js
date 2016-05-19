@@ -113,7 +113,7 @@
 		   	});
 
 
-		   	$('.touch .top-nav-item').on('click', function (e) {
+		   	$('.touch .top-nav-item').on('click mousedown mouseup touchstart touchmove', function (e) {
 		   		e.preventDefault();
 		   		
 		   		if ($(this).parent('li').hasClass('drop-open')) {
