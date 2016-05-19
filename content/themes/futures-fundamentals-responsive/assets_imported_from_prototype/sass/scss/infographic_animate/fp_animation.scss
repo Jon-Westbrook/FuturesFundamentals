@@ -1,0 +1,297 @@
+/*
+ *  trend up
+ */
+
+@include keyframes(trendUp) {
+  0%    {
+    @include transform(translateY(100%));
+  }
+  100%  {
+   	@include transform(translateY(0));
+  }
+}
+
+@mixin trendUp($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(trendUp);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  trend down
+ */
+
+@include keyframes(trendDown) {
+  0%    {
+    @include transform(translateY(-100%));
+  }
+  100%  {
+    @include transform(translateY(0));
+  }
+}
+
+@mixin trendDown($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(trendDown);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  trend stable
+ */
+
+@include keyframes(trendStable) {
+  0%    {
+    @include transform(scaleY(0));
+  }
+  100%  {
+    @include transform(scaleY(1));
+  }
+}
+
+@mixin trendStable($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(trendStable);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  button up
+ */
+
+@include keyframes(buttonUp) {
+  0%    {
+    opacity:0;
+  }
+  100%  {
+    opacity:1;
+  }
+}
+
+@mixin buttonUp($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(buttonUp);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  trend icon up
+ */
+
+@include keyframes(trendIconUp) {
+  0%    {
+    opacity:0;
+    @include transform(rotate(180deg));
+  }
+  100%  {
+    opacity:1;
+    @include transform(rotate(0));
+  }
+}
+
+@mixin trendIconUp($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(trendIconUp);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  info text drop
+ */
+
+@include keyframes(textDrop) {
+  0%    {
+    @include transform(translateY(-100%));
+  }
+  100%  {
+    @include transform(translateY(0));
+  }
+}
+
+@mixin textDrop($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(textDrop);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  fp icon bounce
+ */
+
+@include keyframes(fp_iconBounce) {
+  0%    {
+    @include transform(translateX(-50%) translateY(-1500%));
+  }
+  60% {
+    @include transform(translateX(-50%) translateY(-40%));
+  }
+  80% {
+    @include transform(translateX(-50%) translateY(-60%));
+  }
+  100%  {
+  @include transform(translateX(-50%) translateY(-50%));
+  }
+}
+
+@mixin fp_iconBounce($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(fp_iconBounce);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  fp icon bounce mobile
+ */
+
+@include keyframes(fp_iconBounceMobile) {
+  0%    {
+    @include transform(translateX(-50%) translateY(-500%));
+  }
+  60% {
+    @include transform(translateX(-50%) translateY(10%));
+  }
+  80% {
+    @include transform(translateX(-50%) translateY(-10%));
+  }
+  100%  {
+  @include transform(translateX(-50%) translateY(0));
+  }
+}
+
+@mixin fp_iconBounceMobile($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(fp_iconBounceMobile);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+
+/*
+ *  ====================================
+ *  outro animations
+ *  ==================================== 
+ */
+
+/*
+ *  trend outro
+ */
+
+@include keyframes(trend_outro) {
+  0%    {
+    @include transform(translateY(0));
+  }
+  100%  {
+    @include transform(translateY(100%));
+  }
+}
+
+@mixin trend_outro($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(trend_outro);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  fadeOut
+ */
+
+@include keyframes(fadeOut) {
+  0%    {
+    opacity:1;
+  }
+  100%  {
+    opacity:0;
+  }
+}
+
+@mixin fadeOut($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(fadeOut);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  info text up
+ */
+
+@include keyframes(text_outro) {
+  0%    {
+    @include transform(translateY(0));
+  }
+  100%  {
+    @include transform(translateY(-100%));
+  }
+}
+
+@mixin text_outro($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(text_outro);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  fp icon up
+ */
+
+@include keyframes(fp_iconBounce_outro) {
+  0%    {
+    @include transform(translateX(-50%) translateY(-50%));
+    
+  }
+  100%  {
+    @include transform(translateX(-50%) translateY(-1500%));
+  }
+}
+
+@mixin fp_iconBounce_outro($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(fp_iconBounce_outro);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}

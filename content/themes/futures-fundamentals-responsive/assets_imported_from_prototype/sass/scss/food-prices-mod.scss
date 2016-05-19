@@ -1,0 +1,832 @@
+@import "infographic_animate/quiz_animation";
+@import "infographic_animate/fp_animation";
+
+#food-prices__mod {
+	margin-bottom:50px;
+	.food-prices-factors-mod {
+
+		@include animate(all 800ms);
+
+		&.fp-hide {visibility:hidden; opacity:0;}
+
+		margin-top:20px;
+		.food-prices-factor {
+			text-align:center;
+			position:relative;
+			margin-bottom:8px;
+			height:226px;
+			@include animate(transform 800ms);
+
+			.card-front {
+				background-color:$gray-10;
+				position:absolute;
+				height:100%;
+				width:100%;
+				top:0;
+				left:0;
+				z-index:2;
+				@include animate(transform 800ms);
+				@include backface(hidden);
+
+				@include transform(rotateY(180deg));
+			}
+
+			.card-back {
+				display:block;
+				background-color:$gray-10;
+				position:absolute;
+				height:100%;
+				width:100%;
+				top:0;
+				left:0;
+				z-index:2;
+				@include animate(transform 800ms);
+				@include backface(hidden);
+
+				@include transform(rotateY(0));
+			}
+
+			img {
+				width:100px;
+				height:auto;
+				margin:20px 0;
+			}
+			h4 {
+				color:$white;
+				background-color:$blue-20;
+				text-transform:uppercase;
+				font-size:16px;
+				height:56px;
+				line-height:56px;
+				margin:0;
+				padding-left:5px;
+				padding-right:5px;
+				span {
+					display: inline-block;
+					vertical-align: middle;
+					line-height: normal;
+					margin-top:-4px;
+				}
+
+				@include mq($until: medium) {
+					font-size:14px;
+				}
+			}
+
+		}
+
+		.scrollAnimation--active{
+			.food-prices-factor {
+				&#fp-events .card-front, &#fp-events .card-back {
+					@include animate-delay(0ms);
+				}
+				&#fp-global .card-front, &#fp-global .card-back {
+					@include animate-delay(100ms);
+				}
+				&#fp-gov .card-front, &#fp-gov .card-back {
+					@include animate-delay(200ms);
+				}
+				&#fp-disease .card-front, &#fp-disease .card-back {
+					@include animate-delay(300ms);
+				}
+				&#fp-currencies .card-front, &#fp-currencies .card-back {
+					@include animate-delay(400ms);
+				}
+				&#fp-energy .card-front, &#fp-energy .card-back {
+					@include animate-delay(500ms);
+				}
+				&#fp-farm .card-front, &#fp-farm .card-back {
+					@include animate-delay(600ms);
+				}
+				&#fp-weather .card-front, &#fp-weather .card-back {
+					@include animate-delay(700ms);
+				}
+
+				.card-front {
+					@include transform(rotateY(0));
+				}
+
+				.card-back {
+					@include transform(rotateY(-180deg));
+				}
+
+				.no-touch & {
+					
+					&:hover {
+						cursor:pointer;
+						@include animate-delay(0ms!important);
+						@include transform(perspective(600px) rotateY(20deg));
+					}
+				}
+
+				@include transform(rotateY(0));
+
+				&.fp-flip {
+					@include animate-delay(0ms!important);
+
+					.card-front {
+						@include animate-delay(0ms!important);
+						@include transform(rotateY(180deg));
+					}
+
+					.card-back {
+						@include transform(rotateY(0));
+					}
+				}
+
+				&.fp-unflip, &.fp-unflip .card-front, &.fp-unflip .card-back {
+					@include animate-delay(0ms!important);
+				}
+			}
+		}
+	}
+
+	.fp-carousel-container {
+		position:absolute;
+		top:0;
+
+		&:after {
+			content:"";
+			background-color:$gray-10;
+			position:absolute;
+			height:100%;
+			width:100%;
+			top:0;
+			left:0;
+			@include backface(hidden);
+			@include animate(all 800ms ease);
+		}
+
+		visibility:hidden;
+		opacity:0;
+		@include backface(hidden);
+
+		@include transform(rotateY(-180deg));
+
+		@include animate(all 600ms ease);
+
+		&.fp-reveal {
+			visibility:visible;
+			opacity:1;
+			@include transform(rotateY(0));
+			&:after {
+				@include transform(rotateY(180deg));
+			}
+		}
+
+		.carousel-image {
+			.fp_icon {
+				height:184px;
+				width:184px;
+				@include full-center;
+				@include transform(translateX(-50%) translateY(-70%));
+
+				img {
+					height:184px;
+					width:184px;
+					padding:0;
+				}
+
+				.icon-shadow {
+					width:184px;
+					height:19px;
+					background:url('../img/hedger_speculator/icon-shadow.png') no-repeat center center;
+					background-size:184px 19px;
+					position:absolute;
+					bottom:-50px;
+					left:0;
+				}
+			}
+
+		}
+
+		@include mq($from: large) {
+
+			.icon-drop {
+				img {
+					@include iconBounce($count: 1, $function: linear, $duration: 800ms);
+				}
+				.icon-shadow {
+					@include shadowBounce($count: 1, $function: linear, $duration: 800ms);
+				}
+			}
+
+			&.fp-opening {
+				.icon-drop {
+					img {
+						@include iconBounce($count: 1, $function: linear, $duration: 800ms, $delay: 1000ms);
+					}
+					.icon-shadow {
+						@include shadowBounce($count: 1, $function: linear, $duration: 800ms, $delay: 1000ms);
+					}
+				}
+			}
+
+		}
+
+		@include mq($until: large) {
+			@include transform(rotateY(0));
+
+			&:after {display:none;}
+
+			.icon-drop {
+				img {
+					@include iconBounceMobile($count: 1, $function: linear, $duration: 800ms);
+				}
+				.icon-shadow {
+					@include shadowBounce($count: 1, $function: linear, $duration: 800ms);
+				}
+			}
+
+			&.fp-opening {
+				.icon-drop {
+					img {
+						@include iconBounceMobile($count: 1, $function: linear, $duration: 800ms, $delay: 1000ms);
+					}
+					.icon-shadow {
+						@include shadowBounce($count: 1, $function: linear, $duration: 800ms, $delay: 1000ms);
+					}
+				}
+			}
+		}
+
+		.carousel-close {
+			position:absolute;
+			right:10px;
+			top:10px;
+			z-index:100;
+			display:block;
+			height:26px;
+			width:26px;
+			background:url('../img/carousel-close.png') no-repeat center center;
+				background-size:26px;
+		}
+
+		.carousel-controls-container {
+			bottom:30px;
+		}
+
+		.item, .carousel-text, .carousel-image {
+			height:460px;
+		}
+	}
+
+	.slide-num-mobile {display:none;}
+
+	@include mq($until: large) {
+		margin:0px 0 50px;
+
+		.food-prices-factors-mod {
+			margin-bottom:20px;
+			&.fp-hide {display:none;}
+		}
+
+		.fp-carousel-container {
+			margin-top:0;
+			.carousel-controls-container {
+				position:absolute;
+				left:15px;
+				bottom:10px;
+			}
+			.item, .carousel-image, .carousel-text {
+				height:auto;
+			}
+			.item {
+				.col-md-6 {position:static;}
+			}
+			.carousel-text {
+				margin-bottom:75px;
+				.slide-num {display:none;}
+			}
+			.carousel-image {
+				margin:0;
+				.fp_icon {
+		        	height:100px;
+		        	width:100px;
+		        	margin-bottom:20px;
+
+		        	@include full-center-cancel;
+
+		        	.icon-shadow {
+		        		width:100px;
+		        		height:11px;
+		        		background-size:100px 11px;
+		        		bottom:-25px;
+		        	}
+		        	
+				}
+			}
+
+		}
+
+		.slide-num-mobile {
+			display:inline-block;
+			padding-top:15px;
+			margin-bottom:20px;
+			border-bottom:2px solid $gray-20;
+		}
+
+
+	}
+
+	@include mq($until: medium) {
+		.row {
+			margin-left:-5px;
+			margin-right:-5px;
+		}
+
+		.col-xs-6 {
+			padding-left:5px;
+			padding-right:5px;
+		}
+
+		.fp-carousel-container {
+			margin-left:-15px;
+		}
+	}
+}
+
+#food-prices-move {
+	background-color:$gray-10;
+	height:550px;
+	margin-top:40px;
+	margin-bottom:40px;
+
+	.col {height:100%; overflow:hidden;}
+	.fp-title {
+		position:absolute;
+		left:30px;
+		font-size:20px;
+		line-height:32px;
+		font-family:$benton;
+		letter-spacing:0.21px;
+		color:$gray-40;
+		font-weight:bold;
+		text-transform:uppercase;
+	}
+	.fp-image {
+		position:relative;
+		margin:84px 0 80px;
+		img {
+			max-width:100%;
+		}
+		.fp-icon {
+			position:absolute;
+			display:block;
+			height:90px;
+			width:90px;
+			@include full-center;
+
+			&.icon-global-demand {
+				background:url('../img/food-prices/food-prices_global.png') no-repeat center center;
+				background-size:90px 90px;
+			}
+			&.icon-weather {
+				background:url('../img/food-prices/food-prices_weather.png') no-repeat center center;
+				background-size:90px 90px;
+			}
+			&.icon-disease {
+				background:url('../img/food-prices/food-prices_disease.png') no-repeat center center;
+				background-size:90px 90px;
+			}
+			&.icon-energy-costs {
+				background:url('../img/food-prices/food-prices_energy.png') no-repeat center center;
+				background-size:90px 90px;
+			}
+			&.icon-fluctuating-currencies {
+				background:url('../img/food-prices/food-prices_currencies.png') no-repeat center center;
+				background-size:90px 90px;
+			}
+			&.icon-available-farmland {
+				background:url('../img/food-prices/food-prices_farm.png') no-repeat center center;
+				background-size:90px 90px;
+			}
+			&.icon-government-policy {
+				background:url('../img/food-prices/food-prices_gov.png') no-repeat center center;
+				background-size:90px 90px;
+			}
+			&.icon-geopolitical-events {
+				background:url('../img/food-prices/food-prices_events.png') no-repeat center center;
+				background-size:90px 90px;
+			}
+
+			&:after {
+				content:"";
+				display:block;
+				width:90px;
+				height:90px;
+				border-radius:50%;
+				@include shadow(8px 8px 8px rgba(0,0,0,0.5));
+				visibility:visible;
+			}
+		}
+		.icon-shadow {
+			width:100%;
+			height:36px;
+			background:url('../img/hedger_speculator/icon-shadow.png') no-repeat center center;
+			background-size:100%;
+			position:absolute;
+			bottom:-65px;
+			left:0;
+		}
+	}
+	.fp-info {
+		.trend-icon {
+			display:block;
+			width:26px;
+			height:19px;
+			margin:20px 0 10px;
+
+			&.trend-up {background:url('../img/food-prices/trend-up-icon.png') no-repeat center center; background-size:26px 19px;}
+			&.trend-down {background:url('../img/food-prices/trend-down-icon.png') no-repeat center center; background-size:26px 19px;}
+		}
+		.info-text {
+			border-top:1px solid $gray-20;
+			color:$gray-40;
+			overflow:hidden;
+			.text-inner {padding-top:10px;}
+			h4 {
+				font-size:16px;
+				line-height:23px;
+				font-family:$benton;
+				letter-spacing:0.21px;
+				text-transform:uppercase;
+				margin:0 0 4px;
+			}
+			p {
+				font-size:16px;
+				line-height:20px;
+				font-family:$benton;
+				margin:0;
+			}
+		}
+	}
+	.trend-holder {
+		width:100%;
+		height:100%;
+		position:absolute;
+		left:0;
+		.price-trend {
+			height:calc(100% - 102px);
+			color:$white;
+			text-align:center;
+			position:relative;
+
+			h3 {
+				font-size:24px;
+				line-height:28px;
+				font-family:$benton;
+				letter-spacing:0.26px;
+				margin:0;
+				width:100%;
+				text-transform:uppercase;
+				@include vertical-align;
+
+			}
+
+		}
+
+		&.trend-up {
+			background-color:$price-green;
+			h3 {
+				&:before {
+					content:"";
+					display:block;
+					width:26px;
+					height:19px;
+					margin:0 auto;
+					background:url('../img/food-prices/trend-icon.png') no-repeat center center;
+					background-size:26px 19px;
+					margin-bottom:20px;
+				}
+			}
+		}
+
+		&.trend-down {
+			background-color:$price-red;
+			h3 {
+				&:after {
+					content:"";
+					display:block;
+					width:26px;
+					height:19px;
+					margin:0 auto;
+					background:url('../img/food-prices/trend-icon.png') no-repeat center center;
+					background-size:26px 19px;
+					margin-top:20px;
+					@include transform(rotate(180deg));
+				}
+			}
+		}
+
+		&.trend-stable {
+			background-color:$gray-20;
+			h3 {
+			/*
+				&:before {
+					content:"";
+					display:inline-block;
+					width:26px;
+					height:19px;
+					margin:0 auto;
+					background:url('../img/food-prices/trend-icon.png') no-repeat center center;
+					background-size:26px 19px;
+					margin-right:20px;
+					@include transform(rotate(-90deg));
+				}
+
+				&:after {
+					content:"";
+					display:inline-block;
+					width:26px;
+					height:19px;
+					margin:0 auto;
+					background:url('../img/food-prices/trend-icon.png') no-repeat center center;
+					background-size:26px 19px;
+					margin-left:20px;
+					@include transform(rotate(90deg));
+				}
+			*/
+			}
+		}
+
+		.price-move-button {
+			display:block;
+			width:100%;
+			position:absolute;
+			bottom:0;
+			background-color:$blue-20;
+			text-align:center;
+			padding:40px 0;
+
+			h4 {
+				display:inline-block;
+				font-weight:normal;
+				font-size:16px;
+				font-family:$benton-med;
+				letter-spacing:0.21px;
+				text-transform:uppercase;
+				color:$white;
+				padding-right:50px;
+				margin:0;
+				position:relative;
+			}
+			.move-icon {
+				position:absolute;
+				top:0;
+				right:0;
+				height:40px;
+				width:40px;
+				@include transform(translateY(-25%));
+				@include animate(all 500ms ease);
+				background:url('../img/carousel_restart.png') no-repeat center center;
+				background-size:40px 40px;
+			}
+
+			&:hover {
+				cursor:pointer;
+				.move-icon {
+					@include transform(translateY(-25%) rotate(90deg));
+				}
+			}
+		}
+	}
+
+	&.scrollAnimation--before {
+		.fp-icon:after {
+			visibility:hidden;
+		}
+
+		.trend-up {@include transform(translateY(100%));}
+		.trend-down {@include transform(translateY(-100%));}
+		.trend-stable {@include transform(scaleY(0));}
+		.price-move-button {opacity:0;}
+		.trend-icon {opacity:0;@include transform(rotate(180deg));}
+		.info-left .text-inner, .info-right .text-inner {@include transform(translateY(-100%));}
+		.image-left .fp-icon, .image-right .fp-icon {@include transform(translateX(-50%) translateY(-1500%));}
+	}
+
+	&.scrollAnimation--active, &.animate  {
+
+		.trend-up {
+			@include trendUp($count: 1, $duration: 800ms, $delay: 1000ms);
+		}
+		.trend-down {
+			@include trendDown($count: 1, $duration: 800ms, $delay: 1000ms);
+		}
+		.trend-stable {
+			@include trendStable($count: 1, $duration: 800ms, $delay: 1000ms);
+		}
+		.price-move-button {
+			@include buttonUp($count: 1, $duration: 800ms, $delay: 1600ms);
+		}
+
+		.trend-icon {
+			@include trendIconUp($count: 1, $duration: 800ms, $delay: 1000ms);
+		}
+		.info-left .text-inner {
+			@include textDrop($count: 1, $duration: 800ms, $delay: 200ms);
+		}
+		.info-right .text-inner {
+			@include textDrop($count: 1, $duration: 800ms, $delay: 400ms);
+		}
+		.image-left .fp-icon {
+			@include fp_iconBounce($count: 1, $duration: 800ms, $function: ease-out, $delay: 200ms);
+		}
+		.image-right .fp-icon {
+			@include fp_iconBounce($count: 1, $duration: 800ms, $function: ease-out, $delay: 400ms);
+		}
+	}
+
+	&.animate-up {
+		.trend-up , .trend-down, .trend-stable {
+			@include fadeOut($count: 1, $duration: 800ms, $delay: 200ms);
+		}
+		.trend-icon {
+			@include fadeOut($count: 1, $duration: 800ms, $delay: 300ms);
+		}
+		.info-left .text-inner {
+			@include text_outro($count: 1, $duration: 800ms, $delay: 200ms);
+		}
+		.info-right .text-inner {
+			@include text_outro($count: 1, $duration: 800ms, $delay: 400ms);
+		}
+		.image-left .fp-icon {
+			@include fp_iconBounce_outro($count: 1, $duration: 800ms, $function: ease-out, $delay: 200ms);
+		}
+		.image-right .fp-icon {
+			@include fp_iconBounce_outro($count: 1, $duration: 800ms, $function: ease-out, $delay: 400ms);
+		}
+	}
+
+	@include mq($until: large) {
+		height:450px;
+		margin-bottom:0;
+
+		.fp-title {
+			font-size:13px;
+			line-height:20px;
+		}
+
+		.fp-image {
+			margin:56px 0 50px;
+			.fp-icon {
+				width:70px;
+				height:70px;
+
+				&.icon-global-demand, &.icon-weather, &.icon-disease, &.icon-energy-costs, &.icon-fluctuating-currencies, &.icon-available-farmland, &.icon-government-policy, &.icon-geopolitical-events {
+					background-size:70px;
+				}
+
+				&:after {
+					width:70px;
+					height:70px;
+				}
+			}
+
+			.icon-shadow {
+				bottom:-40px;
+			}
+		}
+
+		.fp-info {
+			.trend-icon {
+				width:20px;
+				height:14px;
+
+				&.trend-up, &.trend-down {
+					background-size:20px 14px;
+				}
+			}
+
+			.info-text {
+				h3 {font-size:13px; line-height:18px;}
+				p {font-size:13px;}
+			}
+		}
+
+		.trend-holder {
+
+			.price-trend {
+				h3 {font-size:20px; line-height:24px;}
+			}
+
+			.price-move-button {
+
+				h4 {font-size:12px; padding-right:32px;}
+
+				.move-icon {
+					height:28px;
+					width:28px;
+					background-size:28px;
+				}
+			}
+
+			&.trend-stable {
+				h3:before {
+					margin-right:10px;
+				}
+				h3:after {
+					margin-left:10px;
+				}
+			}
+		}
+
+	}
+
+	@include mq($until: medium) {
+		height:auto;
+
+		.col {height:auto; float:none;}
+
+		.col-sm-4 {
+			padding:0;
+		}
+
+		.col-xs-6 {
+			float:left;
+		}
+
+		.fp-image {
+			.fp-icon {
+				width:50px;
+				height:50px;
+
+				&.icon-global-demand, &.icon-weather, &.icon-disease, &.icon-energy-costs, &.icon-fluctuating-currencies, &.icon-available-farmland, &.icon-government-policy, &.icon-geopolitical-events {
+					background-size:50px;
+				}
+
+				&:after {
+					width:50px;
+					height:50px;
+				}
+			}
+		}
+
+		.fp-info {
+			.info-text {
+				min-height:180px;
+				margin-bottom:20px;
+
+				h4 {
+					font-size:14px;
+					line-height:20px;
+				}
+			}
+		}
+
+		.trend-holder {
+			height:50px;
+			position:relative;
+
+			.price-trend {
+				height:50px;
+				h3 { padding-right:60px; }
+			}
+
+			.price-move-button {
+				height:50px;
+				width:60px;
+				text-indent:-9999px;
+				right:0;
+				background:url('../img/carousel_restart.png') no-repeat center center $blue-20;
+				background-size:40px 40px;
+
+				padding:15px 0;
+			}
+
+			&.trend-up {
+				h3:before {
+					display:none;
+				}
+			}
+
+			&.trend-down {
+				h3:after {
+					display:none;
+				}
+			}
+
+			&.trend-stable {
+				h3:before, h3:after {
+					display:none;
+				}
+			}
+		}
+
+		&.scrollAnimation--active, &.animate {
+			.trend-down, .trend-stable {
+				@include trendUp($count: 1, $duration: 800ms, $delay: 1200ms);
+			}
+
+			.trend-icon {
+				@include trendIconUp($count: 1, $duration: 800ms, $delay: 1200ms);
+			}
+		}
+	}
+}
+
+
+
+
+

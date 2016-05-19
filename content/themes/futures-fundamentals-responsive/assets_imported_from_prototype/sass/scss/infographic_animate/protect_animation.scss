@@ -1,0 +1,283 @@
+/*
+ *  arrow right anim
+ */
+
+@include keyframes(arrowRight) {
+  0%    {
+    @include transform(translateX(0));
+  }
+  100%  {
+    @include transform(translateX(400%));
+  }
+}
+
+@mixin arrowRight($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(arrowRight);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  arrow stop anim
+ */
+
+@include keyframes(arrowStop) {
+  0%    {
+    @include transform(translateX(0));
+    opacity:1;
+  }
+  30% {
+    @include transform(translateX(105%));
+    opacity:1;
+  }
+  40% {
+    @include transform(translateX(105%));
+    opacity:1;
+  }
+  60%  {
+    @include transform(translateX(105%));
+    opacity:0;
+  }
+  100%  {
+    @include transform(translateX(105%));
+    opacity:0;
+  }
+}
+
+@mixin arrowStop($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(arrowStop);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  market rejected
+ */
+
+@include keyframes(marketReject) {
+  0%    {
+    opacity:0;
+  }
+  10% {
+    opacity:0;
+  }
+  20% {
+    opacity:1;
+  }
+  40% {
+    opacity:1;
+  }
+  60% {
+    opacity:0;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@mixin marketReject($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(marketReject);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  arrow title anim
+ */
+
+@include keyframes(arrowTitle) {
+  0%    {
+    @include transform(translateX(0));
+  }
+  100%  {
+    @include transform(translateX(500%));
+  }
+}
+
+@mixin arrowTitle($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(arrowTitle);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  arrow title stop anim
+ */
+
+@include keyframes(arrowTitleStop) {
+  0%    {
+    @include transform(translateX(0));
+    opacity:1;
+  }
+  30% {
+    @include transform(translateX(140%));
+    opacity:1;
+  }
+  40% {
+    @include transform(translateX(140%));
+    opacity:1;
+  }
+  60%  {
+    @include transform(translateX(140%));
+    opacity:0;
+  }
+  100%  {
+    @include transform(translateX(140%));
+    opacity:0;
+  }
+}
+
+@mixin arrowTitleStop($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(arrowTitleStop);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  simul color in
+ */
+
+@include keyframes(simulColorIn) {
+  0%    {
+    background-color:$gray-10;
+  }
+  100%  {
+    background-color:$pale-blue-10;
+  }
+}
+
+@mixin simulColorIn($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(simulColorIn);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  simul color out
+ */
+
+@include keyframes(simulColorOut) {
+  0%    {
+    background-color:$pale-blue-10;
+  }
+  100%  {
+    background-color:$gray-10;
+  }
+}
+
+@mixin simulColorOut($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(simulColorOut);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  icon bounce
+ */
+
+@include keyframes(clearIconBounce) {
+  0%    {
+    @include transform(translateY(-400%));
+  }
+  60% {
+    @include transform(translateY(10%));
+  }
+  80% {
+    @include transform(translateY(-10%));
+  }
+  100%  {
+    @include transform(translateY(0));
+  }
+}
+
+@mixin clearIconBounce($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(clearIconBounce);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  shadow bounce
+ */
+
+@include keyframes(shadowBounce) {
+  0%    {
+    @include transform(scale(0));
+  }
+  60% {
+    @include transform(scale(1.1));
+  }
+  80% {
+    @include transform(scale(0.9));
+  }
+  100%  {
+  @include transform(scale(1));
+  }
+}
+
+@mixin shadowBounce($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(shadowBounce);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  confettiFall
+ */
+
+@include keyframes(confettiFall) {
+  0%    {
+    @include transform(translateY(-50%));
+    opacity:0;
+  }
+  100%  {
+    @include transform(translateY(0));
+    opacity:1;
+  }
+}
+
+@mixin confettiFall($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(confettiFall);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}

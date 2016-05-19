@@ -14,27 +14,18 @@ var debugger_after = ".animation__debugger__after";
 
 var attributeForHighlightElements = "data-highlight-element";
 
-/*
-
-
-
-$(document).ready(function() {
-	scrollAnimate();
-	console.log("Init: Animations");
-
-	setupAnimationDebugger();
-});
-
-$(window).resize(function() {
-	scrollAnimate();
-}).scroll(function() {
-	scrollAnimate();
-});
-
-*/
+var classForAnalyticItems = ".scrollAnalyticsItem";
+var attributeForAnalyticsItemCategory = "data-analytics-category";
+var attributeForAnalyticsItemAction = "data-analytics-action";
+var attributeForAnalyticsItemLabel = "data-analytics-label";
+var attributeForAnalyticsItemAlreadyActivated = "data-analytics-activated";
 
 var window_height = ($(window).height());
 var scrollAnimateCanBeReset = false;
+
+
+
+
 
 $(document).ready(function() {
 	console.log("Init: Animations");
@@ -53,6 +44,10 @@ $(window).resize(function() {
 }).scroll(function() {
 	scrollAnimate();
 });
+
+
+
+
 
 
 setupRiskRanchJS = function() {
@@ -91,15 +86,18 @@ setupHashSmoothScroll = function() {
 	console.log("Init: Hash Smooth Scroll");
 
 	if (location.hash) {
+
 		$("html,body").scrollTop(0);
 		setTimeout(function(){
+			var me = $("[name='" + location.hash.replace("#","") + "']");
+			if (me.next().offset()) {
+				var scroll_to_pixel = me.next().offset().top - 80;
 
-			$("html,body").animate(
-				{scrollTop:$("[name='" + location.hash.replace("#","") + "']").offset().top - 50},
-				500);
+				$("html,body").animate( {scrollTop: scroll_to_pixel}, 500);
+			}
+
 
 		},500);
-		//if ($(location.hash))
 	}
 }
 
@@ -124,10 +122,24 @@ scrollAnimate = function() {
 		scrollAnimateCanBeReset = false;
 		*/
 	} else {
-		$(classForAnimationItems).each(function() {
+
+		$(classForAnimationItems).add(classForAnalyticItems).each(function() {
 			var me = $(this);
 			var top = me.offset().top;
-			top = top + (me.outerHeight()*.8);
+
+			// Decide when to trigger the breakpoint
+			if (me.attr("data-scrollAnimation-pixels")) {
+				top = top + parseInt(me.attr("data-scrollAnimation-pixels"));
+				//console.log(top);
+			} else if (me.outerHeight() > $(window).height() * .8) { // If height of module is greater than 80% of the browser window height - e.g. mobile
+				top = top + ($(window).height() * .4); // Show when 40% of screen is covered by module
+				//console.log("Case 2");
+			} else {
+				// Otherwise, trigger when 80% of module is visible
+				top = top + (me.outerHeight()*.8);
+			}
+
+
 
 			// console.log("         Checking Scroll Position", top);
 
@@ -141,6 +153,13 @@ scrollAnimate = function() {
 						simulator_functions[me.attr("id")](me);
 					}
 
+				}
+
+				if (me.attr(attributeForAnalyticsItemAlreadyActivated) != "yes" && me.hasClass(classForAnalyticItems.replace(".",""))) {
+					console.log("Scroll Analytics Event");
+
+					track_this({"category":me.attr(attributeForAnalyticsItemCategory), "action":me.attr(attributeForAnalyticsItemAction), "label":me.attr(attributeForAnalyticsItemLabel)});
+					me.attr(attributeForAnalyticsItemAlreadyActivated, "yes")
 				}
 			}
 		});

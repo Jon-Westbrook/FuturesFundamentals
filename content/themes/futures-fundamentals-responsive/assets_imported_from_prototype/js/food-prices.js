@@ -15,7 +15,10 @@
 			$('#food-prices-move').removeClass('scrollAnimation--active');
 
 			$('#food-prices-move').removeClass('animate');
-			makePricesMove(json);
+			$('#food-prices-move').addClass('animate-up');
+			setTimeout(function() {
+				makePricesMove(json);
+			}, 800);
 		});
 	});
 
@@ -82,6 +85,7 @@
 				if ($('#food-prices-move').hasClass('scrollAnimation--before')) {
 
 				} else {
+					$('#food-prices-move').removeClass('animate-up');
 					$('#food-prices-move').addClass('animate');
 				}
 

@@ -1,0 +1,92 @@
+/* Related links make image clickable */
+.col-imagelink {
+	position: relative;
+}
+
+.module__related-links__imagelink {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+
+	&,&:active,&:focus,&:hover {
+		text-decoration: none;
+	}
+
+}
+
+
+/* Related Links Module */
+
+.callout-block {
+	border-top:1px solid $gray-20;
+	margin-top:40px;
+
+	.callout {
+		border-bottom:1px solid $gray-20;
+		margin-top:10px;
+
+		.callout-icon {
+			border-right:1px solid $gray-20;
+			height:105px;
+			margin-bottom:10px;
+
+			&.call-download-icon {
+				background:url('../img/download_icon.png') no-repeat center center;
+				background-size:45px 84px;
+			}
+
+			&.call-trade-icon {
+				background:url('../img/Trade_Icon@2x.png') no-repeat center center;
+				background-size:124px 79px;
+
+				@include mq($until: medium) {
+					background-size: 100%;
+				}
+			}
+
+			&.call-discovery-icon {
+				background:url('../img/discovery_icon.png') no-repeat center center;
+				background-size:116px 96px;
+
+				@include mq($until: medium) {
+					background-size:70px 58px;
+				}
+			}
+
+			@include mq($until: medium) {
+				border-right:none;
+			}
+		}
+
+		.callout-section {
+			margin-bottom:18px;
+			h2 {
+				font-size:14px;
+				line-height:18px;
+				font-family:$benton;
+				font-weight:bold;
+				color:$gray-40;
+				text-transform:uppercase;
+				margin-bottom:0;
+			}
+
+			p {
+				font-size:14px;
+				line-height:18px;
+				font-family:$benton;
+				color:$gray-30;
+				margin-top:0;
+			}
+
+			a {
+				font-size:14px;
+				line-height:18px;
+				font-family:$benton;
+				text-transform:uppercase;
+				//text-decoration:underline;
+			}
+		}
+	}
+}
+
+

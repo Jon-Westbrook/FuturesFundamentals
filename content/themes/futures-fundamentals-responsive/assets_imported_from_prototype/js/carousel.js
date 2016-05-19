@@ -5,6 +5,7 @@
 		carouselInit();
 		quizLogic();
 		foodPrices();
+		protectMarket();
 		animationSize();
 
 		$('.carousel-control').on('click',function(e) {
@@ -17,25 +18,34 @@
 	$(window).resize(function() {
 		carouselInit();
 		foodPrices();
+		protectMarket();
 		animationSize();
 	});
 
 
 	function carouselInit() {
-		var carousel_img = $('.carousel-inner .active img').outerHeight(true),
-			control_height = carousel_img/2;
+	//	var carousel_img = $('.carousel-inner .active img').outerHeight(true),
+	//		control_height = carousel_img/2;
+
+		var carousel_width = $(window).width(),
+			control_height = (carousel_width * 0.66667)/2;
 
 		if ($(window).width() < 991 ) {
-			$('.carousel-controls-container').css('top', control_height );
+			$('.carousel-custom-slide .carousel-controls-container').css('top', control_height );
 			$('.infographic .carousel-controls-container').css('top', 'initial' );
 		} else {
-			$('.carousel-controls-container').css('top', '40px' );
+			$('.carousel-custom-slide .carousel-controls-container').css('top', '40px' );
 			$('.infographic .carousel-controls-container').css('top', 'initial' );
 		}
 	}
 
 	function quizLogic() {
-		var score = 0;
+		var shareTitle,
+			shareText,
+			shareImage,
+			facebookUrl,
+			shareUrl = location.href,
+			score = 0;
 
 		$('.quiz-answer a').on('click',function(e) {
 			if ($(this).hasClass('correct')) {
@@ -55,8 +65,14 @@
 			if (score < 4) {
 				$('.restuls-message').html("Keep Learning");
 				$('.results-icon').css('background-position', '50% 0px');
+				shareTitle = "I’m a Market Amateur!";
+				shareText = "I took the “Hedger or Speculator?” quiz at Futures Fundamentals. Try it out for yourself, and see whether you’re a fellow amateur—or a dynamo. ";
+				facebookUrl = location.href + "market-amateur-share/";
 			} else if (score > 5) {
 				$('.restuls-message').html("Nice Job!");
+				shareTitle = "I’m a Market Dynamo!";
+				shareText = "I got a high score in the “Hedger or Speculator?” quiz at Futures Fundamentals. Try it out, and see how you measure up. ";
+				facebookUrl = location.href + "market-dynamo-share/";
 				if ($(window).width() > 991 ) {
 					$('.results-icon').css('background-position', '50% -575px');
 				} else {
@@ -64,12 +80,28 @@
 				}
 			} else {
 				$('.restuls-message').html("Not Bad!");
+				$('.results-icon').css('background-position', '50% 50%');
+				shareTitle = "I’m a Market Up-and-Comer! ";
+				shareText = "I didn’t do too badly on the “Hedger or Speculator?” quiz at Futures Fundamentals. Try it out, and see how you do. ";
+				facebookUrl = location.href + "market-comer-share/";
 			}
+
+			var facebookLink = "javascript:popup_share('http://www.facebook.com/sharer.php?u="+facebookUrl+"',800,400)";
+			var twitterLink = "javascript:popup_share('https://twitter.com/intent/tweet?status="+shareText+shareUrl+"',800,400)";
+			var linkedinLink = "javascript:popup_share('https://www.linkedin.com/shareArticle?mini=true&url="+shareUrl+"&title="+shareTitle+"&summary="+shareText+"',800,400)";
+			var emailLink = "javascript:popup_share('mailto:?&subject="+shareTitle+"&body="+shareText+" "+shareUrl+"',800,400)";
+			
+			$('.quiz-share-holder .fb-icon').attr('href',facebookLink);	
+			$('.quiz-share-holder .twitter-icon').attr('href',twitterLink);
+			$('.quiz-share-holder .linkedin-icon').attr('href',linkedinLink);
+			$('.quiz-share-holder .email-icon').attr('href',emailLink);
+
 		});
 
 		$('.retake').on('click', function(e) {
 			score = 0;
 			$('.score-holder .score').html(score);
+			$('.share-foldout').removeClass('share-open');
 		});
 
 		$('.share').on('click', function(e) {
@@ -92,6 +124,9 @@
 					$('#food-prices__mod').height(carouselHeight);
 					$('#food-prices__mod .item').height(carouselHeight);
 				}
+
+				smoothScroll('.fp-carousel-container', 0);
+				
 			}, 200);
 		});
 
@@ -112,6 +147,20 @@
 		});
 	}
 
+	function protectMarket() {
+		$('.touch #protect_market_infographic .carousel-control').on('click',function(e) {
+			if ($(window).width() < 768 ) {
+				smoothScroll('#protect_market_infographic', -30);
+			}
+		});
+
+		$('.touch #clearing_infographic .carousel-control').on('click',function(e) {
+			if ($(window).width() < 768 ) {
+				smoothScroll('#clearing_infographic', -30);
+			}
+		});
+	}
+
 	function animationSize() {
 		var animWidth = $('.active .anim_container').outerWidth(true);
 		if ($(window).width() < 768 ) {
@@ -124,4 +173,17 @@
 		$('.trade-title_animation.anim_inner').height(animHeight * 0.30265);
 	}
 
+	function smoothScroll(scrollTo, scrollOffset) {
+		$('html, body').animate({
+			scrollTop: ($(scrollTo).offset().top) - (scrollOffset+80)
+		}, 600);	
+	}
+
 })( jQuery );
+
+/* Global Functions */
+function popup_share(url, width, height) {
+	day = new Date();
+	id = day.getTime();
+	eval("page" + id + " = window.open(url, '" + id + "', 'toolbar=0,scrollbars=1,location=1,statusbar=0,menubar=0,resizable=0,width=" + width + ", height=" + height + ", left = 363, top = 144');");
+}

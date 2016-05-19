@@ -1,0 +1,49 @@
+.inline__search {
+
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+
+	&-button {
+	    text-indent: -9999px;
+	    width: 60px;
+	    height: 60px;
+	    cursor: pointer;
+	    border: none;
+	    background: url("../img/search_icon.png") no-repeat center center #1a4181;
+	    background-size: 25px 23px;
+	    vertical-align: top;
+
+	    @include mq($until: 520px) {
+		    position: absolute;
+		    right: 0;
+		    top: 0;
+	    }
+	}
+
+	&-input {
+		height: 60px;
+	    width: 420px;
+	    max-width: 100% !important;
+	    padding: 0 8px;
+	    border: none;
+	    -webkit-appearance: none;
+	    background-color: #e8e8e8;
+	    font: 23px/28px WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+	    letter-spacing: 1px;
+	    color: white;
+	    color: #4a4a4a;
+	    font-weight: bold;
+	    vertical-align: top;
+
+	    @include mq($until: 520px) {
+		   padding-right: 65px;
+	    }
+
+
+	}
+}
+
+.message__404 {
+	text-align: center;
+}

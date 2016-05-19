@@ -63,8 +63,6 @@ var simulator_functions = {
 } 
 
 
-
-
 /*
 	
 	$('.vert-center').flexVerticalCenter();
