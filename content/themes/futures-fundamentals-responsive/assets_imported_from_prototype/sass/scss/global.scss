@@ -75,7 +75,8 @@ ul {list-style:none; margin:0; padding:0;}
 
 .full-width {
 	margin-top:0;
-	@include animate(margin-top 300ms ease);
+
+	@include animate(padding-top 300ms ease);
 }
 
 .cf-content {

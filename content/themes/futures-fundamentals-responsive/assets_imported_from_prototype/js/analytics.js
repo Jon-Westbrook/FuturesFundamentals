@@ -147,5 +147,13 @@ $(document).ready(function(){
 
 	});
 
+	// Homepage promo links
+	$(".section_intro a").on("click",function(e){
+		var me = $(this);
+		track_this({"category":"Homepage Link", "action":"Section Promo", "label":me.text().trim()});
+	});
+
+
+
 });
 

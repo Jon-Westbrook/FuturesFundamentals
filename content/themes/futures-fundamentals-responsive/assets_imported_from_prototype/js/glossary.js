@@ -33,9 +33,14 @@
 	});
 
 	function glossary() {
-	//	var glossaryJsonURL  = "/content/themes/futures-fundamentals-responsive/assets_imported_from_prototype/js/data/glossaryterms.json",
-		var glossaryJsonURL  = "/glossary/?format=json",
-		$pullJson = $.ajax({
+		var production_servers = ["futuresfundamentals.cmegroup.com", "static.ff.cme.vsadev.com"]
+		if (production_servers.indexOf(window.location.hostname) != -1) {
+			var glossaryJsonURL  = "/glossary.json";
+		} else {
+			var glossaryJsonURL  = "/glossary/?format=json";
+		}
+
+		var $pullJson = $.ajax({
                         url: glossaryJsonURL,
                         async: false,
                         dataType: 'json',
@@ -46,28 +51,7 @@
                   });
 
 		var glossary = dataJ;
-		/*
-		glossaryTitleDefArray = [];
-		glossaryTitleSlugArray = [];
 
-	    i = 0;
-	    dataDfnLength = dataJ.length;
-	    for(i ; i < dataDfnLength ; i++) {
-
-	        allDef = dataJ[i].definition;
-	        allTitle = dataJ[i].term;
-	        allSlug = dataJ[i].slug;
-	        glossaryTitleDefArray.push({
-	            key: allTitle,
-	            value: allDef
-	        });
-	        glossaryTitleSlugArray.push({
-	            key: allTitle,
-	            value: allSlug
-	        });
-
-	    }
-	    */
 
 	    function find_glossary_term(the_term) {
 		    the_term = the_term.toLowerCase();
@@ -124,14 +108,14 @@
 
 		    	setTimeout(function() {
 					var defContainerBot = defPosInit.top + defContainer.outerHeight(true),
-							fullWidthModule = $('.glossary__term.active').parents('.cf-content').find('.full-width'),
+							fullWidthModule = $('.glossary__term.active').parents('.row').next('.full-width'),
 							fullWidthModuleTop = fullWidthModule.offset(),
 							bodyContainer = $('.glossary__term.active').parents('.cf-content'),
 							bodyContainerBot = bodyContainer.offset().top + bodyContainer.outerHeight(true);
 
 
 					if (typeof fullWidthModuleTop != 'undefined' && defContainerBot > fullWidthModuleTop.top) {
-						fullWidthModule.css('margin-top',(defContainerBot - fullWidthModuleTop.top - 10)+'px');
+						fullWidthModule.css('padding-top',(defContainerBot - fullWidthModuleTop.top - 10)+'px');
 					} else if (defContainerBot > bodyContainerBot) {
 						$('.cf-content').css('margin-bottom',(defContainerBot - bodyContainerBot - 80)+'px');
 					}
@@ -148,7 +132,8 @@
 
 			// this is a giant mess need to clean this up considerably
 			$('.glossary__term').removeClass('attention');
-			$('.full-width').css('margin-top','0');
+			$('.full-width').css('padding-top','0');
+			$('.full-width').removeClass('pushed-down');
 			$('.cf-content').css('margin-bottom','0');
 
 			if ($(window).width() < 992) {
@@ -202,7 +187,7 @@
 					)
 
 				var defContainerBot = defPos.top + defContainer.outerHeight(true),
-					fullWidthModule = $(this).parents('.cf-content').find('.full-width'),
+					fullWidthModule = $(this).parents('.row').next('.full-width'),
 					fullWidthModuleTop = fullWidthModule.offset(),
 					defContainerRight = defPos.left + defContainer.find(".glossary-inner").outerWidth(true),
 					bodyContainer = $('.glossary__term.active').parents('.cf-content'),
@@ -218,13 +203,14 @@
 
 
 						if (typeof fullWidthModuleTop != 'undefined' && defContainerBot > fullWidthModuleTop.top) {
-							fullWidthModule.css('margin-top',(defContainerBot - fullWidthModuleTop.top - 10)+'px');
+							fullWidthModule.css('padding-top',(defContainerBot - fullWidthModuleTop.top - 10)+'px');
+							fullWidthModule.addClass('pushed-down');
 						} else {
-							fullWidthModule.css('margin-top','0');
+							fullWidthModule.css('padding-top','0');
 						}
 
 						if (defContainerBot > bodyContainerBot) {
-							$('.cf-content').css('margin-bottom',(defContainerBot - bodyContainerBot - 80)+'px');
+							$('.cf-content').css('margin-bottom',(defContainerBot - bodyContainerBot - 10)+'px');
 						} else {
 							$('.cf-content').css('margin-bottom','0');
 						}

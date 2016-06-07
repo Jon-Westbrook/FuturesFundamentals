@@ -673,7 +673,7 @@
 }
 
 .section_intro {
-	margin-left:40px;
+	margin-left:30px;
 	@include mq($from: medium) {
 		opacity:0;
 		@include animate(all 600ms ease-out);
@@ -707,7 +707,7 @@
 	}
 
 	@include mq($until: xlarge) {
-		margin-left:40px;
+		margin-left:30px;
 	}
 
 	@include mq($until: large) {

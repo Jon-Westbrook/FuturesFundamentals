@@ -202,6 +202,7 @@
 			left:0;
 		}
 
+	/*
 		&:before {
 			content:"Derivatives made simple";
 			display:block;
@@ -217,6 +218,7 @@
 				margin-left:0;
 			}
 		}
+	*/
 	}
 
 	@include mq($until: 420px) {
@@ -379,7 +381,7 @@
 		.main-nav .search-wrap {
 			@include mq($until: large) {
 				position:absolute;
-				top:30px;
+				top:0;
 				left:0;
 			}
 		}
