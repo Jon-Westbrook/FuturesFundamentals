@@ -3,7 +3,7 @@
    RewriteBase /
 
 
-ErrorDocument 404 /404/index.html
+ErrorDocument 404 /404-error/index.html
 
 
 # 301 --- http://futuresfundamentals.cmegroup.com/index.html => http://futuresfundamentals.cmegroup.com/
