@@ -3,6 +3,9 @@
    RewriteBase /
 
 
+ErrorDocument 404 /404/index.html
+
+
 # 301 --- http://futuresfundamentals.cmegroup.com/index.html => http://futuresfundamentals.cmegroup.com/
 RewriteRule ^index\.html$ /? [L,R=301]
 
