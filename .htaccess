@@ -78,7 +78,7 @@ RewriteRule ^futures-the-regulatory-measures\.html$ /explore-the-marketplace/the
 # 301 --- http://futuresfundamentals.cmegroup.com/futures-over-the-counter-trading.html => http://futuresfundamentals.cmegroup.com/explore-the-marketplace/over-the-counter-trading
 RewriteRule ^futures-over-the-counter-trading\.html$ /explore-the-marketplace/over-the-counter-trading? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/about.html => http://futuresfundamentals.cmegroup.com/about
+# 301 --- http://futuresfundamentals.cmegroup.com/about.html => http://futuresfundamentals.cmegroup.com/about-futures-fundamentals
 RewriteRule ^about\.html$ /about? [L,R=301]
 
 # 301 --- http://futuresfundamentals.cmegroup.com/contact-us.html => http://futuresfundamentals.cmegroup.com/contact-us
