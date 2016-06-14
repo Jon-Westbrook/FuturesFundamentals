@@ -48,6 +48,11 @@ RewriteRule ^impact-the-economy-and-futures\.html$ /see-the-impact/the-economy-a
 # 301 --- http://futuresfundamentals.cmegroup.com/impact-mortgage-rates-explained.html => http://futuresfundamentals.cmegroup.com/see-the-impact/financial-futures/mortgage-rates-explained
 RewriteRule ^impact-mortgage-rates-explained\.html$ /see-the-impact/mortgage-rates-explained? [L,R=301]
 
+
+# 301 --- http://futuresfundamentals.cmegroup.com/players-hedgers-or-speculators.html => http://futuresfundamentals.cmegroup.com/explore-the-marketplace/the-wide-world-of-futures-traders
+RewriteRule ^players-hedgers-or-speculators\.html$ /explore-the-marketplace/the-wide-world-of-futures-traders? [L,R=301]
+
+
 # 301 --- http://futuresfundamentals.cmegroup.com/players-the-wide-world-of-futures-traders.html => http://futuresfundamentals.cmegroup.com/explore-the-marketplace/the-wide-world-of-futures-traders
 RewriteRule ^players-the-wide-world-of-futures-traders\.html$ /explore-the-marketplace/the-wide-world-of-futures-traders? [L,R=301]
 
