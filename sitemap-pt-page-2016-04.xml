@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://dev.ff.cme.vsadev.com/content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="4.0.8" -->
+<!-- generated-on="June 14, 2016 10:28 pm" -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://futuresfundamentals.cmegroup.com/see-the-impact/agriculture-futures/risk-ranch/play-risk-ranch-online/</loc>
+		<lastmod>2016-04-21T20:21:45+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://futuresfundamentals.cmegroup.com/search-results/</loc>
+		<lastmod>2016-04-26T15:52:03+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+</urlset><!-- Request ID: ab1bbd030f8fb0c043a01cf40a56cb23; Queries for sitemap: 6; Total queries: 13; Seconds: 0.01; Memory for sitemap: 0.25MB; Total memory: 5.5MB -->
