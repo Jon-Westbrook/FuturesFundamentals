@@ -1,0 +1,70 @@
+/*
+Error: Undefined variable: "$gray-40".
+        on line 3 of sass/scss/global.scss
+
+1: * {outline:0;}
+2: 
+3: body {color:$gray-40;}
+4: 
+5: .lowercase { text-transform: none !important; }
+6: 
+7: ul {list-style:none; margin:0; padding:0;}
+8: 
+
+Backtrace:
+sass/scss/global.scss:3
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:294:in `watch'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin.rb:109:in `method_missing'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/bin/sass:23:in `load'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/bin/sass:23:in `<main>'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/afalconer/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$gray-40\".\A         on line 3 of sass/scss/global.scss\A \A 1: * {outline:0;}\A 2: \A 3: body {color:$gray-40;}\A 4: \A 5: .lowercase { text-transform: none !important; }\A 6: \A 7: ul {list-style:none; margin:0; padding:0;}\A 8: "; }

@@ -2,8 +2,30 @@
 	margin:20px 0;
 	background-color:$gray-10;
 	
-	.carousel-image {margin-left:-15px; margin-right:-15px;}
-	img {width:auto; height:auto; max-height:100%; max-width:100%;}
+	.carousel-image {
+		margin-left:-15px; 
+		margin-right:-15px;
+		
+		img {
+			width:auto; height:auto; max-height:100%; max-width:100%;
+		}
+
+		.carousel-video {
+			display: none;
+			position: relative;
+      		height: 0;
+      		padding-bottom: 56.25%;
+
+      		.BrightcoveExperience {
+      			position: absolute;
+      			top: 0;
+      			left: 0;
+      			width: 100%;
+      			height: 100%;
+    		}
+		}	
+	}
+
 
 	.carousel-text {
 		padding:10px 15px 0;
