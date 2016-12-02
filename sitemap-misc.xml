@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://futuresfundamentals.cmegroup.com/content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="4.0.8" -->
-<!-- generated-on="November 10, 2016 8:58 pm" -->
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://dev.ff.cme.vsadev.com/content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="4.0.8" -->
+<!-- generated-on="December 2, 2016 4:21 pm" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
 		<loc>http://dev.ff.cme.vsadev.com/</loc>
-		<lastmod>2016-11-10T20:35:58+00:00</lastmod>
+		<lastmod>2016-11-28T16:19:38+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
-</urlset><!-- Request ID: c79b50f647d33f435d487c1f72520b25; Queries for sitemap: 4; Total queries: 11; Seconds: 0.01; Memory for sitemap: 0.25MB; Total memory: 5.5MB -->
+</urlset><!-- Request ID: a43849743ffe1ce12d74eb61832c8013; Queries for sitemap: 4; Total queries: 11; Seconds: 0.01; Memory for sitemap: 0.25MB; Total memory: 5.5MB -->
