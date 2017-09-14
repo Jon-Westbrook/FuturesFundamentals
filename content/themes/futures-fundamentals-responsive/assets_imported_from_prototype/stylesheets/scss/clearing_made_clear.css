@@ -1,0 +1,81 @@
+/*
+Error: Undefined mixin 'keyframes'.
+        on line 11 of sass/scss/infographic_animate/clearing_animation.scss, in `keyframes'
+        from line 11 of sass/scss/infographic_animate/clearing_animation.scss
+        from line 1 of sass/scss/clearing_made_clear.scss
+
+6: 	width:780px;
+7: 	height:395px;
+8: 	overflow:hidden;
+9: 	position:relative;
+10: 	@include vertical-align;
+11: 
+12: 	@include mq($until: large) {
+13: 		@include vertical-align-cancel;
+14: 
+15: 	}
+16: 
+
+Backtrace:
+sass/scss/infographic_animate/clearing_animation.scss:11:in `keyframes'
+sass/scss/infographic_animate/clearing_animation.scss:11
+sass/scss/clearing_made_clear.scss:1
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:98:in `with_mixin'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:79:in `block in with_base'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:79:in `with_base'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:329:in `map'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:88:in `block in with_import'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:88:in `with_import'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:79:in `block in with_base'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:79:in `with_base'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:294:in `watch'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/plugin.rb:109:in `method_missing'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/exec/base.rb:52:in `parse'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/exec/base.rb:19:in `parse!'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/bin/sass:13:in `<top (required)>'
+/Users/tastor/.rvm/gems/ruby-2.2.1/bin/sass:23:in `load'
+/Users/tastor/.rvm/gems/ruby-2.2.1/bin/sass:23:in `<main>'
+/Users/tastor/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/tastor/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'keyframes'.\A         on line 11 of sass/scss/infographic_animate/clearing_animation.scss, in `keyframes'\A         from line 11 of sass/scss/infographic_animate/clearing_animation.scss\A         from line 1 of sass/scss/clearing_made_clear.scss\A \A 6: 	width:780px;\A 7: 	height:395px;\A 8: 	overflow:hidden;\A 9: 	position:relative;\A 10: 	@include vertical-align;\A 11: \A 12: 	@include mq($until: large) {\A 13: 		@include vertical-align-cancel;\A 14: \A 15: 	}\A 16: "; }
