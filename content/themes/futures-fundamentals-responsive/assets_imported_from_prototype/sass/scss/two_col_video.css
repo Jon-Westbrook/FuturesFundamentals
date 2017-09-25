@@ -1,42 +1,32 @@
 /*
-Error: Undefined mixin 'keyframes'.
-        on line 5 of sass/scss/animation.scss, in `keyframes'
-        from line 5 of sass/scss/animation.scss
-        from line 1 of sass/scss/article.scss
+Error: Undefined variable: "$gray-10".
+        on line 3 of sass/scss/two_col_video.scss
 
-1: @import "animation";
-2: 
-3: 
-4: @include mq($until: medium) {
-5: 	.container {
-6: 		padding-left: 0;
-7: 		padding-right: 0;
-8: 	}
-9: 
-10: 	.row {
+1: .video-2col-container {
+2: 	margin:20px 0;
+3: 	background-color:$gray-10;
+4: 	display: table;
+5: 	width: 100%;
+6: 	
+7: 	.col-md-8 {
+8: 		padding-left: 0;
 
 Backtrace:
-sass/scss/animation.scss:5:in `keyframes'
-sass/scss/animation.scss:5
-sass/scss/article.scss:1
-/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
-/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:98:in `block in with_mixin'
-/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
-/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:98:in `with_mixin'
-/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+sass/scss/two_col_video.scss:3
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
 /Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 /Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:79:in `block in with_base'
 /Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
 /Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:79:in `with_base'
 /Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
-/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:329:in `map'
-/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
-/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:88:in `block in with_import'
-/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
-/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:88:in `with_import'
-/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:444:in `map'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
 /Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 /Users/tastor/.rvm/gems/ruby-2.2.1/gems/sass-3.5.1/lib/sass/stack.rb:79:in `block in with_base'
@@ -77,4 +67,4 @@ sass/scss/article.scss:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'keyframes'.\A         on line 5 of sass/scss/animation.scss, in `keyframes'\A         from line 5 of sass/scss/animation.scss\A         from line 1 of sass/scss/article.scss\A \A 1: @import \"animation\";\A 2: \A 3: \A 4: @include mq($until: medium) {\A 5: 	.container {\A 6: 		padding-left: 0;\A 7: 		padding-right: 0;\A 8: 	}\A 9: \A 10: 	.row {"; }
+  content: "Error: Undefined variable: \"$gray-10\".\A         on line 3 of sass/scss/two_col_video.scss\A \A 1: .video-2col-container {\A 2: 	margin:20px 0;\A 3: 	background-color:$gray-10;\A 4: 	display: table;\A 5: 	width: 100%;\A 6: 	\A 7: 	.col-md-8 {\A 8: 		padding-left: 0;"; }

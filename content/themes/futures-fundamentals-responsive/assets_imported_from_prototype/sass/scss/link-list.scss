@@ -64,7 +64,9 @@
 		
 		&:last-child {
 			.col-for-content {
-				border-bottom: 1px solid #B8B8B8;
+				.row {
+					border-bottom: 1px solid #B8B8B8;
+				}
 			}
 		}
 	}
