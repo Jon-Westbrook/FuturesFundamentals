@@ -92,6 +92,9 @@ RewriteRule ^contact-us\.html$ /contact-us? [L,R=301]
 # 301 --- http://futuresfundamentals.cmegroup.com/disclaimer.html => http://futuresfundamentals.cmegroup.com/terms-of-use
 RewriteRule ^disclaimer\.html$ /terms-of-use? [L,R=301]
 
+# 301 --- http://futuresfundamentals.cmegroup.com/see-the-impact/agriculture-futures/risk-ranch/ => http://futuresfundamentals.cmegroup.com/for-educators/
+RewriteRule /see-the-impact/agriculture-futures/risk-ranch? /for-educators? [L,R=301]
+
 #### END 301 Redirects
 
 
