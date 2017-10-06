@@ -13986,6 +13986,8 @@ body {
     .quiz .carousel-text .quiz-title {
       max-width: 520px;
       margin-bottom: 30px; }
+      .quiz .carousel-text .quiz-title img {
+        max-width: 100%; }
     .quiz .carousel-text h4 {
       font-size: 36px;
       line-height: 44px;
