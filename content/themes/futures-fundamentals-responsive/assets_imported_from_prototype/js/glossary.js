@@ -33,7 +33,7 @@
 	});
 
 	function glossary() {
-		var production_servers = ["futuresfundamentals.cmegroup.com", "static.ff.cme.vsadev.com"]
+		var production_servers = ["www.futuresfundamentals.org", "static.ff.cme.vsadev.com"]
 		if (production_servers.indexOf(window.location.hostname) != -1) {
 			var glossaryJsonURL  = "/glossary.json";
 		} else {

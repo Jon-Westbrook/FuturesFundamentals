@@ -2638,9 +2638,13 @@ ul {
       margin-right: -15px; }
       #home_hero .hero_intro {
         max-width: 292px;
-        padding-top: 55px; }
+        padding-top: 35px; }
       #home_hero h1 {
-        font-size: 26px; } }
+        font-size: 26px; }
+      #home_hero h4 {
+        font-size: 12px;
+        line-height: 22px;
+        margin-top: 0; } }
   @media (min-width: 105em) {
     #home_hero {
       margin: 0 auto;
