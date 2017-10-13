@@ -24,7 +24,7 @@ ul {
 
 .button {
   display: inline-block;
-  font: 12px/19px "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 12px/19px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: #FFFFFF;
   letter-spacing: .92px;
@@ -317,7 +317,7 @@ ul {
   .main-nav__primary li {
     float: left; }
   .main-nav__primary a {
-    font: 14px/19px "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 14px/19px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
     height: 60px;
     text-transform: uppercase;
@@ -373,7 +373,7 @@ ul {
     .main-nav__secondary li:first-child {
       z-index: 5; }
   .main-nav__secondary a {
-    font: 14px/19px "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 14px/19px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
     color: #FFFFFF;
     cursor: pointer;
@@ -563,7 +563,7 @@ ul {
     position: relative;
     padding: 8px 25px;
     color: #1A4181;
-    font: 16px/18px "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 16px/18px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
     font-weight: bold;
     width: 100%; }
@@ -598,7 +598,7 @@ ul {
         display: block; }
       .main-nav__dropdown a, .main-nav__share-dropdown a {
         height: auto;
-        font: 14px/18px "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font: 14px/18px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
         letter-spacing: 0;
         font-weight: bold;
         margin: 0;
@@ -738,7 +738,7 @@ ul {
     #site_footer li:first-child {
       margin-left: 0; }
   #site_footer a {
-    font: 15px/20px "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 15px/20px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #FFFFFF; }
   #site_footer .left-col {
     float: left; }
@@ -2604,7 +2604,7 @@ ul {
     font-size: 19px;
     line-height: 20px;
     color: white;
-    font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: normal;
     margin-top: 20px; }
   #home_hero p {
@@ -3935,7 +3935,7 @@ ul {
   .section_intro h3 {
     font-size: 26px;
     line-height: 1.2em;
-    font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #0855A1;
     margin: 0 0 10px; }
   .section_intro p {
@@ -4143,7 +4143,7 @@ ul {
     padding: 25px 0;
     border: 1px solid #9B9B9B; }
   #home_footer p {
-    font: 23px/28px "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 23px/28px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
     color: #6D6C6D; }
   #home_footer .share-buttons li:first-child a {
@@ -4554,7 +4554,7 @@ body {
   font-size: 14px;
   line-height: 14px;
   margin-bottom: 22px;
-  font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   margin-top: 50px;
   text-transform: uppercase; }
@@ -4568,7 +4568,7 @@ body {
     .article .article_eyebrow {
       font-size: 9px;
       line-height: 9px;
-      font-family: "Benton Sans Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: normal;
       margin-top: 26px;
       margin-bottom: 12px; } }
@@ -4640,7 +4640,7 @@ body {
       font-size: 18px;
       line-height: 26px; } }
 .article .article_subhead {
-  font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: #4A4A4A;
   margin-bottom: 5px;
@@ -4857,7 +4857,7 @@ body {
 .article .glossary-container, .article .glossary-item-mobile {
   font-size: 14px;
   line-height: 1.5em;
-  font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif; }
   .article .glossary-container .glossary-title, .article .glossary-item-mobile .glossary-title {
     margin-bottom: 5px;
     font-weight: bold; }
@@ -5036,14 +5036,14 @@ body {
       .article #article-nav .nav-link .link-article-title h4 {
         font-size: 12px;
         line-height: 1.2em;
-        font-family: "Benton Sans Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: normal;
         text-transform: uppercase;
         margin: 0 0 10px; }
       .article #article-nav .nav-link .link-article-title h3 {
         font-size: 30px;
         line-height: 1.2em;
-        font-family: "Benton Sans Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: normal;
         margin: 0; }
         @media (max-width: 74.99em) {
@@ -5093,7 +5093,7 @@ body {
       float: left;
       font-size: 14px;
       line-height: 22px;
-      font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: bold;
       color: #4A4A4A;
       letter-spacing: 0.3px;
@@ -5191,7 +5191,7 @@ body {
 .module__icon-list h4 {
   font-size: 14px;
   line-height: 18px;
-  font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   margin-bottom: 8px; }
   @media (max-width: 47.99em) {
@@ -5265,7 +5265,7 @@ body {
   padding: 18px; }
 #module_promo__Risk_Ranch .module__promo__title {
   font-weight: bold;
-  font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #FFFFFF;
   letter-spacing: 0.76px;
   padding-top: 12px; }
@@ -5301,7 +5301,7 @@ body {
       display: inline-block;
       font-size: 14px;
       line-height: 18px;
-      font-family: "Benton Sans Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif;
       color: #0079C1;
       text-decoration: underline;
       margin-bottom: 20px; }
@@ -5340,7 +5340,7 @@ body {
       .educators_article .module__two-col-image-links a p {
         font-size: 18px;
         line-height: 26px;
-        font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
         color: #4A4A4A;
         margin: 12px 0 25px; }
       .educators_article .module__two-col-image-links a:hover {
@@ -5368,7 +5368,7 @@ body {
       font-size: 14px;
       line-height: 18px;
       margin-bottom: 20px;
-      font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
       color: #FFFFFF; }
     .educators_article .module__featured_pdf .button {
       color: #FFFFFF;
@@ -5558,7 +5558,7 @@ body {
       .callout-block .callout .callout-section h2 {
         font-size: 14px;
         line-height: 18px;
-        font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: bold;
         color: #4A4A4A;
         text-transform: uppercase;
@@ -5566,13 +5566,13 @@ body {
       .callout-block .callout .callout-section p {
         font-size: 14px;
         line-height: 18px;
-        font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
         color: #6D6C6D;
         margin-top: 0; }
       .callout-block .callout .callout-section a {
         font-size: 14px;
         line-height: 18px;
-        font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase; }
 
 .carousel-container {
@@ -5602,7 +5602,7 @@ body {
     .carousel-container .carousel-text h4, .carousel-container .carousel-text p {
       font-size: 18px;
       line-height: 1.5em;
-      font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
       margin: 0; }
     .carousel-container .carousel-text h4 {
       font-weight: bold;
@@ -5620,7 +5620,7 @@ body {
     border-bottom: 1px solid #9B9B9B;
     font-size: 12px;
     line-height: 17px;
-    font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-bottom: 15px; }
     .carousel-container .slide-num .current {
       font-weight: bold; }
@@ -5834,7 +5834,7 @@ body {
     .video-2col-container .text h4, .video-2col-container .text p {
       font-size: 18px;
       line-height: 1.5em;
-      font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
       margin: 0; }
     .video-2col-container .text h4 {
       font-weight: bold;
@@ -5925,7 +5925,7 @@ body {
     line-height: 19px;
     font-weight: bold;
     text-transform: uppercase;
-    font-family: "Benton Sans Medium", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    font-family: "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif; }
     .infographic .carousel-controls-container .carousel-control.begin:after {
       content: "";
       display: block;
@@ -8541,7 +8541,7 @@ body {
     left: 30px;
     font-size: 20px;
     line-height: 32px;
-    font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 0.21px;
     color: #4A4A4A;
     font-weight: bold;
@@ -8626,14 +8626,14 @@ body {
     #food-prices-move .fp-info .info-text h4 {
       font-size: 16px;
       line-height: 23px;
-      font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
       letter-spacing: 0.21px;
       text-transform: uppercase;
       margin: 0 0 4px; }
     #food-prices-move .fp-info .info-text p {
       font-size: 16px;
       line-height: 20px;
-      font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
       margin: 0; }
   #food-prices-move .trend-holder {
     width: 100%;
@@ -8648,7 +8648,7 @@ body {
       #food-prices-move .trend-holder .price-trend h3 {
         font-size: 24px;
         line-height: 28px;
-        font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
         letter-spacing: 0.26px;
         margin: 0;
         width: 100%;
@@ -8727,7 +8727,7 @@ body {
         display: inline-block;
         font-weight: normal;
         font-size: 16px;
-        font-family: "Benton Sans Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif;
         letter-spacing: 0.21px;
         text-transform: uppercase;
         color: #FFFFFF;
@@ -12010,7 +12010,7 @@ body {
   #trade-journey .trade-journey-inner h4 {
     font-size: 16px;
     line-height: 20px;
-    font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     margin: 0; }
   #trade-journey .trade-journey-inner .row {
@@ -12023,7 +12023,7 @@ body {
     padding: 85px 22px 12px 22px;
     font-size: 11px;
     line-height: 13px;
-    font-family: "Benton Sans Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
     float: left;
     box-sizing: content-box;
@@ -14022,7 +14022,7 @@ body {
     float: right;
     font-weight: normal; }
     .quiz .score-holder .score-title {
-      font-family: "Benton Sans Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif;
       text-transform: uppercase;
       padding-right: 15px; }
     .quiz .score-holder .score {
@@ -14082,7 +14082,7 @@ body {
         font-size: 12px;
         line-height: 19px;
         text-transform: uppercase;
-        font-family: "Benton Sans Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif;
         background-color: #0079C1; }
       .quiz .carousel-controls-container .carousel-control.hedger {
         background-color: #1A4181; }
@@ -19992,7 +19992,7 @@ body {
     transform: scaleX(0);
     transform-origin: right; } }
 .gsc-control-cse, .gsc-control-cse *, .gsc-control-cse .gsc-table-result {
-  font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important; }
+  font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif !important; }
 .gsc-control-cse .gs-title, .gsc-control-cse .gs-result .gs-title * {
   font-size: 14px !important;
   text-transform: uppercase;
@@ -20028,7 +20028,7 @@ body {
       line-height: 24px; } }
   .module__link-list .link-list__item {
     display: block;
-    font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 0.3px;
@@ -20095,14 +20095,14 @@ body {
     max-width: 80%; }
   .module__promo__title {
     /* YOU HAVE THE BASICS: */
-    font: bold 22px/44px "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: bold 22px/44px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #4A4A4A;
     letter-spacing: 0.24px;
     text-transform: uppercase; }
   .module__promo__body {
     max-width: 90%; }
     .module__promo__body, .module__promo__body p {
-      font: 18px/24px "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+      font: 18px/24px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
       color: #4A4A4A;
       letter-spacing: 0px;
       margin-bottom: 35px; }
@@ -20153,7 +20153,7 @@ body {
         line-height: 24px; } }
   .page-template-tpl_glossary .glossaryTerm__seen-in {
     /* AS SEEN IN: */
-    font-family: "Benton Sans Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 10px;
     color: #9B9B9B;
     letter-spacing: 0.75px;
@@ -20181,7 +20181,7 @@ body {
         .page-template-tpl_glossary .glossaryTerm__locations li {
           padding: 10px 0; } }
     .page-template-tpl_glossary .glossaryTerm__locations a {
-      font-family: "Benton Sans Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 14px;
       color: #337ab7;
       letter-spacing: 0.3px;

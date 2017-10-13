@@ -48,7 +48,7 @@
     line-height: 28px !important;
     padding: 0 10px !important; }
   .cta-buttons .cta-btn {
-    font: 700 11px/30px "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 700 11px/30px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -65,20 +65,20 @@
   background: #fff;
   position: relative; }
   .confirm-order__title {
-    font: 700 19px/54px "Benton Sans Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 700 19px/54px "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #0D79BF;
     text-transform: uppercase;
     border-bottom: 2px solid #e6e6e5;
     text-indent: 13px; }
   .confirm-order__symbol {
-    font: 700 16px/42px "Benton Sans Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 700 16px/42px "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #0D79BF;
     text-transform: uppercase;
     text-indent: 13px; }
   .confirm-order__details {
     padding-left: 13px;
     color: #ccc;
-    font: 10px/15px "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    font: 10px/15px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif; }
     .confirm-order__details strong {
       padding-right: 2px;
       color: #4a4a4a; }
@@ -500,7 +500,7 @@
 
 #simulator_market_snapshot__text {
   padding: 45px 50px 15px;
-  font: 18px/26px "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 18px/26px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #4a4a4a; }
   @media (max-width: 47.99em) {
     #simulator_market_snapshot__text {
@@ -871,7 +871,7 @@
       height: 20px; } }
 #simulator_candlestick_types .candlestick__caption {
   color: #4a4a4a;
-  font: 14px/20px "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/20px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #f3f3f3;
   padding: 15px 7px 0px 12px;
   min-height: 125px; }
@@ -886,7 +886,7 @@
   @media (max-width: 47.9375em) {
     #simulator_candlestick_types .candlestick__caption {
       min-height: 100px;
-      font: 14px/20px "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; } }
+      font: 14px/20px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif; } }
   #simulator_candlestick_types .candlestick__caption .candlestick__name {
     font-weight: bold; }
 #simulator_candlestick_types .col {
@@ -1676,7 +1676,7 @@
   width: 200px;
   height: 150px;
   padding: 7px !important;
-  font-family: "Benton Sans Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
   position: relative; }
   .market_snapshot_component.disabled-except-trade {
@@ -1732,7 +1732,7 @@
     background: rgba(255, 255, 255, 0.2);
     border: 0;
     font-size: 10.0833pt;
-    font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     pointer-events: none;
     cursor: default; }
   .market-snapshot--green .market_snapshot_component {
@@ -2203,7 +2203,7 @@
   padding: 18px !important; }
   .popup-blue .popup-content .text {
     color: #0078C1 !important;
-    font: normal 9.53pt/13.1999pt "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important; }
+    font: normal 9.53pt/13.1999pt "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif !important; }
   .popup-blue .popup-content .popup-title {
     color: #00447C !important;
     font: bold 9.53pt/13.1999pt !important;
@@ -2238,7 +2238,7 @@
   margin-left: 0 !important; }
 
 .accordion-btns-title, .modal-btns-title {
-  font: 500 11px/21px "Benton Sans Medium", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font: 500 11px/21px "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   color: #0078C1; }
 
 .intro {
@@ -2251,7 +2251,7 @@
   text-transform: uppercase;
   text-indent: 6px;
   display: block;
-  font: bold 7.3333pt/28px "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font: bold 7.3333pt/28px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   background: #a8ddf4;
   color: #00447C;
   margin-bottom: 2px;
@@ -2266,7 +2266,7 @@
 .accordion-title {
   width: 190px;
   background: #06457a;
-  font: bold 10px/28px "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font: bold 10px/28px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   color: #fff;
   padding: 0 7px !important;
   text-transform: uppercase;
@@ -2290,7 +2290,7 @@
     text-transform: uppercase;
     width: 100%;
     display: block;
-    font: bold 11px/28px "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important; }
+    font: bold 11px/28px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif !important; }
   .accordion-btns .accordion.active {
     color: #127bbf;
     background: #fff;
@@ -2298,7 +2298,7 @@
     .accordion-btns .accordion.active a {
       color: #0078C1; }
   .accordion-btns .accordion .text {
-    font: 11px/10.55pt "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 11px/10.55pt "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #808080;
     padding-bottom: 20px; }
 
@@ -2426,7 +2426,7 @@
   margin-left: -28.5px;
   position: absolute; }
 .candlestick .candlestick_label {
-  font-family: "Benton Sans Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #4E4E4E;
   line-height: 20px; }
@@ -2469,13 +2469,13 @@
   margin-top: 15px !important; }
   .step-container .inline-step-title {
     float: left;
-    font: bold 7.333pt/8.7996pt "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font: bold 7.333pt/8.7996pt "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     color: #4CBAEA;
     text-transform: uppercase;
     padding-top: 11px !important;
     padding-right: 7px !important; }
   .step-container .panel-title {
-    font: bold 10.262pt/21.6558pt "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font: bold 10.262pt/21.6558pt "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     margin-bottom: 0 !important; }
   .step-container + .intro {
     margin-top: 0 !important; }
@@ -2705,7 +2705,7 @@
     margin-top: 6px !important; }
   .news__heading {
     background: #F4F7F9;
-    font: 9.16pt/32px "Benton Sans Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 9.16pt/32px "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #0078C1;
     padding: 0 8px !important; }
   .news__item {
@@ -2718,10 +2718,10 @@
       color: #41B9EA; }
   .news__item__title {
     color: #0078C1;
-    font: bold 8pt/18px "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: bold 8pt/18px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-bottom: 5px !important; }
   .news__cta {
-    font: 9.16pt/32px "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 9.16pt/32px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #0078C1; }
   .news .newsprint {
     height: 7px;
