@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.futuresfundamentals.org/content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="4.0.8" -->
 <!-- generated-on="June 7, 2016 7:20 pm" -->
 <sitemapindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<sitemap>
-		<loc>http://www.futuresfundamentals.org/sitemap-misc.xml</loc>
+		<loc>https://www.futuresfundamentals.org/sitemap-misc.xml</loc>
 		<lastmod>2016-06-06T20:58:04+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>http://www.futuresfundamentals.org/sitemap-pt-page-2016-03.xml</loc>
+		<loc>https://www.futuresfundamentals.org/sitemap-pt-page-2016-03.xml</loc>
 		<lastmod>2016-06-06T20:58:04+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>http://www.futuresfundamentals.org/sitemap-pt-page-2016-02.xml</loc>
+		<loc>https://www.futuresfundamentals.org/sitemap-pt-page-2016-02.xml</loc>
 		<lastmod>2016-05-16T16:02:50+00:00</lastmod>
 	</sitemap>
 </sitemapindex><!-- Request ID: fbd107fa26da37549a81d0c355ce82b2; Queries for sitemap: 6; Total queries: 13; Seconds: 0.04; Memory for sitemap: 0.25MB; Total memory: 5.5MB -->

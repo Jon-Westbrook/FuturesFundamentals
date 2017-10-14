@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://dev.ff.cme.vsadev.com/content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="4.0.8" -->
 <!-- generated-on="June 14, 2016 10:28 pm" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
-		<loc>http://www.futuresfundamentals.org/see-the-impact/agriculture-futures/risk-ranch/play-risk-ranch-online/</loc>
+		<loc>https://www.futuresfundamentals.org/see-the-impact/agriculture-futures/risk-ranch/play-risk-ranch-online/</loc>
 		<lastmod>2016-04-21T20:21:45+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/search-results/</loc>
+		<loc>https://www.futuresfundamentals.org/search-results/</loc>
 		<lastmod>2016-04-26T15:52:03+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>

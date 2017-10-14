@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://dev.ff.cme.vsadev.com/content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="4.0.8" -->
 <!-- generated-on="June 14, 2016 10:28 pm" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
-		<loc>http://www.futuresfundamentals.org/explore-the-marketplace/the-wide-world-of-futures-traders/market-comer-share/</loc>
+		<loc>https://www.futuresfundamentals.org/explore-the-marketplace/the-wide-world-of-futures-traders/market-comer-share/</loc>
 		<lastmod>2016-05-19T18:09:23+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/explore-the-marketplace/the-wide-world-of-futures-traders/market-amateur-share/</loc>
+		<loc>https://www.futuresfundamentals.org/explore-the-marketplace/the-wide-world-of-futures-traders/market-amateur-share/</loc>
 		<lastmod>2016-05-19T18:08:30+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/explore-the-marketplace/the-wide-world-of-futures-traders/market-dynamo-share/</loc>
+		<loc>https://www.futuresfundamentals.org/explore-the-marketplace/the-wide-world-of-futures-traders/market-dynamo-share/</loc>
 		<lastmod>2016-05-19T18:09:04+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/page-not-found/</loc>
+		<loc>https://www.futuresfundamentals.org/page-not-found/</loc>
 		<lastmod>2016-06-08T16:44:05+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>

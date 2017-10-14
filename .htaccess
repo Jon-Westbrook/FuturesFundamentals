@@ -6,93 +6,93 @@
 ErrorDocument 404 /page-not-found/index.html
 
 
-# 301 --- http://futuresfundamentals.cmegroup.com/index.html => http://www.futuresfundamentals.org/
+# 301 --- http://futuresfundamentals.cmegroup.com/index.html => https://www.futuresfundamentals.org/
 RewriteRule ^index\.html$ /? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/basics-introduction-to-risk.html => http://www.futuresfundamentals.org/get-the-basics/introduction-to-derivatives
+# 301 --- http://futuresfundamentals.cmegroup.com/basics-introduction-to-risk.html => https://www.futuresfundamentals.org/get-the-basics/introduction-to-derivatives
 RewriteRule ^basics-introduction-to-risk\.html$ /get-the-basics/introduction-to-risk? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/basics-economics-101.html => http://www.futuresfundamentals.org/get-the-basics/economics-101
+# 301 --- http://futuresfundamentals.cmegroup.com/basics-economics-101.html => https://www.futuresfundamentals.org/get-the-basics/economics-101
 RewriteRule ^basics-economics-101\.html$ /get-the-basics/economics-101? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/basics-futures-and-options.html => http://www.futuresfundamentals.org/get-the-basics/futures-and-options
+# 301 --- http://futuresfundamentals.cmegroup.com/basics-futures-and-options.html => https://www.futuresfundamentals.org/get-the-basics/futures-and-options
 RewriteRule ^basics-futures-and-options\.html$ /get-the-basics/futures-and-options? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/basics-why-do-futures-matter.html => http://www.futuresfundamentals.org/get-the-basics/heres-why-futures-matter-to-you
+# 301 --- http://futuresfundamentals.cmegroup.com/basics-why-do-futures-matter.html => https://www.futuresfundamentals.org/get-the-basics/heres-why-futures-matter-to-you
 RewriteRule ^basics-why-do-futures-matter\.html$ /get-the-basics/why-do-futures-matter? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/impact-ingredients-of-everyday-life.html => http://www.futuresfundamentals.org/see-the-impact/the-ingredients-of-everyday-life
+# 301 --- http://futuresfundamentals.cmegroup.com/impact-ingredients-of-everyday-life.html => https://www.futuresfundamentals.org/see-the-impact/the-ingredients-of-everyday-life
 RewriteRule ^impact-ingredients-of-everyday-life\.html$ /see-the-impact/the-ingredients-of-everyday-life? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/impact-food-and-futures.html => http://www.futuresfundamentals.org/see-the-impact/agriculture-futures
+# 301 --- http://futuresfundamentals.cmegroup.com/impact-food-and-futures.html => https://www.futuresfundamentals.org/see-the-impact/agriculture-futures
 RewriteRule ^impact-food-and-futures\.html$ /see-the-impact/food-and-futures? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/impact-food-prices-explanation.html => http://www.futuresfundamentals.org/see-the-impact/agriculture-futures/food-prices-explained
+# 301 --- http://futuresfundamentals.cmegroup.com/impact-food-prices-explanation.html => https://www.futuresfundamentals.org/see-the-impact/agriculture-futures/food-prices-explained
 RewriteRule ^impact-food-prices-explanation\.html$ /see-the-impact/food-prices-explained? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/impact-risk-ranch.html => http://www.futuresfundamentals.org/see-the-impact/agriculture-futures/risk-ranch
+# 301 --- http://futuresfundamentals.cmegroup.com/impact-risk-ranch.html => https://www.futuresfundamentals.org/see-the-impact/agriculture-futures/risk-ranch
 RewriteRule ^impact-risk-ranch\.html$ /see-the-impact/risk-ranch? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/impact-fuel-and-futures.html => http://www.futuresfundamentals.org/see-the-impact/energy-futures
+# 301 --- http://futuresfundamentals.cmegroup.com/impact-fuel-and-futures.html => https://www.futuresfundamentals.org/see-the-impact/energy-futures
 RewriteRule ^impact-fuel-and-futures\.html$ /see-the-impact/fuel-and-futures? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/impact-gas-prices-explained.html => http://www.futuresfundamentals.org/see-the-impact/energy-futures/gas-prices-explained
+# 301 --- http://futuresfundamentals.cmegroup.com/impact-gas-prices-explained.html => https://www.futuresfundamentals.org/see-the-impact/energy-futures/gas-prices-explained
 RewriteRule ^impact-gas-prices-explained\.html$ /see-the-impact/gas-prices-explained? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/impact-todays-crude-oil-boom.html => http://www.futuresfundamentals.org/see-the-impact/energy-futures/north-american-oil-production
+# 301 --- http://futuresfundamentals.cmegroup.com/impact-todays-crude-oil-boom.html => https://www.futuresfundamentals.org/see-the-impact/energy-futures/north-american-oil-production
 RewriteRule ^impact-todays-crude-oil-boom\.html$ /see-the-impact/todays-crude-oil-boom? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/impact-the-economy-and-futures.html => http://www.futuresfundamentals.org/see-the-impact/financial-futures
+# 301 --- http://futuresfundamentals.cmegroup.com/impact-the-economy-and-futures.html => https://www.futuresfundamentals.org/see-the-impact/financial-futures
 RewriteRule ^impact-the-economy-and-futures\.html$ /see-the-impact/the-economy-and-futures? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/impact-mortgage-rates-explained.html => http://www.futuresfundamentals.org/see-the-impact/financial-futures/mortgage-rates-explained
+# 301 --- http://futuresfundamentals.cmegroup.com/impact-mortgage-rates-explained.html => https://www.futuresfundamentals.org/see-the-impact/financial-futures/mortgage-rates-explained
 RewriteRule ^impact-mortgage-rates-explained\.html$ /see-the-impact/mortgage-rates-explained? [L,R=301]
 
 
-# 301 --- http://futuresfundamentals.cmegroup.com/players-hedgers-or-speculators.html => http://www.futuresfundamentals.org/explore-the-marketplace/the-wide-world-of-futures-traders
+# 301 --- http://futuresfundamentals.cmegroup.com/players-hedgers-or-speculators.html => https://www.futuresfundamentals.org/explore-the-marketplace/the-wide-world-of-futures-traders
 RewriteRule ^players-hedgers-or-speculators\.html$ /explore-the-marketplace/the-wide-world-of-futures-traders? [L,R=301]
 
 
-# 301 --- http://futuresfundamentals.cmegroup.com/players-the-wide-world-of-futures-traders.html => http://www.futuresfundamentals.org/explore-the-marketplace/the-wide-world-of-futures-traders
+# 301 --- http://futuresfundamentals.cmegroup.com/players-the-wide-world-of-futures-traders.html => https://www.futuresfundamentals.org/explore-the-marketplace/the-wide-world-of-futures-traders
 RewriteRule ^players-the-wide-world-of-futures-traders\.html$ /explore-the-marketplace/the-wide-world-of-futures-traders? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/futures-the-exchange-how-it-works.html => http://www.futuresfundamentals.org/explore-the-marketplace/the-exchange-how-it-works
+# 301 --- http://futuresfundamentals.cmegroup.com/futures-the-exchange-how-it-works.html => https://www.futuresfundamentals.org/explore-the-marketplace/the-exchange-how-it-works
 RewriteRule ^futures-the-exchange-how-it-works\.html$ /explore-the-marketplace/the-exchange:-how-it-works? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/futures-learn-the-basics-of-trading.html => http://www.futuresfundamentals.org/explore-the-marketplace/the-exchange-how-it-works/learn-how-to-trade
+# 301 --- http://futuresfundamentals.cmegroup.com/futures-learn-the-basics-of-trading.html => https://www.futuresfundamentals.org/explore-the-marketplace/the-exchange-how-it-works/learn-how-to-trade
 RewriteRule ^futures-learn-the-basics-of-trading\.html$ /explore-the-marketplace/learn-how-to-trade? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/futures-the-technology.html => http://www.futuresfundamentals.org/explore-the-marketplace/the-role-of-technology-in-futures-markets
+# 301 --- http://futuresfundamentals.cmegroup.com/futures-the-technology.html => https://www.futuresfundamentals.org/explore-the-marketplace/the-role-of-technology-in-futures-markets
 RewriteRule ^futures-the-technology\.html$ /explore-the-marketplace/the-technology? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/futures-algorithms-made-simple.html => http://www.futuresfundamentals.org/explore-the-marketplace/the-role-of-technology-in-futures-markets/a-simple-guide-to-algorithms
+# 301 --- http://futuresfundamentals.cmegroup.com/futures-algorithms-made-simple.html => https://www.futuresfundamentals.org/explore-the-marketplace/the-role-of-technology-in-futures-markets/a-simple-guide-to-algorithms
 RewriteRule ^futures-algorithms-made-simple\.html$ /explore-the-marketplace/algorithms-made-simple? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/futures-the-protections.html => http://www.futuresfundamentals.org/explore-the-marketplace/protecting-the-futures-markets
+# 301 --- http://futuresfundamentals.cmegroup.com/futures-the-protections.html => https://www.futuresfundamentals.org/explore-the-marketplace/protecting-the-futures-markets
 RewriteRule ^futures-the-protections\.html$ /explore-the-marketplace/the-protections? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/futures-the-role-of-clearing-houses.html => http://www.futuresfundamentals.org/explore-the-marketplace/the-role-of-clearing-houses
+# 301 --- http://futuresfundamentals.cmegroup.com/futures-the-role-of-clearing-houses.html => https://www.futuresfundamentals.org/explore-the-marketplace/the-role-of-clearing-houses
 RewriteRule ^futures-the-role-of-clearing-houses\.html$ /explore-the-marketplace/the-role-of-clearing-houses? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/futures-how-to-clear-a-trade.html => http://www.futuresfundamentals.org/explore-the-marketplace/protecting-the-futures-markets/how-to-clear-a-trade
+# 301 --- http://futuresfundamentals.cmegroup.com/futures-how-to-clear-a-trade.html => https://www.futuresfundamentals.org/explore-the-marketplace/protecting-the-futures-markets/how-to-clear-a-trade
 RewriteRule ^futures-how-to-clear-a-trade\.html$ /explore-the-marketplace/how-to-clear-a-trade? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/futures-the-regulatory-measures.html => http://www.futuresfundamentals.org/explore-the-marketplace/the-regulatory-measures
+# 301 --- http://futuresfundamentals.cmegroup.com/futures-the-regulatory-measures.html => https://www.futuresfundamentals.org/explore-the-marketplace/the-regulatory-measures
 RewriteRule ^futures-the-regulatory-measures\.html$ /explore-the-marketplace/the-regulatory-measures? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/futures-over-the-counter-trading.html => http://www.futuresfundamentals.org/explore-the-marketplace/over-the-counter-trading
+# 301 --- http://futuresfundamentals.cmegroup.com/futures-over-the-counter-trading.html => https://www.futuresfundamentals.org/explore-the-marketplace/over-the-counter-trading
 RewriteRule ^futures-over-the-counter-trading\.html$ /explore-the-marketplace/over-the-counter-trading? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/about.html => http://www.futuresfundamentals.org/about-futures-fundamentals
+# 301 --- http://futuresfundamentals.cmegroup.com/about.html => https://www.futuresfundamentals.org/about-futures-fundamentals
 RewriteRule ^about\.html$ /about? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/contact-us.html => http://www.futuresfundamentals.org/contact-us
+# 301 --- http://futuresfundamentals.cmegroup.com/contact-us.html => https://www.futuresfundamentals.org/contact-us
 RewriteRule ^contact-us\.html$ /contact-us? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/disclaimer.html => http://www.futuresfundamentals.org/terms-of-use
+# 301 --- http://futuresfundamentals.cmegroup.com/disclaimer.html => https://www.futuresfundamentals.org/terms-of-use
 RewriteRule ^disclaimer\.html$ /terms-of-use? [L,R=301]
 
-# 301 --- http://futuresfundamentals.cmegroup.com/see-the-impact/agriculture-futures/risk-ranch/ => http://www.futuresfundamentals.org/for-educators/
+# 301 --- http://futuresfundamentals.cmegroup.com/see-the-impact/agriculture-futures/risk-ranch/ => https://www.futuresfundamentals.org/for-educators/
 RewriteRule /see-the-impact/agriculture-futures/risk-ranch? /for-educators? [L,R=301]
 
 #### END 301 Redirects

@@ -1,211 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.futuresfundamentals.org/content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="4.0.8" -->
 <!-- generated-on="June 7, 2016 7:21 pm" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
-		<loc>http://www.futuresfundamentals.org/for-educators/</loc>
+		<loc>https://www.futuresfundamentals.org/for-educators/</loc>
 		<lastmod>2016-05-26T18:19:47+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/glossary/</loc>
+		<loc>https://www.futuresfundamentals.org/glossary/</loc>
 		<lastmod>2016-06-03T20:33:57+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/explore-the-marketplace/the-exchange-how-it-works/learn-how-to-trade/</loc>
+		<loc>https://www.futuresfundamentals.org/explore-the-marketplace/the-exchange-how-it-works/learn-how-to-trade/</loc>
 		<lastmod>2016-06-03T20:35:57+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/explore-the-marketplace/the-wide-world-of-futures-traders/</loc>
+		<loc>https://www.futuresfundamentals.org/explore-the-marketplace/the-wide-world-of-futures-traders/</loc>
 		<lastmod>2016-06-03T15:28:46+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/explore-the-marketplace/</loc>
+		<loc>https://www.futuresfundamentals.org/explore-the-marketplace/</loc>
 		<lastmod>2016-04-25T16:25:54+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/terms-of-use/</loc>
+		<loc>https://www.futuresfundamentals.org/terms-of-use/</loc>
 		<lastmod>2016-05-16T19:21:10+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/explore-the-marketplace/the-exchange-how-it-works/place-a-trade/</loc>
+		<loc>https://www.futuresfundamentals.org/explore-the-marketplace/the-exchange-how-it-works/place-a-trade/</loc>
 		<lastmod>2016-06-02T21:12:22+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/explore-the-marketplace/the-exchange-how-it-works/assess-market-conditions/</loc>
+		<loc>https://www.futuresfundamentals.org/explore-the-marketplace/the-exchange-how-it-works/assess-market-conditions/</loc>
 		<lastmod>2016-06-03T20:37:47+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/explore-the-marketplace/the-exchange-how-it-works/study-the-trading-chart/</loc>
+		<loc>https://www.futuresfundamentals.org/explore-the-marketplace/the-exchange-how-it-works/study-the-trading-chart/</loc>
 		<lastmod>2016-06-03T20:37:04+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/explore-the-marketplace/the-exchange-how-it-works/understand-the-market-snapshot/</loc>
+		<loc>https://www.futuresfundamentals.org/explore-the-marketplace/the-exchange-how-it-works/understand-the-market-snapshot/</loc>
 		<lastmod>2016-06-03T20:36:24+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/explore-the-marketplace/the-role-of-technology-in-futures-markets/</loc>
+		<loc>https://www.futuresfundamentals.org/explore-the-marketplace/the-role-of-technology-in-futures-markets/</loc>
 		<lastmod>2016-06-03T20:57:12+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/explore-the-marketplace/the-exchange-how-it-works/</loc>
+		<loc>https://www.futuresfundamentals.org/explore-the-marketplace/the-exchange-how-it-works/</loc>
 		<lastmod>2016-06-03T20:29:20+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/see-the-impact/agriculture-futures/food-prices-explained/</loc>
+		<loc>https://www.futuresfundamentals.org/see-the-impact/agriculture-futures/food-prices-explained/</loc>
 		<lastmod>2016-06-02T21:13:09+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/get-the-basics/futures-and-options/</loc>
+		<loc>https://www.futuresfundamentals.org/get-the-basics/futures-and-options/</loc>
 		<lastmod>2016-06-03T14:56:33+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/homepage/</loc>
+		<loc>https://www.futuresfundamentals.org/homepage/</loc>
 		<lastmod>2016-03-31T18:59:38+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/explore-the-marketplace/over-the-counter-trading/</loc>
+		<loc>https://www.futuresfundamentals.org/explore-the-marketplace/over-the-counter-trading/</loc>
 		<lastmod>2016-06-03T20:45:41+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/explore-the-marketplace/the-regulatory-measures/</loc>
+		<loc>https://www.futuresfundamentals.org/explore-the-marketplace/the-regulatory-measures/</loc>
 		<lastmod>2016-06-03T15:14:07+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/explore-the-marketplace/protecting-the-futures-markets/how-to-clear-a-trade/</loc>
+		<loc>https://www.futuresfundamentals.org/explore-the-marketplace/protecting-the-futures-markets/how-to-clear-a-trade/</loc>
 		<lastmod>2016-06-03T15:27:11+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/explore-the-marketplace/the-role-of-clearing-houses/</loc>
+		<loc>https://www.futuresfundamentals.org/explore-the-marketplace/the-role-of-clearing-houses/</loc>
 		<lastmod>2016-06-03T15:27:50+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/explore-the-marketplace/protecting-the-futures-markets/</loc>
+		<loc>https://www.futuresfundamentals.org/explore-the-marketplace/protecting-the-futures-markets/</loc>
 		<lastmod>2016-06-03T20:51:53+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/explore-the-marketplace/the-role-of-technology-in-futures-markets/a-simple-guide-to-algorithms/</loc>
+		<loc>https://www.futuresfundamentals.org/explore-the-marketplace/the-role-of-technology-in-futures-markets/a-simple-guide-to-algorithms/</loc>
 		<lastmod>2016-06-03T20:17:02+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/see-the-impact/financial-futures/mortgage-rates-explained/</loc>
+		<loc>https://www.futuresfundamentals.org/see-the-impact/financial-futures/mortgage-rates-explained/</loc>
 		<lastmod>2016-06-03T20:23:20+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/see-the-impact/financial-futures/</loc>
+		<loc>https://www.futuresfundamentals.org/see-the-impact/financial-futures/</loc>
 		<lastmod>2016-06-06T20:56:51+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/see-the-impact/energy-futures/north-american-oil-production/</loc>
+		<loc>https://www.futuresfundamentals.org/see-the-impact/energy-futures/north-american-oil-production/</loc>
 		<lastmod>2016-06-06T20:58:04+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/see-the-impact/energy-futures/gas-prices-explained/</loc>
+		<loc>https://www.futuresfundamentals.org/see-the-impact/energy-futures/gas-prices-explained/</loc>
 		<lastmod>2016-04-20T16:58:39+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/see-the-impact/energy-futures/</loc>
+		<loc>https://www.futuresfundamentals.org/see-the-impact/energy-futures/</loc>
 		<lastmod>2016-06-03T20:13:58+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<!--<url>
-		<loc>http://www.futuresfundamentals.org/see-the-impact/agriculture-futures/risk-ranch/</loc>
+		<loc>https://www.futuresfundamentals.org/see-the-impact/agriculture-futures/risk-ranch/</loc>
 		<lastmod>2016-04-26T15:37:17+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>-->
 	<url>
-		<loc>http://www.futuresfundamentals.org/see-the-impact/agriculture-futures/</loc>
+		<loc>https://www.futuresfundamentals.org/see-the-impact/agriculture-futures/</loc>
 		<lastmod>2016-06-03T20:13:13+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/see-the-impact/the-ingredients-of-everyday-life/</loc>
+		<loc>https://www.futuresfundamentals.org/see-the-impact/the-ingredients-of-everyday-life/</loc>
 		<lastmod>2016-05-11T20:22:31+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/get-the-basics/heres-why-futures-matter-to-you/</loc>
+		<loc>https://www.futuresfundamentals.org/get-the-basics/heres-why-futures-matter-to-you/</loc>
 		<lastmod>2016-06-03T20:01:05+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/get-the-basics/economics-101/</loc>
+		<loc>https://www.futuresfundamentals.org/get-the-basics/economics-101/</loc>
 		<lastmod>2016-06-02T22:40:42+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/get-the-basics/introduction-to-derivatives/</loc>
+		<loc>https://www.futuresfundamentals.org/get-the-basics/introduction-to-derivatives/</loc>
 		<lastmod>2016-06-03T20:32:37+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/see-the-impact/</loc>
+		<loc>https://www.futuresfundamentals.org/see-the-impact/</loc>
 		<lastmod>2016-04-06T20:59:23+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/get-the-basics/</loc>
+		<loc>https://www.futuresfundamentals.org/get-the-basics/</loc>
 		<lastmod>2016-04-07T20:57:42+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://www.futuresfundamentals.org/contact-us/</loc>
+		<loc>https://www.futuresfundamentals.org/contact-us/</loc>
 		<lastmod>2016-05-03T22:19:16+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
