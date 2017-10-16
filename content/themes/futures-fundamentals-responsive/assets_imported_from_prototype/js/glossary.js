@@ -39,17 +39,18 @@
 			var glossaryJsonURL  = "/glossary/?format=json";
 		}
 
+		var dataJ;
 		var $pullJson = $.ajax({
                         url: glossaryJsonURL,
                         async: false,
                         dataType: 'json',
                         success: function (data) {
-                            var dataJ = data;
+                            dataJ = data;
                             return dataJ;
                         }
                   });
 
-		var glossary = $pullJson;
+		var glossary = dataJ;
 
 
 	    function find_glossary_term(the_term) {
@@ -57,7 +58,7 @@
 
 		    var valid_term = false
 
-			$(glossary).each(function(i,el){
+			$(dataJ).each(function(i,el){
 				if (the_term == el.term.toLowerCase() || the_term == el.term+"s".toLowerCase()) {
 					valid_term = el;
 					return false;
@@ -67,7 +68,7 @@
 			if (!valid_term) {
 
 				console.log("Glossary term not found: " + the_term);
-				console.log(glossary);
+				console.log(dataJ);
 				//debugger;
 			}
 
