@@ -94,15 +94,15 @@
   background: #fff;
   position: relative;
   width: 967px;
-  height: 223px; }
+  height: 222.9999999648px; }
   @media (max-width: 75em) {
     .position-summary {
       width: 900px;
-      height: 207.54912px; } }
+      height: 207.54912096px; } }
   @media (max-width: 62em) {
     .position-summary {
       width: 680px;
-      height: 156.81489px; }
+      height: 156.814891392px; }
       .position-summary .button {
         padding: 3px 0 !important;
         font-size: 8px !important;
@@ -110,7 +110,7 @@
   @media (max-width: 47.9375em) {
     .position-summary {
       width: 500px;
-      height: 115.30507px; }
+      height: 115.3050672px; }
       .position-summary .button {
         padding: 3px 0 !important;
         font-size: 6px !important;
@@ -118,7 +118,7 @@
   @media (max-width: 31.875em) {
     .position-summary {
       width: 300px;
-      height: 69.18304px; }
+      height: 69.18304032px; }
       .position-summary .button {
         padding: 1px 0 !important;
         font-size: 5px !important;
@@ -1528,14 +1528,14 @@
   background: url("../img/confirm-order@2x.png");
   background-size: cover;
   width: 500px;
-  height: 373.50835px; }
+  height: 373.5083532px; }
   @media (max-width: 31.25em) {
     #simulator_confirm_order .confirm-order {
       margin-bottom: 40px; } }
   @media (max-width: 31.875em) {
     #simulator_confirm_order .confirm-order {
       width: 300px;
-      height: 224.10501px; }
+      height: 224.10501192px; }
       #simulator_confirm_order .confirm-order .mouse {
         width: 13.31%;
         height: 17.89%; }
@@ -2488,25 +2488,25 @@
   position: relative;
   max-width: 100%;
   width: 701px;
-  height: 359px; }
+  height: 359.000000035px; }
   @media (max-width: 75em) {
     .chart__canvas {
       width: 566px;
-      height: 289.86305px;
+      height: 289.86305281px;
       margin-top: 63px; }
       .chart__canvas .axes-label {
         left: -3% !important; } }
   @media (max-width: 62em) {
     .chart__canvas {
       width: 420px;
-      height: 215.09272px;
+      height: 215.0927247px;
       margin-top: 89px !important; }
       .chart__canvas .axes-label {
         left: -3% !important; } }
   @media (max-width: 47.9375em) {
     .chart__canvas {
       width: 480px;
-      height: 245.82026px;
+      height: 245.8202568px;
       margin: 63px auto 40px; }
       .chart__canvas .axes-label {
         left: -3% !important; } }
@@ -2527,7 +2527,7 @@
         background-size: cover !important;
         top: 39% !important; }
       .chart__canvas .line {
-        height: 67.24138% !important;
+        height: 67.2413793103% !important;
         background-image: url("../../simulator_assets/_simulator/img/line__up__mobile.png") !important;
         background-size: 260px auto !important;
         top: 25% !important; } }

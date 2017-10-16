@@ -483,7 +483,7 @@ ul {
   border: none;
   -webkit-appearance: none;
   background-color: #1A4181;
-  font: 23px/28px WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+  font: 23px/28px "Whitman Disp Reg", Georgia, Cambria, "Times New Roman", Times, serif;
   letter-spacing: 1px;
   color: #FFFFFF;
   font-weight: bold;
@@ -669,7 +669,7 @@ ul {
   display: none;
   color: #FFFFFF;
   font-size: 20px;
-  font-family: WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Whitman Disp Reg", Georgia, Cambria, "Times New Roman", Times, serif;
   font-style: italic;
   position: absolute;
   bottom: 120px;
@@ -730,7 +730,7 @@ ul {
   -moz-font-smoothing: antialiased;
   font-smoothing: antialiased; }
   #site_footer p {
-    font: 20px/26px WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+    font: 20px/26px "Whitman Disp Reg", Georgia, Cambria, "Times New Roman", Times, serif;
     margin: 0; }
   #site_footer li {
     display: inline;
@@ -2597,7 +2597,7 @@ ul {
   #home_hero h1 {
     font-size: 52px;
     line-height: 1.2em;
-    font-family: WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: "Whitman Disp Reg", Georgia, Cambria, "Times New Roman", Times, serif;
     color: #FFFFFF;
     margin: 0; }
   #home_hero h4 {
@@ -2610,7 +2610,7 @@ ul {
   #home_hero p {
     font-size: 23px;
     line-height: 1.2em;
-    font-family: WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: "Whitman Disp Reg", Georgia, Cambria, "Times New Roman", Times, serif;
     color: #FFFFFF; }
   @media (max-width: 74.99em) {
     #home_hero {
@@ -3941,7 +3941,7 @@ ul {
   .section_intro p {
     font-size: 20px;
     line-height: 1.4em;
-    font-family: WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: "Whitman Disp Reg", Georgia, Cambria, "Times New Roman", Times, serif;
     color: #4A4A4A;
     margin: 10px 0 20px; }
   @media (max-width: 74.99em) {
@@ -4589,7 +4589,7 @@ body {
   color: #6D6C6D;
   font-size: 54px;
   line-height: 60px;
-  font-family: WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Whitman Disp Reg", Georgia, Cambria, "Times New Roman", Times, serif;
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 35px; }
@@ -4614,7 +4614,7 @@ body {
   color: #6D6C6D;
   font-size: 24px;
   line-height: 1.5em;
-  font-family: WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Whitman Disp Reg", Georgia, Cambria, "Times New Roman", Times, serif;
   margin-bottom: 12px;
   margin-top: 0; }
   @media (max-width: 74.99em) {
@@ -4627,7 +4627,7 @@ body {
 .article .article_headline {
   font-size: 24px;
   line-height: 28px;
-  font-family: WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Whitman Disp Reg", Georgia, Cambria, "Times New Roman", Times, serif;
   font-weight: bold;
   color: #4A4A4A;
   margin-bottom: 5px;
@@ -5200,7 +5200,7 @@ body {
 .module__icon-list p {
   font-size: 24px;
   line-height: 28px;
-  font-family: WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif; }
+  font-family: "Whitman Disp Reg", Georgia, Cambria, "Times New Roman", Times, serif; }
 .module__icon-list .icon-list__list {
   margin-top: 24px;
   opacity: 0;
@@ -20124,7 +20124,7 @@ body {
   .page-template-tpl_glossary .glossaryTerm:first-child .glossaryTerm__term {
     margin-top: 20px; }
   .page-template-tpl_glossary .glossaryTerm__term {
-    font-family: WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: "Whitman Disp Reg", Georgia, Cambria, "Times New Roman", Times, serif;
     font-weight: bold;
     font-size: 24px;
     color: #4A4A4A;
@@ -20141,7 +20141,7 @@ body {
         line-height: 24px; } }
   .page-template-tpl_glossary .glossaryTerm__definition {
     /* Algorithm : */
-    font-family: WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: "Whitman Disp Reg", Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: 24px;
     color: #6d6c6d;
     letter-spacing: 0px;
