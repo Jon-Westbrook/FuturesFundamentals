@@ -5,7 +5,6 @@
 
 	$(document).ready(function(){
 		glossary();
-
 		//return bug logic
 		var cookie_val = $.cookie('glossary_cookie');
 
@@ -45,12 +44,12 @@
                         async: false,
                         dataType: 'json',
                         success: function (data) {
-                            dataJ = data;
+                            var dataJ = data;
                             return dataJ;
                         }
                   });
 
-		var glossary = dataJ;
+		var glossary = $pullJson;
 
 
 	    function find_glossary_term(the_term) {
