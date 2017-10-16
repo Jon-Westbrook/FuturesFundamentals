@@ -888,6 +888,7 @@
       min-height: 100px;
       font: 14px/20px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif; } }
   #simulator_candlestick_types .candlestick__caption .candlestick__name {
+    font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold; }
 #simulator_candlestick_types .col {
   padding-left: 0;
