@@ -179,14 +179,14 @@ setupAnimationDebugger = function() {
 		// var bg_color = module_bg.css("background-color");
 
 		// Flash the module to show it's activated
-		/*
+		
 		setTimeout(function(){ module_bg.css('background-color', 'white'); }, 0);
 		setTimeout(function(){ module_bg.css('background-color', bg_color); }, 50);
 		setTimeout(function(){ module_bg.css('background-color', 'white'); }, 100);
 		setTimeout(function(){ module_bg.css('background-color', bg_color); }, 150);
 		setTimeout(function(){ module_bg.css('background-color', 'white'); }, 200);
 		setTimeout(function(){ module_bg.css('background-color', bg_color); }, 250);
-		*/
+
 
 		setTimeout(function(){
 

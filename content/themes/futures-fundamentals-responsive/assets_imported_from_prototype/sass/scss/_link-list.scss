@@ -42,7 +42,7 @@
 		}
 		
 		display: block;
-		font-family: $benton;
+		font-family: $benton-bold;
 		font-weight: bold;
 		font-size: 14px;
 		letter-spacing: 0.3px;
@@ -97,7 +97,7 @@
 		display: inline-block;
 		background: url(../img/icon-caret--right--blue.png) no-repeat right center;
 		padding-right: 23px;
-		line-height: 41px;
+		line-height: 23px;
 		
 		-webkit-transition: all 150ms ease-in-out;
 		-moz-transition: all 150ms ease-in-out;
@@ -152,7 +152,7 @@
 	
 	&__title {
 		/* YOU HAVE THE BASICS: */
-		font: bold 22px/44px $benton;
+		font: bold 22px/44px $benton-bold;
 		color: #4A4A4A;
 		letter-spacing: 0.24px;
 		text-transform: uppercase;

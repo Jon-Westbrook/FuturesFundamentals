@@ -23,7 +23,7 @@
 	h1 {
 		font-size:52px;
 		line-height:1.2em;
-		font-family:$whitman;
+		font-family:$whitman-bold;
 		color:$white;
 		margin:0;
 	}
@@ -707,7 +707,7 @@
 	h3 {
 		font-size:26px;
 		line-height:1.2em;
-		font-family:$benton;
+		font-family:$benton-bold;
 		color:$blue-30;
 		margin:0 0 10px;
 	}
@@ -900,7 +900,7 @@
 	}
 
 	p {
-		font:23px/28px $benton;
+		font:23px/28px $benton-bold;
 		font-weight:bold;
 		color:$gray-30;
 	}

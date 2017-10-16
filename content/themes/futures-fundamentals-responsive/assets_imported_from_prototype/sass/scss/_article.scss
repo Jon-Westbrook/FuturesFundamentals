@@ -76,7 +76,7 @@ body {
 		line-height: 14px;
 		margin-bottom: 22px;
 		//line-height:1.2em;
-		font-family:$benton;
+		font-family:$benton-bold;
 		font-weight:bold;
 		margin-top:50px;
 		text-transform: uppercase;
@@ -122,7 +122,7 @@ body {
 		color:$gray-30;
 		font-size:54px;
 		line-height:60px;
-		font-family:$whitman;
+		font-family:$whitman-bold;
 		font-weight:bold;
 		margin-top:10px;
 		margin-bottom:35px;
@@ -172,7 +172,7 @@ body {
 	.article_headline {
 		font-size:24px;
 		line-height:28px;
-		font-family:$whitman;
+		font-family:$whitman-bold;
 		font-weight:bold;
 		color:$gray-40;
 		margin-bottom:5px;
@@ -189,7 +189,7 @@ body {
 	}
 
 	.article_subhead {
-		font-family:$benton;
+		font-family:$benton-bold;
 		font-weight:bold;
 		color:$gray-40;
 		margin-bottom:5px;
@@ -269,6 +269,7 @@ body {
 
 	.caption_subtitle {
 		color:$gray-40;
+		font-family:$whitman-bold;
 		font-weight:bold;
 
 		@include mq($until: medium) {
@@ -400,6 +401,7 @@ body {
 
 		.glossary-title {
 			margin-bottom:5px;
+			font-family:$benton-bold;
 			font-weight:bold;
 		}
 		.glossary-def {}
@@ -649,7 +651,7 @@ body {
 				float:left;
 				font-size:14px;
 				line-height:22px;
-				font-family:$benton;
+				font-family:$benton-bold;
 				font-weight:bold;
 				color:$gray-40;
 				letter-spacing:0.3px;
@@ -806,7 +808,7 @@ body {
 	h4 {
 		font-size:14px;
 		line-height:18px;
-		font-family:$benton;
+		font-family:$benton-bold;
 		text-transform:uppercase;
 		margin-bottom:8px;
 
@@ -921,7 +923,7 @@ body {
 
 	.module__promo__title {
 		font-weight: bold;
-		font-family: $benton;
+		font-family: $benton-bold;
 		color: #FFFFFF;
 		letter-spacing: 0.76px;
 		padding-top: 12px;

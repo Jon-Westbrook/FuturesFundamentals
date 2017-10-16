@@ -24,7 +24,7 @@ ul {
 
 .button {
   display: inline-block;
-  font: 12px/19px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 12px/19px "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: #FFFFFF;
   letter-spacing: .92px;
@@ -317,7 +317,7 @@ ul {
   .main-nav__primary li {
     float: left; }
   .main-nav__primary a {
-    font: 14px/19px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 14px/19px "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
     height: 60px;
     text-transform: uppercase;
@@ -483,7 +483,7 @@ ul {
   border: none;
   -webkit-appearance: none;
   background-color: #1A4181;
-  font: 23px/28px WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+  font: 23px/28px "Whitman Disp Bd", Georgia, Cambria, "Times New Roman", Times, serif;
   letter-spacing: 1px;
   color: #FFFFFF;
   font-weight: bold;
@@ -563,12 +563,13 @@ ul {
     position: relative;
     padding: 8px 25px;
     color: #1A4181;
-    font: 16px/18px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 16px/18px "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
     font-weight: bold;
     width: 100%; }
     .main-nav__dropdown a.child-link, .main-nav__share-dropdown a.child-link {
       padding-left: 50px;
+      font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: normal;
       font-style: italic; }
     .main-nav__dropdown a:hover, .main-nav__share-dropdown a:hover {
@@ -598,13 +599,14 @@ ul {
         display: block; }
       .main-nav__dropdown a, .main-nav__share-dropdown a {
         height: auto;
-        font: 14px/18px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font: 14px/18px "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
         letter-spacing: 0;
         font-weight: bold;
         margin: 0;
         border-bottom: none; }
         .main-nav__dropdown a.child-link, .main-nav__share-dropdown a.child-link {
           text-indent: 25px;
+          font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
           font-weight: normal; } }
 
 .main-nav__share-dropdown {
@@ -669,7 +671,7 @@ ul {
   display: none;
   color: #FFFFFF;
   font-size: 20px;
-  font-family: WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Whitman Disp Reg", Georgia, Cambria, "Times New Roman", Times, serif;
   font-style: italic;
   position: absolute;
   bottom: 120px;
@@ -730,7 +732,7 @@ ul {
   -moz-font-smoothing: antialiased;
   font-smoothing: antialiased; }
   #site_footer p {
-    font: 20px/26px WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+    font: 20px/26px "Whitman Disp Reg", Georgia, Cambria, "Times New Roman", Times, serif;
     margin: 0; }
   #site_footer li {
     display: inline;
@@ -2597,7 +2599,7 @@ ul {
   #home_hero h1 {
     font-size: 52px;
     line-height: 1.2em;
-    font-family: WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: "Whitman Disp Bd", Georgia, Cambria, "Times New Roman", Times, serif;
     color: #FFFFFF;
     margin: 0; }
   #home_hero h4 {
@@ -2610,7 +2612,7 @@ ul {
   #home_hero p {
     font-size: 23px;
     line-height: 1.2em;
-    font-family: WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: "Whitman Disp Reg", Georgia, Cambria, "Times New Roman", Times, serif;
     color: #FFFFFF; }
   @media (max-width: 74.99em) {
     #home_hero {
@@ -3935,13 +3937,13 @@ ul {
   .section_intro h3 {
     font-size: 26px;
     line-height: 1.2em;
-    font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #0855A1;
     margin: 0 0 10px; }
   .section_intro p {
     font-size: 20px;
     line-height: 1.4em;
-    font-family: WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: "Whitman Disp Reg", Georgia, Cambria, "Times New Roman", Times, serif;
     color: #4A4A4A;
     margin: 10px 0 20px; }
   @media (max-width: 74.99em) {
@@ -4143,7 +4145,7 @@ ul {
     padding: 25px 0;
     border: 1px solid #9B9B9B; }
   #home_footer p {
-    font: 23px/28px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 23px/28px "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
     color: #6D6C6D; }
   #home_footer .share-buttons li:first-child a {
@@ -4554,7 +4556,7 @@ body {
   font-size: 14px;
   line-height: 14px;
   margin-bottom: 22px;
-  font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   margin-top: 50px;
   text-transform: uppercase; }
@@ -4589,7 +4591,7 @@ body {
   color: #6D6C6D;
   font-size: 54px;
   line-height: 60px;
-  font-family: WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Whitman Disp Bd", Georgia, Cambria, "Times New Roman", Times, serif;
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 35px; }
@@ -4614,7 +4616,7 @@ body {
   color: #6D6C6D;
   font-size: 24px;
   line-height: 1.5em;
-  font-family: WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Whitman Disp Reg", Georgia, Cambria, "Times New Roman", Times, serif;
   margin-bottom: 12px;
   margin-top: 0; }
   @media (max-width: 74.99em) {
@@ -4627,7 +4629,7 @@ body {
 .article .article_headline {
   font-size: 24px;
   line-height: 28px;
-  font-family: WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Whitman Disp Bd", Georgia, Cambria, "Times New Roman", Times, serif;
   font-weight: bold;
   color: #4A4A4A;
   margin-bottom: 5px;
@@ -4640,7 +4642,7 @@ body {
       font-size: 18px;
       line-height: 26px; } }
 .article .article_subhead {
-  font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: #4A4A4A;
   margin-bottom: 5px;
@@ -4697,6 +4699,7 @@ body {
       background-size: 60px; } }
 .article .caption_subtitle {
   color: #4A4A4A;
+  font-family: "Whitman Disp Bd", Georgia, Cambria, "Times New Roman", Times, serif;
   font-weight: bold; }
   @media (max-width: 47.99em) {
     .article .caption_subtitle {
@@ -4860,6 +4863,7 @@ body {
   font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif; }
   .article .glossary-container .glossary-title, .article .glossary-item-mobile .glossary-title {
     margin-bottom: 5px;
+    font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold; }
 .article .glossary-item-mobile {
   line-height: 1.75em; }
@@ -5093,7 +5097,7 @@ body {
       float: left;
       font-size: 14px;
       line-height: 22px;
-      font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: bold;
       color: #4A4A4A;
       letter-spacing: 0.3px;
@@ -5191,7 +5195,7 @@ body {
 .module__icon-list h4 {
   font-size: 14px;
   line-height: 18px;
-  font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   margin-bottom: 8px; }
   @media (max-width: 47.99em) {
@@ -5200,7 +5204,7 @@ body {
 .module__icon-list p {
   font-size: 24px;
   line-height: 28px;
-  font-family: WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif; }
+  font-family: "Whitman Disp Reg", Georgia, Cambria, "Times New Roman", Times, serif; }
 .module__icon-list .icon-list__list {
   margin-top: 24px;
   opacity: 0;
@@ -5265,7 +5269,7 @@ body {
   padding: 18px; }
 #module_promo__Risk_Ranch .module__promo__title {
   font-weight: bold;
-  font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #FFFFFF;
   letter-spacing: 0.76px;
   padding-top: 12px; }
@@ -5558,7 +5562,7 @@ body {
       .callout-block .callout .callout-section h2 {
         font-size: 14px;
         line-height: 18px;
-        font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: bold;
         color: #4A4A4A;
         text-transform: uppercase;
@@ -5605,6 +5609,7 @@ body {
       font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
       margin: 0; }
     .carousel-container .carousel-text h4 {
+      font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: bold;
       margin-bottom: 10px; }
     @media (max-width: 74.99em) {
@@ -5623,6 +5628,7 @@ body {
     font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-bottom: 15px; }
     .carousel-container .slide-num .current {
+      font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: bold; }
   .carousel-container .carousel-title {
     padding: 130px 15px 0; }
@@ -5837,6 +5843,7 @@ body {
       font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
       margin: 0; }
     .video-2col-container .text h4 {
+      font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: bold;
       margin-bottom: 10px; }
     @media (max-width: 74.99em) {
@@ -5856,7 +5863,7 @@ body {
   margin-top: 73px; }
   .econ-essentials h5 {
     color: #fff;
-    font-family: "Benton Sans", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: bold;
     font-size: 14px;
     line-height: 26px;
@@ -5925,7 +5932,7 @@ body {
     line-height: 19px;
     font-weight: bold;
     text-transform: uppercase;
-    font-family: "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif; }
     .infographic .carousel-controls-container .carousel-control.begin:after {
       content: "";
       display: block;
@@ -8541,7 +8548,7 @@ body {
     left: 30px;
     font-size: 20px;
     line-height: 32px;
-    font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 0.21px;
     color: #4A4A4A;
     font-weight: bold;
@@ -8626,7 +8633,7 @@ body {
     #food-prices-move .fp-info .info-text h4 {
       font-size: 16px;
       line-height: 23px;
-      font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
       letter-spacing: 0.21px;
       text-transform: uppercase;
       margin: 0 0 4px; }
@@ -8648,7 +8655,7 @@ body {
       #food-prices-move .trend-holder .price-trend h3 {
         font-size: 24px;
         line-height: 28px;
-        font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
         letter-spacing: 0.26px;
         margin: 0;
         width: 100%;
@@ -10649,6 +10656,7 @@ body {
   line-height: 20px;
   color: #6D6C6D; }
   #protect_market_infographic .status-box span {
+    font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
     color: #48BFFF;
     display: block; }
@@ -12010,7 +12018,7 @@ body {
   #trade-journey .trade-journey-inner h4 {
     font-size: 16px;
     line-height: 20px;
-    font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     margin: 0; }
   #trade-journey .trade-journey-inner .row {
@@ -20028,7 +20036,7 @@ body {
       line-height: 24px; } }
   .module__link-list .link-list__item {
     display: block;
-    font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 0.3px;
@@ -20095,7 +20103,7 @@ body {
     max-width: 80%; }
   .module__promo__title {
     /* YOU HAVE THE BASICS: */
-    font: bold 22px/44px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: bold 22px/44px "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #4A4A4A;
     letter-spacing: 0.24px;
     text-transform: uppercase; }
@@ -20124,7 +20132,7 @@ body {
   .page-template-tpl_glossary .glossaryTerm:first-child .glossaryTerm__term {
     margin-top: 20px; }
   .page-template-tpl_glossary .glossaryTerm__term {
-    font-family: WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: "Whitman Disp Bd", Georgia, Cambria, "Times New Roman", Times, serif;
     font-weight: bold;
     font-size: 24px;
     color: #4A4A4A;
@@ -20141,7 +20149,7 @@ body {
         line-height: 24px; } }
   .page-template-tpl_glossary .glossaryTerm__definition {
     /* Algorithm : */
-    font-family: WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: "Whitman Disp Reg", Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: 24px;
     color: #6d6c6d;
     letter-spacing: 0px;
@@ -20222,7 +20230,7 @@ body {
     border: none;
     -webkit-appearance: none;
     background-color: #e8e8e8;
-    font: 23px/28px WhitmanDisplay, Georgia, Cambria, "Times New Roman", Times, serif;
+    font: 23px/28px Whitman Disp Bd, Georgia, Cambria, "Times New Roman", Times, serif;
     letter-spacing: 1px;
     color: white;
     color: #4a4a4a;

@@ -233,7 +233,7 @@
 		float:left;
 		li {float:left;}
 		a {
-			font:14px/19px $benton; 
+			font:14px/19px $benton-bold; 
 			font-weight:bold;
 			height:60px; 
 			text-transform:uppercase;
@@ -443,7 +443,7 @@
 				border:none;
 				-webkit-appearance:none;
 				background-color:$blue-40;
-				font:23px/28px $whitman;
+				font:23px/28px $whitman-bold;
 				letter-spacing:1px;
 				color:$white;
 				font-weight:bold;
@@ -514,11 +514,11 @@
 				position:relative;
 				padding:8px 25px;
 				color:$blue-40; 
-				font:16px/18px $benton; 
+				font:16px/18px $benton-bold; 
 				text-transform:none; 
 				font-weight:bold;  
 				width:100%;
-				&.child-link {padding-left:50px; font-weight:normal; font-style:italic;}
+				&.child-link {padding-left:50px; font-family:$benton; font-weight:normal; font-style:italic;}
 				&:hover {
 					background-color:transparent;
 					color:$blue-10;
@@ -556,12 +556,12 @@
 				}
 				a {
 					height:auto; 
-					font:14px/18px $benton;
+					font:14px/18px $benton-bold;
 					letter-spacing:0; 
 					font-weight:bold;
 					margin:0;
 					border-bottom:none;
-					&.child-link {text-indent:25px; font-weight:normal;}
+					&.child-link {text-indent:25px; font-family:$benton; font-weight:normal;}
 				}
 			}
 		}

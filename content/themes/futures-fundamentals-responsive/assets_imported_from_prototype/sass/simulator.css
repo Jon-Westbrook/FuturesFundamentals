@@ -94,15 +94,15 @@
   background: #fff;
   position: relative;
   width: 967px;
-  height: 223px; }
+  height: 222.9999999648px; }
   @media (max-width: 75em) {
     .position-summary {
       width: 900px;
-      height: 207.54912px; } }
+      height: 207.54912096px; } }
   @media (max-width: 62em) {
     .position-summary {
       width: 680px;
-      height: 156.81489px; }
+      height: 156.814891392px; }
       .position-summary .button {
         padding: 3px 0 !important;
         font-size: 8px !important;
@@ -110,7 +110,7 @@
   @media (max-width: 47.9375em) {
     .position-summary {
       width: 500px;
-      height: 115.30507px; }
+      height: 115.3050672px; }
       .position-summary .button {
         padding: 3px 0 !important;
         font-size: 6px !important;
@@ -118,7 +118,7 @@
   @media (max-width: 31.875em) {
     .position-summary {
       width: 300px;
-      height: 69.18304px; }
+      height: 69.18304032px; }
       .position-summary .button {
         padding: 1px 0 !important;
         font-size: 5px !important;
@@ -888,6 +888,7 @@
       min-height: 100px;
       font: 14px/20px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif; } }
   #simulator_candlestick_types .candlestick__caption .candlestick__name {
+    font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold; }
 #simulator_candlestick_types .col {
   padding-left: 0;
@@ -1528,14 +1529,14 @@
   background: url("../img/confirm-order@2x.png");
   background-size: cover;
   width: 500px;
-  height: 373.50835px; }
+  height: 373.5083532px; }
   @media (max-width: 31.25em) {
     #simulator_confirm_order .confirm-order {
       margin-bottom: 40px; } }
   @media (max-width: 31.875em) {
     #simulator_confirm_order .confirm-order {
       width: 300px;
-      height: 224.10501px; }
+      height: 224.10501192px; }
       #simulator_confirm_order .confirm-order .mouse {
         width: 13.31%;
         height: 17.89%; }
@@ -2488,25 +2489,25 @@
   position: relative;
   max-width: 100%;
   width: 701px;
-  height: 359px; }
+  height: 359.000000035px; }
   @media (max-width: 75em) {
     .chart__canvas {
       width: 566px;
-      height: 289.86305px;
+      height: 289.86305281px;
       margin-top: 63px; }
       .chart__canvas .axes-label {
         left: -3% !important; } }
   @media (max-width: 62em) {
     .chart__canvas {
       width: 420px;
-      height: 215.09272px;
+      height: 215.0927247px;
       margin-top: 89px !important; }
       .chart__canvas .axes-label {
         left: -3% !important; } }
   @media (max-width: 47.9375em) {
     .chart__canvas {
       width: 480px;
-      height: 245.82026px;
+      height: 245.8202568px;
       margin: 63px auto 40px; }
       .chart__canvas .axes-label {
         left: -3% !important; } }
@@ -2527,7 +2528,7 @@
         background-size: cover !important;
         top: 39% !important; }
       .chart__canvas .line {
-        height: 67.24138% !important;
+        height: 67.2413793103% !important;
         background-image: url("../../simulator_assets/_simulator/img/line__up__mobile.png") !important;
         background-size: 260px auto !important;
         top: 25% !important; } }
@@ -3237,7 +3238,7 @@
   -moz-animation: Red_Background_Animation 2800ms linear 100ms forwards;
   animation: Red_Background_Animation 2800ms linear 100ms forwards; }
 
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Bounce_Animation {
   /* Extended to merge text1 and text2 animations */
   0% {
     -moz-transform: matrix3d(1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, -100, 0, 1);
@@ -3415,7 +3416,7 @@
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     /* -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); */
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Bounce_Animation {
   /* Extended to merge text1 and text2 animations */
   0% {
     -moz-transform: matrix3d(1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, -100, 0, 1);
@@ -3593,7 +3594,7 @@
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     /* -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); */
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
-@keyframes $animation-name {
+@keyframes Bounce_Animation {
   /* Extended to merge text1 and text2 animations */
   0% {
     -moz-transform: matrix3d(1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, -100, 0, 1);
@@ -3771,7 +3772,7 @@
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     /* -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); */
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Market_Snapshot_Colors_Animation_Green {
   /*
 
     0% { background-color: $light_green; opacity: 0; }
@@ -3790,7 +3791,7 @@
   100% {
     background-color: #32D200;
     opacity: 1; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Market_Snapshot_Colors_Animation_Green {
   /*
 
     0% { background-color: $light_green; opacity: 0; }
@@ -3809,7 +3810,7 @@
   100% {
     background-color: #32D200;
     opacity: 1; } }
-@keyframes $animation-name {
+@keyframes Market_Snapshot_Colors_Animation_Green {
   /*
 
     0% { background-color: $light_green; opacity: 0; }
@@ -3828,7 +3829,7 @@
   100% {
     background-color: #32D200;
     opacity: 1; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Market_Snapshot_Colors_Animation_Green_Light {
   0% {
     background-color: #44cc19;
     opacity: 0; }
@@ -3840,7 +3841,7 @@
   100% {
     background-color: #55ff20;
     opacity: 1; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Market_Snapshot_Colors_Animation_Green_Light {
   0% {
     background-color: #44cc19;
     opacity: 0; }
@@ -3852,7 +3853,7 @@
   100% {
     background-color: #55ff20;
     opacity: 1; } }
-@keyframes $animation-name {
+@keyframes Market_Snapshot_Colors_Animation_Green_Light {
   0% {
     background-color: #44cc19;
     opacity: 0; }
@@ -3864,7 +3865,7 @@
   100% {
     background-color: #55ff20;
     opacity: 1; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Market_Snapshot_Colors_Animation_Green_Dark {
   0% {
     background-color: #4c9e32;
     opacity: 0; }
@@ -3876,7 +3877,7 @@
   100% {
     background-color: #208600;
     opacity: 1; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Market_Snapshot_Colors_Animation_Green_Dark {
   0% {
     background-color: #4c9e32;
     opacity: 0; }
@@ -3888,7 +3889,7 @@
   100% {
     background-color: #208600;
     opacity: 1; } }
-@keyframes $animation-name {
+@keyframes Market_Snapshot_Colors_Animation_Green_Dark {
   0% {
     background-color: #4c9e32;
     opacity: 0; }
@@ -3900,7 +3901,7 @@
   100% {
     background-color: #208600;
     opacity: 1; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Market_Snapshot_Colors_Animation_Red {
   0% {
     background-color: #c71f28;
     opacity: 0; }
@@ -3912,7 +3913,7 @@
   100% {
     background-color: #E92429;
     opacity: 1; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Market_Snapshot_Colors_Animation_Red {
   0% {
     background-color: #c71f28;
     opacity: 0; }
@@ -3924,7 +3925,7 @@
   100% {
     background-color: #E92429;
     opacity: 1; } }
-@keyframes $animation-name {
+@keyframes Market_Snapshot_Colors_Animation_Red {
   0% {
     background-color: #c71f28;
     opacity: 0; }
@@ -3936,67 +3937,67 @@
   100% {
     background-color: #E92429;
     opacity: 1; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Green_Low_Background_Animation {
   0% {
     background-color: #1ab24b; }
   100% {
     background-color: #18AB49; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Green_Low_Background_Animation {
   0% {
     background-color: #1ab24b; }
   100% {
     background-color: #18AB49; } }
-@keyframes $animation-name {
+@keyframes Green_Low_Background_Animation {
   0% {
     background-color: #1ab24b; }
   100% {
     background-color: #18AB49; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Green_Mid_Background_Animation {
   0% {
     background-color: #1ab24b; }
   100% {
     background-color: #0E8F40; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Green_Mid_Background_Animation {
   0% {
     background-color: #1ab24b; }
   100% {
     background-color: #0E8F40; } }
-@keyframes $animation-name {
+@keyframes Green_Mid_Background_Animation {
   0% {
     background-color: #1ab24b; }
   100% {
     background-color: #0E8F40; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Green_Background_Animation {
   0% {
     background-color: #1ab24b; }
   100% {
     background-color: #006633; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Green_Background_Animation {
   0% {
     background-color: #1ab24b; }
   100% {
     background-color: #006633; } }
-@keyframes $animation-name {
+@keyframes Green_Background_Animation {
   0% {
     background-color: #1ab24b; }
   100% {
     background-color: #006633; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Red_Background_Animation {
   0% {
     background-color: #c71f28; }
   100% {
     background-color: #7f1419; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Red_Background_Animation {
   0% {
     background-color: #c71f28; }
   100% {
     background-color: #7f1419; } }
-@keyframes $animation-name {
+@keyframes Red_Background_Animation {
   0% {
     background-color: #c71f28; }
   100% {
     background-color: #7f1419; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Market_Snapshot_Colors_Animation {
   0% {
     background-color: #7f1419; }
   3% {
@@ -4011,7 +4012,7 @@
     background-color: #7f1419; }
   100% {
     background-color: #7f1419; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Market_Snapshot_Colors_Animation {
   0% {
     background-color: #7f1419; }
   3% {
@@ -4026,7 +4027,7 @@
     background-color: #7f1419; }
   100% {
     background-color: #7f1419; } }
-@keyframes $animation-name {
+@keyframes Market_Snapshot_Colors_Animation {
   0% {
     background-color: #7f1419; }
   3% {
@@ -4041,36 +4042,22 @@
     background-color: #7f1419; }
   100% {
     background-color: #7f1419; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Animate_Width_None_to_Full {
   from {
     width: 0%; }
   to {
     width: 100%; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Animate_Width_None_to_Full {
   from {
     width: 0%; }
   to {
     width: 100%; } }
-@keyframes $animation-name {
+@keyframes Animate_Width_None_to_Full {
   from {
     width: 0%; }
   to {
     width: 100%; } }
-@-webkit-keyframes $animation-name {
-  0% {
-    width: 0%; }
-  /*
-      62% {
-  	    width: 60%;
-      }
-  
-  	67% {
-  	    width: 60%;
-  	}
-  */
-  100% {
-    width: 100%; } }
-@-moz-keyframes $animation-name {
+@-webkit-keyframes Animate_Chart_Upward_Line {
   0% {
     width: 0%; }
   /*
@@ -4084,7 +4071,7 @@
   */
   100% {
     width: 100%; } }
-@keyframes $animation-name {
+@-moz-keyframes Animate_Chart_Upward_Line {
   0% {
     width: 0%; }
   /*
@@ -4098,7 +4085,21 @@
   */
   100% {
     width: 100%; } }
-@-webkit-keyframes $animation-name {
+@keyframes Animate_Chart_Upward_Line {
+  0% {
+    width: 0%; }
+  /*
+      62% {
+  	    width: 60%;
+      }
+  
+  	67% {
+  	    width: 60%;
+  	}
+  */
+  100% {
+    width: 100%; } }
+@-webkit-keyframes Animate_Chart_Downward_Line {
   0% {
     width: 0%; }
   /*
@@ -4112,7 +4113,7 @@
   */
   100% {
     width: 100%; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Animate_Chart_Downward_Line {
   0% {
     width: 0%; }
   /*
@@ -4126,7 +4127,7 @@
   */
   100% {
     width: 100%; } }
-@keyframes $animation-name {
+@keyframes Animate_Chart_Downward_Line {
   0% {
     width: 0%; }
   /*
@@ -4140,58 +4141,58 @@
   */
   100% {
     width: 100%; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Animate_Scale_None_to_Full {
   from {
     transform: scale(0); }
   to {
     transform: scale(1); } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Animate_Scale_None_to_Full {
   from {
     transform: scale(0); }
   to {
     transform: scale(1); } }
-@keyframes $animation-name {
+@keyframes Animate_Scale_None_to_Full {
   from {
     transform: scale(0); }
   to {
     transform: scale(1); } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Animate_Scale_None_to_Full_with_Rotation {
   0% {
     transform: scale(0) rotate(45deg); }
   75% {
     transform: scale(1) rotate(11.25deg); }
   100% {
     transform: scale(1) rotate(0deg); } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Animate_Scale_None_to_Full_with_Rotation {
   0% {
     transform: scale(0) rotate(45deg); }
   75% {
     transform: scale(1) rotate(11.25deg); }
   100% {
     transform: scale(1) rotate(0deg); } }
-@keyframes $animation-name {
+@keyframes Animate_Scale_None_to_Full_with_Rotation {
   0% {
     transform: scale(0) rotate(45deg); }
   75% {
     transform: scale(1) rotate(11.25deg); }
   100% {
     transform: scale(1) rotate(0deg); } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes mask-528-to-0 {
   from {
     width: 528px; }
   to {
     width: 0; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes mask-528-to-0 {
   from {
     width: 528px; }
   to {
     width: 0; } }
-@keyframes $animation-name {
+@keyframes mask-528-to-0 {
   from {
     width: 528px; }
   to {
     width: 0; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes bg-top-to-bottom {
   0% {
     background-position: 0 -190px;
     opacity: 0; }
@@ -4200,7 +4201,7 @@
   100% {
     background-position: 0 -14px;
     opacity: 1; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes bg-top-to-bottom {
   0% {
     background-position: 0 -190px;
     opacity: 0; }
@@ -4209,7 +4210,7 @@
   100% {
     background-position: 0 -14px;
     opacity: 1; } }
-@keyframes $animation-name {
+@keyframes bg-top-to-bottom {
   0% {
     background-position: 0 -190px;
     opacity: 0; }
@@ -4218,7 +4219,7 @@
   100% {
     background-position: 0 -14px;
     opacity: 1; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes bg-bottom-to-top {
   0% {
     background-position: 0 190px;
     opacity: 0; }
@@ -4227,7 +4228,7 @@
   100% {
     background-position: 0 0;
     opacity: 1; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes bg-bottom-to-top {
   0% {
     background-position: 0 190px;
     opacity: 0; }
@@ -4236,7 +4237,7 @@
   100% {
     background-position: 0 0;
     opacity: 1; } }
-@keyframes $animation-name {
+@keyframes bg-bottom-to-top {
   0% {
     background-position: 0 190px;
     opacity: 0; }
@@ -4245,7 +4246,7 @@
   100% {
     background-position: 0 0;
     opacity: 1; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes FadeAndScaleIn {
   0% {
     opacity: 0;
     -moz-transform: scale(0.5);
@@ -4267,7 +4268,7 @@
     -ms-transform: scale(1);
     -webkit-transform: scale(1);
     transform: scale(1); } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes FadeAndScaleIn {
   0% {
     opacity: 0;
     -moz-transform: scale(0.5);
@@ -4289,7 +4290,7 @@
     -ms-transform: scale(1);
     -webkit-transform: scale(1);
     transform: scale(1); } }
-@keyframes $animation-name {
+@keyframes FadeAndScaleIn {
   0% {
     opacity: 0;
     -moz-transform: scale(0.5);
@@ -4311,49 +4312,49 @@
     -ms-transform: scale(1);
     -webkit-transform: scale(1);
     transform: scale(1); } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes FadeIn {
   0% {
     opacity: 0; }
   85% {
     opacity: .7; }
   100% {
     opacity: 1; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes FadeIn {
   0% {
     opacity: 0; }
   85% {
     opacity: .7; }
   100% {
     opacity: 1; } }
-@keyframes $animation-name {
+@keyframes FadeIn {
   0% {
     opacity: 0; }
   85% {
     opacity: .7; }
   100% {
     opacity: 1; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes FadeOut {
   0% {
     opacity: 1; }
   15% {
     opacity: .7; }
   100% {
     opacity: 0; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes FadeOut {
   0% {
     opacity: 1; }
   15% {
     opacity: .7; }
   100% {
     opacity: 0; } }
-@keyframes $animation-name {
+@keyframes FadeOut {
   0% {
     opacity: 1; }
   15% {
     opacity: .7; }
   100% {
     opacity: 0; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes EnterFromLeft {
   0% {
     transform: translateX(-100%); }
   50% {
@@ -4361,7 +4362,7 @@
   100% {
     opacity: 1;
     transform: translateX(0%); } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes EnterFromLeft {
   0% {
     transform: translateX(-100%); }
   50% {
@@ -4369,7 +4370,7 @@
   100% {
     opacity: 1;
     transform: translateX(0%); } }
-@keyframes $animation-name {
+@keyframes EnterFromLeft {
   0% {
     transform: translateX(-100%); }
   50% {
@@ -4377,7 +4378,7 @@
   100% {
     opacity: 1;
     transform: translateX(0%); } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes EnterFromRight {
   0% {
     transform: translateX(100%); }
   50% {
@@ -4385,7 +4386,7 @@
   100% {
     opacity: 1;
     transform: translateX(0%); } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes EnterFromRight {
   0% {
     transform: translateX(100%); }
   50% {
@@ -4393,7 +4394,7 @@
   100% {
     opacity: 1;
     transform: translateX(0%); } }
-@keyframes $animation-name {
+@keyframes EnterFromRight {
   0% {
     transform: translateX(100%); }
   50% {
@@ -4401,22 +4402,22 @@
   100% {
     opacity: 1;
     transform: translateX(0%); } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Trading_Chart_Chart_Animation {
   0% {
     background-position-x: -200px; }
   100% {
     background-position-x: 0px; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Trading_Chart_Chart_Animation {
   0% {
     background-position-x: -200px; }
   100% {
     background-position-x: 0px; } }
-@keyframes $animation-name {
+@keyframes Trading_Chart_Chart_Animation {
   0% {
     background-position-x: -200px; }
   100% {
     background-position-x: 0px; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes MS_Trade_Mouse_Animation {
   0% {
     -moz-transform: scale(1);
     -o-transform: scale(1);
@@ -4453,7 +4454,7 @@
     /* -webkit-transform: scale(1); */
     top: 248px;
     left: 584px; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes MS_Trade_Mouse_Animation {
   0% {
     -moz-transform: scale(1);
     -o-transform: scale(1);
@@ -4490,7 +4491,7 @@
     /* -webkit-transform: scale(1); */
     top: 248px;
     left: 584px; } }
-@keyframes $animation-name {
+@keyframes MS_Trade_Mouse_Animation {
   0% {
     -moz-transform: scale(1);
     -o-transform: scale(1);
@@ -4527,7 +4528,7 @@
     /* -webkit-transform: scale(1); */
     top: 248px;
     left: 584px; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Confirm_Order_Mouse_Animation {
   0% {
     -moz-transform: scale(0);
     -o-transform: scale(0);
@@ -4573,7 +4574,7 @@
     /* -webkit-transform: scale(1); */
     top: 91%;
     left: 5%; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Confirm_Order_Mouse_Animation {
   0% {
     -moz-transform: scale(0);
     -o-transform: scale(0);
@@ -4619,7 +4620,7 @@
     /* -webkit-transform: scale(1); */
     top: 91%;
     left: 5%; } }
-@keyframes $animation-name {
+@keyframes Confirm_Order_Mouse_Animation {
   0% {
     -moz-transform: scale(0);
     -o-transform: scale(0);
@@ -4665,7 +4666,7 @@
     /* -webkit-transform: scale(1); */
     top: 91%;
     left: 5%; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Market_Order_Dropdown_Animation {
   0% {
     opacity: 0; }
   49% {
@@ -4674,7 +4675,7 @@
     opacity: 1; }
   100% {
     opacity: 1; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Market_Order_Dropdown_Animation {
   0% {
     opacity: 0; }
   49% {
@@ -4683,7 +4684,7 @@
     opacity: 1; }
   100% {
     opacity: 1; } }
-@keyframes $animation-name {
+@keyframes Market_Order_Dropdown_Animation {
   0% {
     opacity: 0; }
   49% {
@@ -4692,7 +4693,7 @@
     opacity: 1; }
   100% {
     opacity: 1; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Market_Order_Dropdown_Animation__Opened {
   0% {
     opacity: 0; }
   19% {
@@ -4707,7 +4708,7 @@
     opacity: 0; }
   100% {
     opacity: 0; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Market_Order_Dropdown_Animation__Opened {
   0% {
     opacity: 0; }
   19% {
@@ -4722,7 +4723,7 @@
     opacity: 0; }
   100% {
     opacity: 0; } }
-@keyframes $animation-name {
+@keyframes Market_Order_Dropdown_Animation__Opened {
   0% {
     opacity: 0; }
   19% {
@@ -4737,7 +4738,7 @@
     opacity: 0; }
   100% {
     opacity: 0; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Market_Order_Dropdown_Quantity_Animation_Opened {
   0% {
     opacity: 0; }
   59% {
@@ -4750,7 +4751,7 @@
     opacity: 0; }
   100% {
     opacity: 0; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Market_Order_Dropdown_Quantity_Animation_Opened {
   0% {
     opacity: 0; }
   59% {
@@ -4763,7 +4764,7 @@
     opacity: 0; }
   100% {
     opacity: 0; } }
-@keyframes $animation-name {
+@keyframes Market_Order_Dropdown_Quantity_Animation_Opened {
   0% {
     opacity: 0; }
   59% {
@@ -4776,7 +4777,7 @@
     opacity: 0; }
   100% {
     opacity: 0; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Market_Order_Dropdown_Quantity_Animation {
   0% {
     opacity: 0; }
   57% {
@@ -4787,7 +4788,7 @@
     opacity: 1; }
   100% {
     opacity: 1; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Market_Order_Dropdown_Quantity_Animation {
   0% {
     opacity: 0; }
   57% {
@@ -4798,7 +4799,7 @@
     opacity: 1; }
   100% {
     opacity: 1; } }
-@keyframes $animation-name {
+@keyframes Market_Order_Dropdown_Quantity_Animation {
   0% {
     opacity: 0; }
   57% {
@@ -4809,7 +4810,7 @@
     opacity: 1; }
   100% {
     opacity: 1; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Market_Order_Mouse_Animation {
   0% {
     top: 176%;
     left: 172.5%; }
@@ -4846,7 +4847,7 @@
   100% {
     top: 89.37%;
     left: 7.75%; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Market_Order_Mouse_Animation {
   0% {
     top: 176%;
     left: 172.5%; }
@@ -4883,7 +4884,7 @@
   100% {
     top: 89.37%;
     left: 7.75%; } }
-@keyframes $animation-name {
+@keyframes Market_Order_Mouse_Animation {
   0% {
     top: 176%;
     left: 172.5%; }
@@ -4920,7 +4921,7 @@
   100% {
     top: 89.37%;
     left: 7.75%; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Clicked_Animation {
   0% {
     -moz-transform: scale(1);
     -o-transform: scale(1);
@@ -4942,7 +4943,7 @@
     -webkit-transform: scale(1);
     transform: scale(1);
     /* -webkit-transform: scale(1); */ } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Clicked_Animation {
   0% {
     -moz-transform: scale(1);
     -o-transform: scale(1);
@@ -4964,7 +4965,7 @@
     -webkit-transform: scale(1);
     transform: scale(1);
     /* -webkit-transform: scale(1); */ } }
-@keyframes $animation-name {
+@keyframes Clicked_Animation {
   0% {
     -moz-transform: scale(1);
     -o-transform: scale(1);
@@ -4986,37 +4987,37 @@
     -webkit-transform: scale(1);
     transform: scale(1);
     /* -webkit-transform: scale(1); */ } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Turn_Blue {
   50% {
     color: #94d6f3; }
   100% {
     color: #94d6f3; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Turn_Blue {
   50% {
     color: #94d6f3; }
   100% {
     color: #94d6f3; } }
-@keyframes $animation-name {
+@keyframes Turn_Blue {
   50% {
     color: #94d6f3; }
   100% {
     color: #94d6f3; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Turn_Background_Blue {
   50% {
     background-color: #94d6f3; }
   100% {
     background-color: #94d6f3; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Turn_Background_Blue {
   50% {
     background-color: #94d6f3; }
   100% {
     background-color: #94d6f3; } }
-@keyframes $animation-name {
+@keyframes Turn_Background_Blue {
   50% {
     background-color: #94d6f3; }
   100% {
     background-color: #94d6f3; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Clicked_And_Change_Color_Animation {
   0% {
     -moz-transform: scale(1);
     -o-transform: scale(1);
@@ -5039,7 +5040,7 @@
     transform: scale(1);
     /* -webkit-transform: scale(1); */
     color: #94d6f3; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Clicked_And_Change_Color_Animation {
   0% {
     -moz-transform: scale(1);
     -o-transform: scale(1);
@@ -5062,7 +5063,7 @@
     transform: scale(1);
     /* -webkit-transform: scale(1); */
     color: #94d6f3; } }
-@keyframes $animation-name {
+@keyframes Clicked_And_Change_Color_Animation {
   0% {
     -moz-transform: scale(1);
     -o-transform: scale(1);
@@ -5085,7 +5086,7 @@
     transform: scale(1);
     /* -webkit-transform: scale(1); */
     color: #94d6f3; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes News_Mouse_Animation_Upward {
   0% {
     top: 211%;
     left: 246%; }
@@ -5119,7 +5120,7 @@
     /* -webkit-transform: scale(1); */
     top: 46.38%;
     left: 18.5%; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes News_Mouse_Animation_Upward {
   0% {
     top: 211%;
     left: 246%; }
@@ -5153,7 +5154,7 @@
     /* -webkit-transform: scale(1); */
     top: 46.38%;
     left: 18.5%; } }
-@keyframes $animation-name {
+@keyframes News_Mouse_Animation_Upward {
   0% {
     top: 211%;
     left: 246%; }
@@ -5187,7 +5188,7 @@
     /* -webkit-transform: scale(1); */
     top: 46.38%;
     left: 18.5%; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes News_Mouse_Animation_Downward {
   0% {
     top: 211%;
     left: 246%; }
@@ -5221,7 +5222,7 @@
     /* -webkit-transform: scale(1); */
     top: 90.789%;
     left: 18.5%; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes News_Mouse_Animation_Downward {
   0% {
     top: 211%;
     left: 246%; }
@@ -5255,7 +5256,7 @@
     /* -webkit-transform: scale(1); */
     top: 90.789%;
     left: 18.5%; } }
-@keyframes $animation-name {
+@keyframes News_Mouse_Animation_Downward {
   0% {
     top: 211%;
     left: 246%; }
@@ -5289,7 +5290,7 @@
     /* -webkit-transform: scale(1); */
     top: 90.789%;
     left: 18.5%; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Chart_Animation_X_Axis_Crosshair {
   0% {
     width: 0%;
     opacity: 0;
@@ -5313,7 +5314,7 @@
     bottom: 0%;
     left: 2px;
     transform: translateY(100%); } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Chart_Animation_X_Axis_Crosshair {
   0% {
     width: 0%;
     opacity: 0;
@@ -5337,7 +5338,7 @@
     bottom: 0%;
     left: 2px;
     transform: translateY(100%); } }
-@keyframes $animation-name {
+@keyframes Chart_Animation_X_Axis_Crosshair {
   0% {
     width: 0%;
     opacity: 0;
@@ -5361,7 +5362,7 @@
     bottom: 0%;
     left: 2px;
     transform: translateY(100%); } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Chart_Animation_Y_Axis_Crosshair {
   0% {
     height: 0%;
     opacity: 0;
@@ -5386,7 +5387,7 @@
     opacity: 1;
     left: 0%;
     transform: translateX(100%); } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Chart_Animation_Y_Axis_Crosshair {
   0% {
     height: 0%;
     opacity: 0;
@@ -5411,7 +5412,7 @@
     opacity: 1;
     left: 0%;
     transform: translateX(100%); } }
-@keyframes $animation-name {
+@keyframes Chart_Animation_Y_Axis_Crosshair {
   0% {
     height: 0%;
     opacity: 0;
@@ -5436,7 +5437,7 @@
     opacity: 1;
     left: 0%;
     transform: translateX(100%); } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Chart_Animation_X_Axis {
   0% {
     width: 0%;
     opacity: 0.4; }
@@ -5446,7 +5447,7 @@
   100% {
     width: 100%;
     opacity: 1; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Chart_Animation_X_Axis {
   0% {
     width: 0%;
     opacity: 0.4; }
@@ -5456,7 +5457,7 @@
   100% {
     width: 100%;
     opacity: 1; } }
-@keyframes $animation-name {
+@keyframes Chart_Animation_X_Axis {
   0% {
     width: 0%;
     opacity: 0.4; }
@@ -5466,7 +5467,7 @@
   100% {
     width: 100%;
     opacity: 1; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Chart_Animation_Y_Axis {
   0% {
     height: 0%;
     opacity: 0.4; }
@@ -5476,7 +5477,7 @@
   100% {
     height: 100%;
     opacity: 1; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Chart_Animation_Y_Axis {
   0% {
     height: 0%;
     opacity: 0.4; }
@@ -5486,7 +5487,7 @@
   100% {
     height: 100%;
     opacity: 1; } }
-@keyframes $animation-name {
+@keyframes Chart_Animation_Y_Axis {
   0% {
     height: 0%;
     opacity: 0.4; }
@@ -5497,7 +5498,7 @@
     height: 100%;
     opacity: 1; } }
 /* Generated with Bounce.js. Edit at http://goo.gl/UZcFeC */
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Market_Snapshot_Static_Shadow {
   0% {
     -moz-transform: matrix3d(0.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 50, 0, 1);
     -o-transform: matrix3d(0.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 50, 0, 1);
@@ -5650,7 +5651,7 @@
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     /* -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); */
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Market_Snapshot_Static_Shadow {
   0% {
     -moz-transform: matrix3d(0.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 50, 0, 1);
     -o-transform: matrix3d(0.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 50, 0, 1);
@@ -5803,7 +5804,7 @@
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     /* -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); */
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
-@keyframes $animation-name {
+@keyframes Market_Snapshot_Static_Shadow {
   0% {
     -moz-transform: matrix3d(0.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 50, 0, 1);
     -o-transform: matrix3d(0.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 50, 0, 1);
@@ -5972,7 +5973,7 @@
   }
 }
 */
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Position_Summary_Animation_Before {
   0% {
     opacity: 0; }
   10% {
@@ -5983,7 +5984,7 @@
     opacity: 0; }
   100% {
     opacity: 0; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Position_Summary_Animation_Before {
   0% {
     opacity: 0; }
   10% {
@@ -5994,7 +5995,7 @@
     opacity: 0; }
   100% {
     opacity: 0; } }
-@keyframes $animation-name {
+@keyframes Position_Summary_Animation_Before {
   0% {
     opacity: 0; }
   10% {
@@ -6005,7 +6006,7 @@
     opacity: 0; }
   100% {
     opacity: 0; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Position_Summary_Animation_After {
   0% {
     opacity: 0; }
   10% {
@@ -6016,7 +6017,7 @@
     opacity: 1; }
   100% {
     opacity: 1; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Position_Summary_Animation_After {
   0% {
     opacity: 0; }
   10% {
@@ -6027,7 +6028,7 @@
     opacity: 1; }
   100% {
     opacity: 1; } }
-@keyframes $animation-name {
+@keyframes Position_Summary_Animation_After {
   0% {
     opacity: 0; }
   10% {
@@ -6038,7 +6039,7 @@
     opacity: 1; }
   100% {
     opacity: 1; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Position_Summary_Button_Animation {
   0% {
     -moz-transform: scale(1);
     -o-transform: scale(1);
@@ -6068,7 +6069,7 @@
     transform: scale(1);
     /* -webkit-transform: scale(1); */
     opacity: 1; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Position_Summary_Button_Animation {
   0% {
     -moz-transform: scale(1);
     -o-transform: scale(1);
@@ -6098,7 +6099,7 @@
     transform: scale(1);
     /* -webkit-transform: scale(1); */
     opacity: 1; } }
-@keyframes $animation-name {
+@keyframes Position_Summary_Button_Animation {
   0% {
     -moz-transform: scale(1);
     -o-transform: scale(1);
@@ -6128,7 +6129,7 @@
     transform: scale(1);
     /* -webkit-transform: scale(1); */
     opacity: 1; } }
-@-webkit-keyframes $animation-name {
+@-webkit-keyframes Position_Summary_Mouse_Animation {
   0% {
     opacity: 0;
     top: -44.84%;
@@ -6170,7 +6171,7 @@
     opacity: 1;
     top: 8.96%;
     right: 1.44%; } }
-@-moz-keyframes $animation-name {
+@-moz-keyframes Position_Summary_Mouse_Animation {
   0% {
     opacity: 0;
     top: -44.84%;
@@ -6212,7 +6213,7 @@
     opacity: 1;
     top: 8.96%;
     right: 1.44%; } }
-@keyframes $animation-name {
+@keyframes Position_Summary_Mouse_Animation {
   0% {
     opacity: 0;
     top: -44.84%;
