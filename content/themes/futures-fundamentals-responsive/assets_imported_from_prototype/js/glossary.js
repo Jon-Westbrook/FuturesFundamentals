@@ -5,7 +5,6 @@
 
 	$(document).ready(function(){
 		glossary();
-
 		//return bug logic
 		var cookie_val = $.cookie('glossary_cookie');
 
@@ -33,25 +32,26 @@
 	});
 
 	function glossary() {
-		var production_servers = ["www.futuresfundamentals.org", "static.ff.cme.vsadev.com"]
+		var production_servers = ["www.futuresfundamentals.org", "static.ff.cme.vsadev.com"];
+		var glossaryJsonURL, dataJ, $pullJson, glossary;
+		
 		if (production_servers.indexOf(window.location.hostname) != -1) {
-			var glossaryJsonURL  = "/glossary.json";
+			glossaryJsonURL  = "/glossary.json";
 		} else {
-			var glossaryJsonURL  = "/glossary/?format=json";
+			glossaryJsonURL  = "/glossary/?format=json";
 		}
 
-		var $pullJson = $.ajax({
-                        url: glossaryJsonURL,
-                        async: false,
-                        dataType: 'json',
-                        success: function (data) {
-                            dataJ = data;
-                            return dataJ;
-                        }
-                  });
+		$pullJson = $.ajax({
+			url: glossaryJsonURL,
+			async: false,
+			dataType: 'json',
+			success: function (data) {
+			dataJ = data;
+			return dataJ;
+			}
+		});
 
-		var glossary = dataJ;
-
+		glossary = dataJ;
 
 	    function find_glossary_term(the_term) {
 		    the_term = the_term.toLowerCase();
