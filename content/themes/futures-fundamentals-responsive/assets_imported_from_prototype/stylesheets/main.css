@@ -20102,7 +20102,7 @@ body {
     max-width: 80%; }
   .module__promo__title {
     /* YOU HAVE THE BASICS: */
-    font: bold 22px/44px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: bold 22px/44px "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #4A4A4A;
     letter-spacing: 0.24px;
     text-transform: uppercase; }
