@@ -514,6 +514,7 @@
     padding-left: 0;
     margin-bottom: 0; }
   #simulator_market_snapshot__text strong {
+    font-family: 'Benton Sans Bold';
     display: block;
     margin-bottom: 2px; }
   #simulator_market_snapshot__text li {
