@@ -97,7 +97,7 @@
 		display: inline-block;
 		background: url(../img/icon-caret--right--blue.png) no-repeat right center;
 		padding-right: 23px;
-		line-height: 23px;
+		line-height: 41px;
 		
 		-webkit-transition: all 150ms ease-in-out;
 		-moz-transition: all 150ms ease-in-out;
@@ -105,9 +105,14 @@
 		-ms-transition: all 150ms ease-in-out;
 		transition: all 150ms ease-in-out;
 
+		@media screen and (max-width: 768px ) {
+			line-height: 23px; 
+		}
+
 		@include mq($until: medium) {
 			background:none;
 			padding-right:10px;
+			line-height: 23px; 
 
 			&:after {
 				content:"";

@@ -20065,16 +20065,20 @@ body {
     display: inline-block;
     background: url(../img/icon-caret--right--blue.png) no-repeat right center;
     padding-right: 23px;
-    line-height: 23px;
+    line-height: 41px;
     -webkit-transition: all 150ms ease-in-out;
     -moz-transition: all 150ms ease-in-out;
     -o-transition: all 150ms ease-in-out;
     -ms-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out; }
+    @media screen and (max-width: 768px) {
+      .module__link-list span {
+        line-height: 23px; } }
     @media (max-width: 47.99em) {
       .module__link-list span {
         background: none;
-        padding-right: 10px; }
+        padding-right: 10px;
+        line-height: 23px; }
         .module__link-list span:after {
           content: "";
           display: block;
