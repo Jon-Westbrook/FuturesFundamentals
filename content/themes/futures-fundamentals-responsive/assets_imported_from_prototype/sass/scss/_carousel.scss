@@ -37,6 +37,7 @@
 		}
 
 		h4 {
+			font-family:$benton-bold;
 			font-weight:bold;
 			margin-bottom:10px;
 		}
@@ -60,7 +61,7 @@
 		line-height:17px;
 		font-family:$benton;
 		margin-bottom:15px;
-		.current {font-weight:bold;}
+		.current {font-family:$benton-bold; font-weight:bold;}
 	}
 
 	.carousel-title {
