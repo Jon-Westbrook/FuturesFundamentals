@@ -20040,7 +20040,6 @@ body {
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 0.3px;
-    line-height: 18px;
     text-transform: uppercase; }
     .module__link-list .link-list__item .row .row {
       margin: 0 !important;
@@ -20061,6 +20060,12 @@ body {
       text-decoration: none !important; }
       .module__link-list a:hover span {
         padding-right: 27px; }
+  .module__link-list .vertical-align {
+    display: flex;
+    flex-direction: row; }
+  .module__link-list .vcenter {
+    display: flex;
+    align-items: center; }
   .module__link-list span {
     display: inline-block;
     background: url(../img/icon-caret--right--blue.png) no-repeat right center;
@@ -20071,9 +20076,6 @@ body {
     -o-transition: all 150ms ease-in-out;
     -ms-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out; }
-    @media screen and (max-width: 768px) {
-      .module__link-list span {
-        line-height: 23px; } }
     @media (max-width: 47.99em) {
       .module__link-list span {
         background: none;

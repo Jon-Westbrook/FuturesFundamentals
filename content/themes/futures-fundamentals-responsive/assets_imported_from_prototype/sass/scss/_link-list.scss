@@ -46,7 +46,6 @@
 		font-weight: bold;
 		font-size: 14px;
 		letter-spacing: 0.3px;
-		line-height: 18px;
 		
 		
 		.col-for-content {
@@ -92,7 +91,14 @@
 			}
 		}
 	}
-	
+	.vertical-align {
+		display: flex; 
+		flex-direction: row; 
+	}
+	.vcenter {
+		display: flex; 
+		align-items: center;
+	}
 	span {
 		display: inline-block;
 		background: url(../img/icon-caret--right--blue.png) no-repeat right center;
@@ -105,9 +111,6 @@
 		-ms-transition: all 150ms ease-in-out;
 		transition: all 150ms ease-in-out;
 
-		@media screen and (max-width: 768px ) {
-			line-height: 23px; 
-		}
 
 		@include mq($until: medium) {
 			background:none;
