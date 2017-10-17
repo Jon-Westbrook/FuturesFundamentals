@@ -20060,6 +20060,12 @@ body {
       text-decoration: none !important; }
       .module__link-list a:hover span {
         padding-right: 27px; }
+  .module__link-list .vertical-align {
+    display: flex;
+    flex-direction: row; }
+  .module__link-list .vcenter {
+    display: flex;
+    align-items: center; }
   .module__link-list span {
     display: inline-block;
     background: url(../img/icon-caret--right--blue.png) no-repeat right center;

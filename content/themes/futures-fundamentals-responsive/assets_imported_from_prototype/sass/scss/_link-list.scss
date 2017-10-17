@@ -91,7 +91,14 @@
 			}
 		}
 	}
-	
+	.vertical-align {
+		display: flex; 
+		flex-direction: row; 
+	}
+	.vcenter {
+		display: flex; 
+		align-items: center;
+	}
 	span {
 		display: inline-block;
 		background: url(../img/icon-caret--right--blue.png) no-repeat right center;
