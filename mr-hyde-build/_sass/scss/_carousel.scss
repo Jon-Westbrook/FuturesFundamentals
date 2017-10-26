@@ -1,0 +1,266 @@
+.carousel-container {
+	margin:20px 0;
+	background-color:$gray-10;
+	
+	.carousel-image {
+		margin-left:-15px; 
+		margin-right:-15px;
+		
+		img {
+			width:auto; height:auto; max-height:100%; max-width:100%;
+		}
+
+		.carousel-video {
+			display: none;
+			position: relative;
+      		height: 0;
+      		padding-bottom: 56.25%;
+
+      		.BrightcoveExperience {
+      			position: absolute;
+      			top: 0;
+      			left: 0;
+      			width: 100%;
+      			height: 100%;
+    		}
+		}	
+	}
+
+
+	.carousel-text {
+		padding:10px 15px 0;
+		h4, p {
+			font-size:18px;
+			line-height:1.5em;
+			font-family:$benton;
+			margin:0;
+		}
+
+		h4 {
+			font-family:$benton-bold;
+			font-weight:bold;
+			margin-bottom:10px;
+		}
+
+		@include mq($until: xlarge) {
+			h4, p { font-size:14px; }
+		}
+
+		@include mq($until: large) {
+			h4, p { font-size:16px; }
+		}
+
+		@include mq($until: medium) {
+			h4, p { font-size:14px; }
+		}
+	}
+
+	.slide-num {
+		border-bottom:1px solid $gray-20;
+		font-size:12px;
+		line-height:17px;
+		font-family:$benton;
+		margin-bottom:15px;
+		.current {font-family:$benton-bold; font-weight:bold;}
+	}
+
+	.carousel-title {
+		padding:130px 15px 0;
+		h3 {
+			margin:0;
+			font-size:18px;
+			line-height:26px;
+		}
+	}
+
+	.carousel-controls-container {
+		position:absolute;
+		width:100%;
+
+		.carousel-control {
+			width:50px;
+			height:50px;
+			display:inline-block;
+			position:relative;
+			opacity:1;
+			&:before {
+				content:"";
+				display:block;
+				position:absolute;
+				top:0;
+				left:0;
+				bottom:0;
+				right:0;
+				background-color:$hover-overlay;
+				opacity:0;
+				@include animate(opacity 300ms ease);
+			}
+
+			&.left {
+				background:url('../img/carousel_control.png') no-repeat center center $gray-20;
+				background-size:40px 40px;
+				@include transform(rotate(180deg));
+				&:before {
+					background-color:$hover-overlay-gray;
+				}
+			}
+			&.right {
+				background:url('../img/carousel_control.png') no-repeat center center $blue-20;
+				background-size:40px 40px;
+				right:initial;
+				margin-left:6px;
+			}
+
+			&:hover {
+				&:before {
+					opacity:1;
+				}
+			}
+
+			@include mq($until: large) {
+				position:absolute;
+			}
+		}
+
+		.col-md-8, .col-md-4 { margin:0; }	
+
+	}
+
+	.carousel-custom-slide {
+		.carousel-controls-container {
+			top:40px;
+			left:30px;
+		}
+	}
+
+	@include mq($until: large) {
+		.carousel-title {padding-top:30px;}
+
+		.carousel-text { padding:10px 15px 30px; }
+
+		.carousel-controls-container {
+			left:0;
+			width:100%;
+			@include transform(translateY(-50%));
+			height:50px;
+
+			.carousel-control {
+				&.right {right:0; left:initial;}
+			}
+		}	
+
+		.carousel-custom-slide {
+			.carousel-controls-container {
+				top:initial;
+				left:0;
+			}
+		}	
+	}
+
+	@include mq($until: medium) {
+		margin-bottom:0;
+		.carousel-controls-container {
+			height:30px;
+
+			.carousel-control {
+				width:35px;
+				height:35px;
+
+				&.right, &.left { background-size:20px 20px; }
+			}
+		}
+	}
+}
+
+
+
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+            transition-duration:800ms;
+        }
+        
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            @include transform(translate3d(0, 0, 0));
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+
+.carousel-custom-slide {
+	.col-md-8, .col-md-4 {
+		overflow:hidden;
+	}
+
+	.carousel-inner>.item.next.left, .carousel-inner>.item.prev.right, .carousel-inner>.item.active {
+		@include animate(none);    
+		@include transform(none);
+	}
+
+	.carousel-inner>.active.left, .carousel-inner > .active.right {
+	    left: 0;
+	}
+
+	.carousel-image, .carousel-text {
+		@include transform(translateX(100%));
+		@include animate(transform .5s);
+	}
+
+	.carousel-mask {
+		display:block;
+		width:30px;
+		height:100%;
+		position:absolute;
+		top:0;
+		left:0;
+		z-index:2;
+		background-color:$gray-10;
+	}
+
+	.active {
+		.carousel-image, .carousel-text {@include transform(translateX(0));}
+
+		&.left {
+			.carousel-image, .carousel-text {@include transform(translateX(-100%));}
+		}
+
+		&.right {
+			.carousel-image, .carousel-text {@include transform(translateX(100%));}
+		}
+	}
+
+	.next {
+		&.left {
+			.carousel-image, .carousel-text {@include transform(translateX(0));}
+		}
+	}
+
+	.prev {
+		.carousel-image, .carousel-text {@include transform(translateX(-100%));}
+		&.right {
+			.carousel-image, .carousel-text {@include transform(translateX(0));}
+		}
+	}
+}
+
+

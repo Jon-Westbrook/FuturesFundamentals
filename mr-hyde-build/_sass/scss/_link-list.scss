@@ -1,0 +1,190 @@
+.module__link-list {
+	margin-top: 35px; 
+	margin-bottom: 100px;
+	
+	#link_list_item__stories-of-financial-ingenuity-and-innovation {
+		@include mq($until: 660px) {
+			span {
+				line-height: 23px;
+			}
+		}
+	}
+
+	#link_list_item__how-the-world-advances {
+		@include mq($until: 398px) {
+			span {
+				line-height: 24px;
+			}
+		}
+	}
+
+	#link_list_item__cme-group---stories-of-financial-ingenuity-and-innovation {
+		@include mq($until: medium) {
+			span {
+				line-height: 24px;
+			}
+		}
+	}
+
+	#link_list_item__my-futures-institute {
+		@include mq($until: 352px) {
+			span {
+				line-height: 24px;
+			}
+		}
+	}
+	
+	.link-list__item {
+		
+		.row .row {
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+		
+		display: block;
+		font-family: $benton-bold;
+		font-weight: bold;
+		font-size: 14px;
+		letter-spacing: 0.3px;
+		
+		
+		.col-for-content {
+			
+			.row {
+				
+				border-top: 1px solid #B8B8B8;
+				padding: 17px 15px !important;
+			}
+			
+		}
+		
+		text-transform: uppercase;
+		
+		
+		&:last-child {
+			.col-for-content {
+				.row {
+					border-bottom: 1px solid #B8B8B8;
+				}
+			}
+		}
+	}
+	
+	img {
+		margin: 0 auto;
+		max-width: 41px;
+	}
+	
+	a {
+		display: block;
+		color: #4A4A4A;
+
+
+		
+		&:hover {
+			color: #0079C1;
+			text-decoration: none !important;
+			
+			span {
+				padding-right: 27px;
+				
+			}
+		}
+	}
+	.vertical-align {
+		display: flex; 
+		flex-direction: row; 
+	}
+	.vcenter {
+		display: flex; 
+		align-items: center;
+	}
+	span {
+		display: inline-block;
+		background: url(../img/icon-caret--right--blue.png) no-repeat right center;
+		padding-right: 23px;
+		line-height: 41px;
+		
+		-webkit-transition: all 150ms ease-in-out;
+		-moz-transition: all 150ms ease-in-out;
+		-o-transition: all 150ms ease-in-out;
+		-ms-transition: all 150ms ease-in-out;
+		transition: all 150ms ease-in-out;
+
+
+		@include mq($until: medium) {
+			background:none;
+			padding-right:10px;
+			line-height: 23px; 
+
+			&:after {
+				content:"";
+				display:block;
+				background: url(../img/icon-caret--right--blue.png) no-repeat right center;
+				width:12px;
+				height:19px;
+				position:absolute;
+				right:0;
+				top:50%;
+				@include transform(translateY(-50%));
+			}
+		}
+	}
+}
+
+//icon-link-cme-group
+//, , , 
+
+
+
+.module__promo {
+	margin-top: 30px;
+	
+	&--background-image {
+		background-size: cover;
+		background-repeat: no-repeat;		
+	}
+	
+	&__well {
+		padding: 74px 0;
+	}
+	
+	.module__bg {
+	}
+	
+	img {
+		margin: 0 auto;
+		display: block;
+		max-width: 80%;
+	}
+	
+	&__title {
+		/* YOU HAVE THE BASICS: */
+		font: bold 22px/44px $benton-bold;
+		color: #4A4A4A;
+		letter-spacing: 0.24px;
+		text-transform: uppercase;
+	}
+	
+	&__body {
+		max-width: 90%;
+		
+		&,p {
+	 		font: 18px/24px $benton !important;
+			color: #4A4A4A;
+			letter-spacing: 0px;
+			margin-bottom: 35px;
+			
+		}
+	}
+
+	@include mq($until: large) {
+		.row {margin:0;}
+
+		&__well {
+			padding:30px 0;
+		}
+
+		img {margin-bottom:20px;}
+	}
+}

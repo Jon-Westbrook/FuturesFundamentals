@@ -1,0 +1,709 @@
+
+/*
+*	Main nav
+*/
+
+.main-nav {
+	background-color:$blue-30;
+	height:60px;
+	width:100%;
+	padding:0;
+	padding-left:45px;
+	position:fixed;
+	top:0;
+	z-index:999;
+	border:none;
+	li {display:inline;}
+	a {color:$white; text-decoration:none; display:inline-block; }
+	@include font-smoothing;
+
+	@include mq($from:large, $until: xlarge) {
+		padding-left:15px;
+	}
+
+	@include mq($until: large) {
+		height:50px;
+		li {
+			display:block;
+			float:none;
+			width:100%;
+		}
+	}
+}
+
+
+.main-nav__container {}
+
+.main-nav__header-holder {
+	position:relative;
+
+	@include mq($until: 420px) {
+		position:static;
+	}	
+}
+
+.main-nav__header {}
+
+	.main-nav__brand {
+		position:absolute; 
+		left:0; 
+		top:0; 
+		width:205px;
+		height:60px;
+		text-indent:-9999px;
+		background:url('../img/ff_logo.png') no-repeat center center;
+		background-size:205px 16px;
+		img {
+			display:none;
+		}
+
+		&:hover {border:none!important;} 
+
+		@include mq($until: large) {
+			height:50px;
+			margin-left:30px;
+		}
+
+		@include mq($until: 420px) {
+			width:100%;
+			margin-left:0;
+		}
+	}
+
+	.main-nav__toggle, .main-nav__close {
+		display:none;
+	}
+
+	.main-nav__toggle {
+		@include mq($until: large) {
+			display:block;
+			width:50px;
+			height:50px;
+			border:none;
+			-webkit-appearance: none;
+			position:absolute;
+			top:0;
+			left:5px;
+			z-index:100;
+			padding:0;
+			margin:0;
+
+			.icon-bar {
+				background-color:$white;
+				margin:0 auto;
+				@include animate(all 200ms)
+			}
+
+			.main-nav-open & {
+				.top-bar {
+					@include transform(rotate(45deg));
+					transform-origin: 10% 10%;
+				}
+				.middle-bar {
+					opacity: 0;
+				}
+				.bottom-bar {
+					@include transform(rotate(-45deg));
+					transform-origin: 10% 90%;
+				}
+			}
+
+		}
+	
+	}
+
+
+.main-nav__links {
+	width:100%;
+	padding-left:215px;
+
+	li:hover {
+		.main-nav__dropdown, .main-nav__share-dropdown {
+			visibility:visible;
+			max-height:600px; 
+			z-index:400;
+			@include animate(max-height 400ms ease-in-out);
+			
+			@include mq($from: large) {
+				.touch & {
+					max-height:0;
+				}
+			}
+
+			@include mq($until: large) {
+				max-height:0; 
+			}
+		}
+	}
+
+	li.drop-open {
+		.touch & {
+			.main-nav__dropdown, .main-nav__share-dropdown {
+				visibility:visible;
+				max-height:600px; 
+				z-index:400;
+			}
+		}
+	}
+
+	.top-nav-hover {
+		.top-nav-item {background-color:$blue-20; color:$white;}
+		.main-nav__dropdown, .main-nav__share-dropdown {display:block!important;}
+	}
+
+	.top-nav-item {
+		letter-spacing:0.19px;
+		@include mq($until: large) {
+			position:relative;
+			background-color:$blue-30;
+			z-index:2;
+
+			.top-nav-item__marker {
+				display:block;
+				height:16px;
+				width:16px;
+				position:absolute;
+				top:22px;
+				right:20px;
+				background:url('../img/drop-open_icon.png') no-repeat center center;
+				background-size:16px 16px;
+				@include animate(all 300ms ease);
+
+				&:after {
+					opacity:0;
+					content:"";
+					display:block;
+					height:16px;
+					width:16px;
+					position:absolute;
+					top:0;
+					right:0;
+					background:url('../img/drop-close_icon.png') no-repeat center center;
+					background-size:16px 16px;
+					@include animate(all 300ms ease);
+				}
+			}
+		}
+	}
+
+	@include mq($until: large) {
+		background-color:$blue-30;
+		position:fixed;
+		overflow-y: scroll;
+			overflow-x: hidden;
+		top:50px;
+		left:-320px;
+		width:320px;
+		height:100%;
+		padding:0 0 120px;
+		@include animate(left 450ms);
+
+		.main-nav-open & {
+			left:0;
+		}
+
+	/*
+		&:before {
+			content:"Derivatives made simple";
+			display:block;
+			font:13px/19px $benton;
+			color:$white;
+			margin-left:87px;
+			height:30px;
+			width:100%;
+			text-transform:uppercase;
+
+			@include mq($until: 420px) {
+				text-align:center;
+				margin-left:0;
+			}
+		}
+	*/
+	}
+
+	@include mq($until: 420px) {
+		left:-420px;
+		width:420px;
+		max-width:100%;
+	}
+
+}
+
+	.main-nav__primary {
+		float:left;
+		li {float:left;}
+		a {
+			font:14px/19px $benton-bold; 
+			font-weight:bold;
+			height:60px; 
+			text-transform:uppercase;
+			padding:23px 15px 0; 
+			cursor:pointer; 
+			position:relative; 
+			box-sizing:border-box; 
+			&:hover{
+				color:$white; 
+				background-color:$blue-20; 
+				text-decoration:none; 
+			}
+			&.active-parent {
+				color:$white; 
+				background-color:$blue-40; 
+			} 
+
+			@include mq($until: large) {
+				display:block;
+				width:100%;
+				border-bottom:1px solid $blue-40;
+			}
+
+			@include mq($until: xlarge) {
+				padding-left:12px;
+				padding-right:12px;
+			}
+
+			@include mq($from:large, $until: xlarge) {
+				font-size:12px;
+			}
+		}
+
+		@include mq($until: large) {
+			float:none;
+			li {z-index:2;}
+			padding-top:50px;
+
+		}
+	}
+
+		.main-nav__primary>li:hover {
+			background-color:$blue-20;
+			.top-nav-item { color:$white; }
+		}
+
+	.main-nav__secondarywrap {
+		@include mq($until: large) {
+			position:static;
+			top:initial;
+			left:initial;
+			width:auto;
+			height:50px;
+			background-color:transparent;
+			padding:0;
+		}
+	}
+
+	.main-nav__secondary{
+		float:right;
+		li {
+			z-index:1;
+			&:first-child {z-index:5;}
+		}
+		a { 
+			font:14px/19px $benton; 
+			letter-spacing:1px; 
+			color:$white;
+			cursor:pointer; 
+			float:left;
+			height:60px;
+			padding:20px 25px 0; 
+			&:hover{
+				color:$blue-10;
+			}
+
+			@include mq($until: large) {
+				display:block;
+				color:$blue-10;
+				width:100%;
+				border-bottom:1px solid $blue-40;
+				&:hover {
+					color:$white;
+				}
+			}
+		}
+
+		@include mq($until: large) {
+			float:none;
+			height:0;
+		}
+
+		.main-nav__educators {
+			background:url('../img/apple_icon.png') no-repeat 12px 15px;
+			background-size:20px 24px;
+			padding-left:40px;
+			&:hover {
+				background:url('../img/apple_icon.png') no-repeat 12px 15px $blue-20;
+				background-size:20px 24px;
+				color:$white;
+			}
+
+			@include mq($until: xlarge) {
+				background:transparent;
+				padding-left:10px;
+				padding-right:10px;
+				&:hover {background:$blue-20;}
+			}
+
+			@include mq($until: large) {
+				background-color:$blue-30;
+				z-index:2;
+				position:relative;
+			}
+
+		}
+
+		.main-nav__share {
+			background:url('../img/share_icon.png') no-repeat 20px 15px;
+			background-size:27px 27px;
+			padding-left:55px;
+			&:hover {
+				background:url('../img/share_icon.png') no-repeat 20px 15px $blue-20;
+				background-size:27px 27px;
+				color:$white;
+			}
+
+			@include mq($until: xlarge) {
+				background:transparent;
+				padding-left:10px;
+				padding-right:10px;
+				&:hover {background:$blue-20;}
+			}
+
+			@include mq($until: large) {
+				background-color:$blue-30;
+				z-index:2;
+				position:relative;
+			}
+
+
+		}
+	}
+
+		.main-nav .search-wrap {
+			@include mq($until: large) {
+				position:absolute;
+				top:0;
+				left:0;
+			}
+		}
+
+		.main-nav__search {
+			display:inline-block;
+			margin-left:1px;
+
+			@include mq($until: large) {
+				margin:0;
+				text-transform:none;
+				width:100%;
+				height:50px;
+			}
+		}
+
+		.search-open {
+			.main-nav__search .main-nav__search-input {
+				width:190px; 
+				padding:0 8px;
+
+				@include mq($until: xlarge) {
+					width:200px;
+				}
+
+				@include mq($until: large) {
+					width:370px; 
+				}
+			}
+			.main-nav__educators {
+				padding-left:25px;
+			}
+			.main-nav__share {
+				padding-left:30px;
+			}
+			.main-nav__share-dropdown {
+				right:250px;
+			}
+			.main-nav__educators, .main-nav__share { 
+				max-width:0; 
+				text-indent:-9999px;
+				background-position:center center;
+
+				&:hover {
+					background-position:center center;
+				}
+
+				@include mq($until: xlarge) {
+					padding:0;
+				}
+			}
+		}
+
+
+			.main-nav__search .main-nav__search-input {
+				float:left;
+				width:0;
+				height:60px;
+				border:none;
+				-webkit-appearance:none;
+				background-color:$blue-40;
+				font:23px/28px $whitman-bold;
+				letter-spacing:1px;
+				color:$white;
+				font-weight:bold;
+				padding:0;
+
+				@include transition (width 300ms, padding 300ms);
+
+				&::-webkit-input-placeholder {color:$blue-10;}
+				&:-moz-placeholder {color:$blue-10;}
+				&::-moz-placeholder {color:$blue-10;}
+				&:-ms-input-placeholder {color:$blue-10;}
+
+				@include mq($until: large) {
+					width:270px;
+					padding:0 16px;
+					height:100%;
+					font-size:20px;
+				}
+
+				@include mq($until: 420px) {
+					width:370px;
+				}
+
+			}
+
+			.main-nav__search-button {
+				float:right;
+				text-indent:-9999px;
+				width:60px;
+				height:60px;
+				cursor:pointer;
+				border:none;
+				background:url('../img/search_icon.png') no-repeat center center $blue-40;	
+				background-size:25px 23px;
+
+				@include mq($until: large) {
+					position:absolute;
+					right:0;
+					top:0;
+					height:50px;
+					width:50px;
+				}
+			}
+
+		.main-nav__dropdown {	
+			a { height:auto!important; }
+		}
+
+		.main-nav__dropdown, .main-nav__share-dropdown {
+			position:absolute;
+			top:60px;
+			background-color:$white;
+			@include shadow(rgba(black, 0.5) 0 5px 10px 0px);
+			.lt-ie9 & {background-color:#e5fcfc;}
+			
+			height:auto;
+			max-height:0;
+			visibility:hidden;
+			@include animate(max-height 400ms ease-in-out);
+
+			overflow:hidden;
+
+			ul {float:left; width:360px; padding:10px 0 20px;}
+			li {display:block; float:none;}
+			.subnav-overview-link {display:none; }
+			a {
+				display:block;
+				position:relative;
+				padding:8px 25px;
+				color:$blue-40; 
+				font:16px/18px $benton-bold; 
+				text-transform:none; 
+				font-weight:bold;  
+				width:100%;
+				&.child-link {padding-left:50px; font-family:$benton; font-weight:normal; font-style:italic;}
+				&:hover {
+					background-color:transparent;
+					color:$blue-10;
+				}
+				&.active {
+					color:$blue-20;
+					background-color:$gray-10;
+				}
+			}
+
+			@include mq($until: xlarge) {
+				a {
+					font-size:14px;
+					line-height:16px;
+				}
+			}
+
+			@include mq($until: large) {
+				position:relative;
+				width:100%;
+				padding:0;
+				top:0;
+				left:0;
+				visibility:visible;
+
+				ul {
+					float:none; 
+					margin:0 auto; 
+					padding:20px 0;
+					width:auto;
+
+				}
+				li {
+					display:block;
+				}
+				a {
+					height:auto; 
+					font:14px/18px $benton-bold;
+					letter-spacing:0; 
+					font-weight:bold;
+					margin:0;
+					border-bottom:none;
+					&.child-link {text-indent:25px; font-family:$benton; font-weight:normal;}
+				}
+			}
+		}
+
+		.main-nav__share-dropdown {
+			height:70px;
+			right:60px;
+
+			.share-buttons { width:280px; }
+
+			@include mq($until: large) {
+				a {height:70px; padding:12px 28px;}
+
+				ul {padding:10px 0 0;}
+
+				.share-buttons {
+					li {float:none; padding-bottom:0;}
+				}	
+			}
+		}
+
+			.top-nav-item__current_parent, .top-nav-item__current {
+				.top-nav-item__marker {
+					display:block;
+					width:100%;
+					border-top:1px solid black;
+					position:relative;
+					bottom:-4px;
+					left:0;
+				}
+			}
+.main-nav__links {
+	li.drop-open {
+		@include mq($until: large) {
+			.main-nav__dropdown, .main-nav__share-dropdown {max-height:550px;}
+			.top-nav-item {
+				.top-nav-item__marker {
+					height:2px;
+					top:29px;
+					&:after {
+						height:2px;
+						opacity:1;
+					}
+				}
+			}
+		}
+	}
+}
+
+.derivatives-banner {
+	width:258px;
+	height:102px;
+	top:-100px;
+	left:16px;
+	position:fixed;
+	z-index:10;
+	background:url('../img/derivatives-banner.png') no-repeat center center;
+	background-size:258px 102px;
+	@include animate(top 800ms);
+
+	&.banner-show {
+		top:30px;
+	}
+
+	@include mq($until: xlarge) {
+		left:-7px;
+		width: 244px;
+		background-size: 233px 92.1px
+	}	
+
+	@include mq($until: large) {
+		display:none;
+	}	
+}
+	
+.nav-presented {
+	display:none;
+	color:$white;
+	font-size:20px;
+	font-family:$whitman;
+	font-style:italic;
+	position:absolute;
+	bottom:120px;
+	left:0;
+	width:100%;
+	text-align:center;
+
+	@include mq($until: large) {
+		display:block;
+	}	
+}
+
+.menu-overlay {
+	opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: 800;
+    height: 100%;
+    width: 100%;
+}
+
+.main-nav-open {
+	overflow:hidden;
+	position:fixed;
+	right:0;
+	left:0;
+	bottom:0;
+
+	.menu-overlay {
+		visibility: visible;
+    	opacity: 1;
+	}
+}
+
+.main-nav-drop {
+	.menu-overlay {
+		visibility: visible;
+    	opacity: 1;
+	}
+}
+
+.tooltip-overlay {
+	opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+
+    .tooltip-open & {
+    	visibility:visible;
+    	opacity:1;
+    }
+
+    @include mq($from: large) {
+    	display:none;
+    }
+}
+
+
+

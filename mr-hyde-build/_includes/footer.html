@@ -3,15 +3,7 @@
     <div class="footer-above">
         <div class="container">
             <div class="row">
-                <div class="footer-col col-md-4">
-                    <h3>{{ site.footer.location }}</h3>
-                    <p>
-                        {% for adress in site.address %} {{ adress.line }}
-                        <br> {% endfor %}
-                    </p>
-                </div>
-                <div class="footer-col col-md-4">
-                    <h3>{{ site.footer.social }}</h3>
+                <div class="footer-col col-md-8 col-md-offset-2">
                     <ul class="list-inline">
                         {% for network in site.social %}
                         <li>
@@ -20,26 +12,18 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="footer-col col-md-4">
-                    <h3>{{ site.footer.credits }}</h3>
-                    <p>{{ site.credits }}</p>
-                </div>
             </div>
         </div>
     </div>
     <div class="footer-below">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
-                    Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
+                <div class="col-sm-4">
+                    <!-- Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }} -->
                 </div>
-                <div class="col-lg-8">
+                <div class="col-sm-8 text-right">
                     {% for item in site.data.footer %}
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-                        </li>
-                    </ul>
+                    <a class="footer-link" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a> 
                     {% endfor %}
                 </div>
             </div>

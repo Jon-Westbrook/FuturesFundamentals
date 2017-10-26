@@ -1,0 +1,39 @@
+
+.gsc-control-cse {
+	&, & *, .gsc-table-result {
+		font-family: $benton !important;
+	}
+
+
+	.gs-title, .gs-result .gs-title * {
+		font-size: 14px !important;
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 0.19px;
+		text-decoration: none !important;
+
+	}
+
+	a.gs-title {
+		&:hover {
+			text-decoration: underline !important;
+		}
+	}
+
+	div.gs-title {
+		margin-bottom: 4px;
+	}
+
+	.gs-snippet {
+		font-size: 14px !important;
+		line-height: 21px;
+	}
+
+	.gs-image-box {
+		margin-left: 8px;
+	}
+
+	.gsc-selected-option-container {
+		width: 93px !important;
+	}
+}

@@ -1,0 +1,441 @@
+/*
+ *  airplame
+ */
+
+@include keyframes(airplane) {
+  0%    {
+    left:-15%;
+  }
+  10%    {
+    left:-15%;
+  }
+  90%  {
+    left:110%;
+  }
+  100%  {
+   	left:110%;
+  }
+}
+
+@mixin airplane($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(airplane);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  cloud
+ */
+
+@include keyframes(cloud) {
+  0%    {
+    @include transform(translatex(0));
+  }
+  90%  {
+    @include transform(translateX(1750%));
+    opacity:1;
+  }
+  92% {
+    opacity:0;
+    @include transform(translateX(1800%));
+  }
+  98% {
+    @include transform(translatex(-100%));
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+    @include transform(translatex(0));
+  }
+}
+
+@mixin cloud($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(cloud);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  fish left
+ */
+
+@include keyframes(fishLeft) {
+  0%    {
+    @include transform(translatex(0));
+  }
+  30% {
+    @include transform(translatex(-80%));
+  }
+  50% {
+    @include transform(translatex(-80%) rotateY(0));
+  }
+  50.1% {
+    @include transform(translatex(-80%) rotateY(180deg));
+  }
+  80% {
+    @include transform(translatex(0%) rotateY(180deg));
+  }
+  100% {
+    @include transform(translatex(0) rotateY(180deg));
+  }
+}
+
+@mixin fishLeft($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(fishLeft);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  fish right
+ */
+
+@include keyframes(fishRight) {
+  0%    {
+    @include transform(translatex(0) rotateY(180deg));
+  }
+  30% {
+    @include transform(translatex(80%) rotateY(180deg));
+  }
+  50% {
+    @include transform(translatex(80%) rotateY(180deg));
+  }
+  50.1% {
+    @include transform(translatex(80%) rotateY(0));
+  }
+  80% {
+    @include transform(translatex(0%) rotateY(0));
+  }
+  100% {
+    @include transform(translatex(0) rotateY(0));
+  }
+}
+
+@mixin fishRight($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(fishRight);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  screen
+ */
+
+@include keyframes(screenGrow) {
+  0%    {
+    @include transform(scale(0));
+  }
+  3%    {
+    @include transform(scale(1));
+  }
+  87%    {
+    @include transform(scale(1));
+  }
+  90%    {
+    @include transform(scale(0));
+  }
+  100%    {
+    @include transform(scale(0));
+  }
+
+}
+
+@mixin screenGrow($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(screenGrow);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  risk fade
+ */
+
+@include keyframes(riskFade) {
+  0%    {
+    opacity:0;
+  }
+  5%    {
+    opacity:0;
+  }
+  10% {
+    opacity:1;
+  }
+  80% {
+    opacity:1;
+  }
+  85%    {
+    opacity:0;
+  }
+  100%    {
+    opacity:0;
+  }
+
+}
+
+@mixin riskFade($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(riskFade);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  tractor
+ */
+
+@include keyframes(tractor) {
+  0%    {
+    @include transform(translatex(0));
+  }
+  50% {
+    @include transform(translatex(-130%) rotateY(0));
+  }
+  50.1% {
+    @include transform(translatex(-130%) rotateY(180deg));
+  }
+  100% {
+    @include transform(translatex(0) rotateY(180deg));
+  }
+}
+
+@mixin tractor($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(tractor);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  arrow from center left
+ */
+
+@include keyframes(arrowCenterLeft) {
+  0%    {
+    @include transform(translateX(0) scaleX(0));
+  }
+  25% {
+    @include transform(translateX(-100%) scaleX(1));
+  }
+  100% {
+    @include transform(translateX(-400%) scaleX(1));
+  }
+}
+
+@mixin arrowCenterLeft($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(arrowCenterLeft);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  arrow from center right
+ */
+
+@include keyframes(arrowCenterRight) {
+  0%    {
+    @include transform(translateX(0) rotate(180deg) scaleX(0));
+  }
+  25% {
+    @include transform(translateX(100%) rotate(180deg) scaleX(1));
+  }
+  100% {
+    @include transform(translateX(400%) rotate(180deg) scaleX(1));
+  }
+}
+
+@mixin arrowCenterRight($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(arrowCenterRight);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  arrow from outside left
+ */
+
+@include keyframes(arrowOutLeft) {
+  0%    {
+    @include transform(translateX(0) scaleX(1));
+  }
+  75% {
+    @include transform(translateX(-250%) scaleX(1));
+  }
+  100% {
+    @include transform(translateX(-300%) scaleX(0));
+  }
+}
+
+@mixin arrowOutLeft($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(arrowOutLeft);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  arrow from outside right
+ */
+
+@include keyframes(arrowOutRight) {
+  0%    {
+    @include transform(translateX(0) rotate(180deg) scaleX(1));
+  }
+  75% {
+    @include transform(translateX(250%) rotate(180deg) scaleX(1));
+  }
+  100% {
+    @include transform(translateX(300%) rotate(180deg) scaleX(0));
+  }
+}
+
+@mixin arrowOutRight($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(arrowOutRight);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+
+/*
+ *  arrow from outside down
+ */
+
+@include keyframes(arrowOutDown) {
+  0%    {
+    @include transform(translateY(0) scaleY(1));
+  }
+  75% {
+    @include transform(translateY(150%) scaleY(1));
+  }
+  100% {
+    @include transform(translateY(200%) scaleY(0));
+  }
+}
+
+@mixin arrowOutDown($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(arrowOutDown);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  arrow from outside up
+ */
+
+@include keyframes(arrowOutUp) {
+  0%    {
+    @include transform(translateY(0) rotate(180deg) scaleY(1));
+  }
+  75% {
+    @include transform(translateY(-100%) rotate(180deg) scaleY(1));
+  }
+  100% {
+    @include transform(translateY(-130%) rotate(180deg) scaleY(0));
+  }
+}
+
+@mixin arrowOutUp($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(arrowOutUp);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  arrow from center down
+ */
+
+@include keyframes(arrowCenterDown) {
+  0%    {
+    @include transform(translateY(0) scaleY(0));
+  }
+  25% {
+    @include transform(translateY(50%) scaleY(1));
+  }
+  100% {
+    @include transform(translateY(200%) scaleY(1));
+  }
+}
+
+@mixin arrowCenterDown($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(arrowCenterDown);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  arrow from center up
+ */
+
+@include keyframes(arrowCenterUp) {
+  0%    {
+    @include transform(translateY(0) rotate(180deg) scaleY(0));
+  }
+  25% {
+    @include transform(translateY(-40%) rotate(180deg) scaleY(1));
+  }
+  100% {
+    @include transform(translateY(-130%) rotate(180deg) scaleY(1));
+  }
+}
+
+@mixin arrowCenterUp($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(arrowCenterUp);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}

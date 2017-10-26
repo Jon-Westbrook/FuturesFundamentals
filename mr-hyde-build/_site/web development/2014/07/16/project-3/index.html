@@ -12,7 +12,8 @@
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
 
     <!-- Google verification -->
     
@@ -34,123 +35,149 @@
 </head>
 
     <body id="page-top" class="index">
-    <!-- Navigation -->
- 
-<nav class="navbar navbar-expand-lg navbar-light ">
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
     <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#page-top">Future Fundamentals</a>
+            <a class="navbar-brand" href="/index.html">Future Fundamentals</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
-        
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="navbar-nav">
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            
+            <ul class="nav navbar-nav navbar-right">
                 
-                 
-                <li class="nav-item dropdown ">
-                    <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Get the Basics</a>
-                    <ul class="dropdown-menu">
+                <!-- check to see if the data file has a submenu, and if so display it -->
+                
+                <li class="dropdown open">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Get the Basics</a>
+                    <ul class="dropdown-menu" role="menu">
                         
-                        <li><a href="/get-the-basics/introduction-to-derivatives/">Introduction to Derivatives</a></li>
+                        <li><a href="/get-the-basics/introduction-to-derivatives/">Introduction to Derivatives</a> 
+                        </li>
                          
-                        <li><a href="/get-the-basics/futures-and-options/">Futures and Options</a></li>
+                        <li><a href="/get-the-basics/futures-and-options/">Futures and Options</a> 
+                        </li>
                          
-                        <li><a href="/get-the-basics/economics-101/">Economics 101</a></li>
+                        <li><a href="/get-the-basics/economics-101/">Economics 101</a> 
+                        </li>
                          
-                        <li><a href="/get-the-basics/heres-why-futures-matter-to-you/">Here's Why Futures Matter to You</a></li>
+                        <li><a href="/get-the-basics/heres-why-futures-matter-to-you/">Here's Why Futures Matter to You</a> 
+                        </li>
                          
                     </ul>
                 </li>
-                  
-                <li class="nav-item dropdown ">
-                    <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">See the Impact</a>
-                    <ul class="dropdown-menu">
+                
+                </li>
+                
+                <!-- check to see if the data file has a submenu, and if so display it -->
+                
+                <li class="dropdown open">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">See the Impact</a>
+                    <ul class="dropdown-menu" role="menu">
                         
-                        <li><a href="/see-the-impact/the-ingredients-of-everyday-life/">Futures Products</a></li>
+                        <li><a href="/see-the-impact/the-ingredients-of-everyday-life/">Futures Products</a> 
+                        </li>
                          
-                        <li><a href="/see-the-impact/agriculture-futures/">Agriculture Futures</a></li>
-                        
-                        <ul> 
-                            <li class="dropdown-item"><a href="/see-the-impact/agriculture-futures/food-prices-explained/">Food Prices Explained</a></li>
+                        <li><a href="/see-the-impact/agriculture-futures/">Agriculture Futures</a> 
+                            <ul>
+                                
+                                <li><a href="/see-the-impact/agriculture-futures/food-prices-explained/">Food Prices Explained</a></li>
+                                
+                            </ul>
                             
-                        </ul>
+                        </li>
                          
-                        <li><a href="/see-the-impact/energy-futures/">Energy Futures</a></li>
-                        
-                        <ul> 
-                            <li class="dropdown-item"><a href="/see-the-impact/energy-futures/gas-prices-explained/">Gas Prices Explained</a></li>
+                        <li><a href="/see-the-impact/energy-futures/">Energy Futures</a> 
+                            <ul>
+                                
+                                <li><a href="/see-the-impact/energy-futures/gas-prices-explained/">Gas Prices Explained</a></li>
+                                
+                                <li><a href="/see-the-impact/energy-futures/north-american-oil-production/">Today's Crude Oil Boom</a></li>
+                                
+                            </ul>
                             
-                            <li class="dropdown-item"><a href="/see-the-impact/energy-futures/north-american-oil-production/">Today's Crude Oil Boom</a></li>
-                            
-                        </ul>
+                        </li>
                          
-                        <li><a href="/see-the-impact/financial-futures/">Financial Futures</a></li>
-                        
-                        <ul> 
-                            <li class="dropdown-item"><a href="/see-the-impact/financial-futures/mortgage-rates-explained/">Mortgage Rates Explained</a></li>
+                        <li><a href="/see-the-impact/financial-futures/">Financial Futures</a> 
+                            <ul>
+                                
+                                <li><a href="/see-the-impact/financial-futures/mortgage-rates-explained/">Mortgage Rates Explained</a></li>
+                                
+                            </ul>
                             
-                        </ul>
+                        </li>
                          
                     </ul>
                 </li>
-                  
-                <li class="nav-item dropdown ">
-                    <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Explore the Marketplace</a>
-                    <ul class="dropdown-menu">
+                
+                </li>
+                
+                <!-- check to see if the data file has a submenu, and if so display it -->
+                
+                <li class="dropdown open">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Explore the Marketplace</a>
+                    <ul class="dropdown-menu" role="menu">
                         
-                        <li><a href="/explore-the-marketplace/the-wide-world-of-futures-traders/">The Wide World of Futures Traders</a></li>
+                        <li><a href="/explore-the-marketplace/the-wide-world-of-futures-traders/">The Wide World of Futures Traders</a> 
+                        </li>
                          
-                        <li><a href="/explore-the-marketplace/the-exchange-how-it-works/">The Exchane How it Works</a></li>
-                        
-                        <ul> 
-                            <li class="dropdown-item"><a href="/explore-the-marketplace/the-exchange-how-it-works/learn-how-to-trade/">Learn How to Trade</a></li>
+                        <li><a href="/explore-the-marketplace/the-exchange-how-it-works/">The Exchane How it Works</a> 
+                            <ul>
+                                
+                                <li><a href="/explore-the-marketplace/the-exchange-how-it-works/learn-how-to-trade/">Learn How to Trade</a></li>
+                                
+                                <li><a href="/explore-the-marketplace/the-exchange-how-it-works/understand-the-market-snapshot/">Understand the Market Snapshot</a></li>
+                                
+                                <li><a href="/explore-the-marketplace/the-exchange-how-it-works/study-the-trading-chart/">Study the Trading Chart</a></li>
+                                
+                                <li><a href="/explore-the-marketplace/the-exchange-how-it-works/assess-market-conditions/">Assess Market Conditions</a></li>
+                                
+                                <li><a href="/explore-the-marketplace/the-exchange-how-it-works/place-a-trade/">Place a Trade</a></li>
+                                
+                            </ul>
                             
-                            <li class="dropdown-item"><a href="/explore-the-marketplace/the-exchange-how-it-works/understand-the-market-snapshot/">Understand the Market Snapshot</a></li>
-                            
-                            <li class="dropdown-item"><a href="/explore-the-marketplace/the-exchange-how-it-works/study-the-trading-chart/">Study the Trading Chart</a></li>
-                            
-                            <li class="dropdown-item"><a href="/explore-the-marketplace/the-exchange-how-it-works/assess-market-conditions/">Assess Market Conditions</a></li>
-                            
-                            <li class="dropdown-item"><a href="/explore-the-marketplace/the-exchange-how-it-works/place-a-trade/">Place a Trade</a></li>
-                            
-                        </ul>
+                        </li>
                          
-                        <li><a href="/explore-the-marketplace/the-role-of-technology-in-futures-markets/">The Role of Technology in Futures Markets</a></li>
-                        
-                        <ul> 
-                            <li class="dropdown-item"><a href="/explore-the-marketplace/the-role-of-technology-in-futures-markets/a-simple-guide-to-algorithms/">A Simple Guide to Algorithms</a></li>
+                        <li><a href="/explore-the-marketplace/the-role-of-technology-in-futures-markets/">The Role of Technology in Futures Markets</a> 
+                            <ul>
+                                
+                                <li><a href="/explore-the-marketplace/the-role-of-technology-in-futures-markets/a-simple-guide-to-algorithms/">A Simple Guide to Algorithms</a></li>
+                                
+                            </ul>
                             
-                        </ul>
+                        </li>
                          
-                        <li><a href="/explore-the-marketplace/protecting-the-futures-markets/">Protecting the Futures Markets</a></li>
-                        
-                        <ul> 
-                            <li class="dropdown-item"><a href="/explore-the-marketplace/protecting-the-futures-markets/the-role-of-clearing-houses/">The Role of the Clearing House</a></li>
+                        <li><a href="/explore-the-marketplace/protecting-the-futures-markets/">Protecting the Futures Markets</a> 
+                            <ul>
+                                
+                                <li><a href="/explore-the-marketplace/protecting-the-futures-markets/the-role-of-clearing-houses/">The Role of the Clearing House</a></li>
+                                
+                                <li><a href="/explore-the-marketplace/protecting-the-futures-markets/how-to-clear-a-trade/">How to Clear a Trade</a></li>
+                                
+                                <li><a href="/explore-the-marketplace/protecting-the-futures-markets/the-regulatory-measures/">The Regulatory Measures</a></li>
+                                
+                            </ul>
                             
-                            <li class="dropdown-item"><a href="/explore-the-marketplace/protecting-the-futures-markets/how-to-clear-a-trade/">How to Clear a Trade</a></li>
-                            
-                            <li class="dropdown-item"><a href="/explore-the-marketplace/protecting-the-futures-markets/the-regulatory-measures/">The Regulatory Measures</a></li>
-                            
-                        </ul>
+                        </li>
                          
-                        <li><a href="/explore-the-marketplace/over-the-counter-trading/">Over the Counter Trading</a></li>
+                        <li><a href="/explore-the-marketplace/over-the-counter-trading/">Over the Counter Trading</a> 
+                        </li>
                          
                     </ul>
                 </li>
-                 
+                
+                </li>
+                
             </ul>
         </div>
         <!-- /.navbar-collapse -->
     </div>
-    
-    <!-- /.container-fluid -->
+    <!-- /.container -->
 </nav>
         <!-- Header -->
     <header>
@@ -331,14 +358,7 @@
     <div class="footer-above">
         <div class="container">
             <div class="row">
-                <div class="footer-col col-md-4">
-                    <h3></h3>
-                    <p>
-                        
-                    </p>
-                </div>
-                <div class="footer-col col-md-4">
-                    <h3>Around the Web</h3>
+                <div class="footer-col col-md-8 col-md-offset-2">
                     <ul class="list-inline">
                         
                         <li>
@@ -363,38 +383,22 @@
                         
                     </ul>
                 </div>
-                <div class="footer-col col-md-4">
-                    <h3></h3>
-                    <p></p>
-                </div>
             </div>
         </div>
     </div>
     <div class="footer-below">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
-                    Copyright &copy;  2017
+                <div class="col-sm-4">
+                    <!-- Copyright &copy;  2017 -->
                 </div>
-                <div class="col-lg-8">
+                <div class="col-sm-8 text-right">
                     
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/glossary/">Glossary</a>
-                        </li>
-                    </ul>
+                    <a class="footer-link" href="/glossary/">Glossary</a> 
                     
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/about-futures-fundamentals/">About</a>
-                        </li>
-                    </ul>
+                    <a class="footer-link" href="/about-futures-fundamentals/">About</a> 
                     
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/contact-us/">Contact Us</a>
-                        </li>
-                    </ul>
+                    <a class="footer-link" href="/contact-us/">Contact Us</a> 
                     
                 </div>
             </div>

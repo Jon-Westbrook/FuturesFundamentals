@@ -1,0 +1,191 @@
+.page-template-tpl_educators {
+	.main-nav__educators {
+		background-color:$blue-40;
+	}
+}
+
+.educators_article {
+	margin-bottom:80px;
+	.module__promo {
+		margin:35px 0;
+	}	
+
+
+	.module__two-col-links {
+		margin-top:20px;
+		a {
+			display:inline-block;
+			font-size:14px;
+			line-height:18px;
+			font-family:$benton-med;
+			color:$blue-20;
+			text-decoration:underline;
+			margin-bottom:20px;
+		}
+
+		@include mq($until: large) {
+			margin-top:5px;
+			.row {
+				margin-left:-15px;
+				margin-right:-15px;
+			}
+		}
+	}
+
+	.module__two-col-image-links {
+		margin-top:20px;
+		&.infographic_links {
+			.img_wrap:after { background-color:rgba(155,155,155,0.3); }
+		}
+		&.video_links {
+			.img_wrap:after { background-color:rgba(26,65,129,0.5); }
+		}
+		a {
+			display:block;
+			img {
+				max-width:100%;
+			}
+			.img_wrap {
+				position:relative;
+				&:after {
+					content:"";
+					position:absolute;
+					width:100%;
+					height:100%;
+					top:0;
+					left:0;
+					opacity:0;
+					cursor:pointer;
+					@include animate(opacity 800ms);
+				}
+			}
+			p {
+				font-size:18px;
+				line-height:26px;
+				font-family:$benton;
+				color:$gray-40;
+				margin:12px 0 25px;
+			}
+
+			&:hover {
+				text-decoration:none;
+				.img_wrap:after {opacity:1;}
+			}
+		}
+
+		@include mq($until: large) {
+			.row {
+				margin-left:-15px;
+				margin-right:-15px;
+			}
+		}
+	}
+
+	.module__featured_pdf {
+		background-color:$blue-10;
+		padding:30px 15px;
+		margin:35px -15px;
+		color:$white;
+		.featured-pdf__image-wrap {text-align:center;}
+		.featured-pdf__text-wrap {
+
+		}
+		img {
+			max-width:160px;
+		}
+		h4 {
+			font-size:14px;
+			line-height:18px;
+			margin:0;
+		}
+		p {
+			font-size:14px;
+			line-height:18px;
+			margin-bottom:20px;
+			font-family:$benton;
+			color:$white;
+		}
+		.button {
+			color:$white;
+			text-decoration:none;
+			margin-bottom:0;
+			background-color:$blue-20;
+			font-size:12px;
+			line-height:19px;
+
+			&:after {
+				width:14px;
+				height:20px;
+				top:initial;
+				bottom:18px;
+				background:url('../img/educators/download_icon.png') no-repeat top center;
+				background-size:14px 15px;
+				border-bottom:1px solid $white;
+				@include animate(all 300ms ease);
+			}
+
+			&:hover {
+				&:after {
+					height:16px;
+					@include transform(translateX(0));
+				}
+			}
+		}
+
+		@include mq($until: large) {
+			h4 {
+				margin-top:20px;
+			}
+
+			.button {
+				margin-bottom:30px;
+			}
+
+			img {margin-bottom:20px;}
+		}
+	}
+
+	.econ-essentials-promo {
+		.module__promo__well {
+			padding:15px 0;
+
+			img {
+				max-width:100%;
+				padding:0 15px;
+			}
+
+			.module__promo__title {
+				text-indent:-9999px;
+				width:265px;
+				height:124px;
+				margin:20px 0;
+				background:url('../img/educators/econ_essentials_logo_white.png') no-repeat left bottom;
+				background-size:auto 100%;
+			}
+		}
+
+		@include mq($until: xlarge) {
+			.module__promo__well {
+				.module__promo__title {
+					width:220px;
+					height:103px;
+					margin-top:0;
+				}
+			}
+		}
+
+		@include mq($until: large) {
+			.module__promo__well { 
+				img { padding:0; }
+			}
+		}
+
+		@include mq($until: medium) {
+			.module__promo__well { 
+				.module__promo__body {
+					max-width:100%;
+				}
+			}
+		}
+	}
+}
