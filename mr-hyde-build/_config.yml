@@ -52,3 +52,6 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.md, package.json, package-lock.json, gulpfile.js, LICENSE, Gemfile, Gemfile.lock, node_modules]

@@ -1,0 +1,672 @@
+{ "glossaryTerms": [
+        {
+            "glossaryTitle":"algorithm",
+            "idname":"dfn-algorithm",
+            "glossarySyllable":"al·go·rithm",
+            "glossaryPronunciation":"al-guh-rith-uhm",
+            "glossaryDefinition":"An automated, pre-programmed set of rules that can be used to execute an electronic trade.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"A Simple Guide to Algorithms", "glossaryPageLink":"futures-algorithms-made-simple.html" }
+            ],
+            "value": "algorithm",
+            "tokens": [
+              "algorithm"
+            ]
+        },
+
+        {
+            "glossaryTitle":"clearing",
+            "idname":"dfn-clearing",
+            "glossarySyllable":"clear·ing",
+            "glossaryPronunciation":"kleer-ing",
+            "glossaryDefinition":"The procedure through which a clearing house becomes the buyer to each seller of a futures contract and the seller to each buyer, and assumes the responsibility of ensuring that each buyer and seller performs on each contract.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"How to Clear a Trade", "glossaryPageLink":"futures-how-to-clear-a-trade.html" },
+                { "glossaryPageTitle":"Over-the-Counter Trading", "glossaryPageLink":"futures-over-the-counter-trading.html" },
+                { "glossaryPageTitle":"The Regulatory Measures", "glossaryPageLink":"futures-the-regulatory-measures.html" },
+                { "glossaryPageTitle":"The Role of the Clearing House", "glossaryPageLink":"futures-the-role-of-clearing-houses.html" }
+            ],
+            "value": "clearing",
+            "tokens": [
+              "clearing"
+            ]
+        },
+        {
+            "glossaryTitle":"clearing firm",
+            "idname":"dfn-clearing-firm",
+            "glossarySyllable":"clear·ing firm",
+            "glossaryPronunciation":"kleer-ing furm",
+            "glossaryDefinition":"A company that works directly through an exchange's clearing house to execute trades on behalf of futures market participants.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"The Role of Clearing Houses", "glossaryPageLink":"futures-the-role-of-clearing-houses.html" },
+                { "glossaryPageTitle":"How to Clear a Trade", "glossaryPageLink":"futures-how-to-clear-a-trade.html" }
+            ],
+            "value": "clearing",
+            "tokens": [
+              "clearing"
+            ]
+        },
+        {
+            "glossaryTitle":"clearing house",
+            "idname":"dfn-clearing-house",
+            "glossarySyllable":"clear·ing house",
+            "glossaryPronunciation":"kleer-ing hous",
+            "glossaryDefinition":"The division of a futures exchange that confirms, clears and settles all trades through an exchange. ",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"Over-the-Counter Trading", "glossaryPageLink":"futures-over-the-counter-trading.html" },
+                { "glossaryPageTitle":"The Futures Exchange: How It Works", "glossaryPageLink":"futures-the-exchange-how-it-works.html" },
+                { "glossaryPageTitle":"Protecting the Futures Markets", "glossaryPageLink":"futures-the-protections.html" },
+                { "glossaryPageTitle":"The Role of the Clearing House", "glossaryPageLink":"futures-the-role-of-clearing-houses.html" }
+            ],
+            "value": "clearing house",
+            "tokens": [
+              "clearing",
+              "house"
+            ]
+        },
+        {
+            "glossaryTitle":"commodity",
+            "idname":"dfn-commodity",
+            "glossarySyllable":"com·mod·i·ty",
+            "glossaryPronunciation":"kuh-mod-i-tee",
+            "glossaryDefinition":"Any product approved and designated for trading or clearing in accordance with the rules of an exchange. Also may refer to a physical commodity.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"Over-the-Counter Trading", "glossaryPageLink":"futures-over-the-counter-trading.html" },
+                { "glossaryPageTitle":"Introduction to Futures and Options", "glossaryPageLink":"basics-futures-and-options.html" },
+                { "glossaryPageTitle":"The Economy and Futures", "glossaryPageLink":"impact-the-economy-and-futures.html" },
+                { "glossaryPageTitle":"Mortgage Rates Explained", "glossaryPageLink":"impact-mortgage-rates-explained.html" }
+            ],
+            "value": "commodity",
+            "tokens": [
+              "commodity"
+            ]
+        },
+        {
+            "glossaryTitle":"Commodity Futures Trading Commission (CFTC)",
+            "idname":"dfn-cftc",
+            "glossarySyllable":"Com·mod·i·ty Fu·tur·es Tra·ding Com·mis·sion",
+            "glossaryPronunciation":"kuh-mod-i-tee fyoo-cherz trey-ding kuh-mish-uhn",
+            "glossaryDefinition":"Also known as the CFTC, this is the independent governmental organization that oversees futures and options trading in the United States.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"The Regulatory Measures", "glossaryPageLink":"futures-the-regulatory-measures.html" }
+            ],
+            "value": "Commodity Futures Trading Commission (CFTC)",
+            "tokens": [
+              "commodity",
+              "Commodity",
+              "trading",
+              "Trading",
+              "Futures",
+              "futures",
+              "Commission",
+              "commission",
+               "CFTC"
+            ]
+        },
+        {
+            "glossaryTitle":"contract",
+            "idname":"dfn-contract",
+            "glossarySyllable":"con·tract",
+            "glossaryPronunciation":"kon-trakt",
+            "glossaryDefinition":"A formal and legally binding agreement between two or more parties.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"The Role of the Clearing House", "glossaryPageLink":"futures-the-role-of-clearing-houses.html" },
+                { "glossaryPageTitle":"Futures and Options", "glossaryPageLink":"basics-futures-and-options.html" },
+                { "glossaryPageTitle":"Over-the-Counter Trading", "glossaryPageLink":"futures-over-the-counter-trading.html"}
+            ],
+            "value": "contract",
+            "tokens": [
+              "contract"
+            ]
+        },
+        {
+            "glossaryTitle":"counterparty",
+            "idname":"dfn-counterparty",
+            "glossarySyllable":"coun·ter·par·ty",
+            "glossaryPronunciation":"koun-ter-pahr-tee",
+            "glossaryDefinition":"The individual or company (i.e., the buyer or seller) on the opposite side of any trade.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"Over-the-Counter Trading", "glossaryPageLink":"futures-over-the-counter-trading.html" },
+                { "glossaryPageTitle":"Protecting the Futures Markets", "glossaryPageLink":"futures-the-protections.html" },
+                { "glossaryPageTitle":"The Role of the Clearing House", "glossaryPageLink":"futures-the-role-of-clearing-houses.html" }
+            ],
+            "value": "counterparty",
+            "tokens": [
+              "counterparty"
+            ]
+        },
+        {
+            "glossaryTitle":"delivery",
+            "idname":"dfn-delivery",
+            "glossarySyllable":"de·liv·er·y",
+            "glossaryPronunciation":"dih-liv-uh-ree",
+            "glossaryDefinition":"The changing of ownership or control of a commodity once a futures contract date expires. ",
+            "glossaryRelatedReading": [
+               { "glossaryPageTitle":"Food Prices Explained", "glossaryPageLink":"impact-food-prices-explanation.html" }
+            ],
+            "value": "delivery",
+            "tokens": [
+              "delivery"
+            ]
+        },
+        {
+            "glossaryTitle":"derivative",
+            "idname":"dfn-derivative",
+            "glossarySyllable":"de·riv·a·tive",
+            "glossaryPronunciation":"dih-riv-uh-tiv",
+            "glossaryDefinition":"A financial instrument, such as a futures or options contract, whose value is based upon a physical commodity or other financial instruments.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"Introduction to Futures and Options", "glossaryPageLink":"basics-futures-and-options.html" },
+                { "glossaryPageTitle":"Over-the-Counter Trading", "glossaryPageLink":"futures-over-the-counter-trading.html" }
+            ],
+            "value": "derivative",
+            "tokens": [
+              "derivative"
+            ]
+        },
+        {
+            "glossaryTitle":"electronic trading",
+            "idname":"dfn-electronic-trading",
+            "glossarySyllable":"e·lec·tron·ic trad·ing",
+            "glossaryPronunciation":"ih-lek-tron-ik treyd-ing",
+            "glossaryDefinition":"The computerized processes and platforms that carry out a trade, including order placement, bid-and-offer posting and trade execution.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"A Simple Guide to Algorithms", "glossaryPageLink":"futures-algorithms-made-simple.html" },
+                { "glossaryPageTitle":"How to Clear a Trade", "glossaryPageLink":"futures-how-to-clear-a-trade.html" },
+                { "glossaryPageTitle":"The Futures Exchange: How It Works", "glossaryPageLink":"futures-the-exchange-how-it-works.html" },
+                { "glossaryPageTitle":"The Role of Technology in Futures Markets", "glossaryPageLink":"futures-the-technology.html" }
+            ],
+            "value": "electronic trading",
+            "tokens": [
+              "electronic",
+              "trading"
+            ]
+        },
+        {
+            "glossaryTitle":"equity index",
+            "idname":"dfn-equity-index",
+            "glossarySyllable":"eq·ui·ty in·dex",
+            "glossaryPronunciation":"ek-wi-tee in-deks",
+            "glossaryDefinition":"A measure of a group of stocks, also called equities, used to describe the market and analyze the return on specific stock investment.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"The Economy and Futures", "glossaryPageLink":"impact-the-economy-and-futures.html" }
+            ],
+            "value": "equity index",
+            "tokens": [
+              "equity",
+              "index"
+            ]
+        },
+        {
+            "glossaryTitle":"exchange",
+            "idname":"dfn-exchange",
+            "glossarySyllable":"ex·change",
+            "glossaryPronunciation":"iks-cheynj",
+            "glossaryDefinition":"A central marketplace with established rules and regulations where buyers and sellers meet to trade futures and options contracts. ",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"A Simple Guide to Algorithms", "glossaryPageLink":"futures-algorithms-made-simple.html" }
+            ],
+            "value": "exchange",
+            "tokens": [
+              "exchange"
+            ]
+        },
+
+        {
+            "glossaryTitle":"execution",
+            "idname":"dfn-execution",
+            "glossarySyllable":"ex·e·cu·tion",
+            "glossaryPronunciation":"ek-si-kyoo-shun",
+            "glossaryDefinition":"The completion of an order to buy or sell a futures contract.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"Algorithms Made Simple", "glossaryPageLink":"futures-algorithms-made-simple.html" }
+            ],
+            "value": "execution",
+            "tokens": [
+              "execution"
+            ]
+        },
+
+        {
+            "glossaryTitle":"financial future",
+            "idname":"dfn-financial-future",
+            "glossarySyllable":"fi·nan·cial fu·ture",
+            "glossaryPronunciation":"fi-nan-shuhl fyoo-cher",
+            "glossaryDefinition":"A future contract whose value is based upon financial instruments such as a stock index, interest rates or foreign currency exchange rates.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"The Economy and Futures", "glossaryPageLink":"impact-the-economy-and-futures.html" }
+            ],
+            "value": "financial future",
+            "tokens": [
+              "financial",
+              "future"
+            ]
+        },
+        {
+            "glossaryTitle":"financial instrument",
+            "idname":"dfn-financial-instrument",
+            "glossarySyllable":"fi·nan·cial in·stru·ment",
+            "glossaryPronunciation":"fi-nan-shuhl in-struh-muhnt",
+            "glossaryDefinition":"A commodity based in financial instruments such as a stock index, interest rates or foreign currency exchange rates.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"The Economy and Futures", "glossaryPageLink":"impact-the-economy-and-futures.html" },
+                { "glossaryPageTitle":"Mortgage Rates Explained", "glossaryPageLink":"impact-mortgage-rates-explained.html" }
+            ],
+            "value": "financial instrument",
+            "tokens": [
+              "financial",
+              "instrument"
+            ]
+        },
+        {
+            "glossaryTitle":"foreign exchange rate",
+            "idname":"dfn-foreign-exchange-rate",
+            "glossarySyllable":"for·eign ex·change rate",
+            "glossaryPronunciation":"fawr-in iks-cheynj reyt",
+            "glossaryDefinition":"The price of a country's currency when converted from another country's currency.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"The Economy and Futures", "glossaryPageLink":"impact-the-economy-and-futures.html" },
+                { "glossaryPageTitle":"Over-the-Counter Trading", "glossaryPageLink":"futures-over-the-counter-trading.html" },
+                { "glossaryPageTitle":"The Futures Exchange: How It Works", "glossaryPageLink":"futures-the-exchange-how-it-works.html" }
+            ],
+            "value": "foreign exchange rate",
+            "tokens": [
+              "foreign",
+              "exchange",
+              "rate"
+            ]
+        },
+        {
+            "glossaryTitle":"future",
+            "idname":"dfn-futures",
+            "glossarySyllable":"fu·ture",
+            "glossaryPronunciation":"fyoo-cher",
+            "glossaryDefinition":"A standardized contract for the purchase and sale of financial instruments or physical commodities on a futures exchange for future delivery.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"Introduction to Futures and Options", "glossaryPageLink":"basics-futures-and-options.html" },
+                { "glossaryPageTitle":"Why Futures Matter to You", "glossaryPageLink":"basics-why-do-futures-matter.html" },
+                { "glossaryPageTitle":"The Economy and Futures", "glossaryPageLink":"impact-the-economy-and-futures.html" },
+                { "glossaryPageTitle":"Mortgage Rates Explained", "glossaryPageLink":"impact-mortgage-rates-explained.html" },
+                { "glossaryPageTitle":"A Simple Guide to Algorithms", "glossaryPageLink":"futures-algorithms-made-simple.html" },
+                { "glossaryPageTitle":"Over-the-Counter Trading", "glossaryPageLink":"futures-over-the-counter-trading.html" },
+                { "glossaryPageTitle":"The Futures Exchange: How It Works", "glossaryPageLink":"futures-the-exchange-how-it-works.html" },
+                { "glossaryPageTitle":"Protecting the Futures Markets", "glossaryPageLink":"futures-the-protections.html" },
+                { "glossaryPageTitle":"The Role of the Clearing House", "glossaryPageLink":"futures-the-role-of-clearing-houses.html" },
+                { "glossaryPageTitle":"The Role of Technology in Futures Markets", "glossaryPageLink":"futures-the-technology.html" },
+                { "glossaryPageTitle":"Hedger or Speculator?", "glossaryPageLink":"players-hedgers-or-speculators.html" },
+                { "glossaryPageTitle":"The Wide World of Futures Traders", "glossaryPageLink":"players-the-wide-world-of-futures-traders.html" }
+            ],
+            "value": "futures",
+            "tokens": [
+              "futures"
+            ]
+        },
+        {
+            "glossaryTitle":"futures exchange",
+            "idname":"dfn-futures-exchange",
+            "glossarySyllable":"fu·tures ex·change",
+            "glossaryPronunciation":"fyoo-cherz iks-cheynj",
+            "glossaryDefinition":"A central marketplace where buyers and sellers come together to trade futures and options contracts.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"Introduction to Futures and Options", "glossaryPageLink":"basics-futures-and-options.html" },
+                { "glossaryPageTitle":"Economics 101", "glossaryPageLink":"basics-economics-101.html" },
+                { "glossaryPageTitle":"Futures and Food Prices", "glossaryPageLink":"impact-food-and-futures.html" },
+                { "glossaryPageTitle":"The Role of Technology in Futures Markets", "glossaryPageLink":"futures-the-technology.html" },
+                { "glossaryPageTitle":"The Wide World of Futures Traders", "glossaryPageLink":"players-the-wide-world-of-futures-traders.html" }
+            ],
+            "value": "futures exchange",
+            "tokens": [
+              "futures",
+              "exchange"
+            ]
+        },
+        {
+            "glossaryTitle":"hedge",
+            "idname":"dfn-hedge",
+            "glossarySyllable":"hedge",
+            "glossaryPronunciation":"hej",
+            "glossaryDefinition":"To buy or sell a futures contract in order to lock in the price of the underlying commodity at a later date. ",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"Food Prices Explained", "glossaryPageLink":"impact-food-prices-explanation.html" },
+                { "glossaryPageTitle":"Hedger or Speculator?", "glossaryPageLink":"players-hedgers-or-speculators.html" },
+                { "glossaryPageTitle":"The Wide World of Futures Traders", "glossaryPageLink":"players-the-wide-world-of-futures-traders.html" }
+            ],
+            "value": "hedge",
+            "tokens": [
+              "hedge"
+            ]
+        },
+        {
+            "glossaryTitle":"institutional trader",
+            "idname":"dfn-institutional-trader",
+            "glossarySyllable":"in·sti·tu·tion·al trad·er",
+            "glossaryPronunciation":"in-sti-too-shuh-nl trey-der",
+            "glossaryDefinition":"A person or entity employed to trade on behalf of entities, including institutions, investment banks, pension funds, hedge funds and mutual funds.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"A Simple Guide to Algorithms", "glossaryPageLink":"futures-algorithms-made-simple.html" }
+            ],
+            "value": "institutional trader",
+            "tokens": [
+              "institutional",
+              "trader"
+            ]
+        },
+        {
+            "glossaryTitle":"leverage",
+            "idname":"dfn-leverage",
+            "glossarySyllable":"lev·er·age",
+            "glossaryPronunciation":"lev-er-ij",
+            "glossaryDefinition":"To increase the potential return on an investment through the use of futures contracts (or other financial instruments).",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"The Economy and Futures", "glossaryPageLink":"impact-the-economy-and-futures.html" }
+            ],
+            "value": "leverage",
+            "tokens": [
+              "leverage"
+            ]
+        },
+        {
+            "glossaryTitle":"liquidity",
+            "idname":"dfn-liquidity",
+            "glossarySyllable":"liq·uid·i·ty",
+            "glossaryPronunciation":"li-kwid-i-tee",
+            "glossaryDefinition":"The ability to buy or sell orders of any size quickly and efficiently without a substantial impact on market price. ",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"A Simple Guide to Algorithms", "glossaryPageLink":"futures-algorithms-made-simple.html" },
+                { "glossaryPageTitle":"The Futures Exchange: How It Works", "glossaryPageLink":"futures-the-exchange-how-it-works.html" },
+                { "glossaryPageTitle":"The Role of Technology in Futures Markets", "glossaryPageLink":"futures-the-technology.html" }
+            ],
+            "value": "liquidity",
+            "tokens": [
+              "liquidity"
+            ]
+        },
+        {
+            "glossaryTitle":"macroeconomics",
+            "idname":"dfn-macroeconomics",
+            "glossarySyllable":"mac·ro·ec·o·nom·ics",
+            "glossaryPronunciation":"mak-roh-ek-uh-nom-iks",
+            "glossaryDefinition":"The field of economics focused on movements and trends in the economy as a whole. Its central concepts include the laws of supply and demand.",
+            
+            "value": "macroeconomics",
+            "tokens": [
+              "macroeconomics"
+            ]
+        },
+        {
+            "glossaryTitle":"market abuse",
+            "idname":"dfn-market-abuse",
+            "glossarySyllable":"mar·ket a·buse",
+            "glossaryPronunciation":"mahr-kit uh-byoos",
+            "glossaryDefinition":"Circumstances where an individual or entity breaks the rules of the exchange and/or the CFTC, putting market participants at a disadvantage.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"The Regulatory Measures", "glossaryPageLink":"futures-the-regulatory-measures.html" }
+            ],
+            "value": "market abuse",
+            "tokens": [
+              "market",
+              "abuse"
+            ]
+        },
+        {
+            "glossaryTitle":"market participant",
+            "idname":"dfn-market-participant",
+            "glossarySyllable":"mar·ket par·tic·i·pant",
+            "glossaryPronunciation":"mahr-kit pahr-tis-uh-puhnt",
+            "glossaryDefinition":"Any person, entity or organization who hedges and/or speculates through a futures exchange.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"A Simple Guide to Algorithms", "glossaryPageLink":"futures-algorithms-made-simple.html" },
+                { "glossaryPageTitle":"The Futures Exchange: How It Works", "glossaryPageLink":"futures-the-exchange-how-it-works.html" }
+            ],
+            "value": "market participant",
+            "tokens": [
+              "market",
+              "participant"
+            ]
+        },
+        {
+            "glossaryTitle":"microeconomics",
+            "idname":"dfn-microeconomics",
+            "glossarySyllable":"mic·ro·ec·o·nom·ics",
+            "glossaryPronunciation":"myk-roh-ek-uh-nom-iks",
+            "glossaryDefinition":"The field of economics focused on individual factors and the impact they have on interactions between single buyers and sellers. Its central concepts include the laws of supply and demand.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"Economics 101", "glossaryPageLink":"basics-economics-101.html" }
+            ],
+            "value": "microeconomics",
+            "tokens": [
+              "microeconomics"
+            ]
+        },
+        {
+            "glossaryTitle":"open outcry",
+            "idname":"dfn-open-outcry",
+            "glossarySyllable":"o·pen out·cry",
+            "glossaryPronunciation":"oh-puhn out-krahy",
+            "glossaryDefinition":"A method of trading where market participants make bids and offers in person from the trading pits of futures exchanges.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"The Futures Exchange: How It Works", "glossaryPageLink":"futures-the-exchange-how-it-works.html" },
+                { "glossaryPageTitle":"The Role of Technology in Futures Markets", "glossaryPageLink":"futures-the-technology.html" }
+            ],
+            "value": "open outcry",
+            "tokens": [
+              "open",
+              "outcry"
+            ]
+        },
+        {
+            "glossaryTitle":"option",
+            "idname":"dfn-option",
+            "glossarySyllable":"op·tion",
+            "glossaryPronunciation":"op-shuhn",
+            "glossaryDefinition":"A contract that gives the bearer the right, but not the obligation, to buy or sell a futures contract at a specified price within a specified time period.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"Introduction to Futures and Options", "glossaryPageLink":"basics-futures-and-options.html" },
+                { "glossaryPageTitle":"The Wide World of Futures Traders", "glossaryPageLink":"players-the-wide-world-of-futures-traders.html" }
+            ],
+            "value": "option",
+            "tokens": [
+              "option"
+            ]
+        },
+        {
+            "glossaryTitle":"over-the-counter derivative",
+            "idname":"dfn-over-the-counter-derivative",
+            "glossarySyllable":"o·ver the coun·ter de·riv·a·tive",
+            "glossaryPronunciation":"oh-ver thuh koun-ter dih-riv-uh-tiv",
+            "glossaryDefinition":"Futures and options contracts with terms that do not necessarily adhere to those of a standardized futures contract.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"Over-the-Counter Trading", "glossaryPageLink":"futures-over-the-counter-trading.html" }
+            ],
+            "value": "over-the-counter derivative",
+            "tokens": [
+              "over-the-counter derivative",
+              "OTC",
+              "over-the-counter",
+              "over",
+              "counter",
+              "derivative"
+            ]
+        },
+        {
+            "glossaryTitle":"over-the-counter trading",
+            "idname":"dfn-over-the-counter-trading",
+            "glossarySyllable":"o·ver the coun·ter trad·ing",
+            "glossaryPronunciation":"oh-ver thuh koun-ter treyd-ing",
+            "glossaryDefinition":"Trades that take place outside of a formal futures exchange.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"Over-the-Counter Trading", "glossaryPageLink":"futures-over-the-counter-trading.html" }
+            ],
+            "value": "over-the-counter trading",
+            "tokens": [
+              "over-the-counter trading",
+              "over-the-counter",
+              "over",
+              "counter",
+              "trading"
+            ]
+        },
+        {
+            "glossaryTitle":"physical commodity",
+            "idname":"dfn-physical-commodity",
+            "glossarySyllable":"phys·i·cal com·mod·i·ty",
+            "glossaryPronunciation":"fiz-i-kuhl kuh-mod-i-tee",
+            "glossaryDefinition":"A tangible commodity—such as corn, oil, gold or beef—upon which futures prices are set.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"Food and Futures", "glossaryPageLink":"impact-food-and-futures.html" },
+                { "glossaryPageTitle":"Fuel and Futures", "glossaryPageLink":"impact-fuel-and-futures.html" }
+            ],
+            "value": "physical commodity",
+            "tokens": [
+              "physical",
+              "commodity"
+            ]
+        },
+        {
+            "glossaryTitle":"price discovery",
+            "idname":"dfn-price-discovery",
+            "glossarySyllable":"price dis·cov·er·y",
+            "glossaryPronunciation":"prahys dih-skuhv-uh-ree",
+            "glossaryDefinition":"The process of determining the price for a commodity or financial instrument based on the supply and demand for it in the underlying market.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"Economics 101", "glossaryPageLink":"basics-economics-101.html" },
+                { "glossaryPageTitle":"Food and Futures", "glossaryPageLink":"impact-food-and-futures.html" },
+                { "glossaryPageTitle":"Fuel and Futures", "glossaryPageLink":"impact-fuel-and-futures.html" }
+            ],
+            "value": "price discovery",
+            "tokens": [
+              "price",
+              "discovery"
+            ]
+        },
+        {
+            "glossaryTitle":"risk",
+            "idname":"dfn-risk",
+            "glossarySyllable":"risk",
+            "glossaryPronunciation":"risk",
+            "glossaryDefinition":"The possibility of losing some or all profits or investment return due to external market factors.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"Introduction to Futures and Options", "glossaryPageLink":"basics-futures-and-options.html" },
+                { "glossaryPageTitle":"An Introduction to Risk", "glossaryPageLink":"basics-introduction-to-risk.html" },
+                { "glossaryPageTitle":"The Economy and Futures", "glossaryPageLink":"impact-the-economy-and-futures.html" },
+                { "glossaryPageTitle":"A Simple Guide to Algorithms", "glossaryPageLink":"futures-algorithms-made-simple.html" },
+                { "glossaryPageTitle":"How to Clear a Trade", "glossaryPageLink":"futures-how-to-clear-a-trade.html" },
+                { "glossaryPageTitle":"Over-the-Counter Trading", "glossaryPageLink":"futures-over-the-counter-trading.html" },
+                { "glossaryPageTitle":"The Wide World of Futures Traders", "glossaryPageLink":"players-the-wide-world-of-futures-traders.html" }
+            ],
+            "value": "risk",
+            "tokens": [
+              "risk"
+            ]
+        },
+        {
+            "glossaryTitle":"risk management",
+            "idname":"dfn-risk-management",
+            "glossarySyllable":"risk man·age·ment ",
+            "glossaryPronunciation":"risk man-ij-muhnt",
+            "glossaryDefinition":"Identifying, analyzing and either mitigating or absorbing the price risk in investing or business planning.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"Economics 101", "glossaryPageLink":"basics-economics-101.html" },
+                { "glossaryPageTitle":"Why Futures Matter to You", "glossaryPageLink":"basics-why-do-futures-matter.html" }
+            ],
+            "value": "risk management",
+            "tokens": [
+              "risk",
+              "management"
+            ]
+        },
+        {
+            "glossaryTitle":"self-regulatory organization (SRO)",
+            "idname":"dfn-sro",
+            "glossarySyllable":"self-reg·u·la·tor·y or·gan·i·za·tion",
+            "glossaryPronunciation":"self reg-yuh-luh-tawr-ee awr-guh-nuh-zey-shuhn",
+            "glossaryDefinition":"Futures exchanges and regulatory entities that set rules and regulations and have internal functions that perform complex checks and balances to adhere to the principles they set.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"The Regulatory Measures", "glossaryPageLink":"futures-the-regulatory-measures.html" }
+            ],
+            "value": "self-regulatory organization (SRO)",
+            "tokens": [
+              "self-regulatory",
+              "self",
+              "regulatory",
+              "organization",
+              "SRO"
+            ]
+        },
+        {
+            "glossaryTitle":"settlement",
+            "idname":"dfn-settlement",
+            "glossarySyllable":"set·tle·ment",
+            "glossaryPronunciation":"set-l-muhnt",
+            "glossaryDefinition":"The delivery of cash or commodities in exchange for payment, as specified by the terms of the underlying contract. ",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"The Role of the Clearing House", "glossaryPageLink":"futures-the-role-of-clearing-houses.html" }
+            ],
+            "value": "settlement",
+            "tokens": [
+              "settlement"
+            ]
+        },
+        {
+            "glossaryTitle":"speculator",
+            "idname":"dfn-speculator",
+            "glossarySyllable":"spec·u·lat·or",
+            "glossaryPronunciation":"spek-yuh-ley-ter",
+            "glossaryDefinition":"An individual who accepts market risk in an attempt to profit from buying and selling futures and/or options contracts by correctly anticipating future price movements.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"Food Prices Explained", "glossaryPageLink":"impact-food-prices-explanation.html" },
+                { "glossaryPageTitle":"Hedger or Speculator?", "glossaryPageLink":"players-hedgers-or-speculators.html" },
+                { "glossaryPageTitle":"The Wide World of Futures Traders", "glossaryPageLink":"players-the-wide-world-of-futures-traders.html" }
+            ],
+            "value": "speculator",
+            "tokens": [
+              "speculator"
+            ]
+        },
+        {
+            "glossaryTitle":"trader",
+            "idname":"dfn-trader",
+            "glossarySyllable":"trad·er",
+            "glossaryPronunciation":"trey-der",
+            "glossaryDefinition":"A member of the exchange who buys and sells futures and options through electronic trading platforms and/or on the floor of the exchange.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"How to Clear a Trade", "glossaryPageLink":"futures-how-to-clear-a-trade.html" },
+                { "glossaryPageTitle":"The Futures Exchange: How It Works", "glossaryPageLink":"futures-the-exchange-how-it-works.html" },
+                { "glossaryPageTitle":"The Role of the Clearing House", "glossaryPageLink":"futures-the-role-of-clearing-houses.html" },
+                { "glossaryPageTitle":"Hedger or Speculator?", "glossaryPageLink":"players-hedgers-or-speculators.html" },
+                { "glossaryPageTitle":"The Wide World of Futures Traders", "glossaryPageLink":"players-the-wide-world-of-futures-traders.html" }
+            ],
+            "value": "trader",
+            "tokens": [
+              "trader"
+            ]
+        },
+        {
+            "glossaryTitle":"transparency",
+            "idname":"dfn-transparency",
+            "glossarySyllable":"trans·par·en·cy",
+            "glossaryPronunciation":"trans-pair-uhn-see",
+            "glossaryDefinition":"The amount of access a market openly offers about its activities and financial information.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"The Futures Exchange: How It Works", "glossaryPageLink":"futures-the-exchange-how-it-works.html" }
+            ],
+            "value": "transparency",
+            "tokens": [
+              "transparency"
+            ]
+        },
+        {
+            "glossaryTitle":"volatility",
+            "idname":"dfn-volatility",
+            "glossarySyllable":"vol·a·tile",
+            "glossaryPronunciation":"vol-uh-til-i-tee",
+            "glossaryDefinition":"A measurement of the change in price over a given time period.",
+            "glossaryRelatedReading": [
+                { "glossaryPageTitle":"A Simple Guide to Algorithms", "glossaryPageLink":"futures-algorithms-made-simple.html" }
+            ],
+            "value": "volatility",
+            "tokens": [
+              "volatility"
+            ]
+        }
+]}

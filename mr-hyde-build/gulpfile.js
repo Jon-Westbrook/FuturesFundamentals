@@ -50,7 +50,7 @@ function concatUglifyMapOldSchool(js_files, cat_file, min_file, dest_folder, sor
         .pipe(gulp.dest(dest_folder));
 }
 gulp.task('sass:client', function() {
-    return gulp.src(['./_sass/vendor/bootstrap.scss', './_sass/main.scss'])
+    return gulp.src(['./_sass/vendor/bootstrap.scss', './_sass/main.scss', './_sass/simulator.scss'])
         .pipe(sourcemaps.init())
         .pipe(sass({
             sourceComments: true

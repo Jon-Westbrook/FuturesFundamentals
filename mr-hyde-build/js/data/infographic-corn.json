@@ -1,0 +1,100 @@
+{
+"scenario": [
+    {
+      "factorID":"weather",
+      "factorTitle":"Weather",
+      "factorValue":"down",
+      "text":"An unusually warm spring in southeastern Europe creates a surplus in foreign wheat imports."
+    },
+    {
+      "factorID":"weather",
+      "factorTitle":"Weather",
+      "factorValue":"up",
+      "text":"Summer flooding across the Midwestern states decreases soybean crop production."
+    },
+    {
+      "factorID":"global-demand",
+      "factorTitle":"Global Demand",
+      "factorValue":"down",
+      "text":"Health concerns about foreign meat in Australia decrease livestock exports from other regions."
+    },
+    {
+      "factorID":"global-demand",
+      "factorTitle":"Global Demand",
+      "factorValue":"up",
+      "text":"Economic growth in China creates an increased demand for North American beef products."
+    },
+    {
+      "factorID":"government-policy",
+      "factorTitle":"Government Policy",
+      "factorValue":"down",
+      "text":"Russia lifts restrictions on wheat exports, greatly increasing global trade supplies."
+    },
+    {
+      "factorID":"government-policy",
+      "factorTitle":"Government Policy",
+      "factorValue":"up",
+      "text":"Decreased grain production in Asia increases competition among foreign exporters."
+    },
+    {
+      "factorID":"disease",
+      "factorTitle":"Disease",
+      "factorValue":"down",
+      "text":"News of cattle infections hits the media, and the demand for beef hits an all-time low."
+    },
+    {
+      "factorID":"disease",
+      "factorTitle":"Disease",
+      "factorValue":"up",
+      "text":"A bacterial infection spreads among Oklahoma cattle, thinning out livestock supply for months."
+    },
+    {
+      "factorID":"fluctuating-currencies",
+      "factorTitle":"Fluctuating Currencies",
+      "factorValue":"down",
+      "text":"The U.S. dollar is strong, inviting global merchants to capitalize on healthy market conditions."
+    },
+    {
+      "factorID":"fluctuating-currencies",
+      "factorTitle":"Fluctuating Currencies",
+      "factorValue":"up",
+      "text":"Economic woes in Europe slow down the commodity markets as the euro hits an all-time low."
+    },
+    {
+      "factorID":"energy-costs",
+      "factorTitle":"Energy Costs",
+      "factorValue":"down",
+      "text":"Rail expansions make it more efficient and cost-effective to transport domestic commodities."
+    },
+    {
+      "factorID":"energy-costs",
+      "factorTitle":"Energy Costs",
+      "factorValue":"up",
+      "text":"High oil prices make it more expensive to transport food to and from foreign markets."
+    },
+    {
+      "factorID":"available-farmland",
+      "factorTitle":"Available Farmland",
+      "factorValue":"down",
+      "text":"Recent shifts in biofuel policies allow U.S. corn farmers to devote more land to food production."
+    },
+    {
+      "factorID":"available-farmland",
+      "factorTitle":"Available Farmland",
+      "factorValue":"up",
+      "text":"Expansion of grain production places a premium on suitable farmland for coffee plantations."
+    },
+    {
+      "factorID":"geopolitical-events",
+      "factorTitle":"Geopolitical Events",
+      "factorValue":"down",
+      "text":"Peacekeeping efforts in the Middle East lighten restrictions on agricultural exports to Western nations."
+    },
+    {
+      "factorID":"geopolitical-events",
+      "factorTitle":"Geopolitical Events",
+      "factorValue":"up",
+      "text":"Political volatility in Egypt halts wheat exports altogether, causing price spikes around the world."
+    }
+  ]
+}

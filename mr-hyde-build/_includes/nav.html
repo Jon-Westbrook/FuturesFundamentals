@@ -1,45 +1,63 @@
-<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}/index.html">{{ site.title }}</a>
+<nav class="main-nav">
+    <button type="button" class="main-nav__toggle navbar-toggle">
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+    </button>
+    <div class="main-nav__header-holder">
+        <div class="main-nav__header">
+            <a class="main-nav__brand" href="/">Futures Fundamentals</a>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            {% assign menu = site.data.navigation %}
-            <ul class="nav navbar-nav navbar-right">
-                {% for item in menu %}
-                <!-- check to see if the data file has a submenu, and if so display it -->
-                {% if item.subfolderitems %}
-                <li class="dropdown open">
-                    <a href="{{ site.baseurl }}{{ item.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ item.title }}</a>
-                    <ul class="dropdown-menu" role="menu">
-                        {% for entry in item.subfolderitems %}
-                        <li><a href="{{ entry.url }}">{{ entry.page }}</a> {% if entry.subsubfolderitems %}
-                            <ul>
-                                {% for subentry in entry.subsubfolderitems %}
-                                <li><a href="{{ subentry.url }}">{{ subentry.page }}</a></li>
-                                {% endfor %}
-                            </ul>
-                            {% endif %}
-                        </li>
-                         {% endfor %}
-                    </ul>
-                </li>
-                {% else %}
-                <!-- /.display the top level navigation for items that don’t have a submenu -->
+    </div>
+    <div class="main-nav__links">
+        {% assign menu = site.data.navigation %}
+        <ul class="main-nav__primary">
+            {% for item in menu %}
+            <!-- check to see if the data file has a submenu, and if so display it -->
+            {% if item.subfolderitems %}
+            <li>
+                <a class="top-nav-item  ">{{ item.title }}<span class="top-nav-item__marker"></span></a>
+                <div class="main-nav__dropdown">
+                    <div class="constrain main-nav__dropdown-inner">
+                        <ul>
+                            {% for entry in item.subfolderitems %}
+                            <li><a class="sub-nav-item " href="{{ entry.url }}">{{ entry.page }}</a> </li> 
+                            {% if entry.subsubfolderitems %} {% for subentry in entry.subsubfolderitems %}
+                            <li><a class="sub-nav-item child-link" href="{{ subentry.url }}">{{ subentry.page }}</a></li>
+                            {% endfor %} {% endif %} {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            {% endif %} {% endfor %}
+        </ul>
+        <div class="main-nav__secondarywrap clearfix">
+            <ul class="main-nav__secondary ">
+                <li><a class="main-nav__educators" href="/for-educators/">For Educators</a></li>
                 <li>
-                    <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a> {% endif %}
+                    <a class="main-nav__share top-nav-item">Share<span class="top-nav-item__marker"></span></a>
+                    <div class="main-nav__share-dropdown">
+                        <div class="constrain main-nav__dropdown-inner">
+                            <ul class="share-buttons">
+                                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                                <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56b8f0ce850bc3c6" async="async"></script>
+                                <li><a class="fb-icon addthis_button_facebook" href="#">Facebook</a></li>
+                                <li><a class="twitter-icon addthis_button_twitter" href="#">Twitter</a></li>
+                                <li><a class="gplus-icon addthis_button_google_plusone_share" href="#">Google Plus</a></li>
+                                <li><a class="linkedin-icon addthis_button_linkedin" href="#">LinkedIn</a></li>
+                                <li><a class="email-icon addthis_button_email" href="#">Email</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </li>
-                {% endfor %}
+                <li class="search-wrap">
+                    <form class="main-nav__search" action="/search-results/">
+                        <input class="main-nav__search-input" placeholder="Search" type="search" name="q" id="search" value="">
+                        <input class="main-nav__search-button" type="submit" value="">
+                    </form>
+                </li>
             </ul>
         </div>
-        <!-- /.navbar-collapse -->
+        <!-- /.nav__links -->
     </div>
-    <!-- /.container -->
 </nav>

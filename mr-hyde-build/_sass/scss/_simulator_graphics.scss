@@ -3193,7 +3193,7 @@ $color_section_background: $color_deep_blue;
 				top: 109px !important;
 			}
 
-			@include mq($until: 510) {
+			@include mq($until: 510px) {
 				top: 55px !important;
 				left: 21.22% !important;
 				@include animationDelay("2000ms");
