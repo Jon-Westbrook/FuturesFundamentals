@@ -21,7 +21,7 @@
                     <div class="constrain main-nav__dropdown-inner">
                         <ul>
                             {% for entry in item.subfolderitems %}
-                            <li><a class="sub-nav-item " href="{{ entry.url }}">{{ entry.page }}</a> </li> 
+                            <li><a class="sub-nav-item " href="{{ entry.url }}">{{ entry.page }}</a> </li>
                             {% if entry.subsubfolderitems %} {% for subentry in entry.subsubfolderitems %}
                             <li><a class="sub-nav-item child-link" href="{{ subentry.url }}">{{ subentry.page }}</a></li>
                             {% endfor %} {% endif %} {% endfor %}
@@ -61,3 +61,4 @@
         <!-- /.nav__links -->
     </div>
 </nav>
+<div class="menu-overlay"></div>

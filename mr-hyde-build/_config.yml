@@ -3,12 +3,10 @@ title: Future Fundamentals
 author: VSA
 email: info@vsapartners.com
 description: A one-stop educational resource designed to explain the role of futures markets in everyday life and provide information on the derivatives industry as a whole.
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
 
 # Google webmaster tools
-google_verify:
+google_verify: google2d5c2611c2c87360.html
+google_analytics:
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
@@ -52,6 +50,13 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# #Plugins 
+# plugins:
+#   - jekyll-pages-directory
+
+# Pages Directory 
+include: ['_pages']
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.md, package.json, package-lock.json, gulpfile.js, LICENSE, Gemfile, Gemfile.lock, node_modules]
