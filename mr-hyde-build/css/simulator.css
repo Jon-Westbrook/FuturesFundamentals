@@ -21,41 +21,32 @@
 	}
 
 */
-/* line 319, _sass/scss/_simulator_graphics.scss */
 .module__animated-image {
   position: relative;
   margin: 50px 0; }
   @media (max-width: 47.99em) {
-    /* line 319, _sass/scss/_simulator_graphics.scss */
     .module__animated-image {
       margin: 20px 0; } }
 
-/* line 328, _sass/scss/_simulator_graphics.scss */
 .module__bg {
   background: #e8e8e8; }
 
-/* line 333, _sass/scss/_simulator_graphics.scss */
 .newsprint {
   background: #e6e6ef;
   width: 40px;
   height: 7px;
   display: inline-block; }
-  /* line 339, _sass/scss/_simulator_graphics.scss */
   .news__item__title .newsprint {
     margin-top: 6px; }
-    /* line 342, _sass/scss/_simulator_graphics.scss */
     .news__item__title .newsprint.short {
       margin-top: 0; }
 
-/* line 351, _sass/scss/_simulator_graphics.scss */
 .cta-buttons {
   padding: 9px 13px; }
-  /* line 355, _sass/scss/_simulator_graphics.scss */
   .cta-buttons .btn {
     height: 28px;
     line-height: 28px !important;
     padding: 0 10px !important; }
-  /* line 358, _sass/scss/_simulator_graphics.scss */
   .cta-buttons .cta-btn {
     font: 700 11px/30px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff;
@@ -65,39 +56,32 @@
     background: #0079c2;
     height: 28px !important;
     display: inline-block; }
-    /* line 368, _sass/scss/_simulator_graphics.scss */
     .cta-buttons .cta-btn.light-blue {
       background: #59B8EE; }
 
-/* line 375, _sass/scss/_simulator_graphics.scss */
 .confirm-order {
   min-height: 312px;
   width: 418px;
   background: #fff;
   position: relative; }
-  /* line 381, _sass/scss/_simulator_graphics.scss */
   .confirm-order__title {
     font: 700 19px/54px "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #0D79BF;
     text-transform: uppercase;
     border-bottom: 2px solid #e6e6e5;
     text-indent: 13px; }
-  /* line 389, _sass/scss/_simulator_graphics.scss */
   .confirm-order__symbol {
     font: 700 16px/42px "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #0D79BF;
     text-transform: uppercase;
     text-indent: 13px; }
-  /* line 396, _sass/scss/_simulator_graphics.scss */
   .confirm-order__details {
     padding-left: 13px;
     color: #ccc;
     font: 10px/15px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-    /* line 401, _sass/scss/_simulator_graphics.scss */
     .confirm-order__details strong {
       padding-right: 2px;
       color: #4a4a4a; }
-  /* line 409, _sass/scss/_simulator_graphics.scss */
   .confirm-order .confirm_checkbox .checkbox {
     display: inline-block;
     border: 1px solid #e6e6e5;
@@ -106,57 +90,46 @@
     position: relative;
     top: 11px; }
 
-/* line 423, _sass/scss/_simulator_graphics.scss */
 .position-summary {
   background: #fff;
   position: relative;
   width: 967px;
-  height: 223.0px; }
+  height: 222.9999999648px; }
   @media (max-width: 75em) {
-    /* line 423, _sass/scss/_simulator_graphics.scss */
     .position-summary {
       width: 900px;
-      height: 207.54912px; } }
+      height: 207.54912096px; } }
   @media (max-width: 62em) {
-    /* line 423, _sass/scss/_simulator_graphics.scss */
     .position-summary {
       width: 680px;
-      height: 156.81489px; }
-      /* line 449, _sass/scss/_simulator_graphics.scss */
+      height: 156.814891392px; }
       .position-summary .button {
         padding: 3px 0 !important;
         font-size: 8px !important;
         line-height: 16px !important; } }
   @media (max-width: 47.9375em) {
-    /* line 423, _sass/scss/_simulator_graphics.scss */
     .position-summary {
       width: 500px;
-      height: 115.30507px; }
-      /* line 465, _sass/scss/_simulator_graphics.scss */
+      height: 115.3050672px; }
       .position-summary .button {
         padding: 3px 0 !important;
         font-size: 6px !important;
         line-height: 10px !important; } }
   @media (max-width: 31.875em) {
-    /* line 423, _sass/scss/_simulator_graphics.scss */
     .position-summary {
       width: 300px;
-      height: 69.18304px; }
-      /* line 480, _sass/scss/_simulator_graphics.scss */
+      height: 69.18304032px; }
       .position-summary .button {
         padding: 1px 0 !important;
         font-size: 5px !important;
         line-height: 10px !important;
         width: 34% !important; } }
-  /* line 489, _sass/scss/_simulator_graphics.scss */
   .position-summary .background-before {
     background: url(../img/position-summary.png) no-repeat;
     z-index: 1; }
-  /* line 494, _sass/scss/_simulator_graphics.scss */
   .position-summary .background-after {
     background: url(../img/position-summary-flattened.png);
     z-index: 2; }
-  /* line 500, _sass/scss/_simulator_graphics.scss */
   .position-summary .background-before, .position-summary .background-after {
     background-size: cover;
     width: 100%;
@@ -164,71 +137,61 @@
     position: absolute;
     top: 0;
     left: 0; }
-  /* line 509, _sass/scss/_simulator_graphics.scss */
   .position-summary .button {
     z-index: 3; }
 
-/* line 514, _sass/scss/_simulator_graphics.scss */
 #simulator_position_summary {
   padding: 90px 0 10px; }
   @media (max-width: 34.375em) {
-    /* line 514, _sass/scss/_simulator_graphics.scss */
     #simulator_position_summary {
       padding-top: 45px;
       padding-bottom: 30px; } }
-  /* line 528, _sass/scss/_simulator_graphics.scss */
   #simulator_position_summary .shadow {
     margin: 0 auto 40px; }
     @media (max-width: 47.9375em) {
-      /* line 528, _sass/scss/_simulator_graphics.scss */
       #simulator_position_summary .shadow {
         width: 540px;
         height: 50px;
         margin-top: 25px; } }
     @media (max-width: 34.375em) {
-      /* line 528, _sass/scss/_simulator_graphics.scss */
       #simulator_position_summary .shadow {
         width: 270px;
         height: 25px;
         margin-bottom: 0; } }
-  /* line 548, _sass/scss/_simulator_graphics.scss */
   #simulator_position_summary .position-summary {
     margin: 0px auto 55px;
     /*
-		&__title {
-			height: 60px;
-			background: #0D79BF;
-			width: 170px;
-			color: #fff;
-			line-height: 63px;
-			text-align: center;
-		}
-
-		&__table {
-			border-top: 3px solid #0D79BF;
-
-			th {
-				color: #0D79BF;
-				font-weight:  bold;
-			}
-
-			tr {
-				height: 50px;
-				line-height: 50px;
-				color: #676767;
-				border-bottom: 2px solid #EDEDED;
-			}
-		}
-*/ }
+    		&__title {
+    			height: 60px;
+    			background: #0D79BF;
+    			width: 170px;
+    			color: #fff;
+    			line-height: 63px;
+    			text-align: center;
+    		}
+    
+    		&__table {
+    			border-top: 3px solid #0D79BF;
+    
+    			th {
+    				color: #0D79BF;
+    				font-weight:  bold;
+    			}
+    
+    			tr {
+    				height: 50px;
+    				line-height: 50px;
+    				color: #676767;
+    				border-bottom: 2px solid #EDEDED;
+    			}
+    		}
+    */ }
     @media (max-width: 62em) {
-      /* line 548, _sass/scss/_simulator_graphics.scss */
       #simulator_position_summary .position-summary {
         margin-bottom: 45px; } }
     @media (max-width: 47.9375em) {
-      /* line 548, _sass/scss/_simulator_graphics.scss */
       #simulator_position_summary .position-summary {
         margin-bottom: 20px; } }
-    /* line 561, _sass/scss/_simulator_graphics.scss */
     #simulator_position_summary .position-summary .button {
       top: 6.72%;
       right: 1.34%;
@@ -240,34 +203,27 @@
       text-align: center;
       pointer-events: none;
       cursor: default; }
-      /* line 572, _sass/scss/_simulator_graphics.scss */
       #simulator_position_summary .position-summary .button:after {
         display: none; }
-  /* line 608, _sass/scss/_simulator_graphics.scss */
   #simulator_position_summary.scrollAnimation--before .mouse, #simulator_position_summary.scrollAnimation--before .shadow, #simulator_position_summary.scrollAnimation--before .position-summary, #simulator_position_summary.scrollAnimation--capable .mouse, #simulator_position_summary.scrollAnimation--capable .shadow, #simulator_position_summary.scrollAnimation--capable .position-summary {
     opacity: 0; }
-  /* line 614, _sass/scss/_simulator_graphics.scss */
   #simulator_position_summary.scrollAnimation--active .position-summary {
     opacity: 1;
     position: relative; }
-    /* line 617, _sass/scss/_simulator_graphics.scss */
     #simulator_position_summary.scrollAnimation--active .position-summary .background-before {
       -webkit-animation: Position_Summary_Animation_Before 3000ms linear 0ms forwards;
       -moz-animation: Position_Summary_Animation_Before 3000ms linear 0ms forwards;
       animation: Position_Summary_Animation_Before 3000ms linear 0ms forwards;
       background-image: url(../img/position-summary.png); }
-    /* line 622, _sass/scss/_simulator_graphics.scss */
     #simulator_position_summary.scrollAnimation--active .position-summary .background-after {
       -webkit-animation: Position_Summary_Animation_After 3000ms linear 0ms forwards;
       -moz-animation: Position_Summary_Animation_After 3000ms linear 0ms forwards;
       animation: Position_Summary_Animation_After 3000ms linear 0ms forwards;
       background-image: url(../img/position-summary-flattened.png); }
-    /* line 629, _sass/scss/_simulator_graphics.scss */
     #simulator_position_summary.scrollAnimation--active .position-summary .button {
       -webkit-animation: Position_Summary_Button_Animation 3000ms linear 0ms forwards;
       -moz-animation: Position_Summary_Button_Animation 3000ms linear 0ms forwards;
       animation: Position_Summary_Button_Animation 3000ms linear 0ms forwards; }
-  /* line 635, _sass/scss/_simulator_graphics.scss */
   #simulator_position_summary.scrollAnimation--active .mouse {
     opacity: 0;
     height: 25.11%;
@@ -278,40 +234,32 @@
     -webkit-animation: Position_Summary_Mouse_Animation 3000ms linear 0ms forwards;
     -moz-animation: Position_Summary_Mouse_Animation 3000ms linear 0ms forwards;
     animation: Position_Summary_Mouse_Animation 3000ms linear 0ms forwards; }
-  /* line 645, _sass/scss/_simulator_graphics.scss */
   #simulator_position_summary.scrollAnimation--active .shadow {
     opacity: 0;
     -webkit-animation: FadeIn 300ms linear 100ms forwards;
     -moz-animation: FadeIn 300ms linear 100ms forwards;
     animation: FadeIn 300ms linear 100ms forwards; }
 
-/* line 661, _sass/scss/_simulator_graphics.scss */
 #simulator_intro {
   padding: 60px 0; }
   @media (max-width: 47.99em) {
-    /* line 661, _sass/scss/_simulator_graphics.scss */
     #simulator_intro {
       padding: 45px 30px; } }
-  /* line 668, _sass/scss/_simulator_graphics.scss */
   #simulator_intro .simulator-ui {
     max-width: 706px;
     margin: 0 auto;
     position: relative; }
     @media (max-width: 44.125em) {
-      /* line 668, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .simulator-ui {
         max-width: 100%; } }
-    /* line 681, _sass/scss/_simulator_graphics.scss */
     #simulator_intro .simulator-ui .candlestick {
       width: 2.12% !important; }
-  /* line 686, _sass/scss/_simulator_graphics.scss */
   #simulator_intro .simulator-img {
     top: 0;
     left: 0;
     width: 100%;
     display: block;
     margin: 0 auto; }
-  /* line 698, _sass/scss/_simulator_graphics.scss */
   #simulator_intro.scrollAnimation--before .candlestick, #simulator_intro.scrollAnimation--capable .candlestick {
     -moz-transform: scale(0);
     -o-transform: scale(0);
@@ -319,31 +267,24 @@
     -webkit-transform: scale(0);
     transform: scale(0);
     /* -webkit-transform: scale(0); */ }
-  /* line 704, _sass/scss/_simulator_graphics.scss */
   #simulator_intro.scrollAnimation--before .simulator-ui, #simulator_intro.scrollAnimation--capable .simulator-ui {
     opacity: 0; }
-  /* line 710, _sass/scss/_simulator_graphics.scss */
   #simulator_intro.scrollAnimation--active .candlestick {
     -webkit-animation: Bounce_Animation 1500ms linear 700ms forwards;
     -moz-animation: Bounce_Animation 1500ms linear 700ms forwards;
     animation: Bounce_Animation 1500ms linear 700ms forwards; }
-  /* line 714, _sass/scss/_simulator_graphics.scss */
   #simulator_intro.scrollAnimation--active .simulator-ui {
     -webkit-animation: FadeAndScaleIn 300ms ease-in-out 0ms forwards;
     -moz-animation: FadeAndScaleIn 300ms ease-in-out 0ms forwards;
     animation: FadeAndScaleIn 300ms ease-in-out 0ms forwards; }
-  /* line 727, _sass/scss/_simulator_graphics.scss */
   #simulator_intro .sticks {
     width: 100%;
     height: 100%; }
-    /* line 735, _sass/scss/_simulator_graphics.scss */
     #simulator_intro .sticks .stick {
       position: absolute; }
-      /* line 738, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick .wick {
         width: 2px !important;
         height: 100% !important; }
-      /* line 746, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_1 {
         height: 22.22%;
         top: 62.86% !important;
@@ -352,11 +293,9 @@
         -webkit-animation-delay: 600ms;
         -moz-animation-delay: 600ms;
         animation-delay: 600ms; }
-        /* line 746, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_1 .stick {
           top: 17.39% !important;
           height: 61.73% !important; }
-      /* line 748, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_2 {
         height: 21.85% !important;
         top: 74.27% !important;
@@ -365,11 +304,9 @@
         -webkit-animation-delay: 640ms;
         -moz-animation-delay: 640ms;
         animation-delay: 640ms; }
-        /* line 748, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_2 .stick {
           top: 30.08% !important;
           height: 21.23% !important; }
-      /* line 749, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_3 {
         height: 16.25% !important;
         top: 74.46% !important;
@@ -377,11 +314,9 @@
         -webkit-animation-delay: 680ms;
         -moz-animation-delay: 680ms;
         animation-delay: 680ms; }
-        /* line 749, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_3 .stick {
           top: 64.28% !important;
           height: 2px !important; }
-      /* line 750, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_4 {
         height: 20.11% !important;
         top: 66.54% !important;
@@ -389,11 +324,9 @@
         -webkit-animation-delay: 720ms;
         -moz-animation-delay: 720ms;
         animation-delay: 720ms; }
-        /* line 750, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_4 .stick {
           top: 37.5% !important;
           height: 61.53% !important; }
-      /* line 751, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_5 {
         height: 22.05% !important;
         top: 55.89% !important;
@@ -401,11 +334,9 @@
         -webkit-animation-delay: 760ms;
         -moz-animation-delay: 760ms;
         animation-delay: 760ms; }
-        /* line 751, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_5 .stick {
           top: 44.73% !important;
           height: 43.85% !important; }
-      /* line 752, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_6 {
         height: 18.37% !important;
         top: 61.70% !important;
@@ -413,11 +344,9 @@
         -webkit-animation-delay: 800ms;
         -moz-animation-delay: 800ms;
         animation-delay: 800ms; }
-        /* line 752, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_6 .stick {
           top: 15.79% !important;
           height: 30.52% !important; }
-      /* line 754, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_7 {
         height: 12.76% !important;
         top: 67.31% !important;
@@ -425,11 +354,9 @@
         -webkit-animation-delay: 840ms;
         -moz-animation-delay: 840ms;
         animation-delay: 840ms; }
-        /* line 754, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_7 .stick {
           top: 24.24% !important;
           height: 75.75% !important; }
-      /* line 755, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_8 {
         height: 17.408% !important;
         top: 54.15% !important;
@@ -437,11 +364,9 @@
         -webkit-animation-delay: 880ms;
         -moz-animation-delay: 880ms;
         animation-delay: 880ms; }
-        /* line 755, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_8 .stick {
           top: 8% !important;
           height: 83.33% !important; }
-      /* line 756, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_9 {
         height: 14.70% !important;
         top: 50.48% !important;
@@ -449,11 +374,9 @@
         -webkit-animation-delay: 920ms;
         -moz-animation-delay: 920ms;
         animation-delay: 920ms; }
-        /* line 756, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_9 .stick {
           top: 36.84% !important;
           height: 36.84% !important; }
-      /* line 757, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_10 {
         height: 11.03% !important;
         top: 49.12% !important;
@@ -461,11 +384,9 @@
         -webkit-animation-delay: 960ms;
         -moz-animation-delay: 960ms;
         animation-delay: 960ms; }
-        /* line 757, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_10 .stick {
           top: 17.54% !important;
           height: 42.11% !important; }
-      /* line 758, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_11 {
         height: 17.21% !important;
         top: 50.67% !important;
@@ -473,11 +394,9 @@
         -webkit-animation-delay: 1000ms;
         -moz-animation-delay: 1000ms;
         animation-delay: 1000ms; }
-        /* line 758, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_11 .stick {
           top: 29.21% !important;
           height: 49.43% !important; }
-      /* line 759, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_12 {
         height: 23.40% !important;
         top: 60.154% !important;
@@ -485,11 +404,9 @@
         -webkit-animation-delay: 1060ms;
         -moz-animation-delay: 1060ms;
         animation-delay: 1060ms; }
-        /* line 759, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_12 .stick {
           top: 17.35% !important;
           height: 67.76% !important; }
-      /* line 760, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_13 {
         height: 13.53% !important;
         top: 73.69% !important;
@@ -497,11 +414,9 @@
         -webkit-animation-delay: 1120ms;
         -moz-animation-delay: 1120ms;
         animation-delay: 1120ms; }
-        /* line 760, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_13 .stick {
           top: 47.14% !important;
           height: 32.85% !important; }
-      /* line 761, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_14 {
         height: 21.66% !important;
         top: 55.31% !important;
@@ -509,11 +424,9 @@
         -webkit-animation-delay: 1180ms;
         -moz-animation-delay: 1180ms;
         animation-delay: 1180ms; }
-        /* line 761, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_14 .stick {
           top: 42.85% !important;
           height: 39.28% !important; }
-      /* line 762, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_15 {
         height: 21.66% !important;
         top: 58.41% !important;
@@ -521,11 +434,9 @@
         -webkit-animation-delay: 1240ms;
         -moz-animation-delay: 1240ms;
         animation-delay: 1240ms; }
-        /* line 762, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_15 .stick {
           top: 28.57% !important;
           height: 26.78% !important; }
-      /* line 763, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_16 {
         height: 6.38% !important;
         top: 62.28% !important;
@@ -533,11 +444,9 @@
         -webkit-animation-delay: 1280ms;
         -moz-animation-delay: 1280ms;
         animation-delay: 1280ms; }
-        /* line 763, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_16 .stick {
           top: 36.36% !important;
           height: 24.24% !important; }
-      /* line 764, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_17 {
         height: 14.51% !important;
         top: 54.158% !important;
@@ -545,11 +454,9 @@
         -webkit-animation-delay: 1320ms;
         -moz-animation-delay: 1320ms;
         animation-delay: 1320ms; }
-        /* line 764, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_17 .stick {
           top: 17.33% !important;
           height: 66.66% !important; }
-      /* line 765, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_18 {
         height: 10.83% !important;
         top: 54.93% !important;
@@ -557,11 +464,9 @@
         -webkit-animation-delay: 1360ms;
         -moz-animation-delay: 1360ms;
         animation-delay: 1360ms; }
-        /* line 765, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_18 .stick {
           top: 16.07% !important;
           height: 3.5% !important; }
-      /* line 766, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_19 {
         height: 12.57% !important;
         top: 50.48% !important;
@@ -569,11 +474,9 @@
         -webkit-animation-delay: 1400ms;
         -moz-animation-delay: 1400ms;
         animation-delay: 1400ms; }
-        /* line 766, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_19 .stick {
           top: 35.38% !important;
           height: 13.84% !important; }
-      /* line 767, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_20 {
         height: 6.19% !important;
         top: 48.93% !important;
@@ -581,11 +484,9 @@
         -webkit-animation-delay: 1440ms;
         -moz-animation-delay: 1440ms;
         animation-delay: 1440ms; }
-        /* line 767, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_20 .stick {
           top: 40.62% !important;
           height: 56.25% !important; }
-      /* line 768, _sass/scss/_simulator_graphics.scss */
       #simulator_intro .sticks .stick_21 {
         height: 10.44% !important;
         top: 39.45% !important;
@@ -593,96 +494,74 @@
         -webkit-animation-delay: 1480ms;
         -moz-animation-delay: 1480ms;
         animation-delay: 1480ms; }
-        /* line 768, _sass/scss/_simulator_graphics.scss */
         #simulator_intro .sticks .stick_21 .stick {
           top: 22.22% !important;
           height: 77.77% !important; }
 
-/* line 777, _sass/scss/_simulator_graphics.scss */
 #simulator_market_snapshot__text {
   padding: 45px 50px 15px;
   font: 18px/26px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #4a4a4a; }
   @media (max-width: 47.99em) {
-    /* line 777, _sass/scss/_simulator_graphics.scss */
     #simulator_market_snapshot__text {
       padding: 20px 25px;
       font-size: 13px;
       line-height: 20px; }
-      /* line 787, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot__text strong {
         padding-top: 3px;
         padding-bottom: 4px; } }
-  /* line 793, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot__text ol {
     padding-left: 0;
     margin-bottom: 0; }
-  /* line 798, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot__text strong {
     font-family: 'Benton Sans Bd';
     display: block;
     margin-bottom: 2px; }
-  /* line 805, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot__text li {
     margin-bottom: 37px;
     list-style-type: none; }
-    /* line 809, _sass/scss/_simulator_graphics.scss */
     #simulator_market_snapshot__text li:last-child {
       margin-bottom: 0; }
-    /* line 817, _sass/scss/_simulator_graphics.scss */
     #simulator_market_snapshot__text li#simulator_market_snapshot__text__current-price {
       background: url(../../simulator_assets/_simulator/img/1@2x.png) no-repeat;
       background-size: 29px 29px;
       -webkit-animation-delay: 600ms !important;
       -moz-animation-delay: 600ms !important;
       animation-delay: 600ms !important; }
-      /* line 822, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot__text li#simulator_market_snapshot__text__current-price:hover {
         background-image: url(../../simulator_assets/_simulator/img/1--active@2x.png); }
-    /* line 827, _sass/scss/_simulator_graphics.scss */
     #simulator_market_snapshot__text li#simulator_market_snapshot__text__prices {
       background: url(../../simulator_assets/_simulator/img/2@2x.png) no-repeat;
       background-size: 29px 29px;
       -webkit-animation-delay: 1100ms !important;
       -moz-animation-delay: 1100ms !important;
       animation-delay: 1100ms !important; }
-      /* line 832, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot__text li#simulator_market_snapshot__text__prices:hover {
         background-image: url(../../simulator_assets/_simulator/img/2--active@2x.png); }
-    /* line 837, _sass/scss/_simulator_graphics.scss */
     #simulator_market_snapshot__text li#simulator_market_snapshot__text__ticker-symbol {
       background: url(../../simulator_assets/_simulator/img/3@2x.png) no-repeat;
       background-size: 29px 29px;
       -webkit-animation-delay: 1600ms !important;
       -moz-animation-delay: 1600ms !important;
       animation-delay: 1600ms !important; }
-      /* line 842, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot__text li#simulator_market_snapshot__text__ticker-symbol:hover {
         background-image: url(../../simulator_assets/_simulator/img/3--active@2x.png); }
-    /* line 847, _sass/scss/_simulator_graphics.scss */
     #simulator_market_snapshot__text li#simulator_market_snapshot__text__movement {
       background: url(../../simulator_assets/_simulator/img/4@2x.png) no-repeat;
       background-size: 29px 29px;
       -webkit-animation-delay: 2100ms !important;
       -moz-animation-delay: 2100ms !important;
       animation-delay: 2100ms !important; }
-      /* line 852, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot__text li#simulator_market_snapshot__text__movement:hover {
         background-image: url(../../simulator_assets/_simulator/img/4--active@2x.png); }
-    /* line 859, _sass/scss/_simulator_graphics.scss */
     #simulator_market_snapshot__text li div {
       padding-left: 40px;
       margin-top: -26px; }
-
-/* line 864, _sass/scss/_simulator_graphics.scss */
 #simulator_market_snapshot .market_snapshot_component {
   margin: 80px auto 0; }
   @media (max-width: 47.99em) {
-    /* line 864, _sass/scss/_simulator_graphics.scss */
     #simulator_market_snapshot .market_snapshot_component {
       margin-top: 40px; } }
-
-/* line 872, _sass/scss/_simulator_graphics.scss */
 #simulator_market_snapshot .floating-number {
   display: block;
   font-size: 34px;
@@ -694,27 +573,21 @@
   background-size: cover !important;
   opacity: 0; }
   @media (max-width: 47.99em) {
-    /* line 872, _sass/scss/_simulator_graphics.scss */
     #simulator_market_snapshot .floating-number {
       width: 23px;
       height: 23px; }
-      /* line 888, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot .floating-number__1 {
         top: 46px !important;
         left: -19px !important; }
-      /* line 893, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot .floating-number__2 {
         top: 0px !important;
         left: -26px !important; }
-      /* line 898, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot .floating-number__3 {
         top: 124px !important;
         left: -19px !important; }
-      /* line 903, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot .floating-number__4 {
         top: 0px !important;
         left: 34px !important; } }
-  /* line 910, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot .floating-number__1 {
     top: 75px;
     left: -27px;
@@ -722,7 +595,6 @@
     -webkit-animation-delay: 600ms !important;
     -moz-animation-delay: 600ms !important;
     animation-delay: 600ms !important; }
-  /* line 911, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot .floating-number__2 {
     top: 7px;
     left: -42px;
@@ -730,7 +602,6 @@
     -webkit-animation-delay: 1100ms !important;
     -moz-animation-delay: 1100ms !important;
     animation-delay: 1100ms !important; }
-  /* line 912, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot .floating-number__3 {
     top: 195px;
     left: -27px;
@@ -738,7 +609,6 @@
     -webkit-animation-delay: 1600ms !important;
     -moz-animation-delay: 1600ms !important;
     animation-delay: 1600ms !important; }
-  /* line 913, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot .floating-number__4 {
     top: 7px;
     left: 57px;
@@ -746,16 +616,11 @@
     -webkit-animation-delay: 2100ms !important;
     -moz-animation-delay: 2100ms !important;
     animation-delay: 2100ms !important; }
-
-/* line 916, _sass/scss/_simulator_graphics.scss */
 #simulator_market_snapshot .shadow {
   margin: 80px auto 30px; }
   @media (max-width: 47.99em) {
-    /* line 916, _sass/scss/_simulator_graphics.scss */
     #simulator_market_snapshot .shadow {
       margin-top: 40px; } }
-
-/* line 928, _sass/scss/_simulator_graphics.scss */
 #simulator_market_snapshot.scrollAnimation--before .market_snapshot_component, #simulator_market_snapshot.scrollAnimation--before .shadow, #simulator_market_snapshot.scrollAnimation--capable .market_snapshot_component, #simulator_market_snapshot.scrollAnimation--capable .shadow {
   -moz-transform: scale(0);
   -o-transform: scale(0);
@@ -763,71 +628,53 @@
   -webkit-transform: scale(0);
   transform: scale(0);
   /* -webkit-transform: scale(0); */ }
-
-/* line 932, _sass/scss/_simulator_graphics.scss */
 #simulator_market_snapshot.scrollAnimation--before #simulator_market_snapshot__text li, #simulator_market_snapshot.scrollAnimation--capable #simulator_market_snapshot__text li {
   opacity: 0; }
-
-/* line 938, _sass/scss/_simulator_graphics.scss */
 #simulator_market_snapshot.scrollAnimation--active .market_snapshot_component {
   -webkit-animation: Bounce_Animation 600ms linear 0ms forwards;
   -moz-animation: Bounce_Animation 600ms linear 0ms forwards;
   animation: Bounce_Animation 600ms linear 0ms forwards; }
-
-/* line 942, _sass/scss/_simulator_graphics.scss */
 #simulator_market_snapshot.scrollAnimation--active .shadow {
   -webkit-animation: Market_Snapshot_Static_Shadow 600ms ease-in-out 0ms forwards;
   -moz-animation: Market_Snapshot_Static_Shadow 600ms ease-in-out 0ms forwards;
   animation: Market_Snapshot_Static_Shadow 600ms ease-in-out 0ms forwards; }
-
-/* line 946, _sass/scss/_simulator_graphics.scss */
 #simulator_market_snapshot.scrollAnimation--active #simulator_market_snapshot__text li, #simulator_market_snapshot.scrollAnimation--active .floating-number {
   -webkit-animation: FadeIn 500ms linear 600ms forwards;
   -moz-animation: FadeIn 500ms linear 600ms forwards;
   animation: FadeIn 500ms linear 600ms forwards; }
-
-/* line 953, _sass/scss/_simulator_graphics.scss */
 #simulator_market_snapshot.scrollAnimation--after .market_snapshot_component, #simulator_market_snapshot.scrollAnimation--after #simulator_market_snapshot__text {
   opacity: 1; }
 
-/* line 961, _sass/scss/_simulator_graphics.scss */
 .floating-number {
   display: none; }
 
-/* line 963, _sass/scss/_simulator_graphics.scss */
 #simulator_market_snapshot_colors {
   min-height: 380px; }
   @media (max-width: 47.9375em) {
-    /* line 967, _sass/scss/_simulator_graphics.scss */
     #simulator_market_snapshot_colors .module__bg {
       padding: 60px 0;
       margin-bottom: 15px; }
-      /* line 972, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot_colors .module__bg .market_snapshot_component {
         margin: 0 auto 30px; } }
-  /* line 978, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot_colors .market_snapshot_component {
     margin: 70px auto 35px; }
-  /* line 983, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot_colors .shadow {
     margin: 0 auto 50px;
     width: 319px;
     background-size: cover;
     /*
-
-		position: absolute;
-		left: 193px;
-		top: 403px;
-*/ }
+    
+    		position: absolute;
+    		left: 193px;
+    		top: 403px;
+    */ }
     @media (max-width: 47.9375em) {
-      /* line 983, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot_colors .shadow {
         margin-bottom: 0;
         background: url("../../simulator_assets/_simulator/img/shadow-254.png");
         width: 254px;
         height: 24px;
         background-size: cover; } }
-  /* line 1004, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot_colors .arrow {
     position: absolute;
     top: 70px;
@@ -836,176 +683,137 @@
     height: 190px;
     background-repeat: no-repeat; }
     @media (max-width: 75em) {
-      /* line 1004, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot_colors .arrow {
         right: 1%; } }
     @media (max-width: 62em) {
-      /* line 1004, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot_colors .arrow {
         right: 4%;
         height: 162px; }
-        /* line 1020, _sass/scss/_simulator_graphics.scss */
         #simulator_market_snapshot_colors .arrow.red {
           background-position-y: -32px !important; } }
     @media (max-width: 47.9375em) {
-      /* line 1004, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot_colors .arrow {
         top: 60px;
         right: 20%; } }
     @media (max-width: 31.25em) {
-      /* line 1004, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot_colors .arrow {
         right: 10%; } }
     @media (max-width: 25em) {
-      /* line 1004, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot_colors .arrow {
         right: 5%; } }
-    /* line 1039, _sass/scss/_simulator_graphics.scss */
     #simulator_market_snapshot_colors .arrow.red {
       background-image: url(../../simulator_assets/_simulator/img/arrow-down-red.png); }
-    /* line 1043, _sass/scss/_simulator_graphics.scss */
     #simulator_market_snapshot_colors .arrow.green {
       background-image: url(../../simulator_assets/_simulator/img/arrow-up-green.png); }
-  /* line 1051, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot_colors.scrollAnimation--before .arrow, #simulator_market_snapshot_colors.scrollAnimation--before .market_snapshot_component, #simulator_market_snapshot_colors.scrollAnimation--capable .arrow, #simulator_market_snapshot_colors.scrollAnimation--capable .market_snapshot_component {
     opacity: 0; }
-  /* line 1058, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot_colors.scrollAnimation--active .market-snapshot--green .market_snapshot_component {
     opacity: 0;
     -webkit-animation: Market_Snapshot_Colors_Animation_Green 5s ease-in-out forwards;
     -moz-animation: Market_Snapshot_Colors_Animation_Green 5s ease-in-out forwards;
     animation: Market_Snapshot_Colors_Animation_Green 5s ease-in-out forwards; }
-  /* line 1063, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot_colors.scrollAnimation--active .market-snapshot--red .market_snapshot_component {
     opacity: 0;
     -webkit-animation: Market_Snapshot_Colors_Animation_Red 5s ease-in-out 1.25s forwards;
     -moz-animation: Market_Snapshot_Colors_Animation_Red 5s ease-in-out 1.25s forwards;
     animation: Market_Snapshot_Colors_Animation_Red 5s ease-in-out 1.25s forwards; }
-  /* line 1068, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot_colors.scrollAnimation--active .arrow {
     opacity: 0;
     -webkit-animation: FadeIn 1.5s linear forwards;
     -moz-animation: FadeIn 1.5s linear forwards;
     animation: FadeIn 1.5s linear forwards; }
-    /* line 1072, _sass/scss/_simulator_graphics.scss */
     #simulator_market_snapshot_colors.scrollAnimation--active .arrow.enter-from-top {
       background-position-y: -4px;
       -webkit-animation-delay: 1.25s !important;
       -moz-animation-delay: 1.25s !important;
       animation-delay: 1.25s !important; }
 
-/* line 1097, _sass/scss/_simulator_graphics.scss */
 #simulator_market_snapshot_group {
   text-align: center;
   padding-bottom: 50px; }
   @media (max-width: 34.375em) {
-    /* line 1097, _sass/scss/_simulator_graphics.scss */
     #simulator_market_snapshot_group {
       padding-bottom: 30px; } }
-  /* line 1107, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot_group .shadow {
     margin: 60px auto 0; }
     @media (max-width: 47.9375em) {
-      /* line 1107, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot_group .shadow {
         width: 540px;
         height: 50px;
         margin-top: 25px; } }
     @media (max-width: 34.375em) {
-      /* line 1107, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot_group .shadow {
         width: 270px;
         height: 25px; } }
-  /* line 1124, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot_group .market-snapshot {
     margin-top: 95px;
     display: inline-block;
     text-align: left;
     /*
-
-		&--index-2 {
-			position: relative;
-			left: -4px;
-		}
-
-		&--index-3 {
-			position: relative;
-			left: -8px;
-		}
-
-		&--index-4 {
-			position: relative;
-			left: -12px;
-		}
-*/ }
+    
+    		&--index-2 {
+    			position: relative;
+    			left: -4px;
+    		}
+    
+    		&--index-3 {
+    			position: relative;
+    			left: -8px;
+    		}
+    
+    		&--index-4 {
+    			position: relative;
+    			left: -12px;
+    		}
+    */ }
     @media (max-width: 34.375em) {
-      /* line 1124, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot_group .market-snapshot {
         margin-top: 45px; } }
-  /* line 1156, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot_group.scrollAnimation--before .shadow, #simulator_market_snapshot_group.scrollAnimation--before .market_snapshot_component, #simulator_market_snapshot_group.scrollAnimation--capable .shadow, #simulator_market_snapshot_group.scrollAnimation--capable .market_snapshot_component {
     opacity: 0; }
-  /* line 1163, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot_group.scrollAnimation--active .market-snapshot--green .market_snapshot_component {
     opacity: 0;
     -webkit-animation: Market_Snapshot_Colors_Animation_Green 5s ease-in-out forwards;
     -moz-animation: Market_Snapshot_Colors_Animation_Green 5s ease-in-out forwards;
     animation: Market_Snapshot_Colors_Animation_Green 5s ease-in-out forwards; }
-    /* line 1167, _sass/scss/_simulator_graphics.scss */
     #simulator_market_snapshot_group.scrollAnimation--active .market-snapshot--green .market_snapshot_component.market-snapshot--index-1 {
       -webkit-animation: Market_Snapshot_Colors_Animation_Green_Dark 5s ease-in-out forwards;
       -moz-animation: Market_Snapshot_Colors_Animation_Green_Dark 5s ease-in-out forwards;
       animation: Market_Snapshot_Colors_Animation_Green_Dark 5s ease-in-out forwards; }
-    /* line 1171, _sass/scss/_simulator_graphics.scss */
     #simulator_market_snapshot_group.scrollAnimation--active .market-snapshot--green .market_snapshot_component.market-snapshot--index-3 {
       -webkit-animation: Market_Snapshot_Colors_Animation_Green_Light 5s ease-in-out forwards;
       -moz-animation: Market_Snapshot_Colors_Animation_Green_Light 5s ease-in-out forwards;
       animation: Market_Snapshot_Colors_Animation_Green_Light 5s ease-in-out forwards; }
-  /* line 1177, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot_group.scrollAnimation--active .market-snapshot--red .market_snapshot_component {
     opacity: 0;
     -webkit-animation: Market_Snapshot_Colors_Animation_Red 5s ease-in-out forwards;
     -moz-animation: Market_Snapshot_Colors_Animation_Red 5s ease-in-out forwards;
     animation: Market_Snapshot_Colors_Animation_Red 5s ease-in-out forwards; }
-  /* line 1182, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot_group.scrollAnimation--active .shadow {
     opacity: 0;
     -webkit-animation: FadeIn 1s ease-in-out forwards;
     -moz-animation: FadeIn 1s ease-in-out forwards;
     animation: FadeIn 1s ease-in-out forwards; }
 
-/* line 1199, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_colors .module__bg {
   padding-top: 65px; }
-
-/* line 1204, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_colors .candlestick {
   margin: 0px auto 34px;
   position: relative; }
-
-/* line 1209, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_colors .shadow {
   margin: 0px auto 28px; }
-
-/* line 1215, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_colors.scrollAnimation--before .shadow, #simulator_candlestick_colors.scrollAnimation--before .candlestick_label, #simulator_candlestick_colors.scrollAnimation--capable .shadow, #simulator_candlestick_colors.scrollAnimation--capable .candlestick_label, #simulator_candlestick_colors .scrollAnimation--before .shadow, #simulator_candlestick_colors .scrollAnimation--before .candlestick_label, #simulator_candlestick_colors .scrollAnimation--capable .shadow, #simulator_candlestick_colors .scrollAnimation--capable .candlestick_label {
   opacity: 0; }
-
-/* line 1219, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_colors.scrollAnimation--before .candlestick, #simulator_candlestick_colors.scrollAnimation--capable .candlestick, #simulator_candlestick_colors .scrollAnimation--before .candlestick, #simulator_candlestick_colors .scrollAnimation--capable .candlestick {
   -moz-transform: scale(0);
   -o-transform: scale(0);
   -ms-transform: scale(0);
   -webkit-transform: scale(0);
   transform: scale(0); }
-
-/* line 1225, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_colors.scrollAnimation--active .shadow, #simulator_candlestick_colors .scrollAnimation--active .shadow {
   -webkit-animation: FadeIn 600ms linear 0ms forwards;
   -moz-animation: FadeIn 600ms linear 0ms forwards;
   animation: FadeIn 600ms linear 0ms forwards; }
-
-/* line 1229, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_colors.scrollAnimation--active .candlestick, #simulator_candlestick_colors .scrollAnimation--active .candlestick {
   -moz-transform: scale(0);
   -o-transform: scale(0);
@@ -1015,24 +823,18 @@
   -webkit-animation: Bounce_Animation 1500ms linear 0ms forwards;
   -moz-animation: Bounce_Animation 1500ms linear 0ms forwards;
   animation: Bounce_Animation 1500ms linear 0ms forwards; }
-
-/* line 1234, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_colors.scrollAnimation--active .red.candlestick, #simulator_candlestick_colors .scrollAnimation--active .red.candlestick {
   -webkit-animation-delay: 500ms !important;
   -moz-animation-delay: 500ms !important;
   animation-delay: 500ms !important; }
-  /* line 1237, _sass/scss/_simulator_graphics.scss */
   #simulator_candlestick_colors.scrollAnimation--active .red.candlestick .candlestick_label, #simulator_candlestick_colors .scrollAnimation--active .red.candlestick .candlestick_label {
     -webkit-animation-delay: 1000ms !important;
     -moz-animation-delay: 1000ms !important;
     animation-delay: 1000ms !important; }
-  /* line 1241, _sass/scss/_simulator_graphics.scss */
   #simulator_candlestick_colors.scrollAnimation--active .red.candlestick + .shadow, #simulator_candlestick_colors .scrollAnimation--active .red.candlestick + .shadow {
     -webkit-animation-delay: 500ms !important;
     -moz-animation-delay: 500ms !important;
     animation-delay: 500ms !important; }
-
-/* line 1246, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_colors.scrollAnimation--active .candlestick_label, #simulator_candlestick_colors .scrollAnimation--active .candlestick_label {
   opacity: 0;
   -webkit-animation: FadeIn 600ms linear 500ms forwards;
@@ -1040,44 +842,34 @@
   animation: FadeIn 600ms linear 500ms forwards; }
 
 @media (max-width: 47.9375em) {
-  /* line 1263, _sass/scss/_simulator_graphics.scss */
   #simulator_candlestick_types .row {
     margin-left: 0;
     margin-right: 0; }
-  /* line 1268, _sass/scss/_simulator_graphics.scss */
   #simulator_candlestick_types .candlestick-container .col {
     min-height: 520px;
     margin-bottom: 10px;
     padding-bottom: 150px; }
-  /* line 1274, _sass/scss/_simulator_graphics.scss */
   #simulator_candlestick_types #candlestick__long-stick,
   #simulator_candlestick_types #candlestick__long-wick {
     clear: right; }
-  /* line 1279, _sass/scss/_simulator_graphics.scss */
   #simulator_candlestick_types .candlestick__caption {
     height: 150px;
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%; } }
-
-/* line 1288, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_types .shadow {
   margin: 0 auto 20px;
   max-width: 100%;
   background-size: cover; }
   @media (max-width: 62em) {
-    /* line 1288, _sass/scss/_simulator_graphics.scss */
     #simulator_candlestick_types .shadow {
       width: 76px;
       height: 10px; } }
   @media (max-width: 47.9375em) {
-    /* line 1288, _sass/scss/_simulator_graphics.scss */
     #simulator_candlestick_types .shadow {
       width: 150px;
       height: 20px; } }
-
-/* line 1306, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_types .candlestick__caption {
   color: #4a4a4a;
   font: 14px/20px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1085,26 +877,20 @@
   padding: 15px 7px 0px 12px;
   min-height: 125px; }
   @media (max-width: 75em) {
-    /* line 1306, _sass/scss/_simulator_graphics.scss */
     #simulator_candlestick_types .candlestick__caption {
       min-height: 140px; } }
   @media (max-width: 62em) {
-    /* line 1306, _sass/scss/_simulator_graphics.scss */
     #simulator_candlestick_types .candlestick__caption {
       min-height: 150px;
       font-size: 12px;
       line-height: 18px; } }
   @media (max-width: 47.9375em) {
-    /* line 1306, _sass/scss/_simulator_graphics.scss */
     #simulator_candlestick_types .candlestick__caption {
       min-height: 100px;
       font: 14px/20px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif; } }
-  /* line 1328, _sass/scss/_simulator_graphics.scss */
   #simulator_candlestick_types .candlestick__caption .candlestick__name {
     font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold; }
-
-/* line 1331, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_types .col {
   padding-left: 0;
   padding-right: 0;
@@ -1113,13 +899,9 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box; }
-
-/* line 1341, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_types .candlestick {
   margin: 75px auto 30px;
   position: relative; }
-
-/* line 1349, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_types .scrollAnimation--before .candlestick, #simulator_candlestick_types .scrollAnimation--capable .candlestick {
   -moz-transform: scale(0);
   -o-transform: scale(0);
@@ -1127,11 +909,8 @@
   -webkit-transform: scale(0);
   transform: scale(0);
   /* -webkit-transform: scale(0); */ }
-  /* line 1352, _sass/scss/_simulator_graphics.scss */
   #simulator_candlestick_types .scrollAnimation--before .candlestick__caption, #simulator_candlestick_types .scrollAnimation--capable .candlestick__caption {
     opacity: 0; }
-
-/* line 1356, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_types .scrollAnimation--before .shadow, #simulator_candlestick_types .scrollAnimation--capable .shadow {
   -moz-transform: scale(0);
   -o-transform: scale(0);
@@ -1139,14 +918,10 @@
   -webkit-transform: scale(0);
   transform: scale(0);
   /* -webkit-transform: scale(0); */ }
-
-/* line 1363, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_types .scrollAnimation--active .shadow {
   -webkit-animation: Market_Snapshot_Static_Shadow 600ms linear 0ms forwards;
   -moz-animation: Market_Snapshot_Static_Shadow 600ms linear 0ms forwards;
   animation: Market_Snapshot_Static_Shadow 600ms linear 0ms forwards; }
-
-/* line 1368, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_types .scrollAnimation--active .candlestick {
   -moz-transform: scale(0);
   -o-transform: scale(0);
@@ -1156,340 +931,247 @@
   -webkit-animation: Bounce_Animation 1500ms linear 0ms forwards;
   -moz-animation: Bounce_Animation 1500ms linear 0ms forwards;
   animation: Bounce_Animation 1500ms linear 0ms forwards; }
-  /* line 1371, _sass/scss/_simulator_graphics.scss */
   #simulator_candlestick_types .scrollAnimation--active .candlestick__caption {
     opacity: 0;
     -webkit-animation: FadeIn 1s linear 0s forwards;
     -moz-animation: FadeIn 1s linear 0s forwards;
     animation: FadeIn 1s linear 0s forwards; }
-
-/* line 1378, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_types .scrollAnimation--active #candlestick__short-stick .candlestick, #simulator_candlestick_types .scrollAnimation--active #candlestick__short-stick .candlestick__caption {
   -webkit-animation-delay: 200ms !important;
   -moz-animation-delay: 200ms !important;
   animation-delay: 200ms !important; }
-
-/* line 1379, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_types .scrollAnimation--active #candlestick__long-stick .candlestick, #simulator_candlestick_types .scrollAnimation--active #candlestick__long-stick .candlestick__caption {
   -webkit-animation-delay: 400ms !important;
   -moz-animation-delay: 400ms !important;
   animation-delay: 400ms !important; }
-
-/* line 1380, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_types .scrollAnimation--active #candlestick__short-wick .candlestick, #simulator_candlestick_types .scrollAnimation--active #candlestick__short-wick .candlestick__caption {
   -webkit-animation-delay: 600ms !important;
   -moz-animation-delay: 600ms !important;
   animation-delay: 600ms !important; }
-
-/* line 1381, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_types .scrollAnimation--active #candlestick__long-wick .candlestick, #simulator_candlestick_types .scrollAnimation--active #candlestick__long-wick .candlestick__caption {
   -webkit-animation-delay: 800ms !important;
   -moz-animation-delay: 800ms !important;
   animation-delay: 800ms !important; }
-
-/* line 1382, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_types .scrollAnimation--active #candlestick__doji .candlestick, #simulator_candlestick_types .scrollAnimation--active #candlestick__doji .candlestick__caption {
   -webkit-animation-delay: 1000ms !important;
   -moz-animation-delay: 1000ms !important;
   animation-delay: 1000ms !important; }
-
-/* line 1383, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_types .scrollAnimation--active #candlestick__dragonfly-doji .candlestick, #simulator_candlestick_types .scrollAnimation--active #candlestick__dragonfly-doji .candlestick__caption {
   -webkit-animation-delay: 1200ms !important;
   -moz-animation-delay: 1200ms !important;
   animation-delay: 1200ms !important; }
-
-/* line 1386, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_types .scrollAnimation--active #candlestick__short-stick .shadow {
   -webkit-animation-delay: 400ms !important;
   -moz-animation-delay: 400ms !important;
   animation-delay: 400ms !important; }
-
-/* line 1387, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_types .scrollAnimation--active #candlestick__long-stick .shadow {
   -webkit-animation-delay: 600ms !important;
   -moz-animation-delay: 600ms !important;
   animation-delay: 600ms !important; }
-
-/* line 1388, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_types .scrollAnimation--active #candlestick__short-wick .shadow {
   -webkit-animation-delay: 800ms !important;
   -moz-animation-delay: 800ms !important;
   animation-delay: 800ms !important; }
-
-/* line 1389, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_types .scrollAnimation--active #candlestick__long-wick .shadow {
   -webkit-animation-delay: 1000ms !important;
   -moz-animation-delay: 1000ms !important;
   animation-delay: 1000ms !important; }
-
-/* line 1390, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_types .scrollAnimation--active #candlestick__doji .shadow {
   -webkit-animation-delay: 1200ms !important;
   -moz-animation-delay: 1200ms !important;
   animation-delay: 1200ms !important; }
-
-/* line 1391, _sass/scss/_simulator_graphics.scss */
 #simulator_candlestick_types .scrollAnimation--active #candlestick__dragonfly-doji .shadow {
   -webkit-animation-delay: 1400ms !important;
   -moz-animation-delay: 1400ms !important;
   animation-delay: 1400ms !important; }
 
-/* line 1404, _sass/scss/_simulator_graphics.scss */
 #News {
   overflow: hidden; }
 
 @media (max-width: 47.9375em) {
-  /* line 1408, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_upward {
     position: relative; }
-    /* line 1415, _sass/scss/_simulator_graphics.scss */
     #simulator_chart_upward .chart_col__chart {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%; } }
-
-/* line 1425, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_upward.module__bg {
   overflow: hidden; }
-
-/* line 1430, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_upward .news {
   margin: 50px auto 50px; }
-  /* line 1434, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_upward .news__item.is-highlighted {
     -webkit-animation: Clicked_Animation 300ms linear forwards;
     -moz-animation: Clicked_Animation 300ms linear forwards;
     animation: Clicked_Animation 300ms linear forwards; }
-
-/* line 1439, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_upward .chart__canvas {
   margin-top: 31px; }
-
-/* line 1443, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_upward .shadow {
   margin: 0 auto 30px; }
-
-/* line 1447, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_upward .mouse {
   position: absolute;
   /* Ending for animation, change in News_mouse_animation
-		top: 322px;
-		left: 487px;
-*/
+  		top: 322px;
+  		left: 487px;
+  */
   top: 141px;
   left: 189px;
   width: 31px;
   height: 47px;
   background-size: cover; }
-  /* line 1457, _sass/scss/_simulator_graphics.scss */
   .cssanimations #simulator_chart_upward .mouse {
     top: 141px;
     /* Starting for animation */
     left: 189px;
     /* Starting for animation */ }
-
-/* line 1471, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_upward.scrollAnimation--before .icon, #simulator_chart_upward.scrollAnimation--before .news, #simulator_chart_upward.scrollAnimation--before .shadow, #simulator_chart_upward.scrollAnimation--capable .icon, #simulator_chart_upward.scrollAnimation--capable .news, #simulator_chart_upward.scrollAnimation--capable .shadow {
   -moz-transform: scale(0);
   -o-transform: scale(0);
   -ms-transform: scale(0);
   -webkit-transform: scale(0);
   transform: scale(0); }
-
-/* line 1475, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_upward.scrollAnimation--before .mouse, #simulator_chart_upward.scrollAnimation--capable .mouse {
   /* Update 0% of News_Mouse_Animation if you change */
   top: 642px;
   left: 493px; }
-
-/* line 1481, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_upward.scrollAnimation--before .chart__canvas .line, #simulator_chart_upward.scrollAnimation--before .chart__canvas .y-axis-line, #simulator_chart_upward.scrollAnimation--before .chart__canvas .axes-label, #simulator_chart_upward.scrollAnimation--before .chart__canvas .y-axis, #simulator_chart_upward.scrollAnimation--before .chart__canvas .x-axis, #simulator_chart_upward.scrollAnimation--capable .chart__canvas .line, #simulator_chart_upward.scrollAnimation--capable .chart__canvas .y-axis-line, #simulator_chart_upward.scrollAnimation--capable .chart__canvas .axes-label, #simulator_chart_upward.scrollAnimation--capable .chart__canvas .y-axis, #simulator_chart_upward.scrollAnimation--capable .chart__canvas .x-axis {
   opacity: 0; }
-
-/* line 1488, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_upward.scrollAnimation--active .news {
   -webkit-animation: Bounce_Animation 1000ms linear 0ms forwards;
   -moz-animation: Bounce_Animation 1000ms linear 0ms forwards;
   animation: Bounce_Animation 1000ms linear 0ms forwards; }
-
-/* line 1492, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_upward.scrollAnimation--active .shadow {
   -webkit-animation: Market_Snapshot_Static_Shadow 1000ms ease-in-out 0ms forwards;
   -moz-animation: Market_Snapshot_Static_Shadow 1000ms ease-in-out 0ms forwards;
   animation: Market_Snapshot_Static_Shadow 1000ms ease-in-out 0ms forwards; }
-
-/* line 1497, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_upward.scrollAnimation--active .mouse {
   top: 642px;
   left: 493px;
   -webkit-animation: News_Mouse_Animation_Upward 1s linear 300ms forwards;
   -moz-animation: News_Mouse_Animation_Upward 1s linear 300ms forwards;
   animation: News_Mouse_Animation_Upward 1s linear 300ms forwards; }
-
-/* line 1503, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_upward.scrollAnimation--active .news__item:first-child {
   -webkit-animation: Clicked_Animation 300ms linear 1000ms forwards;
   -moz-animation: Clicked_Animation 300ms linear 1000ms forwards;
   animation: Clicked_Animation 300ms linear 1000ms forwards; }
-  /* line 1506, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_upward.scrollAnimation--active .news__item:first-child .news__cta, #simulator_chart_upward.scrollAnimation--active .news__item:first-child .news__item__title {
     -webkit-animation: Turn_Blue 300ms linear 1000ms forwards;
     -moz-animation: Turn_Blue 300ms linear 1000ms forwards;
     animation: Turn_Blue 300ms linear 1000ms forwards; }
-    /* line 1509, _sass/scss/_simulator_graphics.scss */
     #simulator_chart_upward.scrollAnimation--active .news__item:first-child .news__cta .newsprint, #simulator_chart_upward.scrollAnimation--active .news__item:first-child .news__item__title .newsprint {
       display: none; }
-  /* line 1512, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_upward.scrollAnimation--active .news__item:first-child .newsprint {
     -webkit-animation: Turn_Background_Blue 300ms linear 1000ms forwards;
     -moz-animation: Turn_Background_Blue 300ms linear 1000ms forwards;
     animation: Turn_Background_Blue 300ms linear 1000ms forwards; }
-
-/* line 1518, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_upward.scrollAnimation--active .news__item:last-child .news__item__title span {
   display: none; }
-
-/* line 1519, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_upward.scrollAnimation--active .news__item:last-child .news__cta {
   color: #e6e6e6; }
-
 @media (max-width: 47.9375em) {
-  /* line 1487, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_upward.scrollAnimation--active {
     position: relative; }
-    /* line 1525, _sass/scss/_simulator_graphics.scss */
     #simulator_chart_upward.scrollAnimation--active .chart_col__news {
       -webkit-animation: FadeOut 600ms linear 2s forwards;
       -moz-animation: FadeOut 600ms linear 2s forwards;
       animation: FadeOut 600ms linear 2s forwards; }
-    /* line 1529, _sass/scss/_simulator_graphics.scss */
     #simulator_chart_upward.scrollAnimation--active .chart_col__chart {
       -webkit-animation: FadeIn 100ms linear 2.6s forwards;
       -moz-animation: FadeIn 100ms linear 2.6s forwards;
       animation: FadeIn 100ms linear 2.6s forwards; }
-    /* line 1535, _sass/scss/_simulator_graphics.scss */
     #simulator_chart_upward.scrollAnimation--active .chart__canvas .y-axis, #simulator_chart_upward.scrollAnimation--active .chart__canvas .x-axis {
       -webkit-animation-delay: 2700ms !important;
       -moz-animation-delay: 2700ms !important;
       animation-delay: 2700ms !important; }
-    /* line 1536, _sass/scss/_simulator_graphics.scss */
     #simulator_chart_upward.scrollAnimation--active .chart__canvas .y-axis-line__1 {
       -webkit-animation-delay: 3550ms !important;
       -moz-animation-delay: 3550ms !important;
       animation-delay: 3550ms !important; }
-    /* line 1537, _sass/scss/_simulator_graphics.scss */
     #simulator_chart_upward.scrollAnimation--active .chart__canvas .y-axis-line__2 {
       -webkit-animation-delay: 3700ms !important;
       -moz-animation-delay: 3700ms !important;
       animation-delay: 3700ms !important; }
-    /* line 1538, _sass/scss/_simulator_graphics.scss */
     #simulator_chart_upward.scrollAnimation--active .chart__canvas .y-axis-line__3 {
       -webkit-animation-delay: 3850ms !important;
       -moz-animation-delay: 3850ms !important;
       animation-delay: 3850ms !important; }
-    /* line 1539, _sass/scss/_simulator_graphics.scss */
     #simulator_chart_upward.scrollAnimation--active .chart__canvas .y-axis-line__4 {
       -webkit-animation-delay: 4000ms !important;
       -moz-animation-delay: 4000ms !important;
       animation-delay: 4000ms !important; }
-    /* line 1540, _sass/scss/_simulator_graphics.scss */
     #simulator_chart_upward.scrollAnimation--active .chart__canvas .y-axis-line__5 {
       -webkit-animation-delay: 4150ms !important;
       -moz-animation-delay: 4150ms !important;
       animation-delay: 4150ms !important; }
-    /* line 1541, _sass/scss/_simulator_graphics.scss */
     #simulator_chart_upward.scrollAnimation--active .chart__canvas .y-axis-line__6 {
       -webkit-animation-delay: 4300ms !important;
       -moz-animation-delay: 4300ms !important;
       animation-delay: 4300ms !important; }
-    /* line 1542, _sass/scss/_simulator_graphics.scss */
     #simulator_chart_upward.scrollAnimation--active .chart__canvas .axes-label {
       -webkit-animation-delay: 3700ms !important;
       -moz-animation-delay: 3700ms !important;
       animation-delay: 3700ms !important; }
-    /* line 1543, _sass/scss/_simulator_graphics.scss */
     #simulator_chart_upward.scrollAnimation--active .chart__canvas .line {
       -webkit-animation-delay: 4700ms !important;
       -moz-animation-delay: 4700ms !important;
       animation-delay: 4700ms !important; }
-    /* line 1544, _sass/scss/_simulator_graphics.scss */
     #simulator_chart_upward.scrollAnimation--active .chart__canvas.barn .icon {
       -webkit-animation-delay: 5650ms !important;
       -moz-animation-delay: 5650ms !important;
       animation-delay: 5650ms !important; } }
-
-/* line 1551, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_upward.scrollAnimation--active .chart__canvas .x-axis {
   bottom: 0%;
   left: 0%;
   -webkit-animation: Chart_Animation_X_Axis 1s linear 1300ms forwards;
   -moz-animation: Chart_Animation_X_Axis 1s linear 1300ms forwards;
   animation: Chart_Animation_X_Axis 1s linear 1300ms forwards; }
-
-/* line 1559, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_upward.scrollAnimation--active .chart__canvas .y-axis {
   bottom: 0%;
   left: 0%;
   -webkit-animation: Chart_Animation_Y_Axis 1s linear 1300ms forwards;
   -moz-animation: Chart_Animation_Y_Axis 1s linear 1300ms forwards;
   animation: Chart_Animation_Y_Axis 1s linear 1300ms forwards; }
-
-/* line 1567, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_upward.scrollAnimation--active .chart__canvas .y-axis-line {
   opacity: 1;
   width: 0%;
   -webkit-animation: Animate_Width_None_to_Full 1s linear 2s forwards;
   -moz-animation: Animate_Width_None_to_Full 1s linear 2s forwards;
   animation: Animate_Width_None_to_Full 1s linear 2s forwards; }
-  /* line 1573, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_upward.scrollAnimation--active .chart__canvas .y-axis-line__1 {
     -webkit-animation-delay: 2150ms !important;
     -moz-animation-delay: 2150ms !important;
     animation-delay: 2150ms !important; }
-  /* line 1574, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_upward.scrollAnimation--active .chart__canvas .y-axis-line__2 {
     -webkit-animation-delay: 2300ms !important;
     -moz-animation-delay: 2300ms !important;
     animation-delay: 2300ms !important; }
-  /* line 1575, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_upward.scrollAnimation--active .chart__canvas .y-axis-line__3 {
     -webkit-animation-delay: 2450ms !important;
     -moz-animation-delay: 2450ms !important;
     animation-delay: 2450ms !important; }
-  /* line 1576, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_upward.scrollAnimation--active .chart__canvas .y-axis-line__4 {
     -webkit-animation-delay: 2600ms !important;
     -moz-animation-delay: 2600ms !important;
     animation-delay: 2600ms !important; }
-  /* line 1577, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_upward.scrollAnimation--active .chart__canvas .y-axis-line__5 {
     -webkit-animation-delay: 2750ms !important;
     -moz-animation-delay: 2750ms !important;
     animation-delay: 2750ms !important; }
-  /* line 1578, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_upward.scrollAnimation--active .chart__canvas .y-axis-line__6 {
     -webkit-animation-delay: 2900ms !important;
     -moz-animation-delay: 2900ms !important;
     animation-delay: 2900ms !important; }
-
-/* line 1581, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_upward.scrollAnimation--active .chart__canvas .axes-label {
   -webkit-animation: FadeIn 1s linear 2300ms forwards;
   -moz-animation: FadeIn 1s linear 2300ms forwards;
   animation: FadeIn 1s linear 2300ms forwards; }
-
-/* line 1586, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_upward.scrollAnimation--active .chart__canvas .line {
   opacity: 1;
   width: 0%;
   -webkit-animation: Animate_Chart_Upward_Line 2s linear 3s forwards;
   -moz-animation: Animate_Chart_Upward_Line 2s linear 3s forwards;
   animation: Animate_Chart_Upward_Line 2s linear 3s forwards; }
-
-/* line 1595, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_upward.scrollAnimation--active .chart__canvas .icon {
   -moz-transform: scale(0);
   -o-transform: scale(0);
@@ -1501,254 +1183,188 @@
   animation: Bounce_Animation 600ms ease-out 4.25s forwards; }
 
 @media (max-width: 47.9375em) {
-  /* line 1616, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward {
     position: relative; }
-    /* line 1622, _sass/scss/_simulator_graphics.scss */
     #simulator_chart_downward .chart_col__chart {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%; } }
-
-/* line 1633, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_downward .news {
   margin: 50px auto 50px; }
-  /* line 1636, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward .news__item.is-highlighted {
     -webkit-animation: Clicked_Animation 300ms linear forwards;
     -moz-animation: Clicked_Animation 300ms linear forwards;
     animation: Clicked_Animation 300ms linear forwards; }
-
-/* line 1641, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_downward .chart__canvas {
   margin-top: 31px; }
-
-/* line 1647, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_downward .shadow {
   margin: 0 auto 30px; }
-
-/* line 1651, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_downward .mouse {
   position: absolute;
   /* Ending for animation, change in News_mouse_animation
-		top: 322px;
-		left: 487px;
-*/
+  		top: 322px;
+  		left: 487px;
+  */
   top: 141px;
   left: 189px;
   width: 31px;
   height: 47px;
   background-size: cover; }
-  /* line 1661, _sass/scss/_simulator_graphics.scss */
   .cssanimations #simulator_chart_downward .mouse {
     top: 141px;
     /* Starting for animation */
     left: 189px;
     /* Starting for animation */ }
-
-/* line 1672, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_downward.module__bg {
   overflow: hidden; }
-
-/* line 1679, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_downward.scrollAnimation--before .icon, #simulator_chart_downward.scrollAnimation--before .news, #simulator_chart_downward.scrollAnimation--before .shadow, #simulator_chart_downward.scrollAnimation--capable .icon, #simulator_chart_downward.scrollAnimation--capable .news, #simulator_chart_downward.scrollAnimation--capable .shadow {
   -moz-transform: scale(0);
   -o-transform: scale(0);
   -ms-transform: scale(0);
   -webkit-transform: scale(0);
   transform: scale(0); }
-
-/* line 1683, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_downward.scrollAnimation--before .mouse, #simulator_chart_downward.scrollAnimation--capable .mouse {
   /* Update 0% of News_Mouse_Animation if you change */
   top: 642px;
   left: 493px; }
-
-/* line 1689, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_downward.scrollAnimation--before .chart__canvas .line, #simulator_chart_downward.scrollAnimation--before .chart__canvas .y-axis-line, #simulator_chart_downward.scrollAnimation--before .chart__canvas .axes-label, #simulator_chart_downward.scrollAnimation--before .chart__canvas .y-axis, #simulator_chart_downward.scrollAnimation--before .chart__canvas .x-axis, #simulator_chart_downward.scrollAnimation--capable .chart__canvas .line, #simulator_chart_downward.scrollAnimation--capable .chart__canvas .y-axis-line, #simulator_chart_downward.scrollAnimation--capable .chart__canvas .axes-label, #simulator_chart_downward.scrollAnimation--capable .chart__canvas .y-axis, #simulator_chart_downward.scrollAnimation--capable .chart__canvas .x-axis {
   opacity: 0; }
-
-/* line 1697, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_downward.scrollAnimation--active .news {
   -webkit-animation: Bounce_Animation 1000ms linear 0ms forwards;
   -moz-animation: Bounce_Animation 1000ms linear 0ms forwards;
   animation: Bounce_Animation 1000ms linear 0ms forwards; }
-
-/* line 1701, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_downward.scrollAnimation--active .shadow {
   -webkit-animation: Market_Snapshot_Static_Shadow 1000ms ease-in-out 0ms forwards;
   -moz-animation: Market_Snapshot_Static_Shadow 1000ms ease-in-out 0ms forwards;
   animation: Market_Snapshot_Static_Shadow 1000ms ease-in-out 0ms forwards; }
-
-/* line 1706, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_downward.scrollAnimation--active .mouse {
   top: 642px;
   left: 493px;
   -webkit-animation: News_Mouse_Animation_Downward 1s linear 300ms forwards;
   -moz-animation: News_Mouse_Animation_Downward 1s linear 300ms forwards;
   animation: News_Mouse_Animation_Downward 1s linear 300ms forwards; }
-
-/* line 1712, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_downward.scrollAnimation--active .news__item:last-child {
   -webkit-animation: Clicked_Animation 300ms linear 1000ms forwards;
   -moz-animation: Clicked_Animation 300ms linear 1000ms forwards;
   animation: Clicked_Animation 300ms linear 1000ms forwards; }
-  /* line 1715, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward.scrollAnimation--active .news__item:last-child .news__cta, #simulator_chart_downward.scrollAnimation--active .news__item:last-child .news__item__title {
     -webkit-animation: Turn_Blue 300ms linear 1000ms forwards;
     -moz-animation: Turn_Blue 300ms linear 1000ms forwards;
     animation: Turn_Blue 300ms linear 1000ms forwards; }
-    /* line 1718, _sass/scss/_simulator_graphics.scss */
     #simulator_chart_downward.scrollAnimation--active .news__item:last-child .news__cta .newsprint, #simulator_chart_downward.scrollAnimation--active .news__item:last-child .news__item__title .newsprint {
       display: none; }
-  /* line 1721, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward.scrollAnimation--active .news__item:last-child .newsprint {
     -webkit-animation: Turn_Background_Blue 300ms linear 1000ms forwards;
     -moz-animation: Turn_Background_Blue 300ms linear 1000ms forwards;
     animation: Turn_Background_Blue 300ms linear 1000ms forwards; }
-
-/* line 1727, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_downward.scrollAnimation--active .news__item:first-child .news__item__title span {
   display: none; }
-
-/* line 1728, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_downward.scrollAnimation--active .news__item:first-child .news__cta {
   color: #e6e6e6; }
-
 @media (max-width: 47.9375em) {
-  /* line 1734, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward.scrollAnimation--active .chart_col__news {
     -webkit-animation: FadeOut 600ms linear 2s forwards;
     -moz-animation: FadeOut 600ms linear 2s forwards;
     animation: FadeOut 600ms linear 2s forwards; }
-  /* line 1738, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward.scrollAnimation--active .chart_col__chart {
     -webkit-animation: FadeIn 100ms linear 2.6s forwards;
     -moz-animation: FadeIn 100ms linear 2.6s forwards;
     animation: FadeIn 100ms linear 2.6s forwards; }
-  /* line 1744, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward.scrollAnimation--active .chart__canvas .y-axis, #simulator_chart_downward.scrollAnimation--active .chart__canvas .x-axis {
     -webkit-animation-delay: 2700ms !important;
     -moz-animation-delay: 2700ms !important;
     animation-delay: 2700ms !important; }
-  /* line 1745, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward.scrollAnimation--active .chart__canvas .y-axis-line__1 {
     -webkit-animation-delay: 3550ms !important;
     -moz-animation-delay: 3550ms !important;
     animation-delay: 3550ms !important; }
-  /* line 1746, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward.scrollAnimation--active .chart__canvas .y-axis-line__2 {
     -webkit-animation-delay: 3700ms !important;
     -moz-animation-delay: 3700ms !important;
     animation-delay: 3700ms !important; }
-  /* line 1747, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward.scrollAnimation--active .chart__canvas .y-axis-line__3 {
     -webkit-animation-delay: 3850ms !important;
     -moz-animation-delay: 3850ms !important;
     animation-delay: 3850ms !important; }
-  /* line 1748, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward.scrollAnimation--active .chart__canvas .y-axis-line__4 {
     -webkit-animation-delay: 4000ms !important;
     -moz-animation-delay: 4000ms !important;
     animation-delay: 4000ms !important; }
-  /* line 1749, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward.scrollAnimation--active .chart__canvas .y-axis-line__5 {
     -webkit-animation-delay: 4150ms !important;
     -moz-animation-delay: 4150ms !important;
     animation-delay: 4150ms !important; }
-  /* line 1750, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward.scrollAnimation--active .chart__canvas .y-axis-line__6 {
     -webkit-animation-delay: 4300ms !important;
     -moz-animation-delay: 4300ms !important;
     animation-delay: 4300ms !important; }
-  /* line 1751, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward.scrollAnimation--active .chart__canvas .axes-label {
     -webkit-animation-delay: 3700ms !important;
     -moz-animation-delay: 3700ms !important;
     animation-delay: 3700ms !important; }
-  /* line 1752, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward.scrollAnimation--active .chart__canvas .line {
     -webkit-animation-delay: 4700ms !important;
     -moz-animation-delay: 4700ms !important;
     animation-delay: 4700ms !important; }
-  /* line 1753, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward.scrollAnimation--active .chart__canvas.sun .icon {
     -webkit-animation-delay: 5150ms !important;
     -moz-animation-delay: 5150ms !important;
     animation-delay: 5150ms !important; } }
-
-/* line 1762, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_downward.scrollAnimation--active .chart__canvas .x-axis {
   bottom: 0%;
   left: 0%;
   -webkit-animation: Chart_Animation_X_Axis 1s linear 1300ms forwards;
   -moz-animation: Chart_Animation_X_Axis 1s linear 1300ms forwards;
   animation: Chart_Animation_X_Axis 1s linear 1300ms forwards; }
-
-/* line 1769, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_downward.scrollAnimation--active .chart__canvas .y-axis {
   bottom: 0%;
   left: 0%;
   -webkit-animation: Chart_Animation_Y_Axis 1s linear 1300ms forwards;
   -moz-animation: Chart_Animation_Y_Axis 1s linear 1300ms forwards;
   animation: Chart_Animation_Y_Axis 1s linear 1300ms forwards; }
-
-/* line 1776, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_downward.scrollAnimation--active .chart__canvas .y-axis-line {
   opacity: 1;
   width: 0%;
   -webkit-animation: Animate_Width_None_to_Full 1s linear 2s forwards;
   -moz-animation: Animate_Width_None_to_Full 1s linear 2s forwards;
   animation: Animate_Width_None_to_Full 1s linear 2s forwards; }
-  /* line 1782, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward.scrollAnimation--active .chart__canvas .y-axis-line__1 {
     -webkit-animation-delay: 2150ms !important;
     -moz-animation-delay: 2150ms !important;
     animation-delay: 2150ms !important; }
-  /* line 1783, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward.scrollAnimation--active .chart__canvas .y-axis-line__2 {
     -webkit-animation-delay: 2300ms !important;
     -moz-animation-delay: 2300ms !important;
     animation-delay: 2300ms !important; }
-  /* line 1784, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward.scrollAnimation--active .chart__canvas .y-axis-line__3 {
     -webkit-animation-delay: 2450ms !important;
     -moz-animation-delay: 2450ms !important;
     animation-delay: 2450ms !important; }
-  /* line 1785, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward.scrollAnimation--active .chart__canvas .y-axis-line__4 {
     -webkit-animation-delay: 2600ms !important;
     -moz-animation-delay: 2600ms !important;
     animation-delay: 2600ms !important; }
-  /* line 1786, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward.scrollAnimation--active .chart__canvas .y-axis-line__5 {
     -webkit-animation-delay: 2750ms !important;
     -moz-animation-delay: 2750ms !important;
     animation-delay: 2750ms !important; }
-  /* line 1787, _sass/scss/_simulator_graphics.scss */
   #simulator_chart_downward.scrollAnimation--active .chart__canvas .y-axis-line__6 {
     -webkit-animation-delay: 2900ms !important;
     -moz-animation-delay: 2900ms !important;
     animation-delay: 2900ms !important; }
-
-/* line 1790, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_downward.scrollAnimation--active .chart__canvas .axes-label {
   opacity: 0;
   -webkit-animation: FadeIn 1s linear 2300ms forwards;
   -moz-animation: FadeIn 1s linear 2300ms forwards;
   animation: FadeIn 1s linear 2300ms forwards; }
-
-/* line 1796, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_downward.scrollAnimation--active .chart__canvas .line {
   opacity: 1;
   width: 0%;
   -webkit-animation: Animate_Chart_Downward_Line 2s linear 3s forwards;
   -moz-animation: Animate_Chart_Downward_Line 2s linear 3s forwards;
   animation: Animate_Chart_Downward_Line 2s linear 3s forwards; }
-
-/* line 1803, _sass/scss/_simulator_graphics.scss */
 #simulator_chart_downward.scrollAnimation--active .chart__canvas .icon {
   -moz-transform: scale(0);
   -o-transform: scale(0);
@@ -1759,36 +1375,26 @@
   -moz-animation: Bounce_Animation 1000ms ease-out 3.75s forwards;
   animation: Bounce_Animation 1000ms ease-out 3.75s forwards; }
 
-/* line 1827, _sass/scss/_simulator_graphics.scss */
 #simulator_market_order .module__bg {
   padding: 70px 0 0px;
   overflow: hidden; }
   @media (max-width: 31.25em) {
-    /* line 1827, _sass/scss/_simulator_graphics.scss */
     #simulator_market_order .module__bg {
       padding-top: 45px; }
-      /* line 1834, _sass/scss/_simulator_graphics.scss */
       #simulator_market_order .module__bg .shadow {
         margin-bottom: 30px; } }
-
-/* line 1841, _sass/scss/_simulator_graphics.scss */
 #simulator_market_order .shadow {
   margin: 0 auto 50px;
   -webkit-animation: FadeIn 1s linear 1s forwards;
   -moz-animation: FadeIn 1s linear 1s forwards;
   animation: FadeIn 1s linear 1s forwards; }
-  /* line 1844, _sass/scss/_simulator_graphics.scss */
   .cssanimations #simulator_market_order .shadow {
     opacity: 0; }
-
-/* line 1848, _sass/scss/_simulator_graphics.scss */
 #simulator_market_order .mouse {
   width: 39px;
   height: 56px;
   background-size: cover;
   position: absolute; }
-
-/* line 1856, _sass/scss/_simulator_graphics.scss */
 #simulator_market_order .market_order {
   background: url("../img/market-order@2x.png");
   background-size: cover;
@@ -1801,37 +1407,29 @@
   width: 500px;
   height: 458px; }
   @media (max-width: 31.875em) {
-    /* line 1856, _sass/scss/_simulator_graphics.scss */
     #simulator_market_order .market_order {
       width: 300px;
       height: 274.8px;
-      /*
-			.mouse {
-				width:  13.31%;
-				height: 17.89%;
-			}
-
-			.button.cancel {
-				left: 17% !important;
-			} */ } }
-  /* line 1890, _sass/scss/_simulator_graphics.scss */
+      			/*
+      			.mouse {
+      				width:  13.31%;
+      				height: 17.89%;
+      			}
+      
+      			.button.cancel {
+      				left: 17% !important;
+      			} */ } }
   #simulator_market_order .market_order .col3-set {
     padding: 8px 0; }
-
-/* line 1902, _sass/scss/_simulator_graphics.scss */
 #simulator_market_order.scrollAnimation--before .mouse, #simulator_market_order.scrollAnimation--capable .mouse {
   top: 590px;
   left: 690px; }
-
-/* line 1907, _sass/scss/_simulator_graphics.scss */
 #simulator_market_order.scrollAnimation--before .market_order, #simulator_market_order.scrollAnimation--before .shadow, #simulator_market_order.scrollAnimation--capable .market_order, #simulator_market_order.scrollAnimation--capable .shadow {
   -moz-transform: scale(0);
   -o-transform: scale(0);
   -ms-transform: scale(0);
   -webkit-transform: scale(0);
   transform: scale(0); }
-
-/* line 1913, _sass/scss/_simulator_graphics.scss */
 #simulator_market_order.scrollAnimation--active .market_order {
   -moz-transform: scale(0);
   -o-transform: scale(0);
@@ -1841,8 +1439,6 @@
   -webkit-animation: Bounce_Animation 1500ms linear 500ms forwards;
   -moz-animation: Bounce_Animation 1500ms linear 500ms forwards;
   animation: Bounce_Animation 1500ms linear 500ms forwards; }
-
-/* line 1918, _sass/scss/_simulator_graphics.scss */
 #simulator_market_order.scrollAnimation--active .market_order__dropdown {
   opacity: 0;
   position: absolute;
@@ -1855,8 +1451,6 @@
   -webkit-animation: Market_Order_Dropdown_Animation 4000ms ease-in-out 1500ms forwards;
   -moz-animation: Market_Order_Dropdown_Animation 4000ms ease-in-out 1500ms forwards;
   animation: Market_Order_Dropdown_Animation 4000ms ease-in-out 1500ms forwards; }
-
-/* line 1932, _sass/scss/_simulator_graphics.scss */
 #simulator_market_order.scrollAnimation--active .market_order__dropdown--opened {
   opacity: 0;
   position: absolute;
@@ -1869,8 +1463,6 @@
   -webkit-animation: Market_Order_Dropdown_Animation__Opened 4000ms ease-in-out 1500ms forwards;
   -moz-animation: Market_Order_Dropdown_Animation__Opened 4000ms ease-in-out 1500ms forwards;
   animation: Market_Order_Dropdown_Animation__Opened 4000ms ease-in-out 1500ms forwards; }
-
-/* line 1946, _sass/scss/_simulator_graphics.scss */
 #simulator_market_order.scrollAnimation--active .market_order__dropdown_quantity {
   position: absolute;
   opacity: 0;
@@ -1883,8 +1475,6 @@
   -webkit-animation: Market_Order_Dropdown_Quantity_Animation 4000ms ease-in-out 1500ms forwards;
   -moz-animation: Market_Order_Dropdown_Quantity_Animation 4000ms ease-in-out 1500ms forwards;
   animation: Market_Order_Dropdown_Quantity_Animation 4000ms ease-in-out 1500ms forwards; }
-
-/* line 1962, _sass/scss/_simulator_graphics.scss */
 #simulator_market_order.scrollAnimation--active .market_order__dropdown_quantity--opened {
   position: absolute;
   opacity: 0;
@@ -1897,8 +1487,6 @@
   -webkit-animation: Market_Order_Dropdown_Quantity_Animation_Opened 4000ms ease-in-out 1500ms forwards;
   -moz-animation: Market_Order_Dropdown_Quantity_Animation_Opened 4000ms ease-in-out 1500ms forwards;
   animation: Market_Order_Dropdown_Quantity_Animation_Opened 4000ms ease-in-out 1500ms forwards; }
-
-/* line 1980, _sass/scss/_simulator_graphics.scss */
 #simulator_market_order.scrollAnimation--active .shadow {
   -moz-transform: scale(0);
   -o-transform: scale(0);
@@ -1908,8 +1496,6 @@
   -webkit-animation: Market_Snapshot_Static_Shadow 1500ms ease-in-out 500ms forwards;
   -moz-animation: Market_Snapshot_Static_Shadow 1500ms ease-in-out 500ms forwards;
   animation: Market_Snapshot_Static_Shadow 1500ms ease-in-out 500ms forwards; }
-
-/* line 1985, _sass/scss/_simulator_graphics.scss */
 #simulator_market_order.scrollAnimation--active .mouse {
   top: 220%;
   left: 172.5%;
@@ -1918,56 +1504,45 @@
   -moz-animation: Market_Order_Mouse_Animation 4000ms ease-in-out 1500ms forwards;
   animation: Market_Order_Mouse_Animation 4000ms ease-in-out 1500ms forwards;
   opacity: 1; }
-
-/* line 1997, _sass/scss/_simulator_graphics.scss */
 #simulator_market_order.scrollAnimation--after .mouse {
   top: 156px;
   left: 31px; }
 
-/* line 2008, _sass/scss/_simulator_graphics.scss */
 #simulator_confirm_order .module__bg {
   padding: 70px 0 45px;
   overflow: hidden;
   /*
-		@include mq($until: 500px) {
-			padding-top: 60px;
-
-			.shadow {
-				margin-bottom: 40px;
-			}
-		}
-*/ }
+  		@include mq($until: 500px) {
+  			padding-top: 60px;
+  
+  			.shadow {
+  				margin-bottom: 40px;
+  			}
+  		}
+  */ }
   @media (max-width: 31.25em) {
-    /* line 2008, _sass/scss/_simulator_graphics.scss */
     #simulator_confirm_order .module__bg {
       padding-top: 60px;
       padding-bottom: 40px !important; } }
-
-/* line 2032, _sass/scss/_simulator_graphics.scss */
 #simulator_confirm_order .confirm-order {
   margin: 0 auto 50px;
   position: relative;
   background: url("../img/confirm-order@2x.png");
   background-size: cover;
   width: 500px;
-  height: 373.50835px; }
+  height: 373.5083532px; }
   @media (max-width: 31.25em) {
-    /* line 2032, _sass/scss/_simulator_graphics.scss */
     #simulator_confirm_order .confirm-order {
       margin-bottom: 40px; } }
   @media (max-width: 31.875em) {
-    /* line 2032, _sass/scss/_simulator_graphics.scss */
     #simulator_confirm_order .confirm-order {
       width: 300px;
-      height: 224.10501px; }
-      /* line 2055, _sass/scss/_simulator_graphics.scss */
+      height: 224.10501192px; }
       #simulator_confirm_order .confirm-order .mouse {
         width: 13.31%;
         height: 17.89%; }
-      /* line 2060, _sass/scss/_simulator_graphics.scss */
       #simulator_confirm_order .confirm-order .button.cancel {
         left: 17% !important; } }
-  /* line 2069, _sass/scss/_simulator_graphics.scss */
   #simulator_confirm_order .confirm-order .button {
     bottom: 4.47%;
     left: 3.102%;
@@ -1977,19 +1552,13 @@
     padding: 3px 8px 1px;
     pointer-events: none;
     cursor: default; }
-    /* line 2079, _sass/scss/_simulator_graphics.scss */
     #simulator_confirm_order .confirm-order .button:after {
       display: none; }
-    /* line 2083, _sass/scss/_simulator_graphics.scss */
     #simulator_confirm_order .confirm-order .button.cancel {
       left: 11.694%;
       background: #4FBBEB; }
-
-/* line 2092, _sass/scss/_simulator_graphics.scss */
 #simulator_confirm_order .shadow {
   margin: 0 auto; }
-
-/* line 2096, _sass/scss/_simulator_graphics.scss */
 #simulator_confirm_order .mouse {
   width: 9.31%;
   height: 17.89%;
@@ -1997,8 +1566,6 @@
   top: 91%;
   left: 5%;
   position: absolute; }
-
-/* line 2108, _sass/scss/_simulator_graphics.scss */
 #simulator_confirm_order.scrollAnimation--before .mouse, #simulator_confirm_order.scrollAnimation--capable .mouse {
   -moz-transform: scale(0);
   -o-transform: scale(0);
@@ -2007,20 +1574,14 @@
   transform: scale(0);
   top: -100%;
   left: -25%; }
-
-/* line 2113, _sass/scss/_simulator_graphics.scss */
 #simulator_confirm_order.scrollAnimation--before .confirm-order, #simulator_confirm_order.scrollAnimation--before .shadow, #simulator_confirm_order.scrollAnimation--capable .confirm-order, #simulator_confirm_order.scrollAnimation--capable .shadow {
   -moz-transform: scale(0);
   -o-transform: scale(0);
   -ms-transform: scale(0);
   -webkit-transform: scale(0);
   transform: scale(0); }
-
-/* line 2119, _sass/scss/_simulator_graphics.scss */
 #simulator_confirm_order.scrollAnimation--active .module__bg {
   overflow: hidden; }
-
-/* line 2123, _sass/scss/_simulator_graphics.scss */
 #simulator_confirm_order.scrollAnimation--active .confirm-order {
   -moz-transform: scale(0);
   -o-transform: scale(0);
@@ -2030,8 +1591,6 @@
   -webkit-animation: Bounce_Animation 1500ms linear 500ms forwards;
   -moz-animation: Bounce_Animation 1500ms linear 500ms forwards;
   animation: Bounce_Animation 1500ms linear 500ms forwards; }
-
-/* line 2128, _sass/scss/_simulator_graphics.scss */
 #simulator_confirm_order.scrollAnimation--active .shadow {
   -moz-transform: scale(0);
   -o-transform: scale(0);
@@ -2041,8 +1600,6 @@
   -webkit-animation: Market_Snapshot_Static_Shadow 1500ms ease-in-out 500ms forwards;
   -moz-animation: Market_Snapshot_Static_Shadow 1500ms ease-in-out 500ms forwards;
   animation: Market_Snapshot_Static_Shadow 1500ms ease-in-out 500ms forwards; }
-
-/* line 2132, _sass/scss/_simulator_graphics.scss */
 #simulator_confirm_order.scrollAnimation--active .mouse {
   -moz-transform: scale(0);
   -o-transform: scale(0);
@@ -2052,63 +1609,41 @@
   -webkit-animation: Confirm_Order_Mouse_Animation 2000ms ease-in-out 500ms forwards;
   -moz-animation: Confirm_Order_Mouse_Animation 2000ms ease-in-out 500ms forwards;
   animation: Confirm_Order_Mouse_Animation 2000ms ease-in-out 500ms forwards; }
-
-/* line 2137, _sass/scss/_simulator_graphics.scss */
 #simulator_confirm_order.scrollAnimation--active .button.ok {
   -webkit-animation: Clicked_Animation 200ms linear 2150ms forwards;
   -moz-animation: Clicked_Animation 200ms linear 2150ms forwards;
   animation: Clicked_Animation 200ms linear 2150ms forwards; }
 
 /*** 2015 simulator code ***/
-/* line 2166, _sass/scss/_simulator_graphics.scss */
 .simulator-tutorial-page .mod-callout-download-block {
   padding: 0 !important; }
-  /* line 2169, _sass/scss/_simulator_graphics.scss */
   .simulator-tutorial-page .mod-callout-download-block:hover {
     cursor: pointer; }
-  /* line 2171, _sass/scss/_simulator_graphics.scss */
   .simulator-tutorial-page .mod-callout-download-block a {
     padding-left: 110px !important; }
 
-/* line 2178, _sass/scss/_simulator_graphics.scss */
 .infographic-simulator .infographic-content {
   width: auto !important; }
-
-/* line 2182, _sass/scss/_simulator_graphics.scss */
 .infographic-simulator .popup {
   -moz-border-radius: 5px;
   border-radius: 5px;
   -webkit-border-radius: 5px; }
-
-/* line 2188, _sass/scss/_simulator_graphics.scss */
 .infographic-simulator, .infographic-simulator .panel, .infographic-simulator .panel .wrapper {
   height: 550px; }
-
-/* line 2193, _sass/scss/_simulator_graphics.scss */
 .infographic-simulator .pager {
   top: 0 !important;
   position: absolute !important;
   right: 0 !important;
   margin: 0 !important; }
-
-/* line 2200, _sass/scss/_simulator_graphics.scss */
 .infographic-simulator .carousel {
   margin-top: -10px; }
-
-/* line 2205, _sass/scss/_simulator_graphics.scss */
 .infographic-simulator .panel-tpl-Intro img {
   margin-bottom: 28px; }
-
-/* line 2209, _sass/scss/_simulator_graphics.scss */
 .infographic-simulator .panel-tpl-Intro .btn {
   margin-top: 14px;
   background: #4CBAEA; }
-
-/* line 2219, _sass/scss/_simulator_graphics.scss */
 .infographic-simulator .panel-tpl-Section .wrapper {
   max-width: 520px; }
-
-/* line 2223, _sass/scss/_simulator_graphics.scss */
 .infographic-simulator .panel-tpl-Section blockquote {
   font-family: "Benton Sans Light";
   font-size: 24px;
@@ -2119,17 +1654,14 @@
   margin: 0 auto;
   font-weight: normal; }
 
-/* line 2238, _sass/scss/_simulator_graphics.scss */
 .bkg {
   height: 550px; }
 
-/* line 2249, _sass/scss/_simulator_graphics.scss */
 .mouse {
   background: url("../../simulator_assets/_simulator/img/icon-cursor.png");
   height: 91px;
   width: 64px; }
 
-/* line 2256, _sass/scss/_simulator_graphics.scss */
 .market_snapshot_component {
   -webkit-transition: all 150ms ease-in-out;
   -moz-transition: all 150ms ease-in-out;
@@ -2149,65 +1681,48 @@
   font-family: "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
   position: relative; }
-  /* line 2280, _sass/scss/_simulator_graphics.scss */
   .market_snapshot_component.disabled-except-trade {
     background: #b3dbc3 !important; }
-  /* line 2284, _sass/scss/_simulator_graphics.scss */
   .market_snapshot_component.has-selected {
     background: #f6f6f6 !important;
     color: gainsboro !important; }
-    /* line 2288, _sass/scss/_simulator_graphics.scss */
     .market_snapshot_component.has-selected .market_snapshot_component__btn {
       background: gainsboro !important;
       color: #fff; }
-  /* line 2295, _sass/scss/_simulator_graphics.scss */
   .market_snapshot_component__title {
     font-size: 10.0833pt;
     line-height: 17.41666pt; }
-  /* line 2301, _sass/scss/_simulator_graphics.scss */
   .market_snapshot_component__current-price {
     font-size: 19.245pt;
     line-height: 21.009pt; }
-    /* line 2305, _sass/scss/_simulator_graphics.scss */
     #simulator_market_snapshot .market_snapshot_component__current-price:hover {
       color: #0078C1; }
-      /* line 2308, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot .market_snapshot_component__current-price:hover .floating-number {
         background-image: url(../../simulator_assets/_simulator/img/1--active@2x.png) !important; }
-  /* line 2316, _sass/scss/_simulator_graphics.scss */
   #simulator_market_snapshot .market_snapshot_component .prices-container:hover {
     color: #0078C1; }
-    /* line 2319, _sass/scss/_simulator_graphics.scss */
     #simulator_market_snapshot .market_snapshot_component .prices-container:hover .floating-number {
       background-image: url(../../simulator_assets/_simulator/img/2--active@2x.png) !important; }
-  /* line 2326, _sass/scss/_simulator_graphics.scss */
   .market_snapshot_component__high-low {
     font-size: 6.41666pt;
     line-height: 9.1666pt;
     position: relative; }
-    /* line 2332, _sass/scss/_simulator_graphics.scss */
     .market_snapshot_component__high-low .movement-container {
       position: absolute;
       top: 0;
       text-align: right;
       right: 0; }
-      /* line 2338, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot .market_snapshot_component__high-low .movement-container:hover {
         color: #0078C1; }
-        /* line 2341, _sass/scss/_simulator_graphics.scss */
         #simulator_market_snapshot .market_snapshot_component__high-low .movement-container:hover .floating-number {
           background-image: url(../../simulator_assets/_simulator/img/4--active@2x.png) !important; }
-  /* line 2349, _sass/scss/_simulator_graphics.scss */
   .market_snapshot_component__ticker-symbol {
     font-size: 12.8333pt;
     line-height: 17.41666pt; }
-    /* line 2353, _sass/scss/_simulator_graphics.scss */
     #simulator_market_snapshot .market_snapshot_component__ticker-symbol:hover {
       color: #0078C1; }
-      /* line 2356, _sass/scss/_simulator_graphics.scss */
       #simulator_market_snapshot .market_snapshot_component__ticker-symbol:hover .floating-number {
         background-image: url(../../simulator_assets/_simulator/img/3--active@2x.png) !important; }
-  /* line 2363, _sass/scss/_simulator_graphics.scss */
   .market_snapshot_component__btn {
     position: absolute;
     bottom: 7px;
@@ -2222,44 +1737,36 @@
     font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     pointer-events: none;
     cursor: default; }
-  /* line 2380, _sass/scss/_simulator_graphics.scss */
   .market-snapshot--green .market_snapshot_component {
     background: #32D200 url(../img/Market_Snapshot_Gradient@2x.png);
     background-blend-mode: multiply;
     background-size: cover;
     color: #fff; }
-  /* line 2390, _sass/scss/_simulator_graphics.scss */
   .market-snapshot--red .market_snapshot_component {
     background: #E92429 url(../img/Market_Snapshot_Gradient@2x.png);
     background-size: cover;
     background-blend-mode: multiply; }
-  /* line 2400, _sass/scss/_simulator_graphics.scss */
   .market-snapshot--desktop-xl--mobile-s .market_snapshot_component {
     width: 335px;
     height: 250px;
     padding: 25px 15px !important; }
-    /* line 282, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--desktop-xl--mobile-s .market_snapshot_component .market_snapshot_component__title {
       font-size: 24px;
       line-height: 24px; }
-    /* line 287, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--desktop-xl--mobile-s .market_snapshot_component .market_snapshot_component__current-price {
       margin-top: 20px;
       font-size: 43px;
       line-height: 43px; }
-    /* line 293, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--desktop-xl--mobile-s .market_snapshot_component .market_snapshot_component__high-low {
       margin-top: 15px;
       font-size: 14px;
       /* Line hieght should be 10 more than font-size */
       line-height: 24px;
       /* Line hieght should be 10 more than font-size */ }
-    /* line 299, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--desktop-xl--mobile-s .market_snapshot_component .market_snapshot_component__ticker-symbol {
       margin-top: 21px;
       font-size: 30px;
       line-height: 30px; }
-    /* line 305, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--desktop-xl--mobile-s .market_snapshot_component .market_snapshot_component__btn {
       bottom: 14px;
       right: 14px;
@@ -2270,33 +1777,27 @@
       height: auto;
       letter-spacing: 0.89px; }
     @media (max-width: 47.99em) {
-      /* line 2400, _sass/scss/_simulator_graphics.scss */
       .market-snapshot--desktop-xl--mobile-s .market_snapshot_component {
         width: 216px;
         height: 162px;
         padding: 14px 7px 7px !important; }
-        /* line 155, _sass/scss/_simulator_graphics.scss */
         .market-snapshot--desktop-xl--mobile-s .market_snapshot_component .market_snapshot_component__title {
           font-size: 15px;
           line-height: 15px; }
-        /* line 160, _sass/scss/_simulator_graphics.scss */
         .market-snapshot--desktop-xl--mobile-s .market_snapshot_component .market_snapshot_component__current-price {
           margin-top: 15px;
           font-size: 27px;
           line-height: 27px; }
-        /* line 166, _sass/scss/_simulator_graphics.scss */
         .market-snapshot--desktop-xl--mobile-s .market_snapshot_component .market_snapshot_component__high-low {
           margin-top: 15px;
           font-size: 9px;
           /* Line hieght should be 10 more than font-size */
           line-height: 13px;
           /* Line hieght should be 10 more than font-size */ }
-        /* line 172, _sass/scss/_simulator_graphics.scss */
         .market-snapshot--desktop-xl--mobile-s .market_snapshot_component .market_snapshot_component__ticker-symbol {
           margin-top: 14px;
           font-size: 19px;
           line-height: 19px; }
-        /* line 178, _sass/scss/_simulator_graphics.scss */
         .market-snapshot--desktop-xl--mobile-s .market_snapshot_component .market_snapshot_component__btn {
           bottom: 7px;
           right: 7px;
@@ -2306,33 +1807,27 @@
           width: auto;
           height: auto;
           letter-spacing: 0.89px; } }
-  /* line 2408, _sass/scss/_simulator_graphics.scss */
   .market-snapshot--desktop-l--tablet-s--mobile-s .market_snapshot_component {
     width: 254px;
     height: 190px;
     padding: 16px 9px 9px !important; }
-    /* line 238, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--desktop-l--tablet-s--mobile-s .market_snapshot_component .market_snapshot_component__title {
       font-size: 18px;
       line-height: 18px; }
-    /* line 243, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--desktop-l--tablet-s--mobile-s .market_snapshot_component .market_snapshot_component__current-price {
       margin-top: 17px;
       font-size: 32px;
       line-height: 32px; }
-    /* line 249, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--desktop-l--tablet-s--mobile-s .market_snapshot_component .market_snapshot_component__high-low {
       margin-top: 16px;
       font-size: 11px;
       /* Line hieght should be 10 more than font-size */
       line-height: 21px;
       /* Line hieght should be 10 more than font-size */ }
-    /* line 255, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--desktop-l--tablet-s--mobile-s .market_snapshot_component .market_snapshot_component__ticker-symbol {
       margin-top: 15px;
       font-size: 22px;
       line-height: 22px; }
-    /* line 261, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--desktop-l--tablet-s--mobile-s .market_snapshot_component .market_snapshot_component__btn {
       bottom: 9px;
       right: 9px;
@@ -2343,33 +1838,27 @@
       height: auto;
       letter-spacing: 0.89px; }
     @media (max-width: 61.99em) {
-      /* line 2408, _sass/scss/_simulator_graphics.scss */
       .market-snapshot--desktop-l--tablet-s--mobile-s .market_snapshot_component {
         width: 216px;
         height: 162px;
         padding: 14px 7px 7px !important; }
-        /* line 155, _sass/scss/_simulator_graphics.scss */
         .market-snapshot--desktop-l--tablet-s--mobile-s .market_snapshot_component .market_snapshot_component__title {
           font-size: 15px;
           line-height: 15px; }
-        /* line 160, _sass/scss/_simulator_graphics.scss */
         .market-snapshot--desktop-l--tablet-s--mobile-s .market_snapshot_component .market_snapshot_component__current-price {
           margin-top: 15px;
           font-size: 27px;
           line-height: 27px; }
-        /* line 166, _sass/scss/_simulator_graphics.scss */
         .market-snapshot--desktop-l--tablet-s--mobile-s .market_snapshot_component .market_snapshot_component__high-low {
           margin-top: 15px;
           font-size: 9px;
           /* Line hieght should be 10 more than font-size */
           line-height: 13px;
           /* Line hieght should be 10 more than font-size */ }
-        /* line 172, _sass/scss/_simulator_graphics.scss */
         .market-snapshot--desktop-l--tablet-s--mobile-s .market_snapshot_component .market_snapshot_component__ticker-symbol {
           margin-top: 14px;
           font-size: 19px;
           line-height: 19px; }
-        /* line 178, _sass/scss/_simulator_graphics.scss */
         .market-snapshot--desktop-l--tablet-s--mobile-s .market_snapshot_component .market_snapshot_component__btn {
           bottom: 7px;
           right: 7px;
@@ -2379,42 +1868,36 @@
           width: auto;
           height: auto;
           letter-spacing: 0.89px; } }
-  /* line 2418, _sass/scss/_simulator_graphics.scss */
   .market-snapshot-inline-group-size .market_snapshot_component {
     width: 254px;
     height: 190px;
     padding: 16px 9px 9px !important;
     /*
-		@include mq($until: large) {
-			@include market_snapshot--l__base;
-		}
-		@include mq($until: medium) {
-			@include market_snapshot--l__base;
-		}
-
-*/ }
-    /* line 238, _sass/scss/_simulator_graphics.scss */
+    		@include mq($until: large) {
+    			@include market_snapshot--l__base;
+    		}
+    		@include mq($until: medium) {
+    			@include market_snapshot--l__base;
+    		}
+    
+    */ }
     .market-snapshot-inline-group-size .market_snapshot_component .market_snapshot_component__title {
       font-size: 18px;
       line-height: 18px; }
-    /* line 243, _sass/scss/_simulator_graphics.scss */
     .market-snapshot-inline-group-size .market_snapshot_component .market_snapshot_component__current-price {
       margin-top: 17px;
       font-size: 32px;
       line-height: 32px; }
-    /* line 249, _sass/scss/_simulator_graphics.scss */
     .market-snapshot-inline-group-size .market_snapshot_component .market_snapshot_component__high-low {
       margin-top: 16px;
       font-size: 11px;
       /* Line hieght should be 10 more than font-size */
       line-height: 21px;
       /* Line hieght should be 10 more than font-size */ }
-    /* line 255, _sass/scss/_simulator_graphics.scss */
     .market-snapshot-inline-group-size .market_snapshot_component .market_snapshot_component__ticker-symbol {
       margin-top: 15px;
       font-size: 22px;
       line-height: 22px; }
-    /* line 261, _sass/scss/_simulator_graphics.scss */
     .market-snapshot-inline-group-size .market_snapshot_component .market_snapshot_component__btn {
       bottom: 9px;
       right: 9px;
@@ -2425,33 +1908,27 @@
       height: auto;
       letter-spacing: 0.89px; }
     @media (max-width: 75em) {
-      /* line 2418, _sass/scss/_simulator_graphics.scss */
       .market-snapshot-inline-group-size .market_snapshot_component {
         width: 216px;
         height: 162px;
         padding: 14px 7px 7px !important; }
-        /* line 155, _sass/scss/_simulator_graphics.scss */
         .market-snapshot-inline-group-size .market_snapshot_component .market_snapshot_component__title {
           font-size: 15px;
           line-height: 15px; }
-        /* line 160, _sass/scss/_simulator_graphics.scss */
         .market-snapshot-inline-group-size .market_snapshot_component .market_snapshot_component__current-price {
           margin-top: 15px;
           font-size: 27px;
           line-height: 27px; }
-        /* line 166, _sass/scss/_simulator_graphics.scss */
         .market-snapshot-inline-group-size .market_snapshot_component .market_snapshot_component__high-low {
           margin-top: 15px;
           font-size: 9px;
           /* Line hieght should be 10 more than font-size */
           line-height: 13px;
           /* Line hieght should be 10 more than font-size */ }
-        /* line 172, _sass/scss/_simulator_graphics.scss */
         .market-snapshot-inline-group-size .market_snapshot_component .market_snapshot_component__ticker-symbol {
           margin-top: 14px;
           font-size: 19px;
           line-height: 19px; }
-        /* line 178, _sass/scss/_simulator_graphics.scss */
         .market-snapshot-inline-group-size .market_snapshot_component .market_snapshot_component__btn {
           bottom: 7px;
           right: 7px;
@@ -2462,33 +1939,27 @@
           height: auto;
           letter-spacing: 0.89px; } }
     @media (max-width: 61.9375em) {
-      /* line 2418, _sass/scss/_simulator_graphics.scss */
       .market-snapshot-inline-group-size .market_snapshot_component {
         width: 136px;
         height: 103px;
         padding: 8px 5px !important; }
-        /* line 112, _sass/scss/_simulator_graphics.scss */
         .market-snapshot-inline-group-size .market_snapshot_component .market_snapshot_component__title {
           font-size: 10px;
           line-height: 10px; }
-        /* line 117, _sass/scss/_simulator_graphics.scss */
         .market-snapshot-inline-group-size .market_snapshot_component .market_snapshot_component__current-price {
           margin-top: 9px;
           font-size: 16px;
           line-height: 16px; }
-        /* line 123, _sass/scss/_simulator_graphics.scss */
         .market-snapshot-inline-group-size .market_snapshot_component .market_snapshot_component__high-low {
           margin-top: 8px;
           font-size: 7px;
           /* Line hieght should be 10 more than font-size */
           line-height: 12px;
           /* Line hieght should be 10 more than font-size */ }
-        /* line 129, _sass/scss/_simulator_graphics.scss */
         .market-snapshot-inline-group-size .market_snapshot_component .market_snapshot_component__ticker-symbol {
           margin-top: 8px;
           font-size: 10px;
           line-height: 10px; }
-        /* line 135, _sass/scss/_simulator_graphics.scss */
         .market-snapshot-inline-group-size .market_snapshot_component .market_snapshot_component__btn {
           bottom: 4px;
           right: 4px;
@@ -2499,33 +1970,27 @@
           height: auto;
           letter-spacing: 0.89px; } }
     @media (max-width: 34.75em) {
-      /* line 2418, _sass/scss/_simulator_graphics.scss */
       .market-snapshot-inline-group-size .market_snapshot_component {
         width: 72px;
         height: 54px;
         padding: 2px !important; }
-        /* line 68, _sass/scss/_simulator_graphics.scss */
         .market-snapshot-inline-group-size .market_snapshot_component .market_snapshot_component__title {
           font-size: 5px;
           line-height: 5px; }
-        /* line 73, _sass/scss/_simulator_graphics.scss */
         .market-snapshot-inline-group-size .market_snapshot_component .market_snapshot_component__current-price {
           margin-top: 6px;
           font-size: 9px;
           line-height: 9px; }
-        /* line 79, _sass/scss/_simulator_graphics.scss */
         .market-snapshot-inline-group-size .market_snapshot_component .market_snapshot_component__high-low {
           margin-top: 11px;
           font-size: 3px;
           /* Line hieght should be 10 more than font-size */
           line-height: 4px;
           /* Line hieght should be 10 more than font-size */ }
-        /* line 85, _sass/scss/_simulator_graphics.scss */
         .market-snapshot-inline-group-size .market_snapshot_component .market_snapshot_component__ticker-symbol {
           margin-top: 4px;
           font-size: 6px;
           line-height: 6px; }
-        /* line 91, _sass/scss/_simulator_graphics.scss */
         .market-snapshot-inline-group-size .market_snapshot_component .market_snapshot_component__btn {
           bottom: 2px;
           right: 2px;
@@ -2535,33 +2000,27 @@
           width: auto;
           height: auto;
           letter-spacing: 0.89px; } }
-  /* line 2446, _sass/scss/_simulator_graphics.scss */
   .market-snapshot--xs .market_snapshot_component {
     width: 72px;
     height: 54px;
     padding: 2px !important; }
-    /* line 68, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--xs .market_snapshot_component .market_snapshot_component__title {
       font-size: 5px;
       line-height: 5px; }
-    /* line 73, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--xs .market_snapshot_component .market_snapshot_component__current-price {
       margin-top: 6px;
       font-size: 9px;
       line-height: 9px; }
-    /* line 79, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--xs .market_snapshot_component .market_snapshot_component__high-low {
       margin-top: 11px;
       font-size: 3px;
       /* Line hieght should be 10 more than font-size */
       line-height: 4px;
       /* Line hieght should be 10 more than font-size */ }
-    /* line 85, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--xs .market_snapshot_component .market_snapshot_component__ticker-symbol {
       margin-top: 4px;
       font-size: 6px;
       line-height: 6px; }
-    /* line 91, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--xs .market_snapshot_component .market_snapshot_component__btn {
       bottom: 2px;
       right: 2px;
@@ -2571,33 +2030,27 @@
       width: auto;
       height: auto;
       letter-spacing: 0.89px; }
-  /* line 2450, _sass/scss/_simulator_graphics.scss */
   .market-snapshot--s .market_snapshot_component {
     width: 216px;
     height: 162px;
     padding: 14px 7px 7px !important; }
-    /* line 155, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--s .market_snapshot_component .market_snapshot_component__title {
       font-size: 15px;
       line-height: 15px; }
-    /* line 160, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--s .market_snapshot_component .market_snapshot_component__current-price {
       margin-top: 15px;
       font-size: 27px;
       line-height: 27px; }
-    /* line 166, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--s .market_snapshot_component .market_snapshot_component__high-low {
       margin-top: 15px;
       font-size: 9px;
       /* Line hieght should be 10 more than font-size */
       line-height: 13px;
       /* Line hieght should be 10 more than font-size */ }
-    /* line 172, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--s .market_snapshot_component .market_snapshot_component__ticker-symbol {
       margin-top: 14px;
       font-size: 19px;
       line-height: 19px; }
-    /* line 178, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--s .market_snapshot_component .market_snapshot_component__btn {
       bottom: 7px;
       right: 7px;
@@ -2607,33 +2060,27 @@
       width: auto;
       height: auto;
       letter-spacing: 0.89px; }
-  /* line 2454, _sass/scss/_simulator_graphics.scss */
   .market-snapshot--m .market_snapshot_component {
     width: 240px;
     height: 180px;
     padding: 15px 8px 8px !important; }
-    /* line 196, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--m .market_snapshot_component .market_snapshot_component__title {
       font-size: 17px;
       line-height: 17px; }
-    /* line 201, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--m .market_snapshot_component .market_snapshot_component__current-price {
       margin-top: 15px;
       font-size: 30px;
       line-height: 30px; }
-    /* line 207, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--m .market_snapshot_component .market_snapshot_component__high-low {
       margin-top: 15px;
       font-size: 10px;
       /* Line hieght should be 10 more than font-size */
       line-height: 14px;
       /* Line hieght should be 10 more than font-size */ }
-    /* line 213, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--m .market_snapshot_component .market_snapshot_component__ticker-symbol {
       margin-top: 14px;
       font-size: 21px;
       line-height: 21px; }
-    /* line 219, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--m .market_snapshot_component .market_snapshot_component__btn {
       bottom: 8px;
       right: 8px;
@@ -2643,33 +2090,27 @@
       width: auto;
       height: auto;
       letter-spacing: 0.89px; }
-  /* line 2458, _sass/scss/_simulator_graphics.scss */
   .market-snapshot--l .market_snapshot_component {
     width: 254px;
     height: 190px;
     padding: 16px 9px 9px !important; }
-    /* line 238, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--l .market_snapshot_component .market_snapshot_component__title {
       font-size: 18px;
       line-height: 18px; }
-    /* line 243, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--l .market_snapshot_component .market_snapshot_component__current-price {
       margin-top: 17px;
       font-size: 32px;
       line-height: 32px; }
-    /* line 249, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--l .market_snapshot_component .market_snapshot_component__high-low {
       margin-top: 16px;
       font-size: 11px;
       /* Line hieght should be 10 more than font-size */
       line-height: 21px;
       /* Line hieght should be 10 more than font-size */ }
-    /* line 255, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--l .market_snapshot_component .market_snapshot_component__ticker-symbol {
       margin-top: 15px;
       font-size: 22px;
       line-height: 22px; }
-    /* line 261, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--l .market_snapshot_component .market_snapshot_component__btn {
       bottom: 9px;
       right: 9px;
@@ -2679,33 +2120,27 @@
       width: auto;
       height: auto;
       letter-spacing: 0.89px; }
-  /* line 2464, _sass/scss/_simulator_graphics.scss */
   .market-snapshot--xl .market_snapshot_component {
     width: 335px;
     height: 250px;
     padding: 25px 15px !important; }
-    /* line 282, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--xl .market_snapshot_component .market_snapshot_component__title {
       font-size: 24px;
       line-height: 24px; }
-    /* line 287, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--xl .market_snapshot_component .market_snapshot_component__current-price {
       margin-top: 20px;
       font-size: 43px;
       line-height: 43px; }
-    /* line 293, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--xl .market_snapshot_component .market_snapshot_component__high-low {
       margin-top: 15px;
       font-size: 14px;
       /* Line hieght should be 10 more than font-size */
       line-height: 24px;
       /* Line hieght should be 10 more than font-size */ }
-    /* line 299, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--xl .market_snapshot_component .market_snapshot_component__ticker-symbol {
       margin-top: 21px;
       font-size: 30px;
       line-height: 30px; }
-    /* line 305, _sass/scss/_simulator_graphics.scss */
     .market-snapshot--xl .market_snapshot_component .market_snapshot_component__btn {
       bottom: 14px;
       right: 14px;
@@ -2715,84 +2150,67 @@
       width: auto;
       height: auto;
       letter-spacing: 0.89px; }
-  /* line 2470, _sass/scss/_simulator_graphics.scss */
   .market-snapshot-white .market_snapshot_component {
     background: #fff;
     color: #bbb; }
-    /* line 2474, _sass/scss/_simulator_graphics.scss */
     .market-snapshot-white .market_snapshot_component .market_snapshot_component__btn {
       background: #bbb; }
 
-/* line 2481, _sass/scss/_simulator_graphics.scss */
 .graphic-right {
   margin-left: 380px !important; }
 
-/* line 2485, _sass/scss/_simulator_graphics.scss */
 .shadow {
   max-width: 100%; }
-  /* line 2488, _sass/scss/_simulator_graphics.scss */
   .shadow_150 {
     background: url("../../simulator_assets/_simulator/img/shadow-150.png");
     width: 150px;
     height: 20px; }
-  /* line 2494, _sass/scss/_simulator_graphics.scss */
   .shadow_254 {
     background: url("../../simulator_assets/_simulator/img/shadow-254.png");
     width: 254px;
     height: 24px; }
-  /* line 2500, _sass/scss/_simulator_graphics.scss */
   .shadow_356 {
     background: url("../../simulator_assets/_simulator/img/shadow-356.png");
     width: 356px;
     height: 34px; }
     @media (max-width: 22.5em) {
-      /* line 2500, _sass/scss/_simulator_graphics.scss */
       .shadow_356 {
         width: 300px;
         height: 28px;
         background-size: cover; } }
-  /* line 2512, _sass/scss/_simulator_graphics.scss */
   .shadow_343 {
     background: url("../../simulator_assets/_simulator/img/shadow-343.png");
     width: 343px;
     height: 19px; }
-  /* line 2518, _sass/scss/_simulator_graphics.scss */
   .shadow_464 {
     background: url("../../simulator_assets/_simulator/img/shadow-464.png");
     width: 464px;
     height: 44px; }
-  /* line 2524, _sass/scss/_simulator_graphics.scss */
   .shadow_600 {
     background: url("../../simulator_assets/_simulator/img/shadow-464.png");
     width: 600px;
     height: 59px;
     background-size: cover; }
     @media (max-width: 31.25em) {
-      /* line 2524, _sass/scss/_simulator_graphics.scss */
       .shadow_600 {
         width: 320px;
         height: 31px; } }
-  /* line 2536, _sass/scss/_simulator_graphics.scss */
   .shadow_740 {
     background: url("../../simulator_assets/_simulator/img/shadow-464.png");
     width: 740px;
     height: 69px;
     background-size: cover; }
 
-/* line 2546, _sass/scss/_simulator_graphics.scss */
 .popup-blue .popup-content {
   padding: 18px !important; }
-  /* line 2549, _sass/scss/_simulator_graphics.scss */
   .popup-blue .popup-content .text {
     color: #0078C1 !important;
     font: normal 9.53pt/13.1999pt "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif !important; }
-  /* line 2554, _sass/scss/_simulator_graphics.scss */
   .popup-blue .popup-content .popup-title {
     color: #00447C !important;
     font: bold 9.53pt/13.1999pt !important;
     text-transform: none !important; }
 
-/* line 2563, _sass/scss/_simulator_graphics.scss */
 #tab_Ticker-Symbol {
   width: 278px;
   height: 165px;
@@ -2800,7 +2218,6 @@
   top: 125px;
   margin-left: 0 !important; }
 
-/* line 2571, _sass/scss/_simulator_graphics.scss */
 #tab_Current-Price {
   width: 278px;
   height: 75px;
@@ -2808,7 +2225,6 @@
   left: 225px;
   margin-left: 0 !important; }
 
-/* line 2579, _sass/scss/_simulator_graphics.scss */
 #tab_High-Low {
   width: 278px;
   height: 75px;
@@ -2816,7 +2232,6 @@
   left: 228px;
   margin-left: 0 !important; }
 
-/* line 2587, _sass/scss/_simulator_graphics.scss */
 #tab_Movement {
   width: 248px;
   height: 93px;
@@ -2824,17 +2239,14 @@
   left: 219px;
   margin-left: 0 !important; }
 
-/* line 2595, _sass/scss/_simulator_graphics.scss */
 .accordion-btns-title, .modal-btns-title {
   font: 500 11px/21px "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   color: #0078C1; }
 
-/* line 2601, _sass/scss/_simulator_graphics.scss */
 .intro {
   min-height: 94px;
   margin-top: 30px !important; }
 
-/* line 2607, _sass/scss/_simulator_graphics.scss */
 .modal-btns a {
   width: 102px;
   height: 28px;
@@ -2846,17 +2258,13 @@
   color: #00447C;
   margin-bottom: 2px;
   letter-spacing: .04em; }
-  /* line 2619, _sass/scss/_simulator_graphics.scss */
   .modal-btns a:hover {
     color: #127bbf;
     background: #a8ddf4; }
-
-/* line 2625, _sass/scss/_simulator_graphics.scss */
 .modal-btns .active + a {
   color: #fff;
   background: #064071; }
 
-/* line 2631, _sass/scss/_simulator_graphics.scss */
 .accordion-title {
   width: 190px;
   background: #06457a;
@@ -2868,7 +2276,6 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box; }
 
-/* line 2644, _sass/scss/_simulator_graphics.scss */
 .accordion-btns .accordion {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -2878,7 +2285,6 @@
   background: #a8ddf4;
   margin-bottom: 2px;
   padding: 0 6px !important; }
-  /* line 2654, _sass/scss/_simulator_graphics.scss */
   .accordion-btns .accordion a {
     color: #00447C;
     height: 28px;
@@ -2887,164 +2293,110 @@
     width: 100%;
     display: block;
     font: bold 11px/28px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif !important; }
-  /* line 2664, _sass/scss/_simulator_graphics.scss */
   .accordion-btns .accordion.active {
     color: #127bbf;
     background: #fff;
     height: auto; }
-    /* line 2669, _sass/scss/_simulator_graphics.scss */
     .accordion-btns .accordion.active a {
       color: #0078C1; }
-  /* line 2674, _sass/scss/_simulator_graphics.scss */
   .accordion-btns .accordion .text {
     font: 11px/10.55pt "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #808080;
     padding-bottom: 20px; }
 
-/* line 2686, _sass/scss/_simulator_graphics.scss */
 .accordion .text {
   display: none; }
 
-/* line 2692, _sass/scss/_simulator_graphics.scss */
 .market_snapshot_component .is-highlighted {
   color: #0078C1 !important; }
-
-/* line 2698, _sass/scss/_simulator_graphics.scss */
 .is-highlighted .floating-number__1, .is-highlighted#simulator_market_snapshot__text__current-price {
   background-image: url(../../simulator_assets/_simulator/img/1--active@2x.png) !important; }
-
-/* line 2701, _sass/scss/_simulator_graphics.scss */
 .is-highlighted .floating-number__2, .is-highlighted#simulator_market_snapshot__text__prices {
   background-image: url(../../simulator_assets/_simulator/img/2--active@2x.png) !important; }
-
-/* line 2704, _sass/scss/_simulator_graphics.scss */
 .is-highlighted .floating-number__3, .is-highlighted#simulator_market_snapshot__text__ticker-symbol {
   background-image: url(../../simulator_assets/_simulator/img/3--active@2x.png) !important; }
-
-/* line 2707, _sass/scss/_simulator_graphics.scss */
 .is-highlighted .floating-number__4, .is-highlighted#simulator_market_snapshot__text__movement {
   background-image: url(../../simulator_assets/_simulator/img/4--active@2x.png) !important; }
 
-/* line 2715, _sass/scss/_simulator_graphics.scss */
 .candlestick--small {
   width: 11px;
   max-height: 90px; }
-  /* line 2719, _sass/scss/_simulator_graphics.scss */
   .candlestick--small .wick {
     width: 3px !important;
     height: 116px !important; }
-  /* line 2725, _sass/scss/_simulator_graphics.scss */
   .candlestick--small.short {
     height: 115px !important; }
-    /* line 2727, _sass/scss/_simulator_graphics.scss */
     .candlestick--small.short .stick {
       height: 28px !important;
       top: 34px !important; }
-  /* line 2730, _sass/scss/_simulator_graphics.scss */
   .candlestick--small.doji {
     height: 85px !important; }
-    /* line 2733, _sass/scss/_simulator_graphics.scss */
     .candlestick--small.doji .stick {
       top: 57px !important; }
-  /* line 2738, _sass/scss/_simulator_graphics.scss */
   .candlestick--small .stick {
     width: 100% !important;
     margin-left: -50% !important;
     max-width: 11px; }
-  /* line 2744, _sass/scss/_simulator_graphics.scss */
   .candlestick--small.long {
     height: 127px !important;
     bottom: 20px !important; }
-    /* line 2747, _sass/scss/_simulator_graphics.scss */
     .candlestick--small.long .stick {
       top: 22px !important;
       height: 82px !important; }
-    /* line 2751, _sass/scss/_simulator_graphics.scss */
     .candlestick--small.long.long-wick {
       height: 105px !important;
       bottom: 18px !important; }
-      /* line 2754, _sass/scss/_simulator_graphics.scss */
       .candlestick--small.long.long-wick .stick {
         top: 35px !important; }
-
-/* line 2765, _sass/scss/_simulator_graphics.scss */
 .candlestick--large {
   width: 15px; }
-  /* line 2769, _sass/scss/_simulator_graphics.scss */
   .candlestick--large .wick {
     width: 2px !important;
     height: 115px !important; }
-  /* line 2775, _sass/scss/_simulator_graphics.scss */
   .candlestick--large.short {
     height: 115px !important; }
-    /* line 2777, _sass/scss/_simulator_graphics.scss */
     .candlestick--large.short .stick {
       height: 28px !important;
       top: 34px !important; }
-  /* line 2780, _sass/scss/_simulator_graphics.scss */
   .candlestick--large.doji {
     height: 85px !important; }
-    /* line 2783, _sass/scss/_simulator_graphics.scss */
     .candlestick--large.doji .stick {
       top: 57px !important; }
-  /* line 2788, _sass/scss/_simulator_graphics.scss */
   .candlestick--large .stick {
     height: 113px !important;
     width: 100% !important;
     margin-left: -50% !important; }
-  /* line 2794, _sass/scss/_simulator_graphics.scss */
   .candlestick--large.long {
     height: 127px !important;
     bottom: 20px !important; }
-    /* line 2797, _sass/scss/_simulator_graphics.scss */
     .candlestick--large.long .stick {
       top: 22px !important;
       height: 82px !important; }
-    /* line 2801, _sass/scss/_simulator_graphics.scss */
     .candlestick--large.long.long-wick {
       height: 105px !important;
       bottom: 18px !important; }
-      /* line 2804, _sass/scss/_simulator_graphics.scss */
       .candlestick--large.long.long-wick .stick {
         top: 35px !important; }
-
-/* line 2816, _sass/scss/_simulator_graphics.scss */
 .candlestick.no_label .candlestick_label {
   display: none !important; }
-
-/* line 2822, _sass/scss/_simulator_graphics.scss */
 .candlestick.short .stick {
   height: 32px !important;
   top: 110px !important; }
-
-/* line 2826, _sass/scss/_simulator_graphics.scss */
 .candlestick.long .stick {
   height: 187px !important;
   top: 30px !important; }
-
-/* line 2831, _sass/scss/_simulator_graphics.scss */
 .candlestick.wick .stick {
   height: 70px !important; }
-
-/* line 2833, _sass/scss/_simulator_graphics.scss */
 .candlestick.wick.short-wick .stick {
   top: 15px !important; }
-
-/* line 2834, _sass/scss/_simulator_graphics.scss */
 .candlestick.wick.long-wick .stick {
   top: 163px !important; }
-
-/* line 2839, _sass/scss/_simulator_graphics.scss */
 .candlestick.doji .stick {
   background: #808080;
   height: 5px !important;
   top: 124px !important; }
-
-/* line 2848, _sass/scss/_simulator_graphics.scss */
 .candlestick.doji.dragonfly .stick {
   top: 0 !important; }
-
-/* line 2853, _sass/scss/_simulator_graphics.scss */
 .candlestick .wick {
   width: 5px;
   height: 245px;
@@ -3055,20 +2407,12 @@
   -o-transition: all 300ms ease-in-out;
   -ms-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out; }
-
-/* line 2867, _sass/scss/_simulator_graphics.scss */
 .candlestick.red .stick {
   background: #ED1C24; }
-
-/* line 2871, _sass/scss/_simulator_graphics.scss */
 .candlestick.red .stick__label__top, .candlestick.red .stick__label__bottom {
   color: #ED1C24 !important; }
-
-/* line 2877, _sass/scss/_simulator_graphics.scss */
 .candlestick .stick__label__top, .candlestick .stick__label__bottom {
   color: #32D200 !important; }
-
-/* line 2881, _sass/scss/_simulator_graphics.scss */
 .candlestick .stick {
   -webkit-transition: all 300ms ease-in-out;
   -moz-transition: all 300ms ease-in-out;
@@ -3083,69 +2427,48 @@
   left: 50%;
   margin-left: -28.5px;
   position: absolute; }
-
-/* line 2901, _sass/scss/_simulator_graphics.scss */
 .candlestick .candlestick_label {
   font-family: "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #4E4E4E;
   line-height: 20px; }
-
-/* line 2910, _sass/scss/_simulator_graphics.scss */
 .candlestick .wick__label__top {
   top: -25px; }
-
-/* line 2911, _sass/scss/_simulator_graphics.scss */
 .candlestick .wick__label__bottom {
   bottom: 0; }
-
-/* line 2912, _sass/scss/_simulator_graphics.scss */
 .candlestick .stick__label__top {
   top: 20px; }
-
-/* line 2913, _sass/scss/_simulator_graphics.scss */
 .candlestick .stick__label__bottom {
   bottom: 40px; }
-
-/* line 2918, _sass/scss/_simulator_graphics.scss */
 .candlestick .indicator--right {
   left: 54%;
   text-align: right;
   position: absolute; }
   @media (max-width: 47.9375em) {
-    /* line 2918, _sass/scss/_simulator_graphics.scss */
     .candlestick .indicator--right {
       left: 52%; } }
-  /* line 2928, _sass/scss/_simulator_graphics.scss */
   .candlestick .indicator--right .indicator {
     background: url(../../simulator_assets/_simulator/img/candlestick_arrow_left.png);
     width: 120px;
     height: 7px; }
-
-/* line 2935, _sass/scss/_simulator_graphics.scss */
 .candlestick .indicator--left {
   right: 61%;
   text-align: left;
   position: absolute; }
   @media (max-width: 47.9375em) {
-    /* line 2935, _sass/scss/_simulator_graphics.scss */
     .candlestick .indicator--left {
       right: 55%; } }
   @media (max-width: 39.25em) {
-    /* line 2935, _sass/scss/_simulator_graphics.scss */
     .candlestick .indicator--left {
       right: 61%; } }
-  /* line 2950, _sass/scss/_simulator_graphics.scss */
   .candlestick .indicator--left .indicator {
     background: url(../../simulator_assets/_simulator/img/candlestick_arrow_right.png);
     width: 120px;
     background-position: right;
     height: 7px; }
 
-/* line 2960, _sass/scss/_simulator_graphics.scss */
 .step-container {
   margin-top: 15px !important; }
-  /* line 2963, _sass/scss/_simulator_graphics.scss */
   .step-container .inline-step-title {
     float: left;
     font: bold 7.333pt/8.7996pt "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
@@ -3153,99 +2476,81 @@
     text-transform: uppercase;
     padding-top: 11px !important;
     padding-right: 7px !important; }
-  /* line 2973, _sass/scss/_simulator_graphics.scss */
   .step-container .panel-title {
     font: bold 10.262pt/21.6558pt "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     margin-bottom: 0 !important; }
-  /* line 2978, _sass/scss/_simulator_graphics.scss */
   .step-container + .intro {
     margin-top: 0 !important; }
 
-/* line 2984, _sass/scss/_simulator_graphics.scss */
 .chart {
   background: url("../../simulator_assets/_simulator/img/chart-lines-large.png") no-repeat;
   display: none; }
 
-/* line 2990, _sass/scss/_simulator_graphics.scss */
 .chart__canvas {
   position: relative;
   max-width: 100%;
   width: 701px;
-  height: 359.0px; }
+  height: 359.000000035px; }
   @media (max-width: 75em) {
-    /* line 2990, _sass/scss/_simulator_graphics.scss */
     .chart__canvas {
       width: 566px;
-      height: 289.86305px;
+      height: 289.86305281px;
       margin-top: 63px; }
-      /* line 3008, _sass/scss/_simulator_graphics.scss */
       .chart__canvas .axes-label {
         left: -3% !important; } }
   @media (max-width: 62em) {
-    /* line 2990, _sass/scss/_simulator_graphics.scss */
     .chart__canvas {
       width: 420px;
-      height: 215.09272px;
+      height: 215.0927247px;
       margin-top: 89px !important; }
-      /* line 3020, _sass/scss/_simulator_graphics.scss */
       .chart__canvas .axes-label {
         left: -3% !important; } }
   @media (max-width: 47.9375em) {
-    /* line 2990, _sass/scss/_simulator_graphics.scss */
     .chart__canvas {
       width: 480px;
-      height: 245.82026px;
+      height: 245.8202568px;
       margin: 63px auto 40px; }
-      /* line 3033, _sass/scss/_simulator_graphics.scss */
       .chart__canvas .axes-label {
         left: -3% !important; } }
   @media (max-width: 31.25em) {
-    /* line 2990, _sass/scss/_simulator_graphics.scss */
     .chart__canvas {
       width: 260px;
       height: 290px;
       margin-top: 63px; }
-      /* line 3051, _sass/scss/_simulator_graphics.scss */
       .chart__canvas .axes-label {
         left: -6% !important;
         top: 83% !important;
         width: 40px !important;
         background-size: cover !important;
         height: 64px !important; }
-      /* line 3059, _sass/scss/_simulator_graphics.scss */
       .chart__canvas .icon {
         width: 50px !important;
         height: 50px !important;
         background-size: cover !important;
         top: 39% !important; }
-      /* line 3066, _sass/scss/_simulator_graphics.scss */
       .chart__canvas .line {
-        height: 67.24138% !important;
+        height: 67.2413793103% !important;
         background-image: url("../../simulator_assets/_simulator/img/line__up__mobile.png") !important;
         background-size: 260px auto !important;
         top: 25% !important; } }
-  /* line 3077, _sass/scss/_simulator_graphics.scss */
   .chart__canvas .x-axis {
     width: 100%;
     height: 2px;
     background: #808080;
     bottom: 0;
     position: absolute; }
-  /* line 3078, _sass/scss/_simulator_graphics.scss */
   .chart__canvas .y-axis {
     height: 100%;
     width: 2px;
     background: #808080;
     left: 0;
     position: absolute; }
-  /* line 3080, _sass/scss/_simulator_graphics.scss */
   .chart__canvas .y-axis-lines {
     overflow: hidden;
     width: 100%;
     height: 100%;
     position: relative;
     left: 3px; }
-  /* line 3088, _sass/scss/_simulator_graphics.scss */
   .chart__canvas .y-axis-line {
     background: url("../../simulator_assets/_simulator/img/chart__canvas__y-axis-lines.png") repeat-x;
     height: 2px;
@@ -3253,30 +2558,22 @@
     left: 0;
     width: 100%; }
     @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-      /* line 3088, _sass/scss/_simulator_graphics.scss */
       .chart__canvas .y-axis-line {
         /* on retina, use image that's scaled by 2 */
         background-image: url("../../simulator_assets/_simulator/img/chart__canvas__y-axis-lines.png");
         background-size: 100% 2px; } }
-    /* line 3098, _sass/scss/_simulator_graphics.scss */
     .chart__canvas .y-axis-line__1 {
       bottom: 13.92%; }
-    /* line 3099, _sass/scss/_simulator_graphics.scss */
     .chart__canvas .y-axis-line__2 {
       bottom: 27.85%; }
-    /* line 3100, _sass/scss/_simulator_graphics.scss */
     .chart__canvas .y-axis-line__3 {
       bottom: 41.78%; }
-    /* line 3101, _sass/scss/_simulator_graphics.scss */
     .chart__canvas .y-axis-line__4 {
       bottom: 55.71%; }
-    /* line 3102, _sass/scss/_simulator_graphics.scss */
     .chart__canvas .y-axis-line__5 {
       bottom: 69.63%; }
-    /* line 3103, _sass/scss/_simulator_graphics.scss */
     .chart__canvas .y-axis-line__6 {
       bottom: 83.56%; }
-  /* line 3106, _sass/scss/_simulator_graphics.scss */
   .chart__canvas .axes-label {
     background: url("../../simulator_assets/_simulator/img/chart__canvas__axes-label.png") no-repeat;
     background-size: cover;
@@ -3285,10 +2582,8 @@
     position: absolute;
     left: -2.8%;
     top: 81.05%; }
-  /* line 3118, _sass/scss/_simulator_graphics.scss */
   .chart__canvas .line {
     z-index: 4; }
-  /* line 3124, _sass/scss/_simulator_graphics.scss */
   .chart__canvas.high .line {
     background: url("../../simulator_assets/_simulator/img/arrow_line_up--large.png") no-repeat;
     position: absolute;
@@ -3297,7 +2592,6 @@
     top: 18.66%;
     left: 2px;
     background-size: auto 100%; }
-  /* line 3137, _sass/scss/_simulator_graphics.scss */
   .chart__canvas.low .line {
     background: url("../../simulator_assets/_simulator/img/arrow_line_down--large.png") no-repeat;
     position: absolute;
@@ -3306,16 +2600,13 @@
     left: 2px;
     background-size: auto 100%; }
     @media (max-width: 47.99em) {
-      /* line 3137, _sass/scss/_simulator_graphics.scss */
       .chart__canvas.low .line {
         background-image: url("../../simulator_assets/_simulator/img/line__down__mobile.png") !important; } }
-  /* line 3155, _sass/scss/_simulator_graphics.scss */
   .chart__canvas .icon {
     width: 14.97%;
     height: 28.96%;
     z-index: 10;
     background-size: cover; }
-  /* line 3168, _sass/scss/_simulator_graphics.scss */
   .chart__canvas.barn .icon {
     background: url("../../simulator_assets/_simulator/img/icon_barn.png");
     top: 44.01%;
@@ -3323,11 +2614,9 @@
     position: absolute;
     background-size: cover; }
     @media (max-width: 47.99em) {
-      /* line 3168, _sass/scss/_simulator_graphics.scss */
       .chart__canvas.barn .icon {
         top: 42% !important;
         left: 42.92%; } }
-  /* line 3183, _sass/scss/_simulator_graphics.scss */
   .chart__canvas.sun .icon {
     background: url("../../simulator_assets/_simulator/img/icon_sun.png");
     top: 20.89%;
@@ -3335,18 +2624,15 @@
     position: absolute;
     background-size: cover; }
     @media (max-width: 47.99em) {
-      /* line 3183, _sass/scss/_simulator_graphics.scss */
       .chart__canvas.sun .icon {
         top: 109px !important; } }
     @media (max-width: 31.875em) {
-      /* line 3183, _sass/scss/_simulator_graphics.scss */
       .chart__canvas.sun .icon {
         top: 55px !important;
         left: 21.22% !important;
         -webkit-animation-delay: 2000ms !important;
         -moz-animation-delay: 2000ms !important;
         animation-delay: 2000ms !important; } }
-  /* line 3205, _sass/scss/_simulator_graphics.scss */
   .cssanimations .chart__canvas .mask {
     height: 243px;
     right: 0;
@@ -3359,7 +2645,6 @@
     -moz-animation: mask-528-to-0 2500ms ease-in-out 0ms forwards;
     animation: mask-528-to-0 2500ms ease-in-out 0ms forwards; }
 
-/* line 3219, _sass/scss/_simulator_graphics.scss */
 .close {
   display: block;
   padding: 5px;
@@ -3375,109 +2660,83 @@
   top: 5px;
   right: 0; }
 
-/* line 3235, _sass/scss/_simulator_graphics.scss */
 .btn.light-blue {
   background: #4cbaea !important; }
 
-/* line 3248, _sass/scss/_simulator_graphics.scss */
 .col {
   float: left; }
 
-/* line 3252, _sass/scss/_simulator_graphics.scss */
 .col2-set .col {
   width: 49.5%; }
 
-/* line 3253, _sass/scss/_simulator_graphics.scss */
 .col3-set .col {
   width: 33%; }
 
-/* line 3255, _sass/scss/_simulator_graphics.scss */
 .col2-set, .col3-set {
   width: 100%;
   overflow: hidden; }
 
-/* line 3267, _sass/scss/_simulator_graphics.scss */
 .panel-1.panel-2 blockquote {
   padding-bottom: 36px !important; }
 
-/* line 3268, _sass/scss/_simulator_graphics.scss */
 .panel-6.panel-7 blockquote {
   padding-bottom: 46px !important; }
 
-/* line 3269, _sass/scss/_simulator_graphics.scss */
 .panel-16.panel-17 blockquote {
   padding-bottom: 48px !important; }
 
-/* line 3270, _sass/scss/_simulator_graphics.scss */
 .panel-23.panel-24 blockquote {
   padding-bottom: 20px !important; }
 
-/* line 3273, _sass/scss/_simulator_graphics.scss */
 .panel-2.panel-3 .infographic-content .content-left {
   width: 233px !important; }
 
-/* line 3278, _sass/scss/_simulator_graphics.scss */
 .panel-7.panel-8 .infographic-content {
   margin-top: 160px !important; }
-  /* line 3281, _sass/scss/_simulator_graphics.scss */
   .panel-7.panel-8 .infographic-content .content-left {
     width: 263px !important; }
 
-/* line 3284, _sass/scss/_simulator_graphics.scss */
 .panel-24 .vert-center {
   text-align: center; }
-  /* line 3284, _sass/scss/_simulator_graphics.scss */
   .panel-24 .vert-center .btn {
     margin-top: 20px; }
 
-/* line 3287, _sass/scss/_simulator_graphics.scss */
 .news {
   width: 200px; }
-  /* line 3290, _sass/scss/_simulator_graphics.scss */
   .news__container {
     margin-top: 6px !important; }
-  /* line 3294, _sass/scss/_simulator_graphics.scss */
   .news__heading {
     background: #F4F7F9;
     font: 9.16pt/32px "Benton Sans Med", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #0078C1;
     padding: 0 8px !important; }
-  /* line 3301, _sass/scss/_simulator_graphics.scss */
   .news__item {
     background: #fff;
     margin-bottom: 2px !important;
     padding: 8px !important; }
-    /* line 3307, _sass/scss/_simulator_graphics.scss */
     .news__item.is-highlighted .newsprint {
       background: #96d6f1; }
-    /* line 3308, _sass/scss/_simulator_graphics.scss */
     .news__item.is-highlighted .news__cta, .news__item.is-highlighted .news__item__title {
       color: #41B9EA; }
-  /* line 3312, _sass/scss/_simulator_graphics.scss */
   .news__item__title {
     color: #0078C1;
     font: bold 8pt/18px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-bottom: 5px !important; }
-  /* line 3318, _sass/scss/_simulator_graphics.scss */
   .news__cta {
     font: 9.16pt/32px "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #0078C1; }
-  /* line 3323, _sass/scss/_simulator_graphics.scss */
   .news .newsprint {
     height: 7px;
     width: 160px;
     margin-bottom: 7px !important;
     clear: both;
     background: #e6e6e6; }
-    /* line 3331, _sass/scss/_simulator_graphics.scss */
     .news .newsprint.short {
       width: 70px; }
 
-/* line 3343, _sass/scss/_simulator_graphics.scss */
 #mod-infographic-trade.infographic-simulator-container {
   margin-bottom: 50px !important; }
 
-/* line 3348, _sass/scss/_simulator_graphics.scss */
 .infographic-simulator-container {
   padding-top: 1px;
   -webkit-transition: all 300ms ease-in-out;
@@ -3485,71 +2744,55 @@
   -o-transition: all 300ms ease-in-out;
   -ms-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out; }
-  /* line 3358, _sass/scss/_simulator_graphics.scss */
   .infographic-simulator-container.is-intro .controls, .infographic-simulator-container.is-intro .pager {
     opacity: 0 !important; }
-  /* line 3365, _sass/scss/_simulator_graphics.scss */
   .infographic-simulator-container .pager.dot {
     -webkit-transition: all 300ms ease-in-out;
     -moz-transition: all 300ms ease-in-out;
     -o-transition: all 300ms ease-in-out;
     -ms-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out; }
-  /* line 3373, _sass/scss/_simulator_graphics.scss */
   .infographic-simulator-container .pager .dot.cycle-pager-active {
     margin-left: 4px !important;
     margin-right: 2px !important; }
-    /* line 3377, _sass/scss/_simulator_graphics.scss */
     .infographic-simulator-container .pager .dot.cycle-pager-active span {
       font-size: 30px !important;
       line-height: 16px !important; }
-  /* line 3384, _sass/scss/_simulator_graphics.scss */
   .infographic-simulator-container.is-section {
     background: #0078C1; }
-    /* line 3387, _sass/scss/_simulator_graphics.scss */
     .infographic-simulator-container.is-section .infographic-headline {
       border-bottom: 1px solid #fff !important; }
-    /* line 3391, _sass/scss/_simulator_graphics.scss */
     .infographic-simulator-container.is-section .pager .dot.cycle-pager-active span, .infographic-simulator-container.is-section .pager .dot, .infographic-simulator-container.is-section .title-primary {
       color: #fff !important; }
 
-/* line 3405, _sass/scss/_simulator_graphics.scss */
 .panel-style-2 .intro {
   position: absolute;
   top: -175px;
   left: -4px; }
 
-/* line 3414, _sass/scss/_simulator_graphics.scss */
 #Buy_Sell .shadow {
   top: 468px;
   left: 203px;
   position: absolute; }
 
-/* line 3423, _sass/scss/_simulator_graphics.scss */
 [data-bkg="Buy_Sell"] .popup {
   width: 351px;
   height: 194px;
   top: 132px !important;
   left: 155px !important;
   margin-left: 0 !important; }
-  /* line 3430, _sass/scss/_simulator_graphics.scss */
   [data-bkg="Buy_Sell"] .popup .col-2 {
     text-align: center; }
-  /* line 3432, _sass/scss/_simulator_graphics.scss */
   [data-bkg="Buy_Sell"] .popup img {
     width: 126px; }
-
-/* line 3437, _sass/scss/_simulator_graphics.scss */
 [data-bkg="Buy_Sell"] .modal-btns a {
   width: 83px !important; }
 
-/* line 3449, _sass/scss/_simulator_graphics.scss */
 #Market_Snapshot_Static .market_snapshot_component {
   margin-left: 27px;
   -webkit-animation: Bounce_Animation 1s ease-in-out 1000ms forwards;
   -moz-animation: Bounce_Animation 1s ease-in-out 1000ms forwards;
   animation: Bounce_Animation 1s ease-in-out 1000ms forwards; }
-  /* line 3452, _sass/scss/_simulator_graphics.scss */
   .cssanimations #Market_Snapshot_Static .market_snapshot_component {
     -moz-transform: scale(0);
     -o-transform: scale(0);
@@ -3557,18 +2800,15 @@
     -webkit-transform: scale(0);
     transform: scale(0);
     /* -webkit-transform: scale(0); */ }
-
-/* line 3458, _sass/scss/_simulator_graphics.scss */
 #Market_Snapshot_Static .market_snapshot_component, #Market_Snapshot_Static .shadow {
   transform: scale(0);
   /*
-		-webkit-animation-duration: 1s;
-		-webkit-animation-timing-function: ease-in-out;
-		-webkit-animation-iteration-count: 1;
-		-webkit-animation-delay: 1000ms;
-		-webkit-animation-fill-mode:forwards;
-		*/ }
-  /* line 3461, _sass/scss/_simulator_graphics.scss */
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 1000ms;
+  -webkit-animation-fill-mode:forwards;
+  */ }
   .cssanimations #Market_Snapshot_Static .market_snapshot_component, .cssanimations #Market_Snapshot_Static .shadow {
     -moz-transform: scale(0);
     -o-transform: scale(0);
@@ -3576,15 +2816,12 @@
     -webkit-transform: scale(0);
     transform: scale(0);
     /* -webkit-transform: scale(0); */ }
-
-/* line 3474, _sass/scss/_simulator_graphics.scss */
 #Market_Snapshot_Static .shadow {
   margin-top: 87px;
   -webkit-animation: Market_Snapshot_Static_Shadow 1s ease-in-out 1000ms forwards;
   -moz-animation: Market_Snapshot_Static_Shadow 1s ease-in-out 1000ms forwards;
   animation: Market_Snapshot_Static_Shadow 1s ease-in-out 1000ms forwards; }
 
-/* line 3485, _sass/scss/_simulator_graphics.scss */
 #Market_Snapshot_Tabs .market_snapshot_component {
   top: 136px;
   left: 241px;
@@ -3592,11 +2829,8 @@
   -webkit-animation: FadeIn 600ms linear 700ms forwards;
   -moz-animation: FadeIn 600ms linear 700ms forwards;
   animation: FadeIn 600ms linear 700ms forwards; }
-  /* line 3490, _sass/scss/_simulator_graphics.scss */
   .cssanimations #Market_Snapshot_Tabs .market_snapshot_component {
     opacity: 0; }
-
-/* line 3500, _sass/scss/_simulator_graphics.scss */
 #Market_Snapshot_Tabs .shadow {
   position: absolute;
   left: 200px;
@@ -3604,11 +2838,9 @@
   -webkit-animation: FadeIn 600ms linear 800ms forwards;
   -moz-animation: FadeIn 600ms linear 800ms forwards;
   animation: FadeIn 600ms linear 800ms forwards; }
-  /* line 3504, _sass/scss/_simulator_graphics.scss */
   .cssanimations #Market_Snapshot_Tabs .shadow {
     opacity: 0; }
 
-/* line 3514, _sass/scss/_simulator_graphics.scss */
 #Market_Snapshot_Colors .market_snapshot_component {
   top: 136px;
   left: 241px;
@@ -3616,26 +2848,20 @@
   -webkit-animation: Market_Snapshot_Colors_Animation 10s ease-in-out infinite;
   -moz-animation: Market_Snapshot_Colors_Animation 10s ease-in-out infinite;
   animation: Market_Snapshot_Colors_Animation 10s ease-in-out infinite; }
-
-/* line 3522, _sass/scss/_simulator_graphics.scss */
 #Market_Snapshot_Colors .shadow {
   position: absolute;
   left: 193px;
   top: 403px; }
 
-/* line 3531, _sass/scss/_simulator_graphics.scss */
 #Market_Snapshot_Group .market-snapshots-inline {
   position: absolute;
   top: 159px;
   left: 95px; }
-
-/* line 3537, _sass/scss/_simulator_graphics.scss */
 #Market_Snapshot_Group .shadow {
   position: absolute;
   left: 119px;
   top: 336px; }
 
-/* line 3547, _sass/scss/_simulator_graphics.scss */
 #Trading_Chart .chart-container {
   background: url(../../simulator_assets/_simulator/img/line_chart__background.png) center bottom no-repeat;
   width: 178px;
@@ -3647,8 +2873,6 @@
   -webkit-animation: Trading_Chart_Chart_Animation 300ms linear 500ms forwards;
   -moz-animation: Trading_Chart_Chart_Animation 300ms linear 500ms forwards;
   animation: Trading_Chart_Chart_Animation 300ms linear 500ms forwards; }
-
-/* line 3561, _sass/scss/_simulator_graphics.scss */
 #Trading_Chart .chart-line {
   opacity: 1;
   position: absolute;
@@ -3657,18 +2881,15 @@
   -moz-animation: FadeOut 1s linear 2.25s forwards;
   animation: FadeOut 1s linear 2.25s forwards;
   /*
-		 -webkit-animation: FadeOut 1s linear; -webkit-animation-fill-mode:forwards;
-		-webkit-animation-delay: 2.25s;
-*/ }
-  /* line 3563, _sass/scss/_simulator_graphics.scss */
+  		 -webkit-animation: FadeOut 1s linear; -webkit-animation-fill-mode:forwards;
+  		-webkit-animation-delay: 2.25s;
+  */ }
   .ie9 #Trading_Chart .chart-line, .lt-ie9 #Trading_Chart .chart-line {
     opacity: 0; }
-  /* line 3573, _sass/scss/_simulator_graphics.scss */
   #Trading_Chart .chart-line__line {
     position: absolute;
     opacity: 0;
     left: 20px; }
-    /* line 3580, _sass/scss/_simulator_graphics.scss */
     #Trading_Chart .chart-line__line.chart-line-light {
       background: url(../../simulator_assets/_simulator/img/line_chart__line-light.png);
       width: 135px;
@@ -3677,7 +2898,6 @@
       -webkit-animation: FadeIn 1s linear .75s forwards;
       -moz-animation: FadeIn 1s linear .75s forwards;
       animation: FadeIn 1s linear .75s forwards; }
-    /* line 3589, _sass/scss/_simulator_graphics.scss */
     #Trading_Chart .chart-line__line.chart-line-medium {
       background: url(../../simulator_assets/_simulator/img/line_chart__line-medium.png);
       width: 136px;
@@ -3686,7 +2906,6 @@
       -webkit-animation: FadeIn 1s linear 1.25s forwards;
       -moz-animation: FadeIn 1s linear 1.25s forwards;
       animation: FadeIn 1s linear 1.25s forwards; }
-    /* line 3598, _sass/scss/_simulator_graphics.scss */
     #Trading_Chart .chart-line__line.chart-line-dark {
       background: url(../../simulator_assets/_simulator/img/line_chart__line-dark.png);
       width: 135px;
@@ -3695,8 +2914,6 @@
       -webkit-animation: FadeIn 1s linear 1.75s forwards;
       -moz-animation: FadeIn 1s linear 1.75s forwards;
       animation: FadeIn 1s linear 1.75s forwards; }
-
-/* line 3608, _sass/scss/_simulator_graphics.scss */
 #Trading_Chart .chart-bar {
   opacity: 1;
   position: absolute;
@@ -3704,71 +2921,58 @@
   -webkit-animation: FadeOut 1s linear 5.6s forwards;
   -moz-animation: FadeOut 1s linear 5.6s forwards;
   animation: FadeOut 1s linear 5.6s forwards; }
-  /* line 3616, _sass/scss/_simulator_graphics.scss */
   .ie9 #Trading_Chart .chart-bar, .lt-ie9 #Trading_Chart .chart-bar {
     opacity: 0; }
-  /* line 3618, _sass/scss/_simulator_graphics.scss */
   #Trading_Chart .chart-bar__line {
     width: 18px;
     background: #41B9EA;
     position: absolute;
     bottom: 12px;
     height: 120px; }
-    /* line 3621, _sass/scss/_simulator_graphics.scss */
     .cssanimations #Trading_Chart .chart-bar__line {
       opacity: 0; }
-    /* line 3628, _sass/scss/_simulator_graphics.scss */
     #Trading_Chart .chart-bar__line.chart-line-dark {
       background: #0078C1; }
-    /* line 3632, _sass/scss/_simulator_graphics.scss */
     #Trading_Chart .chart-bar__line--1 {
       height: 30px;
       left: 24px;
       -webkit-animation: FadeIn 1s linear 3.9s forwards;
       -moz-animation: FadeIn 1s linear 3.9s forwards;
       animation: FadeIn 1s linear 3.9s forwards; }
-    /* line 3639, _sass/scss/_simulator_graphics.scss */
     #Trading_Chart .chart-bar__line--2 {
       height: 60px;
       left: 51px;
       -webkit-animation: FadeIn 1s linear 4.2s forwards;
       -moz-animation: FadeIn 1s linear 4.2s forwards;
       animation: FadeIn 1s linear 4.2s forwards; }
-    /* line 3646, _sass/scss/_simulator_graphics.scss */
     #Trading_Chart .chart-bar__line--3 {
       height: 90px;
       left: 80px;
       -webkit-animation: FadeIn 1s linear 4.5s forwards;
       -moz-animation: FadeIn 1s linear 4.5s forwards;
       animation: FadeIn 1s linear 4.5s forwards; }
-    /* line 3653, _sass/scss/_simulator_graphics.scss */
     #Trading_Chart .chart-bar__line--4 {
       height: 120px;
       left: 107px;
       -webkit-animation: FadeIn 1s linear 4.8s forwards;
       -moz-animation: FadeIn 1s linear 4.8s forwards;
       animation: FadeIn 1s linear 4.8s forwards; }
-    /* line 3661, _sass/scss/_simulator_graphics.scss */
     #Trading_Chart .chart-bar__line--5 {
       height: 150px;
       left: 134px;
       -webkit-animation: FadeIn 1s linear 5.1s forwards;
       -moz-animation: FadeIn 1s linear 5.1s forwards;
       animation: FadeIn 1s linear 5.1s forwards; }
-
-/* line 3670, _sass/scss/_simulator_graphics.scss */
 #Trading_Chart .chart-candlestick {
   opacity: 1;
   position: absolute;
   top: 281px;
   height: 215px; }
-  /* line 3678, _sass/scss/_simulator_graphics.scss */
   #Trading_Chart .chart-candlestick__line {
     position: absolute;
     width: 17px;
     height: 127px;
     z-index: 10; }
-    /* line 3679, _sass/scss/_simulator_graphics.scss */
     .cssanimations #Trading_Chart .chart-candlestick__line {
       -moz-transform: scale(0);
       -o-transform: scale(0);
@@ -3776,10 +2980,8 @@
       -webkit-transform: scale(0);
       transform: scale(0);
       /* -webkit-transform: scale(0); */ }
-    /* line 3686, _sass/scss/_simulator_graphics.scss */
     #Trading_Chart .chart-candlestick__line .stick {
       left: 11px; }
-    /* line 3691, _sass/scss/_simulator_graphics.scss */
     #Trading_Chart .chart-candlestick__line--1 {
       height: 30px !important;
       left: 24px !important;
@@ -3787,11 +2989,9 @@
       -webkit-animation: Bounce_Animation 1s linear 6.9s forwards;
       -moz-animation: Bounce_Animation 1s linear 6.9s forwards;
       animation: Bounce_Animation 1s linear 6.9s forwards; }
-      /* line 3698, _sass/scss/_simulator_graphics.scss */
       #Trading_Chart .chart-candlestick__line--1 .stick {
         top: 23px !important;
         height: 81px !important; }
-    /* line 3701, _sass/scss/_simulator_graphics.scss */
     #Trading_Chart .chart-candlestick__line--2 {
       height: 60px !important;
       left: 51px !important;
@@ -3799,11 +2999,9 @@
       -webkit-animation: Bounce_Animation 1s linear 7.2s forwards;
       -moz-animation: Bounce_Animation 1s linear 7.2s forwards;
       animation: Bounce_Animation 1s linear 7.2s forwards; }
-      /* line 3708, _sass/scss/_simulator_graphics.scss */
       #Trading_Chart .chart-candlestick__line--2 .stick {
         top: 36px !important;
         height: 27px !important; }
-    /* line 3711, _sass/scss/_simulator_graphics.scss */
     #Trading_Chart .chart-candlestick__line--3 {
       height: 90px !important;
       left: 80px !important;
@@ -3811,11 +3009,9 @@
       -webkit-animation: Bounce_Animation 1s linear 7.5s forwards;
       -moz-animation: Bounce_Animation 1s linear 7.5s forwards;
       animation: Bounce_Animation 1s linear 7.5s forwards; }
-      /* line 3717, _sass/scss/_simulator_graphics.scss */
       #Trading_Chart .chart-candlestick__line--3 .stick {
         top: 57px !important;
         height: 5px !important; }
-    /* line 3720, _sass/scss/_simulator_graphics.scss */
     #Trading_Chart .chart-candlestick__line--4 {
       height: 120px !important;
       left: 107px !important;
@@ -3823,11 +3019,9 @@
       -webkit-animation: Bounce_Animation 1s linear 7.8s forwards;
       -moz-animation: Bounce_Animation 1s linear 7.8s forwards;
       animation: Bounce_Animation 1s linear 7.8s forwards; }
-      /* line 3727, _sass/scss/_simulator_graphics.scss */
       #Trading_Chart .chart-candlestick__line--4 .stick {
         top: 35px !important;
         height: 70px !important; }
-    /* line 3731, _sass/scss/_simulator_graphics.scss */
     #Trading_Chart .chart-candlestick__line--5 {
       top: -50px !important;
       height: 150px !important;
@@ -3836,16 +3030,11 @@
       -webkit-animation: Bounce_Animation 1s linear 8.1s forwards;
       -moz-animation: Bounce_Animation 1s linear 8.1s forwards;
       animation: Bounce_Animation 1s linear 8.1s forwards; }
-      /* line 3738, _sass/scss/_simulator_graphics.scss */
       #Trading_Chart .chart-candlestick__line--5 .stick {
         top: 40px !important;
         height: 43px !important; }
-
-/* line 3745, _sass/scss/_simulator_graphics.scss */
 #Trading_Chart .chart {
   position: absolute; }
-
-/* line 3749, _sass/scss/_simulator_graphics.scss */
 #Trading_Chart .shadow {
   position: absolute;
   left: 370px;
@@ -3854,74 +3043,57 @@
   -moz-animation: FadeIn 300ms linear 600ms forwards;
   animation: FadeIn 300ms linear 600ms forwards;
   z-index: 9; }
-  /* line 3753, _sass/scss/_simulator_graphics.scss */
   .cssanimations #Trading_Chart .shadow {
     opacity: 0; }
 
-/* line 3761, _sass/scss/_simulator_graphics.scss */
 #Candlestick .shadow {
   -webkit-animation: FadeIn 300ms linear 1500ms forwards;
   -moz-animation: FadeIn 300ms linear 1500ms forwards;
   animation: FadeIn 300ms linear 1500ms forwards; }
-  /* line 3766, _sass/scss/_simulator_graphics.scss */
   .cssanimations #Candlestick .shadow {
     opacity: 0; }
-
-/* line 3770, _sass/scss/_simulator_graphics.scss */
 .cssanimations #Candlestick .candlestick .wick, .cssanimations #Candlestick .candlestick .stick {
   opacity: 0; }
-
-/* line 3772, _sass/scss/_simulator_graphics.scss */
 #Candlestick .candlestick .wick {
   -webkit-animation: EnterFromLeft 1s linear 600ms forwards;
   -moz-animation: EnterFromLeft 1s linear 600ms forwards;
   animation: EnterFromLeft 1s linear 600ms forwards;
   /*
-			-webkit-animation: EnterFromLeft 1000ms ease-in-out;
-			-webkit-animation-fill-mode:forwards;
-			-webkit-animation-delay: 600ms;
-*/ }
-
-/* line 3780, _sass/scss/_simulator_graphics.scss */
+  			-webkit-animation: EnterFromLeft 1000ms ease-in-out;
+  			-webkit-animation-fill-mode:forwards;
+  			-webkit-animation-delay: 600ms;
+  */ }
 #Candlestick .candlestick .stick {
   -webkit-animation: EnterFromRight 1s linear 600ms forwards;
   -moz-animation: EnterFromRight 1s linear 600ms forwards;
   animation: EnterFromRight 1s linear 600ms forwards;
   /*
-			-webkit-animation: EnterFromRight 1000ms ease-in-out;
-			-webkit-animation-fill-mode:forwards;
-			-webkit-animation-delay: 600ms;
-*/ }
+  			-webkit-animation: EnterFromRight 1000ms ease-in-out;
+  			-webkit-animation-fill-mode:forwards;
+  			-webkit-animation-delay: 600ms;
+  */ }
 
-/* line 3794, _sass/scss/_simulator_graphics.scss */
 #Candlestick_Accordion .candlestick {
   top: 118px;
   left: 444px;
   position: absolute; }
-  /* line 3799, _sass/scss/_simulator_graphics.scss */
   #Candlestick_Accordion .candlestick .stick {
     top: 68px;
     height: 109.5px; }
-
-/* line 3805, _sass/scss/_simulator_graphics.scss */
 #Candlestick_Accordion .shadow {
   position: absolute;
   left: 180px;
   top: 400px; }
 
-/* line 3817, _sass/scss/_simulator_graphics.scss */
 #Screen img {
   position: absolute;
   top: 117px;
   left: 105px; }
-
-/* line 3823, _sass/scss/_simulator_graphics.scss */
 #Screen .shadow {
   position: absolute;
   left: 118px;
   top: 417px; }
 
-/* line 3833, _sass/scss/_simulator_graphics.scss */
 #MS_Trade .market_snapshot_component {
   position: absolute;
   top: 115px;
@@ -3930,14 +3102,13 @@
   -moz-animation: Bounce_Animation 1s linear 1s forwards;
   animation: Bounce_Animation 1s linear 1s forwards;
   /*
-		-webkit-animation-name: Bounce_Animation;
-		-webkit-animation-duration: 1s;
-		-webkit-animation-timing-function: ease-in-out;
-		-webkit-animation-iteration-count: 1;
-		-webkit-animation-delay: 1000ms;
-		-webkit-animation-fill-mode:forwards;
-*/ }
-  /* line 3838, _sass/scss/_simulator_graphics.scss */
+  		-webkit-animation-name: Bounce_Animation;
+  		-webkit-animation-duration: 1s;
+  		-webkit-animation-timing-function: ease-in-out;
+  		-webkit-animation-iteration-count: 1;
+  		-webkit-animation-delay: 1000ms;
+  		-webkit-animation-fill-mode:forwards;
+  */ }
   .cssanimations #MS_Trade .market_snapshot_component {
     -moz-transform: scale(0);
     -o-transform: scale(0);
@@ -3945,13 +3116,10 @@
     -webkit-transform: scale(0);
     transform: scale(0);
     /* -webkit-transform: scale(0); */ }
-  /* line 3852, _sass/scss/_simulator_graphics.scss */
   #MS_Trade .market_snapshot_component__btn {
     -webkit-animation: Clicked_Animation 200ms linear 1800ms forwards;
     -moz-animation: Clicked_Animation 200ms linear 1800ms forwards;
     animation: Clicked_Animation 200ms linear 1800ms forwards; }
-
-/* line 3859, _sass/scss/_simulator_graphics.scss */
 #MS_Trade .shadow {
   position: absolute;
   top: 350px;
@@ -3959,7 +3127,6 @@
   -webkit-animation: Market_Snapshot_Static_Shadow 1s linear 1s forwards;
   -moz-animation: Market_Snapshot_Static_Shadow 1s linear 1s forwards;
   animation: Market_Snapshot_Static_Shadow 1s linear 1s forwards; }
-  /* line 3864, _sass/scss/_simulator_graphics.scss */
   .cssanimations #MS_Trade .shadow {
     -moz-transform: scale(0);
     -o-transform: scale(0);
@@ -3967,8 +3134,6 @@
     -webkit-transform: scale(0);
     transform: scale(0);
     /* -webkit-transform: scale(0); */ }
-
-/* line 3869, _sass/scss/_simulator_graphics.scss */
 #MS_Trade .mouse {
   position: absolute;
   -moz-transform: scale(0);
@@ -3978,9 +3143,9 @@
   transform: scale(0);
   /* -webkit-transform:scale(0); */
   /* Ending
-		top: 248px;
-		left: 584px;
-*/
+  		top: 248px;
+  		left: 584px;
+  */
   top: 248px;
   left: 584px;
   width: 25px;
@@ -3989,14 +3154,12 @@
   -webkit-animation: MS_Trade_Mouse_Animation 1s ease-in-out 1s forwards;
   -moz-animation: MS_Trade_Mouse_Animation 1s ease-in-out 1s forwards;
   animation: MS_Trade_Mouse_Animation 1s ease-in-out 1s forwards; }
-  /* line 3880, _sass/scss/_simulator_graphics.scss */
   .cssanimations #MS_Trade .mouse {
     top: 448px;
     /* Starting */
     left: 784px;
     /* Starting */ }
 
-/* line 3898, _sass/scss/_simulator_graphics.scss */
 #Summary img {
   left: 109px;
   top: 195px;
@@ -4004,11 +3167,8 @@
   -webkit-animation: FadeIn 600ms linear 700ms forwards;
   -moz-animation: FadeIn 600ms linear 700ms forwards;
   animation: FadeIn 600ms linear 700ms forwards; }
-  /* line 3902, _sass/scss/_simulator_graphics.scss */
   .cssanimations #Summary img {
     opacity: 0; }
-
-/* line 3910, _sass/scss/_simulator_graphics.scss */
 #Summary .shadow {
   position: absolute;
   top: 390px;
@@ -4016,17 +3176,13 @@
   -webkit-animation: FadeIn 600ms linear 700ms forwards;
   -moz-animation: FadeIn 600ms linear 700ms forwards;
   animation: FadeIn 600ms linear 700ms forwards; }
-  /* line 3914, _sass/scss/_simulator_graphics.scss */
   .cssanimations #Summary .shadow {
     opacity: 0; }
 
-/* line 3924, _sass/scss/_simulator_graphics.scss */
 #Trade_Quantity .shadow {
   position: absolute;
   top: 468px;
   left: 195px; }
-
-/* line 3930, _sass/scss/_simulator_graphics.scss */
 #Trade_Quantity .popup {
   width: 247px;
   top: 114px;
@@ -4034,18 +3190,15 @@
   margin-left: 0 !important;
   height: 155px; }
 
-/* line 3940, _sass/scss/_simulator_graphics.scss */
 #Sell .popup, #Buy .popup {
   width: 351px;
   height: 195px;
   margin-left: 0;
   left: 230px; }
-  /* line 3946, _sass/scss/_simulator_graphics.scss */
   #Sell .popup img, #Buy .popup img {
     width: 125px;
     margin-left: 20px; }
 
-/* line 3952, _sass/scss/_simulator_graphics.scss */
 #Confirm img {
   width: 328px;
   position: absolute;
@@ -4054,11 +3207,8 @@
   -webkit-animation: FadeIn 600ms linear 700ms forwards;
   -moz-animation: FadeIn 600ms linear 700ms forwards;
   animation: FadeIn 600ms linear 700ms forwards; }
-  /* line 3958, _sass/scss/_simulator_graphics.scss */
   .cssanimations #Confirm img {
     opacity: 0; }
-
-/* line 3966, _sass/scss/_simulator_graphics.scss */
 #Confirm .shadow {
   position: absolute;
   top: 468px;
@@ -4066,29 +3216,24 @@
   -webkit-animation: FadeIn 600ms linear 700ms forwards;
   -moz-animation: FadeIn 600ms linear 700ms forwards;
   animation: FadeIn 600ms linear 700ms forwards; }
-  /* line 3970, _sass/scss/_simulator_graphics.scss */
   .cssanimations #Confirm .shadow {
     opacity: 0; }
 
-/* line 3978, _sass/scss/_simulator_graphics.scss */
 .animate-green {
   -webkit-animation: Green_Background_Animation 2800ms linear 100ms forwards;
   -moz-animation: Green_Background_Animation 2800ms linear 100ms forwards;
   animation: Green_Background_Animation 2800ms linear 100ms forwards; }
 
-/* line 3983, _sass/scss/_simulator_graphics.scss */
 .animate-low-green {
   -webkit-animation: Green_Low_Background_Animation 2000ms linear 100ms forwards;
   -moz-animation: Green_Low_Background_Animation 2000ms linear 100ms forwards;
   animation: Green_Low_Background_Animation 2000ms linear 100ms forwards; }
 
-/* line 3988, _sass/scss/_simulator_graphics.scss */
 .animate-mid-green {
   -webkit-animation: Green_Mid_Background_Animation 2800ms linear 100ms forwards;
   -moz-animation: Green_Mid_Background_Animation 2800ms linear 100ms forwards;
   animation: Green_Mid_Background_Animation 2800ms linear 100ms forwards; }
 
-/* line 3994, _sass/scss/_simulator_graphics.scss */
 .animate-red {
   -webkit-animation: Red_Background_Animation 2800ms linear 100ms forwards;
   -moz-animation: Red_Background_Animation 2800ms linear 100ms forwards;
@@ -4272,7 +3417,6 @@
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     /* -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); */
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
-
 @-moz-keyframes Bounce_Animation {
   /* Extended to merge text1 and text2 animations */
   0% {
@@ -4451,7 +3595,6 @@
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     /* -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); */
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
-
 @keyframes Bounce_Animation {
   /* Extended to merge text1 and text2 animations */
   0% {
@@ -4630,7 +3773,6 @@
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     /* -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); */
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
-
 @-webkit-keyframes Market_Snapshot_Colors_Animation_Green {
   /*
 
@@ -4650,7 +3792,6 @@
   100% {
     background-color: #32D200;
     opacity: 1; } }
-
 @-moz-keyframes Market_Snapshot_Colors_Animation_Green {
   /*
 
@@ -4670,7 +3811,6 @@
   100% {
     background-color: #32D200;
     opacity: 1; } }
-
 @keyframes Market_Snapshot_Colors_Animation_Green {
   /*
 
@@ -4690,7 +3830,6 @@
   100% {
     background-color: #32D200;
     opacity: 1; } }
-
 @-webkit-keyframes Market_Snapshot_Colors_Animation_Green_Light {
   0% {
     background-color: #44cc19;
@@ -4703,7 +3842,6 @@
   100% {
     background-color: #55ff20;
     opacity: 1; } }
-
 @-moz-keyframes Market_Snapshot_Colors_Animation_Green_Light {
   0% {
     background-color: #44cc19;
@@ -4716,7 +3854,6 @@
   100% {
     background-color: #55ff20;
     opacity: 1; } }
-
 @keyframes Market_Snapshot_Colors_Animation_Green_Light {
   0% {
     background-color: #44cc19;
@@ -4729,7 +3866,6 @@
   100% {
     background-color: #55ff20;
     opacity: 1; } }
-
 @-webkit-keyframes Market_Snapshot_Colors_Animation_Green_Dark {
   0% {
     background-color: #4c9e32;
@@ -4742,7 +3878,6 @@
   100% {
     background-color: #208600;
     opacity: 1; } }
-
 @-moz-keyframes Market_Snapshot_Colors_Animation_Green_Dark {
   0% {
     background-color: #4c9e32;
@@ -4755,7 +3890,6 @@
   100% {
     background-color: #208600;
     opacity: 1; } }
-
 @keyframes Market_Snapshot_Colors_Animation_Green_Dark {
   0% {
     background-color: #4c9e32;
@@ -4768,7 +3902,6 @@
   100% {
     background-color: #208600;
     opacity: 1; } }
-
 @-webkit-keyframes Market_Snapshot_Colors_Animation_Red {
   0% {
     background-color: #c71f28;
@@ -4781,7 +3914,6 @@
   100% {
     background-color: #E92429;
     opacity: 1; } }
-
 @-moz-keyframes Market_Snapshot_Colors_Animation_Red {
   0% {
     background-color: #c71f28;
@@ -4794,7 +3926,6 @@
   100% {
     background-color: #E92429;
     opacity: 1; } }
-
 @keyframes Market_Snapshot_Colors_Animation_Red {
   0% {
     background-color: #c71f28;
@@ -4807,79 +3938,66 @@
   100% {
     background-color: #E92429;
     opacity: 1; } }
-
 @-webkit-keyframes Green_Low_Background_Animation {
   0% {
     background-color: #1ab24b; }
   100% {
     background-color: #18AB49; } }
-
 @-moz-keyframes Green_Low_Background_Animation {
   0% {
     background-color: #1ab24b; }
   100% {
     background-color: #18AB49; } }
-
 @keyframes Green_Low_Background_Animation {
   0% {
     background-color: #1ab24b; }
   100% {
     background-color: #18AB49; } }
-
 @-webkit-keyframes Green_Mid_Background_Animation {
   0% {
     background-color: #1ab24b; }
   100% {
     background-color: #0E8F40; } }
-
 @-moz-keyframes Green_Mid_Background_Animation {
   0% {
     background-color: #1ab24b; }
   100% {
     background-color: #0E8F40; } }
-
 @keyframes Green_Mid_Background_Animation {
   0% {
     background-color: #1ab24b; }
   100% {
     background-color: #0E8F40; } }
-
 @-webkit-keyframes Green_Background_Animation {
   0% {
     background-color: #1ab24b; }
   100% {
     background-color: #006633; } }
-
 @-moz-keyframes Green_Background_Animation {
   0% {
     background-color: #1ab24b; }
   100% {
     background-color: #006633; } }
-
 @keyframes Green_Background_Animation {
   0% {
     background-color: #1ab24b; }
   100% {
     background-color: #006633; } }
-
 @-webkit-keyframes Red_Background_Animation {
   0% {
     background-color: #c71f28; }
   100% {
     background-color: #7f1419; } }
-
 @-moz-keyframes Red_Background_Animation {
   0% {
     background-color: #c71f28; }
   100% {
     background-color: #7f1419; } }
-
 @keyframes Red_Background_Animation {
   0% {
     background-color: #c71f28; }
   100% {
     background-color: #7f1419; } }
-
 @-webkit-keyframes Market_Snapshot_Colors_Animation {
   0% {
     background-color: #7f1419; }
@@ -4895,7 +4013,6 @@
     background-color: #7f1419; }
   100% {
     background-color: #7f1419; } }
-
 @-moz-keyframes Market_Snapshot_Colors_Animation {
   0% {
     background-color: #7f1419; }
@@ -4911,7 +4028,6 @@
     background-color: #7f1419; }
   100% {
     background-color: #7f1419; } }
-
 @keyframes Market_Snapshot_Colors_Animation {
   0% {
     background-color: #7f1419; }
@@ -4927,133 +4043,120 @@
     background-color: #7f1419; }
   100% {
     background-color: #7f1419; } }
-
 @-webkit-keyframes Animate_Width_None_to_Full {
   from {
     width: 0%; }
   to {
     width: 100%; } }
-
 @-moz-keyframes Animate_Width_None_to_Full {
   from {
     width: 0%; }
   to {
     width: 100%; } }
-
 @keyframes Animate_Width_None_to_Full {
   from {
     width: 0%; }
   to {
     width: 100%; } }
-
 @-webkit-keyframes Animate_Chart_Upward_Line {
   0% {
     width: 0%; }
   /*
-    62% {
-	    width: 60%;
-    }
-
-	67% {
-	    width: 60%;
-	}
-*/
+      62% {
+  	    width: 60%;
+      }
+  
+  	67% {
+  	    width: 60%;
+  	}
+  */
   100% {
     width: 100%; } }
-
 @-moz-keyframes Animate_Chart_Upward_Line {
   0% {
     width: 0%; }
   /*
-    62% {
-	    width: 60%;
-    }
-
-	67% {
-	    width: 60%;
-	}
-*/
+      62% {
+  	    width: 60%;
+      }
+  
+  	67% {
+  	    width: 60%;
+  	}
+  */
   100% {
     width: 100%; } }
-
 @keyframes Animate_Chart_Upward_Line {
   0% {
     width: 0%; }
   /*
-    62% {
-	    width: 60%;
-    }
-
-	67% {
-	    width: 60%;
-	}
-*/
+      62% {
+  	    width: 60%;
+      }
+  
+  	67% {
+  	    width: 60%;
+  	}
+  */
   100% {
     width: 100%; } }
-
 @-webkit-keyframes Animate_Chart_Downward_Line {
   0% {
     width: 0%; }
   /*
-    33% {
-	    width: 40%;
-    }
-
-	44% {
-	    width: 40%;
-	}
-*/
+      33% {
+  	    width: 40%;
+      }
+  
+  	44% {
+  	    width: 40%;
+  	}
+  */
   100% {
     width: 100%; } }
-
 @-moz-keyframes Animate_Chart_Downward_Line {
   0% {
     width: 0%; }
   /*
-    33% {
-	    width: 40%;
-    }
-
-	44% {
-	    width: 40%;
-	}
-*/
+      33% {
+  	    width: 40%;
+      }
+  
+  	44% {
+  	    width: 40%;
+  	}
+  */
   100% {
     width: 100%; } }
-
 @keyframes Animate_Chart_Downward_Line {
   0% {
     width: 0%; }
   /*
-    33% {
-	    width: 40%;
-    }
-
-	44% {
-	    width: 40%;
-	}
-*/
+      33% {
+  	    width: 40%;
+      }
+  
+  	44% {
+  	    width: 40%;
+  	}
+  */
   100% {
     width: 100%; } }
-
 @-webkit-keyframes Animate_Scale_None_to_Full {
   from {
     transform: scale(0); }
   to {
     transform: scale(1); } }
-
 @-moz-keyframes Animate_Scale_None_to_Full {
   from {
     transform: scale(0); }
   to {
     transform: scale(1); } }
-
 @keyframes Animate_Scale_None_to_Full {
   from {
     transform: scale(0); }
   to {
     transform: scale(1); } }
-
 @-webkit-keyframes Animate_Scale_None_to_Full_with_Rotation {
   0% {
     transform: scale(0) rotate(45deg); }
@@ -5061,7 +4164,6 @@
     transform: scale(1) rotate(11.25deg); }
   100% {
     transform: scale(1) rotate(0deg); } }
-
 @-moz-keyframes Animate_Scale_None_to_Full_with_Rotation {
   0% {
     transform: scale(0) rotate(45deg); }
@@ -5069,7 +4171,6 @@
     transform: scale(1) rotate(11.25deg); }
   100% {
     transform: scale(1) rotate(0deg); } }
-
 @keyframes Animate_Scale_None_to_Full_with_Rotation {
   0% {
     transform: scale(0) rotate(45deg); }
@@ -5077,25 +4178,21 @@
     transform: scale(1) rotate(11.25deg); }
   100% {
     transform: scale(1) rotate(0deg); } }
-
 @-webkit-keyframes mask-528-to-0 {
   from {
     width: 528px; }
   to {
     width: 0; } }
-
 @-moz-keyframes mask-528-to-0 {
   from {
     width: 528px; }
   to {
     width: 0; } }
-
 @keyframes mask-528-to-0 {
   from {
     width: 528px; }
   to {
     width: 0; } }
-
 @-webkit-keyframes bg-top-to-bottom {
   0% {
     background-position: 0 -190px;
@@ -5105,7 +4202,6 @@
   100% {
     background-position: 0 -14px;
     opacity: 1; } }
-
 @-moz-keyframes bg-top-to-bottom {
   0% {
     background-position: 0 -190px;
@@ -5115,7 +4211,6 @@
   100% {
     background-position: 0 -14px;
     opacity: 1; } }
-
 @keyframes bg-top-to-bottom {
   0% {
     background-position: 0 -190px;
@@ -5125,7 +4220,6 @@
   100% {
     background-position: 0 -14px;
     opacity: 1; } }
-
 @-webkit-keyframes bg-bottom-to-top {
   0% {
     background-position: 0 190px;
@@ -5135,7 +4229,6 @@
   100% {
     background-position: 0 0;
     opacity: 1; } }
-
 @-moz-keyframes bg-bottom-to-top {
   0% {
     background-position: 0 190px;
@@ -5145,7 +4238,6 @@
   100% {
     background-position: 0 0;
     opacity: 1; } }
-
 @keyframes bg-bottom-to-top {
   0% {
     background-position: 0 190px;
@@ -5155,7 +4247,6 @@
   100% {
     background-position: 0 0;
     opacity: 1; } }
-
 @-webkit-keyframes FadeAndScaleIn {
   0% {
     opacity: 0;
@@ -5178,7 +4269,6 @@
     -ms-transform: scale(1);
     -webkit-transform: scale(1);
     transform: scale(1); } }
-
 @-moz-keyframes FadeAndScaleIn {
   0% {
     opacity: 0;
@@ -5201,7 +4291,6 @@
     -ms-transform: scale(1);
     -webkit-transform: scale(1);
     transform: scale(1); } }
-
 @keyframes FadeAndScaleIn {
   0% {
     opacity: 0;
@@ -5224,7 +4313,6 @@
     -ms-transform: scale(1);
     -webkit-transform: scale(1);
     transform: scale(1); } }
-
 @-webkit-keyframes FadeIn {
   0% {
     opacity: 0; }
@@ -5232,7 +4320,6 @@
     opacity: .7; }
   100% {
     opacity: 1; } }
-
 @-moz-keyframes FadeIn {
   0% {
     opacity: 0; }
@@ -5240,7 +4327,6 @@
     opacity: .7; }
   100% {
     opacity: 1; } }
-
 @keyframes FadeIn {
   0% {
     opacity: 0; }
@@ -5248,7 +4334,6 @@
     opacity: .7; }
   100% {
     opacity: 1; } }
-
 @-webkit-keyframes FadeOut {
   0% {
     opacity: 1; }
@@ -5256,7 +4341,6 @@
     opacity: .7; }
   100% {
     opacity: 0; } }
-
 @-moz-keyframes FadeOut {
   0% {
     opacity: 1; }
@@ -5264,7 +4348,6 @@
     opacity: .7; }
   100% {
     opacity: 0; } }
-
 @keyframes FadeOut {
   0% {
     opacity: 1; }
@@ -5272,7 +4355,6 @@
     opacity: .7; }
   100% {
     opacity: 0; } }
-
 @-webkit-keyframes EnterFromLeft {
   0% {
     transform: translateX(-100%); }
@@ -5281,7 +4363,6 @@
   100% {
     opacity: 1;
     transform: translateX(0%); } }
-
 @-moz-keyframes EnterFromLeft {
   0% {
     transform: translateX(-100%); }
@@ -5290,7 +4371,6 @@
   100% {
     opacity: 1;
     transform: translateX(0%); } }
-
 @keyframes EnterFromLeft {
   0% {
     transform: translateX(-100%); }
@@ -5299,7 +4379,6 @@
   100% {
     opacity: 1;
     transform: translateX(0%); } }
-
 @-webkit-keyframes EnterFromRight {
   0% {
     transform: translateX(100%); }
@@ -5308,7 +4387,6 @@
   100% {
     opacity: 1;
     transform: translateX(0%); } }
-
 @-moz-keyframes EnterFromRight {
   0% {
     transform: translateX(100%); }
@@ -5317,7 +4395,6 @@
   100% {
     opacity: 1;
     transform: translateX(0%); } }
-
 @keyframes EnterFromRight {
   0% {
     transform: translateX(100%); }
@@ -5326,25 +4403,21 @@
   100% {
     opacity: 1;
     transform: translateX(0%); } }
-
 @-webkit-keyframes Trading_Chart_Chart_Animation {
   0% {
     background-position-x: -200px; }
   100% {
     background-position-x: 0px; } }
-
 @-moz-keyframes Trading_Chart_Chart_Animation {
   0% {
     background-position-x: -200px; }
   100% {
     background-position-x: 0px; } }
-
 @keyframes Trading_Chart_Chart_Animation {
   0% {
     background-position-x: -200px; }
   100% {
     background-position-x: 0px; } }
-
 @-webkit-keyframes MS_Trade_Mouse_Animation {
   0% {
     -moz-transform: scale(1);
@@ -5382,7 +4455,6 @@
     /* -webkit-transform: scale(1); */
     top: 248px;
     left: 584px; } }
-
 @-moz-keyframes MS_Trade_Mouse_Animation {
   0% {
     -moz-transform: scale(1);
@@ -5420,7 +4492,6 @@
     /* -webkit-transform: scale(1); */
     top: 248px;
     left: 584px; } }
-
 @keyframes MS_Trade_Mouse_Animation {
   0% {
     -moz-transform: scale(1);
@@ -5458,7 +4529,6 @@
     /* -webkit-transform: scale(1); */
     top: 248px;
     left: 584px; } }
-
 @-webkit-keyframes Confirm_Order_Mouse_Animation {
   0% {
     -moz-transform: scale(0);
@@ -5505,7 +4575,6 @@
     /* -webkit-transform: scale(1); */
     top: 91%;
     left: 5%; } }
-
 @-moz-keyframes Confirm_Order_Mouse_Animation {
   0% {
     -moz-transform: scale(0);
@@ -5552,7 +4621,6 @@
     /* -webkit-transform: scale(1); */
     top: 91%;
     left: 5%; } }
-
 @keyframes Confirm_Order_Mouse_Animation {
   0% {
     -moz-transform: scale(0);
@@ -5599,7 +4667,6 @@
     /* -webkit-transform: scale(1); */
     top: 91%;
     left: 5%; } }
-
 @-webkit-keyframes Market_Order_Dropdown_Animation {
   0% {
     opacity: 0; }
@@ -5609,7 +4676,6 @@
     opacity: 1; }
   100% {
     opacity: 1; } }
-
 @-moz-keyframes Market_Order_Dropdown_Animation {
   0% {
     opacity: 0; }
@@ -5619,7 +4685,6 @@
     opacity: 1; }
   100% {
     opacity: 1; } }
-
 @keyframes Market_Order_Dropdown_Animation {
   0% {
     opacity: 0; }
@@ -5629,7 +4694,6 @@
     opacity: 1; }
   100% {
     opacity: 1; } }
-
 @-webkit-keyframes Market_Order_Dropdown_Animation__Opened {
   0% {
     opacity: 0; }
@@ -5645,7 +4709,6 @@
     opacity: 0; }
   100% {
     opacity: 0; } }
-
 @-moz-keyframes Market_Order_Dropdown_Animation__Opened {
   0% {
     opacity: 0; }
@@ -5661,7 +4724,6 @@
     opacity: 0; }
   100% {
     opacity: 0; } }
-
 @keyframes Market_Order_Dropdown_Animation__Opened {
   0% {
     opacity: 0; }
@@ -5677,7 +4739,6 @@
     opacity: 0; }
   100% {
     opacity: 0; } }
-
 @-webkit-keyframes Market_Order_Dropdown_Quantity_Animation_Opened {
   0% {
     opacity: 0; }
@@ -5691,7 +4752,6 @@
     opacity: 0; }
   100% {
     opacity: 0; } }
-
 @-moz-keyframes Market_Order_Dropdown_Quantity_Animation_Opened {
   0% {
     opacity: 0; }
@@ -5705,7 +4765,6 @@
     opacity: 0; }
   100% {
     opacity: 0; } }
-
 @keyframes Market_Order_Dropdown_Quantity_Animation_Opened {
   0% {
     opacity: 0; }
@@ -5719,7 +4778,6 @@
     opacity: 0; }
   100% {
     opacity: 0; } }
-
 @-webkit-keyframes Market_Order_Dropdown_Quantity_Animation {
   0% {
     opacity: 0; }
@@ -5731,7 +4789,6 @@
     opacity: 1; }
   100% {
     opacity: 1; } }
-
 @-moz-keyframes Market_Order_Dropdown_Quantity_Animation {
   0% {
     opacity: 0; }
@@ -5743,7 +4800,6 @@
     opacity: 1; }
   100% {
     opacity: 1; } }
-
 @keyframes Market_Order_Dropdown_Quantity_Animation {
   0% {
     opacity: 0; }
@@ -5755,7 +4811,6 @@
     opacity: 1; }
   100% {
     opacity: 1; } }
-
 @-webkit-keyframes Market_Order_Mouse_Animation {
   0% {
     top: 176%;
@@ -5793,7 +4848,6 @@
   100% {
     top: 89.37%;
     left: 7.75%; } }
-
 @-moz-keyframes Market_Order_Mouse_Animation {
   0% {
     top: 176%;
@@ -5831,7 +4885,6 @@
   100% {
     top: 89.37%;
     left: 7.75%; } }
-
 @keyframes Market_Order_Mouse_Animation {
   0% {
     top: 176%;
@@ -5869,7 +4922,6 @@
   100% {
     top: 89.37%;
     left: 7.75%; } }
-
 @-webkit-keyframes Clicked_Animation {
   0% {
     -moz-transform: scale(1);
@@ -5892,7 +4944,6 @@
     -webkit-transform: scale(1);
     transform: scale(1);
     /* -webkit-transform: scale(1); */ } }
-
 @-moz-keyframes Clicked_Animation {
   0% {
     -moz-transform: scale(1);
@@ -5915,7 +4966,6 @@
     -webkit-transform: scale(1);
     transform: scale(1);
     /* -webkit-transform: scale(1); */ } }
-
 @keyframes Clicked_Animation {
   0% {
     -moz-transform: scale(1);
@@ -5938,49 +4988,36 @@
     -webkit-transform: scale(1);
     transform: scale(1);
     /* -webkit-transform: scale(1); */ } }
-
 @-webkit-keyframes Turn_Blue {
-  0% { }
   50% {
     color: #94d6f3; }
   100% {
     color: #94d6f3; } }
-
 @-moz-keyframes Turn_Blue {
-  0% { }
   50% {
     color: #94d6f3; }
   100% {
     color: #94d6f3; } }
-
 @keyframes Turn_Blue {
-  0% { }
   50% {
     color: #94d6f3; }
   100% {
     color: #94d6f3; } }
-
 @-webkit-keyframes Turn_Background_Blue {
-  0% { }
   50% {
     background-color: #94d6f3; }
   100% {
     background-color: #94d6f3; } }
-
 @-moz-keyframes Turn_Background_Blue {
-  0% { }
   50% {
     background-color: #94d6f3; }
   100% {
     background-color: #94d6f3; } }
-
 @keyframes Turn_Background_Blue {
-  0% { }
   50% {
     background-color: #94d6f3; }
   100% {
     background-color: #94d6f3; } }
-
 @-webkit-keyframes Clicked_And_Change_Color_Animation {
   0% {
     -moz-transform: scale(1);
@@ -6004,7 +5041,6 @@
     transform: scale(1);
     /* -webkit-transform: scale(1); */
     color: #94d6f3; } }
-
 @-moz-keyframes Clicked_And_Change_Color_Animation {
   0% {
     -moz-transform: scale(1);
@@ -6028,7 +5064,6 @@
     transform: scale(1);
     /* -webkit-transform: scale(1); */
     color: #94d6f3; } }
-
 @keyframes Clicked_And_Change_Color_Animation {
   0% {
     -moz-transform: scale(1);
@@ -6052,7 +5087,6 @@
     transform: scale(1);
     /* -webkit-transform: scale(1); */
     color: #94d6f3; } }
-
 @-webkit-keyframes News_Mouse_Animation_Upward {
   0% {
     top: 211%;
@@ -6087,7 +5121,6 @@
     /* -webkit-transform: scale(1); */
     top: 46.38%;
     left: 18.5%; } }
-
 @-moz-keyframes News_Mouse_Animation_Upward {
   0% {
     top: 211%;
@@ -6122,7 +5155,6 @@
     /* -webkit-transform: scale(1); */
     top: 46.38%;
     left: 18.5%; } }
-
 @keyframes News_Mouse_Animation_Upward {
   0% {
     top: 211%;
@@ -6157,7 +5189,6 @@
     /* -webkit-transform: scale(1); */
     top: 46.38%;
     left: 18.5%; } }
-
 @-webkit-keyframes News_Mouse_Animation_Downward {
   0% {
     top: 211%;
@@ -6192,7 +5223,6 @@
     /* -webkit-transform: scale(1); */
     top: 90.789%;
     left: 18.5%; } }
-
 @-moz-keyframes News_Mouse_Animation_Downward {
   0% {
     top: 211%;
@@ -6227,7 +5257,6 @@
     /* -webkit-transform: scale(1); */
     top: 90.789%;
     left: 18.5%; } }
-
 @keyframes News_Mouse_Animation_Downward {
   0% {
     top: 211%;
@@ -6262,7 +5291,6 @@
     /* -webkit-transform: scale(1); */
     top: 90.789%;
     left: 18.5%; } }
-
 @-webkit-keyframes Chart_Animation_X_Axis_Crosshair {
   0% {
     width: 0%;
@@ -6287,7 +5315,6 @@
     bottom: 0%;
     left: 2px;
     transform: translateY(100%); } }
-
 @-moz-keyframes Chart_Animation_X_Axis_Crosshair {
   0% {
     width: 0%;
@@ -6312,7 +5339,6 @@
     bottom: 0%;
     left: 2px;
     transform: translateY(100%); } }
-
 @keyframes Chart_Animation_X_Axis_Crosshair {
   0% {
     width: 0%;
@@ -6337,7 +5363,6 @@
     bottom: 0%;
     left: 2px;
     transform: translateY(100%); } }
-
 @-webkit-keyframes Chart_Animation_Y_Axis_Crosshair {
   0% {
     height: 0%;
@@ -6363,7 +5388,6 @@
     opacity: 1;
     left: 0%;
     transform: translateX(100%); } }
-
 @-moz-keyframes Chart_Animation_Y_Axis_Crosshair {
   0% {
     height: 0%;
@@ -6389,7 +5413,6 @@
     opacity: 1;
     left: 0%;
     transform: translateX(100%); } }
-
 @keyframes Chart_Animation_Y_Axis_Crosshair {
   0% {
     height: 0%;
@@ -6415,7 +5438,6 @@
     opacity: 1;
     left: 0%;
     transform: translateX(100%); } }
-
 @-webkit-keyframes Chart_Animation_X_Axis {
   0% {
     width: 0%;
@@ -6426,7 +5448,6 @@
   100% {
     width: 100%;
     opacity: 1; } }
-
 @-moz-keyframes Chart_Animation_X_Axis {
   0% {
     width: 0%;
@@ -6437,7 +5458,6 @@
   100% {
     width: 100%;
     opacity: 1; } }
-
 @keyframes Chart_Animation_X_Axis {
   0% {
     width: 0%;
@@ -6448,7 +5468,6 @@
   100% {
     width: 100%;
     opacity: 1; } }
-
 @-webkit-keyframes Chart_Animation_Y_Axis {
   0% {
     height: 0%;
@@ -6459,7 +5478,6 @@
   100% {
     height: 100%;
     opacity: 1; } }
-
 @-moz-keyframes Chart_Animation_Y_Axis {
   0% {
     height: 0%;
@@ -6470,7 +5488,6 @@
   100% {
     height: 100%;
     opacity: 1; } }
-
 @keyframes Chart_Animation_Y_Axis {
   0% {
     height: 0%;
@@ -6481,7 +5498,6 @@
   100% {
     height: 100%;
     opacity: 1; } }
-
 /* Generated with Bounce.js. Edit at http://goo.gl/UZcFeC */
 @-webkit-keyframes Market_Snapshot_Static_Shadow {
   0% {
@@ -6636,7 +5652,6 @@
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     /* -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); */
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
-
 @-moz-keyframes Market_Snapshot_Static_Shadow {
   0% {
     -moz-transform: matrix3d(0.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 50, 0, 1);
@@ -6790,7 +5805,6 @@
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     /* -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); */
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
-
 @keyframes Market_Snapshot_Static_Shadow {
   0% {
     -moz-transform: matrix3d(0.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 50, 0, 1);
@@ -6944,7 +5958,6 @@
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     /* -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); */
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
-
 /*
 @include keyframes(IconBounce) {
   0%    {
@@ -6972,7 +5985,6 @@
     opacity: 0; }
   100% {
     opacity: 0; } }
-
 @-moz-keyframes Position_Summary_Animation_Before {
   0% {
     opacity: 0; }
@@ -6984,7 +5996,6 @@
     opacity: 0; }
   100% {
     opacity: 0; } }
-
 @keyframes Position_Summary_Animation_Before {
   0% {
     opacity: 0; }
@@ -6996,7 +6007,6 @@
     opacity: 0; }
   100% {
     opacity: 0; } }
-
 @-webkit-keyframes Position_Summary_Animation_After {
   0% {
     opacity: 0; }
@@ -7008,7 +6018,6 @@
     opacity: 1; }
   100% {
     opacity: 1; } }
-
 @-moz-keyframes Position_Summary_Animation_After {
   0% {
     opacity: 0; }
@@ -7020,7 +6029,6 @@
     opacity: 1; }
   100% {
     opacity: 1; } }
-
 @keyframes Position_Summary_Animation_After {
   0% {
     opacity: 0; }
@@ -7032,7 +6040,6 @@
     opacity: 1; }
   100% {
     opacity: 1; } }
-
 @-webkit-keyframes Position_Summary_Button_Animation {
   0% {
     -moz-transform: scale(1);
@@ -7062,10 +6069,7 @@
     -webkit-transform: scale(1);
     transform: scale(1);
     /* -webkit-transform: scale(1); */
-    opacity: 1; }
-  60% { }
-  100% { } }
-
+    opacity: 1; } }
 @-moz-keyframes Position_Summary_Button_Animation {
   0% {
     -moz-transform: scale(1);
@@ -7095,10 +6099,7 @@
     -webkit-transform: scale(1);
     transform: scale(1);
     /* -webkit-transform: scale(1); */
-    opacity: 1; }
-  60% { }
-  100% { } }
-
+    opacity: 1; } }
 @keyframes Position_Summary_Button_Animation {
   0% {
     -moz-transform: scale(1);
@@ -7128,10 +6129,7 @@
     -webkit-transform: scale(1);
     transform: scale(1);
     /* -webkit-transform: scale(1); */
-    opacity: 1; }
-  60% { }
-  100% { } }
-
+    opacity: 1; } }
 @-webkit-keyframes Position_Summary_Mouse_Animation {
   0% {
     opacity: 0;
@@ -7141,9 +6139,9 @@
     opacity: 1; }
   40% {
     /*
-		top: 20px;
-		right: 14px;
-*/
+    		top: 20px;
+    		right: 14px;
+    */
     top: 8.96%;
     right: 1.44%;
     -moz-transform: scale(1);
@@ -7174,7 +6172,6 @@
     opacity: 1;
     top: 8.96%;
     right: 1.44%; } }
-
 @-moz-keyframes Position_Summary_Mouse_Animation {
   0% {
     opacity: 0;
@@ -7184,9 +6181,9 @@
     opacity: 1; }
   40% {
     /*
-		top: 20px;
-		right: 14px;
-*/
+    		top: 20px;
+    		right: 14px;
+    */
     top: 8.96%;
     right: 1.44%;
     -moz-transform: scale(1);
@@ -7217,7 +6214,6 @@
     opacity: 1;
     top: 8.96%;
     right: 1.44%; } }
-
 @keyframes Position_Summary_Mouse_Animation {
   0% {
     opacity: 0;
@@ -7227,9 +6223,9 @@
     opacity: 1; }
   40% {
     /*
-		top: 20px;
-		right: 14px;
-*/
+    		top: 20px;
+    		right: 14px;
+    */
     top: 8.96%;
     right: 1.44%;
     -moz-transform: scale(1);
@@ -7261,4 +6257,4 @@
     top: 8.96%;
     right: 1.44%; } }
 
-/*# sourceMappingURL=maps/simulator.css.map */
+/*# sourceMappingURL=simulator.css.map */
