@@ -37,10 +37,7 @@
 		
 		if (production_servers.indexOf(window.location.hostname) != -1) {
 			glossaryJsonURL  = "/glossary.json";
-		}
-		// } else {
-		// 	glossaryJsonURL  = "/glossary/?format=json";
-		// }
+		} 
 
 		$pullJson = $.ajax({
 			url: glossaryJsonURL,

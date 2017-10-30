@@ -2,7 +2,7 @@
 	
 
 	$(document).ready(function() {
-		$.getJSON( "/../js/data/infographic-corn.json", function( data,status ) {
+		$.getJSON( "/js/data/infographic-corn.json", function( data,status ) {
 			if(status === "success") {
 				json = data;
 				makePricesMove(json);
