@@ -32,12 +32,14 @@
 	});
 
 	function glossary() {
-		var production_servers = ["www.futuresfundamentals.org", "static.ff.cme.vsadev.com"];
+		var production_servers = ["www.futuresfundamentals.org", "localhost:4000"];
 		var glossaryJsonURL, dataJ, $pullJson, glossary;
 		
 		if (production_servers.indexOf(window.location.hostname) != -1) {
 			glossaryJsonURL  = "/assets/glossary.json";
-		} 
+		} else {
+			glossaryJsonURL  = "/assets/glossary.json";
+		}
 
 		$pullJson = $.ajax({
 			url: glossaryJsonURL,
