@@ -8,7 +8,16 @@
     {% if site.meta_author %}<meta name="author" content="{{ site.meta_author }}">{% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
-
+    <meta name="description" content="A one-stop educational resource designed to explain the role of futures markets in everyday life and provide information on the derivatives industry as a whole." />
+    <meta property="og:description" content="A one-stop educational resource designed to explain the role of futures markets in everyday life and provide information on the derivatives industry as a whole." />
+    <meta property="twitter:description" content="A one-stop educational resource designed to explain the role of futures markets in everyday life and provide information on the derivatives industry as a whole." />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
+    <meta property="og:site_name" content="Futures Fundamentals" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     {% include css.html %}
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
