@@ -89,6 +89,9 @@ Thumbs.db
 *.tar
 *.zip
 
+# ignore deploy script
+deploy.sh
+
 # -------------------------
 # BEGIN Whitelisted Files
 # -------------------------
