@@ -1,0 +1,35 @@
+#site_footer {
+  background-color:$gray-40;
+  color:$white;
+  padding:20px 0;
+  position: relative;
+  z-index: 100;
+  @include font-smoothing;
+
+  p {
+    font:20px/26px $whitman;
+    margin:0;
+  }
+
+  li {display:inline; margin-left:35px; &:first-child {margin-left:0;}}
+  a {
+    font:15px/20px $benton;
+    color:$white;
+  }
+
+  .left-col {
+    float:left;
+  }
+
+  .right-col {
+    float:right;
+    text-align:right;
+  }
+
+  @include mq($until: medium) {
+    padding:40px 15px;
+    .right-col {margin-top:20px;}
+    .right-col, .left-col {float:none; text-align:left;}
+    li {display:block; margin-left:0; margin-top:15px;}
+  }
+}

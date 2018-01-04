@@ -1,0 +1,316 @@
+/*
+ *  scrollVert
+ */
+
+@include keyframes(scrollVert) {
+  0%    {
+    background-position:center 0;
+  }
+  100%  {
+    background-position:center -1055px;
+  }
+}
+
+@mixin scrollVert($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(scrollVert);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  scrollHoriz
+ */
+
+@include keyframes(scrollHoriz) {
+  0%    {
+    background-position:0 center;
+  }
+  100%  {
+    background-position:-549px center;
+  }
+}
+
+@mixin scrollHoriz($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(scrollHoriz);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  text fade
+ */
+
+@include keyframes(textFadeIn) {
+  0%    {
+    opacity:0;
+  }
+  100%  {
+   	opacity:1;
+  }
+}
+
+@mixin textFadeIn($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(textFadeIn);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  results color
+ */
+
+@include keyframes(resultsColor) {
+  0%    {
+    background-color:$gray-10;
+  }
+  100%  {
+   	background-color:$pale-blue-10;
+  }
+}
+
+@mixin resultsColor($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(resultsColor);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  icon bounce
+ */
+
+@include keyframes(iconBounce) {
+  0%    {
+    @include transform(translateY(-500%));
+  }
+  60% {
+  	@include transform(translateY(-40%));
+  }
+  80% {
+  	@include transform(translateY(-60%));
+  }
+  100%  {
+	@include transform(translateY(-50%));
+  }
+}
+
+@mixin iconBounce($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(iconBounce);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+@include keyframes(resultsBounce) {
+  0%    {
+    @include transform(translateY(-400%));
+  }
+  60% {
+  	@include transform(translateY(10%));
+  }
+  80% {
+  	@include transform(translateY(-10%));
+  }
+  100%  {
+	@include transform(translateY(0));
+  }
+}
+
+@mixin resultsBounce($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(resultsBounce);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  icon bounce mobile
+ */
+
+@include keyframes(iconBounceMobile) {
+  0%    {
+    @include transform(translateY(-500%));
+  }
+  60% {
+    @include transform(translateY(10%));
+  }
+  80% {
+    @include transform(translateY(-10%));
+  }
+  100%  {
+  @include transform(translateY(0));
+  }
+}
+
+@mixin iconBounceMobile($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(iconBounceMobile);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  shadow bounce
+ */
+
+@include keyframes(shadowBounce) {
+  0%    {
+    @include transform(scale(0));
+  }
+  60% {
+  	@include transform(scale(1.1));
+  }
+  80% {
+  	@include transform(scale(0.9));
+  }
+  100%  {
+	@include transform(scale(1));
+  }
+}
+
+@mixin shadowBounce($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(shadowBounce);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  icon flip
+ */
+
+@include keyframes(iconFlip) {
+  0%    {
+    @include transform(translateY(-50%) rotateY(0));
+  }
+  100%  {
+    @include transform(translateY(-50%) rotateY(180deg));
+  }
+}
+
+@mixin iconFlip($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(iconFlip);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  icon flip mobile
+ */
+
+@include keyframes(iconFlipMobile) {
+  0%    {
+    @include transform(rotateY(0));
+  }
+  100%  {
+    @include transform(rotateY(180deg));
+  }
+}
+
+@mixin iconFlipMobile($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(iconFlipMobile);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+@include keyframes(answerFlip) {
+  0%    {
+    @include transform(rotateY(-180deg));
+  }
+  100%  {
+    @include transform(rotateY(0));
+  }
+}
+
+@mixin answerFlip($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(answerFlip);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+@include keyframes(shadowFlip) {
+  0%    {
+    @include transform(scale(1));
+  }
+  50% {
+  	@include transform(scale(0.5));
+  }
+  100%  {
+	@include transform(scale(1));
+  }
+}
+
+@mixin shadowFlip($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(shadowFlip);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+
+/*
+ *  icon mobile fade
+ */
+
+@include keyframes(iconFadeIn) {
+  0%    {
+    opacity:0;
+    @include transform(scale(0.9));
+  }
+  100%  {
+    opacity:1;
+    @include transform(scale(1));
+  }
+}
+
+@mixin iconFadeIn($count: $countDefault, $duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(iconFadeIn);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
+

@@ -1,0 +1,550 @@
+@import "infographic_animate/quiz_animation";
+
+.quiz {
+	margin-bottom:50px;
+	
+	.quiz-animation {
+		height:100%;
+		width:100%;
+		background:url('../img/hedger_speculator/quiz-scroll-vertical.png') repeat-y center center;
+
+		@include scrollVert($count: infinite, $function: linear, $duration: 20s);
+	}
+
+	.quiz-icon {
+		height:250px;
+		width:250px;
+		@include full-center; 
+		@include transform(translateX(-50%) translateY(-70%));
+		img {
+			height:250px;
+			width:250px;
+			padding:0;
+			@include backface(hidden);
+			transform-style: preserve-3d;
+		}
+
+		.icon-shadow {
+			width:250px;
+			height:26px;
+			background:url('../img/hedger_speculator/icon-shadow.png') no-repeat center center;
+			background-size:250px 26px;
+			position:absolute;
+			bottom:-50px;
+			left:0;
+		}
+
+		&:after {
+			content:"";
+			position:absolute;
+			height:100%;
+			width:100%;
+			top:0;
+			left:0;
+			@include transform(rotateY(-180deg));
+			@include backface(hidden);
+			transform-style: preserve-3d;
+		}
+
+		&.icon-correct {
+			&:after {
+				background:url('../img/hedger_speculator/icon-check.png') no-repeat center center;
+				background-size:250px 250px;
+			}
+		}	
+
+		&.icon-incorrect {
+			&:after {
+				background:url('../img/hedger_speculator/icon-wrong.png') no-repeat center center;
+				background-size:250px 250px;
+			}
+		}
+
+		.results-icon {
+			background:url('../img/hedger_speculator/bkg-medal.png') no-repeat center center;
+			background-size:250px 855px;
+			height:285px;
+		}
+
+		@include mq($from: large) {
+
+			&.icon-drop {
+				img {
+					@include iconBounce($count: 1, $function: ease-out, $duration: 800ms);
+				}
+				.icon-shadow {
+					@include shadowBounce($count: 1, $function: ease-out, $duration: 800ms);
+				}
+				.results-icon {
+					@include resultsBounce($count: 1, $function: ease-out, $duration: 800ms);
+				}
+			}
+
+		}
+
+		@include mq($until: large) {
+
+			&.icon-drop {
+				img {
+					@include iconBounceMobile($count: 1, $function: ease-out, $duration: 800ms);
+				}
+				.icon-shadow {
+					@include shadowBounce($count: 1, $function: ease-out, $duration: 800ms);
+				}
+				.results-icon {
+					@include resultsBounce($count: 1, $function: ease-out, $duration: 800ms);
+				}
+			}
+
+		}	
+
+		&.answer-icon {
+			img {
+				@include iconFlip($count: 1, $function: linear, $duration: 800ms);
+
+				@include mq($until: large) {
+					@include iconFlipMobile($count: 1, $function: linear, $duration: 800ms);
+				}
+			} 
+			&:after {
+				@include answerFlip($count: 1, $function: linear, $duration: 800ms);
+			}
+			.icon-shadow {	
+				@include shadowFlip($count: 1, $function: linear, $duration: 800ms);
+			}
+		}	
+
+	}
+
+	.carousel-text {
+		@include textFadeIn($count: 1, $duration: 800ms);
+		
+		.quiz-title {
+			max-width:520px;
+			margin-bottom:30px;
+
+			img { max-width:100%; }
+		}
+
+		h4 {
+			font-size:36px;
+			line-height:44px;
+			text-transform:uppercase;
+			color:$gray-40;
+			span {
+				font-weight:normal;
+				text-transform:none;
+			}
+			.score {
+				font-weight:bold;
+				text-transform:uppercase;
+			}
+		}
+
+		p {color:$gray-40;}
+
+		p { font-size:24px; line-height:30px;}
+	}
+
+	.slide-num {
+		font-size:16px;
+		line-height:23px;
+		font-weight:bold;
+		margin-bottom:40px;
+
+		@include mq($until:xlarge) {
+			margin-bottom:20px;
+		}
+	}
+
+	.slide-num-mobile {display:none;}
+
+	.score-holder {
+		float:right;
+		font-weight:normal;
+
+		.score-title {
+			font-family:$benton-med;
+			text-transform:uppercase;
+			padding-right:15px;
+		}
+
+		.score {font-weight:bold;} 
+	}
+
+	.carousel-controls-container {
+		left:30px;
+
+		@include mq($until:large) { left:0; }
+
+
+		@include textFadeIn($count: 1, $duration: 800ms);
+
+		.carousel-control {
+			font-weight:bold;
+
+			&.begin {font-size:12px; line-height:19px; margin-left:0;}
+
+			&.hedger, &.speculator, &.next-question, &.retake, &.share {
+				width:auto;
+				text-align:left;
+				left:0;
+				padding:17px 14px 16px;
+				text-shadow:none;
+				font-size:12px;
+				line-height:19px;
+				text-transform:uppercase;
+				font-family:$benton-med;
+				background-color:$blue-20;
+			}
+
+			&.hedger {
+				background-color:$blue-40;
+			}
+
+			&.speculator {margin-left:6px;}
+			&.retake, &.share {
+				height:50px;
+				padding:17px 14px 16px;
+			}
+			&.retake {
+				padding-right:48px;
+				background:$blue-40;
+				&:after {
+					content:"";
+					display:block;
+					position:absolute;
+					right:6px;
+					top:8px;
+					height:35px;
+					width:35px;
+					@include animate(all 500ms ease);	
+					background:url('../img/carousel_restart.png') no-repeat center right transparent;
+					background-size:35px;
+				}
+
+				&:hover {
+					&:after {
+						@include transform(rotate(90deg));
+					}
+				}
+			}
+
+			&.next-question {
+				margin-left:0;
+				background:$blue-20;
+				padding:17px 38px 16px 14px;
+
+				&:after {
+					content:"";
+					display:block;
+					position:absolute;
+					right:15px;
+					top:0;
+					width:12px;
+					height:100%;
+					background:url('../img/link_caret.png') no-repeat center center;
+					background-size:12px 21px;
+					@include animate(all 300ms ease);
+				}
+
+				&:hover {
+					&:after {
+						@include transform(translateX(5px));
+					}
+				}
+			}
+
+		}
+
+		.quiz-share-holder {
+			display:inline-block;
+			position:relative;
+			margin-left:6px;
+
+			.share-foldout {
+				max-width:0;
+				@include animate(max-width 800ms ease);
+				position:absolute;
+				top:0;
+				width:295px;
+				overflow:hidden;
+				background-color:$pale-blue-10;
+
+				.share-buttons {
+					border:3px solid $blue-30;
+					width:295px;
+					a {
+						&.fb-icon {
+							padding:10px 22px;
+							&:after {
+								top:10px;
+							}
+						}
+						&.twitter-icon {
+							padding:11px 15px;
+							&:after {
+								top:11px;
+							}
+						}
+						&.gplus-icon {
+							padding:10px 16px 10px 15px;
+							&:after {
+								top:10px;
+							}
+						}
+						&.linkedin-icon {
+							padding:11px 17px 12px 17px;
+							&:after {
+								top:11px;
+							}
+						}
+						&.email-icon {
+							padding:13px 14px 13px 15px;
+							&:after {
+								top:13px;
+							}
+						}
+					}
+				}
+
+				&.share-open {
+					max-width:295px;
+				}
+			}
+		}
+
+		@include mq($until:xlarge) {
+			bottom:40px;
+		}
+
+		@include mq($until:large) {
+			.carousel-control {
+				&.retake, &.share {
+					height:50px;
+					padding:17px 10px 15px;
+				}
+				&.retake { padding-right:48px; }
+			}	
+
+			.quiz-share-holder {
+				.share-foldout {
+					.share-buttons {
+						width:170px;
+						a { 
+							padding:12px 16px;
+							&:after {
+								background-size:45px 86px;
+							}
+
+							&.fb-icon {
+								padding:10px 11px;
+
+								&:after {
+									width:8px;
+									height:18px;
+									top:10px;
+									left:10px;
+								}
+
+								&:hover {
+									background-size:8px 18px;
+								}
+							}
+							&.twitter-icon {
+								padding:11px 4px;
+
+								&:after {
+									width:18px;
+									height:16px;
+									top:11px;
+									left:3px;
+									background-position:0 -18px;
+								}
+
+								&:hover {
+									background-size:18px 15px;
+								}
+							}
+							&.gplus-icon {
+								padding:10px 2px;
+
+								&:after {
+									width:18px;
+									height:19px;
+									top:10px;
+									left:3px;
+									background-position:0 -35px;
+								}
+
+								&:hover {
+									background-size:18px 18px;
+								}
+							}
+							&.linkedin-icon {
+								padding:11px 6px 12px 6px;
+
+								&:after {
+									width:16px;
+									height:15px;
+									top:11px;
+									left:5px;
+									background-position:0 -54px;
+								}
+
+								&:hover {
+									background-size:16px 14px;
+								}
+							}
+							&.email-icon {
+								padding:13px 3px;
+
+								&:after {
+									width:19px;
+									height:13px;
+									top:13px;
+									left:3px;
+									background-position:0 -71px;
+								}
+
+								&:hover {
+									background-size:19px 13px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+	}
+
+	.results-cell {
+		@include resultsColor($count: 1, $function: linear, $duration: 800ms);
+
+		.slide-num {
+			border-bottom:1px solid $gray-40;
+		}
+	}
+
+	@include mq($until: large) {
+
+		.carousel-text {
+			height:180px;
+			&.title-slide {height:auto;}
+			.quiz-title { max-width:260px;}
+
+			h4 {font-size:16px; line-height:20px; }
+			p { font-size:13px; line-height:20px;}
+
+			.slide-num {display:none;}
+
+		}
+
+		.carousel-image {
+			margin:0;
+		}
+
+		.slide-num-mobile {
+			display:block;
+			padding-top:15px;
+			margin-bottom:20px;
+			border-bottom:2px solid $gray-20;
+		}
+
+        .quiz-animation {
+        	display:none;
+        }
+
+        .quiz-icon {
+        	height:100px;
+        	width:100px;
+        	margin-bottom:20px;
+
+        	@include full-center-cancel;
+
+        	.icon-shadow {
+        		width:100px;
+        		height:11px;
+        		background-size:100px 11px;
+        		bottom:-25px;
+        	}
+
+
+        	&.icon-correct {
+				&:after {
+					background-size:100px 100px;
+				}
+			}	
+
+			&.icon-incorrect {
+				&:after {
+					background-size:100px 100px;
+				}
+			}
+
+			.results-icon {
+				background-size:100px 342px;
+				height:115px;
+			}
+
+			&.answer-icon {
+			//	img {top:50%;}
+			}
+
+		} 
+
+		.slide-title {
+			@include clearfix;
+			position:relative;
+		}
+
+        .quiz-animation-mobile {
+        	height:100px;
+        	margin:0 -15px 50px;
+        	background:url('../img/hedger_speculator/quiz-scroll-horizontal.png') repeat-x center center;
+        	background-size:549px 100px;
+
+        	@include scrollHoriz($count: infinite, $function: linear, $duration: 12s);
+        }
+
+        .carousel-controls-container {
+        	margin-bottom:0;
+        	bottom:25px;
+
+			.carousel-control {
+				&.begin {font-size:12px;}
+			}
+
+		}
+
+		.results-cell {
+			.carousel-text {
+				height:100px;
+				margin-top:-30px;
+			}
+
+			.carousel-image {
+				height:230px;
+			}
+
+			.slide-num-mobile {
+				border-bottom:2px solid $gray-40;
+			}
+		}
+	}
+
+	&.scrollAnimation--capable {
+		.quiz-animation {opacity:0; @include animate(opacity 1000ms); @include animate-delay(200ms);}
+		.title-slide .quiz-title, .title-slide p {opacity:0; @include transform(translateY(-50px)); @include animate(all 800ms); @include animate-delay(500ms);}
+		.carousel-controls-container .begin {opacity:0; @include transform(translateY(50px)); @include animate(all 800ms); @include animate-delay(500ms);}	
+	}
+
+	&.scrollAnimation--active {
+		.quiz-animation {opacity:1;}
+		.title-slide .quiz-title, .title-slide p {opacity:1; @include transform(translateY(0));}
+		.carousel-controls-container .begin {opacity:1; @include transform(translateY(0));}	
+	}
+}
+
+

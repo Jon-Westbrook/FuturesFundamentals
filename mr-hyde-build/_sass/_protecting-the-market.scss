@@ -1,0 +1,566 @@
+@import "infographic_animate/protect_animation";
+
+#protect_market_infographic {
+
+	.item.blue-in {
+		@include simulColorIn($count: 1, $function: linear, $duration: 800ms);
+		.col-md-4 {
+			@include simulColorIn($count: 1, $function: linear, $duration: 800ms);
+		}
+	}
+
+	.item.blue {
+		background-color:$pale-blue-10;
+		.col-md-4 {
+			background-color:$pale-blue-10;
+		}
+	}
+
+	.item.blue-out {
+		@include simulColorOut($count: 1, $function: linear, $duration: 800ms);
+		.col-md-4 {
+			@include simulColorOut($count: 1, $function: linear, $duration: 800ms);
+		}
+	}
+
+	.item, .carousel-image, .carousel-text {
+		height:630px;
+	}
+
+	.item.title-slide {
+		height:auto;
+		.carousel-image {
+			height:345px;
+			.anim_inner {
+				width:100%;
+			}
+		}
+		.carousel-text {
+			height:285px; 
+			padding:30px 175px 0;
+			h4 {
+				font-size:28px;
+				line-height:40px;
+			}
+			p {
+				font-size:24px;
+				line-height:30px;
+				max-width:525px;
+			}
+		}
+		.carousel-controls-container {
+			left:185px;
+			width:auto;
+		}
+	}
+
+	.col-md-4 {
+		background-color:$gray-10;
+	}
+
+	.carousel-text {
+		padding:40px 10px 0;
+		p {margin-bottom:16px;}
+		h4 {text-transform:uppercase;}
+	}
+
+	.carousel-controls-container {bottom:40px; left:25px;}
+
+	.status-box {
+		background-color:$white;
+		padding:14px 12px;
+		font-size:14px;
+		line-height:20px;
+		color:$gray-30;
+		span {
+			font-family:$benton-bold;
+			font-weight:bold;
+			color:$blue-10;
+			display:block;
+		}
+	}
+
+	.anim_inner {
+		max-width:100%;
+		max-height:100%;
+		width:780px;
+		height:395px;
+		overflow:visible;
+		position:relative;
+		@include vertical-align;
+
+		@include mq($until: large) {
+			@include vertical-align-cancel;
+
+		}
+	}
+
+	.arrows {
+		.arrow {
+			display:block;
+			width:67.18%;
+			height:7.71%;
+			position:absolute;
+			z-index:1;
+			background:url('../img/how-to-clear/protect-arrow-mid.png') no-repeat center center;
+			background-size:100%;
+		}
+
+		.arrow-mid {
+			background:url('../img/how-to-clear/protect-arrow-mid.png') no-repeat center center;
+			background-size:100%;
+		}
+
+		.arrow-lt {
+			background:url('../img/how-to-clear/protect-arrow-lt.png') no-repeat center center;
+			background-size:100%;
+		}
+
+		.arrow-drk {
+			background:url('../img/how-to-clear/protect-arrow-drk.png') no-repeat center center;
+			background-size:100%;
+		}
+
+		.trade-rejected {
+			display:block;
+			width:24.87%;
+			height:9.38%;
+			position:absolute;
+			top:35.62%;
+			left:70.35%;
+			z-index:1;
+			background:url('../img/how-to-clear/trade-rejected.png') no-repeat center center;
+			background-size:auto 100%;
+			@include marketReject($count: infinite, $duration: 3000ms, $delay:800ms, $function:linear);
+		}
+
+		.market-pause {
+			display:block;
+			width:23.33%;
+			height:9.38%;
+			position:absolute;
+			top:28.33%;
+			left:70.35%;
+			z-index:1;
+			background:url('../img/how-to-clear/market-pause.png') no-repeat center center;
+			background-size:auto 100%;
+			@include marketReject($count: infinite, $duration: 3000ms, $delay:800ms, $function:linear);
+		}
+
+		.arrow-1 {
+			top:29.16%;
+			left:-98.6%;
+			@include arrowRight($count: infinite, $duration: 3000ms, $delay:800ms, $function:linear);
+		}
+
+		.arrow-2 {
+			top:36.45%;
+			left:-67.2%;
+			@include arrowRight($count: infinite, $duration: 3000ms, $delay:800ms, $function:linear);
+		}
+
+		.arrow-3 {
+			top:43.75%;
+			left:-81.9%;
+			@include arrowRight($count: infinite, $duration: 3000ms, $delay:800ms, $function:linear);
+		}
+
+		.arrow-4 {
+			top:29.16%;
+			left:-98.6%;
+			@include arrowRight($count: infinite, $duration: 3000ms, $delay:2300ms, $function:linear);
+		}
+
+		.arrow-5 {
+			top:36.45%;
+			left:-67.2%;
+			@include arrowRight($count: infinite, $duration: 3000ms, $delay:2300ms, $function:linear);
+		}
+
+		.arrow-6 {
+			top:43.75%;
+			left:-81.9%;
+			@include arrowRight($count: infinite, $duration: 3000ms, $delay:2300ms, $function:linear);
+		}
+
+		.arrow-7 {
+			top:36.45%;
+			left:-106.2%;
+			@include arrowRight($count: infinite, $duration: 3000ms, $delay:3800ms, $function:linear);
+		}
+
+		.arrow-stop {
+			left:-67.2%;
+			@include arrowStop($count: infinite, $duration: 3000ms, $delay:800ms, $function:linear);
+		}
+
+		&.credit-controls-arrows {
+			.arrow-stop {
+				top:36.45%;
+				@include arrowStop($count: infinite, $duration: 3000ms, $delay:2600ms, $function:linear);
+			}
+			.trade-rejected {
+				@include marketReject($count: infinite, $duration: 3000ms, $delay:2600ms, $function:linear);
+			}
+			.arrow-2 {
+				@include arrowRight($count: 1, $duration: 3000ms, $delay:800ms, $function:linear);
+			}
+			.arrow-5 {
+				top:36.45%;
+				left:-106.2%;
+				@include arrowRight($count: infinite, $duration: 3000ms, $delay:800ms, $function:linear);
+			}
+		}
+
+		&.max-order-arrows {
+			.trade-rejected {
+				top:42.92%;
+			}
+			.arrow-1, .arrow-4 {
+				left:-106%;
+			}
+		}
+
+		&.price-banding-arrows {
+			.trade-rejected {
+				top:28.33%;
+			}
+			.arrow-stop {
+				@include arrowStop($count: infinite, $duration: 3000ms, $delay:2600ms, $function:linear);
+			}
+			.trade-rejected {
+				@include marketReject($count: infinite, $duration: 3000ms, $delay:2600ms, $function:linear);
+			}
+
+			.arrow-2, .arrow-5 {
+				left:-122%;
+			}
+		}
+
+		&.central-limit-arrows {
+			.arrow-1, .arrow-4 {
+				left:-68.6%;
+			}
+
+			.arrow-2, .arrow-5 {
+				left:-114.6%;
+			}
+
+			.arrow-3, .arrow-6 {
+				left:-80.6%;
+			}
+		}
+
+		&.simul-protections-arrows {
+			.arrow-1, .arrow-4 {
+				left:-82.6%;
+			}
+
+			.arrow-3, .arrow-6 {
+				left:-100.6%;
+			}
+		}
+
+		&.single-market-arrows {
+			.arrow-2, .arrow-5 {
+				left:-90.6%;
+			}
+
+			.arrow-3, .arrow-6 {
+				left:-68%;
+			}
+		}
+
+		&.protection-points-arrows {
+			.arrow-1, .arrow-4 {
+				left:-70%;
+			}
+
+			.arrow-2, .arrow-5 {
+				left:-94%;
+			}
+
+			.arrow-3, .arrow-6 {
+				left:-120%;
+			}
+		}
+
+		&.stop-prices-arrows {
+			.arrow-4 {
+				left:-84.6%;
+			}
+
+			.arrow-2, .arrow-5 {
+				left:-116%;
+			}
+
+			.arrow-3, .arrow-6 {
+				left:-96%;
+			}
+		}
+
+		&.velocity-logic-arrows {
+			.arrow-2 {
+				left:-102.2%;
+			}
+
+			.arrow-1, .arrow-4 {
+				left:-120%;
+			}
+
+			.arrow-stop.arrow-5 {
+				@include arrowStop($count: infinite, $duration: 3000ms, $delay:2600ms, $function:linear);
+			}
+			.market-pause {
+				top:35.62%;
+				@include marketReject($count: infinite, $duration: 3000ms, $delay:2600ms, $function:linear);
+			}
+
+			.trade-rejected {
+				top:42.92%;
+			}
+		}
+
+	}
+
+	.title-slide  {
+		.trade-title_animation {
+
+			.arrow {
+				display:block;
+				width:44.79%;
+				height:10.72%;
+				@include arrowTitle($count: infinite, $duration: 4000ms, $delay:800ms, $function:linear);
+			}
+
+			.trade-rejected {
+				display:block;
+				width:16.58%;
+				height:13.04%;
+			
+				&.stop-1 {top:18.88%; left:60.7%; @include marketReject($count: infinite, $duration: 4000ms, $delay:1450ms, $function:linear);}
+				&.stop-2 {top:44.39%; left:31.1%; @include marketReject($count: infinite, $duration: 4000ms, $delay:2600ms, $function:linear);}
+				
+			}
+
+			.market-pause {
+				display:block;
+				width:15.56%;
+				height:13.04%;
+
+				&.stop-3 {top:70.47%; left:43.2%; @include marketReject($count: infinite, $duration: 4000ms, $delay:700ms, $function:linear);}
+			}
+
+			.arrow-1 {
+				top:19.71%;
+				left:-88%;
+				&.arrow-stop {left:-46.72%; @include arrowTitleStop($count: infinite, $duration: 4000ms, $delay:1450ms, $function:linear); }
+			}
+			.arrow-2 {
+				top:32.46%;
+				left:-45%;
+			}
+			.arrow-3 {
+				top:45.22%;
+				left:-73%;
+				&.arrow-stop { left:-60.6%; @include arrowStop($count: infinite, $duration: 4000ms, $delay:2600ms, $function:linear); }
+			}
+			.arrow-4 {
+				top:57.97%;
+				left:-104%;
+			}
+			.arrow-5 {
+				top:71.3%;
+				left:-50%;
+				&.arrow-stop { left:-48.55%; @include arrowStop($count: infinite, $duration: 4000ms, $delay:700ms, $function:linear); }
+			}
+			.arrow-6 {
+				top:84.64%;
+				left:-81%;
+			}
+
+			.arrow-delay {
+				@include arrowTitle($count: infinite, $duration: 4000ms, $delay:2800ms, $function:linear);
+			}
+		}	
+	}
+
+	.circle-icon {
+		display:block;
+		width:37.18%;
+		height:60.42%;
+		position:absolute;
+		top:10%;
+		left:15%;
+		z-index:2;
+		@include clearIconBounce($count: 1, $function: ease-out, $delay: 800ms, $duration: 800ms);
+	}
+
+	.simul-protections {
+		display:block;
+		width:52.3%;
+		height:82.71%;
+		position:absolute;
+		top:0;
+		left:7.5%;
+		z-index:2;
+		background:url('../img/how-to-clear/simul-protections.png') no-repeat center center;
+		background-size:auto 100%;
+		@include clearIconBounce($count: 1, $function: ease-out, $delay: 800ms, $duration: 800ms);
+
+		@include mq($until: large) {
+			width:43.75%;
+			height:68.67%;
+
+			top:8%;
+			left:12%;
+		}
+	}
+
+	.credit-controls {
+		background:url('../img/how-to-clear/icon-lg-credit-controls.png') no-repeat center center;
+		background-size:auto 100%;
+	}
+
+	.max-order {
+		background:url('../img/how-to-clear/icon-lg-max-order.png') no-repeat center center;
+		background-size:auto 100%;
+	}
+
+	.price-banding {
+		background:url('../img/how-to-clear/icon-lg-price-banding.png') no-repeat center center;
+		background-size:auto 100%;
+	}
+
+	.central-limit {
+		background:url('../img/how-to-clear/icon-lg-central-limit.png') no-repeat center center;
+		background-size:auto 100%;
+	}
+
+	.single-market {
+		background:url('../img/how-to-clear/icon-lg-single-market.png') no-repeat center center;
+		background-size:auto 100%;
+	}
+
+	.protection-points {
+		background:url('../img/how-to-clear/icon-lg-protection-points.png') no-repeat center center;
+		background-size:auto 100%;
+	}
+
+	.stop-prices {
+		background:url('../img/how-to-clear/icon-lg-stop-prices.png') no-repeat center center;
+		background-size:auto 100%;
+	}
+
+	.velocity-logic {
+		background:url('../img/how-to-clear/icon-lg-velocity-logic.png') no-repeat center center;
+		background-size:auto 100%;
+	}
+
+	.icon-shadow {
+		width:37.18%;
+		height:6.25%;
+		background:url('../img/hedger_speculator/icon-shadow.png') no-repeat center center;
+		background-size:100%;
+		position:absolute;
+		bottom:0;
+		left:15%;
+		@include shadowBounce($count: 1, $function: ease-out, $delay: 800ms, $duration: 800ms);
+	}
+
+	.monitor {
+		display:block;
+		width:43.08%;
+		height:61.5%;
+		background:url('../img/how-to-clear/monitor.png') no-repeat center center;
+		background-size:auto 100%;
+		position:absolute;
+		top:22.9%;
+		left:19.23%;
+		z-index:1;
+	}
+
+	.confetti {
+		display:block;
+		width:67.95%;
+		height:76.13%;
+		background:url('../img/how-to-clear/confetti.png') no-repeat center center;
+		background-size:auto 100%;
+		position:absolute;
+		top:5.38%;
+		left:5.87%;
+		z-index:2;
+		@include confettiFall($count: 1, $function: ease-out, $delay: 800ms, $duration: 800ms);
+	}
+
+	@include mq($until: large) {
+		.item, .carousel-image, .carousel-text {
+			height:auto;
+		}
+
+		.item.title-slide {
+			.carousel-image {
+				height:auto;
+				.anim_inner {
+					width:100%;
+				}
+			}
+			.carousel-text {
+				height:auto; 
+				padding:30px 0 30px;
+
+				h4 {
+					font-size:20px;
+					line-height:26px;
+				}
+				p {
+					font-size:18px;
+					line-height:22px;
+				}
+			}
+			.carousel-controls-container {
+				left:0;
+				bottom:20px;
+				width:auto;
+				.begin {
+					margin-left:0;
+				}
+			}
+		}
+
+		.slide-num-mobile {
+			margin-bottom:0;
+		}
+
+		.anim_inner {
+			height:300px;
+		}	
+
+		.icon-shadow {
+			bottom:10%;
+		}
+
+		.carousel-text {
+			padding:0;
+
+			p {margin-bottom:10px;}
+		}
+
+		.status-box {
+			margin-bottom:15px;
+			padding:10px;
+		}
+
+		.carousel-controls-container {
+			left:0;
+			bottom:0;
+			margin-bottom:15px;
+		}
+	}
+
+}
+
+
+
+
+
