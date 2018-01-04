@@ -6,11 +6,11 @@
             </div>
             <div class="right-col col-sm-8">
                 <ul class="list-inline">
-                    <li style="list-style: none">{% for item in site.data.footer %}</li>
+                    {% for item in site.data.footer %}
                     <li>
                         <a class="footer-link" href="{{ item.url }}">{{ item.title }}</a>
                     </li>
-                    <li style="list-style: none">{% endfor %}</li>
+                    {% endfor %}
                 </ul>
             </div>
         </div>
