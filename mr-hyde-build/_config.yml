@@ -1,5 +1,5 @@
 # Site settings
-title: Future Fundamentals 
+title: Future Fundamentals
 author: VSA
 email: info@vsapartners.com
 description: A one-stop educational resource designed to explain the role of futures markets in everyday life and provide information on the derivatives industry as a whole.
@@ -18,6 +18,11 @@ bing_verify:
 contact: static
 
 
+# sass
+sass:
+    sass_dir: _sass
+    style: compressed
+
 
 # Credits content
 # credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
@@ -26,11 +31,11 @@ contact: static
 markdown: kramdown
 permalink: pretty
 
-# #Plugins 
+# #Plugins
 # plugins:
 #   - jekyll-pages-directory
 
-# Pages Directory 
+# Pages Directory
 include: ['_pages']
 
 # Exclude metadata and development time dependencies (like Grunt plugins)

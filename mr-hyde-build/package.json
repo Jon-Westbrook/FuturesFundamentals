@@ -5,7 +5,7 @@
   "description": "",
   "author": "VSA Partners",
   "scripts": {
-    "start": "bundle exec jekyll serve --livereload",
+    "start": "bundle exec jekyll serve --livereload --incremental",
     "build": "JEKYLL_ENV=production bundle exec jekyll build"
   },
   "dependencies": {},
