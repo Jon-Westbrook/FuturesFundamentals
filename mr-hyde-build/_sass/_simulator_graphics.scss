@@ -668,7 +668,7 @@ $color_section_background: $color_deep_blue;
 	.simulator-ui {
 		// width: 706px;
 		// height: 520px;
-		//background: url(../../simulator_assets/_simulator/img/FPO-simulator_intro_bg.jpg);
+		//background: url(../../simulator_assets/simulator/img/FPO-simulator_intro_bg.jpg);
 		//background-size: cover;
 		max-width: 706px;
 		margin: 0 auto;
@@ -815,42 +815,42 @@ $color_section_background: $color_deep_blue;
 
 			&#simulator_market_snapshot__text__ {
 				&current-price {
-					background: url(../../simulator_assets/_simulator/img/1@2x.png) no-repeat;
+					background: url(../../simulator_assets/simulator/img/1@2x.png) no-repeat;
 					background-size: 29px 29px;
 					 @include animationDelay("600ms");
 
 					 &:hover {
-						 background-image: url(../../simulator_assets/_simulator/img/1--active@2x.png);
+						 background-image: url(../../simulator_assets/simulator/img/1--active@2x.png);
 					 }
 				}
 
 				&prices {
-					background: url(../../simulator_assets/_simulator/img/2@2x.png) no-repeat;
+					background: url(../../simulator_assets/simulator/img/2@2x.png) no-repeat;
 					background-size: 29px 29px;
 					 @include animationDelay("1100ms");
 
 					 &:hover {
-						 background-image: url(../../simulator_assets/_simulator/img/2--active@2x.png);
+						 background-image: url(../../simulator_assets/simulator/img/2--active@2x.png);
 					 }
 				}
 
 				&ticker-symbol {
-					background: url(../../simulator_assets/_simulator/img/3@2x.png) no-repeat;
+					background: url(../../simulator_assets/simulator/img/3@2x.png) no-repeat;
 					background-size: 29px 29px;
 					 @include animationDelay("1600ms");
 
 					 &:hover {
-						 background-image: url(../../simulator_assets/_simulator/img/3--active@2x.png);
+						 background-image: url(../../simulator_assets/simulator/img/3--active@2x.png);
 					 }
 				}
 
 				&movement {
-					background: url(../../simulator_assets/_simulator/img/4@2x.png) no-repeat;
+					background: url(../../simulator_assets/simulator/img/4@2x.png) no-repeat;
 					background-size: 29px 29px;
 					 @include animationDelay("2100ms");
 
 					 &:hover {
-						 background-image: url(../../simulator_assets/_simulator/img/4--active@2x.png);
+						 background-image: url(../../simulator_assets/simulator/img/4--active@2x.png);
 					 }
 				}
 			}
@@ -907,10 +907,10 @@ $color_section_background: $color_deep_blue;
 		}
 
 
-		&__1 { top: 75px; left: -27px; background-image: url(../../simulator_assets/_simulator/img/1@2x.png); @include animationDelay("600ms"); }
-		&__2 { top: 7px; left: -42px;background-image: url(../../simulator_assets/_simulator/img/2@2x.png);   @include animationDelay("1100ms"); }
-		&__3 { top: 195px; left: -27px; background-image: url(../../simulator_assets/_simulator/img/3@2x.png);  @include animationDelay("1600ms"); }
-		&__4 { top: 7px; left: 57px; background-image: url(../../simulator_assets/_simulator/img/4@2x.png); @include animationDelay("2100ms"); }
+		&__1 { top: 75px; left: -27px; background-image: url(../../simulator_assets/simulator/img/1@2x.png); @include animationDelay("600ms"); }
+		&__2 { top: 7px; left: -42px;background-image: url(../../simulator_assets/simulator/img/2@2x.png);   @include animationDelay("1100ms"); }
+		&__3 { top: 195px; left: -27px; background-image: url(../../simulator_assets/simulator/img/3@2x.png);  @include animationDelay("1600ms"); }
+		&__4 { top: 7px; left: 57px; background-image: url(../../simulator_assets/simulator/img/4@2x.png); @include animationDelay("2100ms"); }
 	}
 
 	.shadow {
@@ -988,7 +988,7 @@ $color_section_background: $color_deep_blue;
 
 		@include mq($until: 767px) {
 			margin-bottom: 0;
-			background: url("../../simulator_assets/_simulator/img/shadow-254.png");
+			background: url("../../simulator_assets/simulator/img/shadow-254.png");
 			width: 254px;
 			height: 24px;
 			background-size: cover;
@@ -1037,11 +1037,11 @@ $color_section_background: $color_deep_blue;
 
 
 		&.red {
-			background-image: url(../../simulator_assets/_simulator/img/arrow-down-red.png);
+			background-image: url(../../simulator_assets/simulator/img/arrow-down-red.png);
 		}
 
 		&.green {
-			background-image: url(../../simulator_assets/_simulator/img/arrow-up-green.png);
+			background-image: url(../../simulator_assets/simulator/img/arrow-up-green.png);
 		}
 
 	}
@@ -2247,7 +2247,7 @@ $color_section_background: $color_deep_blue;
 }
 
 .mouse {
-	background:url("../../simulator_assets/_simulator/img/icon-cursor.png");
+	background:url("../../simulator_assets/simulator/img/icon-cursor.png");
 	height: 91px;
 	width: 64px;
 }
@@ -2264,7 +2264,7 @@ $color_section_background: $color_deep_blue;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 
-	background-image: url("../../simulator_assets/_simulator/img/heatmap-animation-gradient-50.png");
+	background-image: url("../../simulator_assets/simulator/img/heatmap-animation-gradient-50.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -2306,7 +2306,7 @@ $color_section_background: $color_deep_blue;
 			color: #0078C1;
 
 			.floating-number {
-				background-image: url(../../simulator_assets/_simulator/img/1--active@2x.png) !important;
+				background-image: url(../../simulator_assets/simulator/img/1--active@2x.png) !important;
 			}
 		}
 	}
@@ -2317,7 +2317,7 @@ $color_section_background: $color_deep_blue;
 			color: #0078C1;
 
 			.floating-number {
-				background-image: url(../../simulator_assets/_simulator/img/2--active@2x.png) !important;
+				background-image: url(../../simulator_assets/simulator/img/2--active@2x.png) !important;
 			}
 		}
 
@@ -2339,7 +2339,7 @@ $color_section_background: $color_deep_blue;
 				color: #0078C1;
 
 				.floating-number {
-					background-image: url(../../simulator_assets/_simulator/img/4--active@2x.png) !important;
+					background-image: url(../../simulator_assets/simulator/img/4--active@2x.png) !important;
 				}
 			}
 		}
@@ -2354,7 +2354,7 @@ $color_section_background: $color_deep_blue;
 			color: #0078C1;
 
 			.floating-number {
-				background-image: url(../../simulator_assets/_simulator/img/3--active@2x.png) !important;
+				background-image: url(../../simulator_assets/simulator/img/3--active@2x.png) !important;
 			}
 		}
 
@@ -2486,19 +2486,19 @@ $color_section_background: $color_deep_blue;
 	max-width: 100%;
 
 	&_150 {
-		background: url("../../simulator_assets/_simulator/img/shadow-150.png");
+		background: url("../../simulator_assets/simulator/img/shadow-150.png");
 		width: 150px;
 		height: 20px;
 	}
 
 	&_254 {
-		background: url("../../simulator_assets/_simulator/img/shadow-254.png");
+		background: url("../../simulator_assets/simulator/img/shadow-254.png");
 		width: 254px;
 		height: 24px;
 	}
 
 	&_356 {
-		background: url("../../simulator_assets/_simulator/img/shadow-356.png");
+		background: url("../../simulator_assets/simulator/img/shadow-356.png");
 		width: 356px;
 		height: 34px;
 
@@ -2510,19 +2510,19 @@ $color_section_background: $color_deep_blue;
 	}
 
 	&_343 {
-		background: url("../../simulator_assets/_simulator/img/shadow-343.png");
+		background: url("../../simulator_assets/simulator/img/shadow-343.png");
 		width: 343px;
 		height: 19px;
 	}
 
 	&_464 {
-		background: url("../../simulator_assets/_simulator/img/shadow-464.png");
+		background: url("../../simulator_assets/simulator/img/shadow-464.png");
 		width: 464px;
 		height: 44px;
 	}
 
 	&_600 {
-		background: url("../../simulator_assets/_simulator/img/shadow-464.png");
+		background: url("../../simulator_assets/simulator/img/shadow-464.png");
 		width: 600px;
 		height: 59px;
 		background-size: cover;
@@ -2534,7 +2534,7 @@ $color_section_background: $color_deep_blue;
 	}
 
 	&_740 {
-		background: url("../../simulator_assets/_simulator/img/shadow-464.png");
+		background: url("../../simulator_assets/simulator/img/shadow-464.png");
 		width: 740px;
 		height: 69px;
 		background-size: cover;
@@ -2696,16 +2696,16 @@ $color_section_background: $color_deep_blue;
 
 
 	.floating-number__1, &#simulator_market_snapshot__text__current-price {
-		background-image: url(../../simulator_assets/_simulator/img/1--active@2x.png) !important;
+		background-image: url(../../simulator_assets/simulator/img/1--active@2x.png) !important;
 	}
 	.floating-number__2, &#simulator_market_snapshot__text__prices {
-		background-image: url(../../simulator_assets/_simulator/img/2--active@2x.png) !important;
+		background-image: url(../../simulator_assets/simulator/img/2--active@2x.png) !important;
 	}
 	.floating-number__3, &#simulator_market_snapshot__text__ticker-symbol {
-		background-image: url(../../simulator_assets/_simulator/img/3--active@2x.png) !important;
+		background-image: url(../../simulator_assets/simulator/img/3--active@2x.png) !important;
 	}
 	.floating-number__4, &#simulator_market_snapshot__text__movement {
-		background-image: url(../../simulator_assets/_simulator/img/4--active@2x.png) !important;
+		background-image: url(../../simulator_assets/simulator/img/4--active@2x.png) !important;
 	}
 }
 
@@ -2926,7 +2926,7 @@ $color_section_background: $color_deep_blue;
 			}
 
 			.indicator {
-				background: url(../../simulator_assets/_simulator/img/candlestick_arrow_left.png);
+				background: url(../../simulator_assets/simulator/img/candlestick_arrow_left.png);
 				width: 120px;
 				height: 7px;
 			}
@@ -2948,7 +2948,7 @@ $color_section_background: $color_deep_blue;
 
 
 			.indicator {
-				background: url(../../simulator_assets/_simulator/img/candlestick_arrow_right.png);
+				background: url(../../simulator_assets/simulator/img/candlestick_arrow_right.png);
 				width: 120px;
 				background-position: right;
 				height: 7px;
@@ -2982,7 +2982,7 @@ $color_section_background: $color_deep_blue;
 }
 
 .chart {
-	background: url("../../simulator_assets/_simulator/img/chart-lines-large.png") no-repeat;
+	background: url("../../simulator_assets/simulator/img/chart-lines-large.png") no-repeat;
 	display: none;
 }
 
@@ -3066,7 +3066,7 @@ $color_section_background: $color_deep_blue;
 		.line {
 			//width: percentage(260/$chart_width) !important;
 			height: percentage(195/$chart_height) !important;
-			background-image: url("../../simulator_assets/_simulator/img/line__up__mobile.png") !important;
+			background-image: url("../../simulator_assets/simulator/img/line__up__mobile.png") !important;
 			background-size: $chart_width+px auto !important;
 			top: 25% !important;
 		}
@@ -3086,9 +3086,9 @@ $color_section_background: $color_deep_blue;
 	}
 
 	.y-axis-line {
-		background: url("../../simulator_assets/_simulator/img/chart__canvas__y-axis-lines.png") repeat-x;
+		background: url("../../simulator_assets/simulator/img/chart__canvas__y-axis-lines.png") repeat-x;
 
-		@include image-2x("../../simulator_assets/_simulator/img/chart__canvas__y-axis-lines.png",100%,2px);
+		@include image-2x("../../simulator_assets/simulator/img/chart__canvas__y-axis-lines.png",100%,2px);
 
 		height: 2px;
 		position: absolute;
@@ -3104,7 +3104,7 @@ $color_section_background: $color_deep_blue;
 	}
 
 	.axes-label {
-		background: url("../../simulator_assets/_simulator/img/chart__canvas__axes-label.png") no-repeat;
+		background: url("../../simulator_assets/simulator/img/chart__canvas__axes-label.png") no-repeat;
 
 		background-size: cover;
 		width: /* 56px */ 7.98%;
@@ -3122,7 +3122,7 @@ $color_section_background: $color_deep_blue;
 
 	&.high {
 		.line {
-			background: url("../../simulator_assets/_simulator/img/arrow_line_up--large.png") no-repeat;
+			background: url("../../simulator_assets/simulator/img/arrow_line_up--large.png") no-repeat;
 			position: absolute;
 			//width: /* 677px */ 96.57%;
 			width: 100%;
@@ -3135,10 +3135,10 @@ $color_section_background: $color_deep_blue;
 
 	&.low {
 		.line {
-			background: url("../../simulator_assets/_simulator/img/arrow_line_down--large.png") no-repeat;
+			background: url("../../simulator_assets/simulator/img/arrow_line_down--large.png") no-repeat;
 
 			@include mq($until: medium) {
-				background-image: url("../../simulator_assets/_simulator/img/line__down__mobile.png") !important;
+				background-image: url("../../simulator_assets/simulator/img/line__down__mobile.png") !important;
 			}
 
 			position: absolute;
@@ -3165,7 +3165,7 @@ $color_section_background: $color_deep_blue;
 	}
 
 	&.barn {
-		.icon { background: url("../../simulator_assets/_simulator/img/icon_barn.png");
+		.icon { background: url("../../simulator_assets/simulator/img/icon_barn.png");
 			top: /* 158px */ 44.01%;
 			left: /* 385px */ 54.92%;
 			position: absolute;
@@ -3181,7 +3181,7 @@ $color_section_background: $color_deep_blue;
 	}
 	&.sun {
 		.icon {
-			background: url("../../simulator_assets/_simulator/img/icon_sun.png");
+			background: url("../../simulator_assets/simulator/img/icon_sun.png");
 			top: /* 75px */ 20.89%;
 			left: /* 275px */ 39.22%;
 			position: absolute;
@@ -3209,7 +3209,7 @@ $color_section_background: $color_deep_blue;
 		width: 528px;
 		z-index: 5;
 		position: absolute;
-		background: url("../../simulator_assets/_simulator/img/line_bg-mask.png");
+		background: url("../../simulator_assets/simulator/img/line_bg-mask.png");
 
 		@include animation('mask-528-to-0 2500ms ease-in-out 0ms forwards');
 	}
@@ -3545,7 +3545,7 @@ $color_section_background: $color_deep_blue;
 #Trading_Chart {
 
 	.chart-container {
-		background: url(../../simulator_assets/_simulator/img/line_chart__background.png) center bottom no-repeat;
+		background: url(../../simulator_assets/simulator/img/line_chart__background.png) center bottom no-repeat;
 		width: 178px;
 		left: 413px;
 		bottom: 219px;
@@ -3578,7 +3578,7 @@ $color_section_background: $color_deep_blue;
 			left: 20px;
 
 			&.chart-line-light {
-				background: url(../../simulator_assets/_simulator/img/line_chart__line-light.png);
+				background: url(../../simulator_assets/simulator/img/line_chart__line-light.png);
 				width: 135px;
 				height: 97px;
 				bottom: 27px;
@@ -3587,7 +3587,7 @@ $color_section_background: $color_deep_blue;
 			}
 
 			&.chart-line-medium {
-				background: url(../../simulator_assets/_simulator/img/line_chart__line-medium.png);
+				background: url(../../simulator_assets/simulator/img/line_chart__line-medium.png);
 				width: 136px;
 				height: 49px;
 				bottom: 10px;
@@ -3596,7 +3596,7 @@ $color_section_background: $color_deep_blue;
 			}
 
 			&.chart-line-dark {
-				background: url(../../simulator_assets/_simulator/img/line_chart__line-dark.png);
+				background: url(../../simulator_assets/simulator/img/line_chart__line-dark.png);
 				width: 135px;
 				height: 41px;
 				bottom: 61px;

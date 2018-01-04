@@ -241,7 +241,7 @@
 		@include mq($until: 720px) {
 			width:13.5%;
 			right:38%;
-			top:10.7%;	
+			top:10.7%;
 		}
 
 		@include mq($until: 640px) {
@@ -331,7 +331,7 @@
 		}
 	}
 	.cow_01 {
-		bottom:14.5%; 
+		bottom:14.5%;
 		right:46%;
 
 
@@ -340,7 +340,7 @@
 		}
 	}
 	.cow_02 {
-		bottom:2%; 
+		bottom:2%;
 		right:40%;
 
 		@include mq($until: 560px) {
@@ -348,8 +348,8 @@
 		}
 	}
 	.cow_03 {
-		bottom:5%; 
-		right:22.5%; 
+		bottom:5%;
+		right:22.5%;
 		@include transform(scaleX(-1));
 
 		@include mq($until: medium) {
@@ -361,8 +361,8 @@
 		}
 	}
 	.cow_04 {
-		bottom:11%; 
-		right:3%; 
+		bottom:11%;
+		right:3%;
 		@include transform(scaleX(-1));
 
 		@include mq($until: medium) {
@@ -384,7 +384,7 @@
 
 		@include mq($until: medium) {
 			width:5%;
-			left:39%;	
+			left:39%;
 			top:42%;
 		}
 
@@ -894,15 +894,17 @@
 
 #home_footer {
 	padding:73px 0 85px;
+
 	.container {
 		padding:25px 0;
 		border:1px solid $gray-20;
 	}
 
 	p {
-		font:23px/28px $benton-bold;
+		font:23px/70px $benton-bold;
 		font-weight:bold;
 		color:$gray-30;
+		margin-bottom: 0;
 	}
 
 	.share-buttons {
@@ -951,7 +953,9 @@
 		.container {
 			padding:20px 0;
 		}
-		p {font-size:20px;}
+		p {
+			font-size:20px;
+		}
 		.share-buttons {
 			a {margin-left:10px;}
 		}
@@ -972,7 +976,11 @@
 			padding:15px 15px 0px;
 			text-align:center;
 		}
-		p {font-size:17px; margin-bottom:0; margin-top:13px;}
+		p {
+			font-size:17px;
+			margin-bottom:0;
+			line-height: 50px;
+		}
 		.share-buttons {
 			display:inline-block;
 			a {
@@ -1014,7 +1022,10 @@
 		.col {
 			width:100%;
 		}
-		p {margin-top:0;}
+		p {
+			margin-top:0;
+			line-height: 28px;
+		}
 	}
 
 	@include mq($until: 450px) {

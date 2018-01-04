@@ -17,7 +17,11 @@ track_this({"category":"", "action":"", "label":""});
 function track_this(json) {
 	json.value = null; // We are not using value on this website
 	console.log("Analytics Event", json);
-	ga('send', 'event', json.category, json.action, json.label, json.value);
+	if (typeof ga === 'function') {
+		ga('send', 'event', json.category, json.action, json.label, json.value);
+	} else {
+		console.warn('ga not found');
+	}
 }
 
 // Place for any functions that don't require being placed in other locations in the code.
@@ -156,4 +160,3 @@ $(document).ready(function(){
 
 
 });
-
