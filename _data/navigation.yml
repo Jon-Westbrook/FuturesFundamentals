@@ -6,15 +6,15 @@
       url: /get-the-basics/futures-and-options/
     - page: Economics 101
       url: /get-the-basics/economics-101/
-    - page: Here's Why Futures Matter to You 
+    - page: Here's Why Futures Matter to You
       url: /get-the-basics/heres-why-futures-matter-to-you/
 - title: See the Impact
-  subfolderitems: 
+  subfolderitems:
     - page: Futures Products
       url: /see-the-impact/the-ingredients-of-everyday-life/
     - page: Agriculture Futures
       url: /see-the-impact/agriculture-futures/
-      subsubfolderitems: 
+      subsubfolderitems:
         - page: Food Prices Explained
           url: /see-the-impact/agriculture-futures/food-prices-explained/
     - page: Energy Futures
@@ -54,12 +54,12 @@
     - page: Protecting the Futures Markets
       url: /explore-the-marketplace/protecting-the-futures-markets/
       subsubfolderitems:
-        - page: The Role of the Clearing House
-          url: /explore-the-marketplace/protecting-the-futures-markets/the-role-of-clearing-houses/
+        - page: The Clearing House
+          url: /explore-the-marketplace/the-role-of-clearing-houses/
         - page: How to Clear a Trade
           url: /explore-the-marketplace/protecting-the-futures-markets/how-to-clear-a-trade/
         - page: The Regulatory Measures
-          url: /explore-the-marketplace/protecting-the-futures-markets/the-regulatory-measures/
+          url: /explore-the-marketplace/the-regulatory-measures/
     - page: Over the Counter Trading
       url: /explore-the-marketplace/over-the-counter-trading/
 # - title: For Educators
