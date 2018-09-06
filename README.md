@@ -1,4 +1,38 @@
-Freelancer Jekyll theme  [![Build Status](https://api.travis-ci.org/jeromelachaud/freelancer-theme.svg?branch=master)](https://travis-ci.org/jeromelachaud/freelancer-theme/) 
+# CME Futures Fundamentals
+
+<---- NEW INFO STARTS 09/06 ---->
+
+https://www.futuresfundamentals.org/
+
+Staging url: http://static.ff.cme.vsadev.com/
+
+This is for Jekyll build only. The compiled static files are located in the `master` branch.
+
+The public dns is: ec2-52-90-137-85.compute-1.amazonaws.com
+
+### Installation
+
+```
+npm install
+bundle install
+```
+
+- Make changes to html files in `_pages` folder. Add images and PDFs into appropriate folders inside `assets`.
+- Style changes go into `_sass`.
+- Run these commands:
+
+```
+// prepare .scss files
+gulp
+
+// compile everything
+bundle exec jekyll serve
+
+// go to server address http://127.0.0.1:4000
+```
+<---- NEW INFO ENDS ---->
+
+Freelancer Jekyll theme  [![Build Status](https://api.travis-ci.org/jeromelachaud/freelancer-theme.svg?branch=master)](https://travis-ci.org/jeromelachaud/freelancer-theme/)
 =========================
 
 Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/)
