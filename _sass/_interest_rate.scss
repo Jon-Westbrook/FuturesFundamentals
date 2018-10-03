@@ -1,0 +1,66 @@
+.interest-rate-container {
+  .anim_inner {
+    // left: -27px;
+    // border-bottom: 1px solid transparent;
+    // svg {
+    //   left: 55px;
+    // }
+  }
+  .carousel-text {
+    padding: 50px 15px 0 12px;
+  }
+  video {
+    border-bottom: 1px solid transparent;
+    // &::-webkit-media-controls {
+    //   display:none !important;
+    // }
+  }
+  .interest-rate-icon {
+    position: absolute;
+    left: -36px;
+    top: 74px;
+
+    img {
+      width: 45px;
+      height: 45px;
+    }
+  }
+  .carousel-controls-container {
+    // left: 27px;
+  }
+}
+
+#interest_rate_infographic {
+	.title-slide {
+		h4 {
+			font-size:28px;
+			line-height:36px;
+			color:$gray-40;
+			text-transform:uppercase;
+			@include mq($from: large) {
+				max-width:360px;
+			}
+
+			@include mq($until: large) {
+				font-size:20px;
+				line-height:26px;
+			}
+		}
+	}
+
+	@include mq($until: medium) {
+
+		.slide-num-mobile {
+			margin-bottom: 0px !important;
+		}
+
+		.carousel-text {
+			padding: 5px 0 30px;
+		}
+
+	}
+
+	.begin {
+		margin-left: 0 !important;
+	}
+}

@@ -1,5 +1,4 @@
 (function($) {
-	
 
 	$(document).ready(function(){
 		carouselInit();
@@ -7,21 +6,58 @@
 		foodPrices();
 		protectMarket();
 		animationSize();
+		interestRateAutoPlay();
 
 		$('.carousel-control').on('click',function(e) {
 			setTimeout(function() {
 				animationSize();
 			},800);
 		});
+
 	});
-	
+
 	$(window).resize(function() {
 		carouselInit();
 		foodPrices();
 		protectMarket();
 		animationSize();
+		interestRateAutoPlay();
 	});
 
+	function bodymovinIR() {
+		var irHome = document.getElementById("ir_home");
+		var irSaving = document.getElementById("ir_saving");
+		var irStudent = document.getElementById("ir_student");
+		var irCar = document.getElementById("ir_car");
+		var animationHome = lottie.loadAnimation({
+			container: irHome,
+			render: 'svg',
+			loop: true,
+			autoplay: true,
+			path: '/assets/bodymovin/IR_animation_02.json'
+		});
+		var animationSaving = lottie.loadAnimation({
+			container: irSaving,
+			render: 'svg',
+			loop: true,
+			autoplay: true,
+			path: '/assets/bodymovin/IR_animation_03.json'
+		});
+		var animationStudent = lottie.loadAnimation({
+			container: irStudent,
+			render: 'svg',
+			loop: true,
+			autoplay: true,
+			path: '/assets/bodymovin/IR_animation_04.json'
+		});
+		var animationCar = lottie.loadAnimation({
+			container: irCar,
+			render: 'svg',
+			loop: true,
+			autoplay: true,
+			path: '/assets/bodymovin/IR_animation_05.json'
+		});
+	}
 
 	function carouselInit() {
 	//	var carousel_img = $('.carousel-inner .active img').outerHeight(true),
@@ -90,8 +126,8 @@
 			var twitterLink = "javascript:popup_share('https://twitter.com/intent/tweet?status="+shareText+shareUrl+"',800,400)";
 			var linkedinLink = "javascript:popup_share('https://www.linkedin.com/shareArticle?mini=true&url="+shareUrl+"&title="+shareTitle+"&summary="+shareText+"',800,400)";
 			var emailLink = "javascript:popup_share('mailto:?&subject="+shareTitle+"&body="+shareText+" "+shareUrl+"',800,400)";
-			
-			$('.quiz-share-holder .fb-icon').attr('href',facebookLink);	
+
+			$('.quiz-share-holder .fb-icon').attr('href',facebookLink);
 			$('.quiz-share-holder .twitter-icon').attr('href',twitterLink);
 			$('.quiz-share-holder .linkedin-icon').attr('href',linkedinLink);
 			$('.quiz-share-holder .email-icon').attr('href',emailLink);
@@ -112,7 +148,7 @@
 	function foodPrices() {
 		var buttonHeight = $('.food-prices-factors-mod').outerHeight(true);
 		var carouselHeight = $('.fp-carousel-container').outerHeight(true);
-		
+
 
 		$('.food-prices-factor').on('click',function(e) {
 			$(this).addClass('fp-flip');
@@ -126,7 +162,7 @@
 				}
 
 				smoothScroll('.fp-carousel-container', 0);
-				
+
 			}, 200);
 		});
 
@@ -139,11 +175,11 @@
 			$('.food-prices-factors-mod').removeClass('fp-hide');
 			if ($(window).width() < 992 ) {
 				$('#food-prices__mod').height('auto');
-			}	
+			}
 			setTimeout(function() {
 				$('.food-prices-factor').removeClass('fp-flip');
 				$('.food-prices-factor').addClass('fp-unflip');
-			}, 200);	
+			}, 200);
 		});
 	}
 
@@ -166,17 +202,36 @@
 		if ($(window).width() < 768 ) {
 			var animWidth = $('.item.active').outerWidth(true);
 		}
+		console.log('animWidth', animWidth);
 		var animHeight = (animWidth);
-
 		$('.anim_inner').height(animHeight * 0.64);
+		$('#interest_rate_infographic .anim_inner').height(animHeight * 0.67);
 		$('#protect_market_infographic .anim_inner').height(animHeight * 0.62);
 		$('.trade-title_animation.anim_inner').height(animHeight * 0.30265);
 	}
 
+	function interestRateAutoPlay() {
+	var items = $("#interest_rate_infographic .item");
+	$("#interest_rate_infographic .right.carousel-control").on('click',function(e) {
+		var nextVid = $(this).parents('.active').next().find('video')[0];
+		if(nextVid !== undefined){
+			nextVid.play();
+		}
+	});
+
+	$("#interest_rate_infographic .left.carousel-control").on('click',function(e) {
+		var prevVid = $(this).parents('.active').prev().find('video')[0];
+		if(prevVid !== undefined) {
+			prevVid.play();
+		}
+	});
+
+}
+
 	function smoothScroll(scrollTo, scrollOffset) {
 		$('html, body').animate({
 			scrollTop: ($(scrollTo).offset().top) - (scrollOffset+80)
-		}, 600);	
+		}, 600);
 	}
 
 })( jQuery );
