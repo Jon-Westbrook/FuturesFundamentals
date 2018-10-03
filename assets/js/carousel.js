@@ -6,7 +6,7 @@
 		foodPrices();
 		protectMarket();
 		animationSize();
-		interestRateAutoPlay();
+		carouselAutoPlay();
 
 		$('.carousel-control').on('click',function(e) {
 			setTimeout(function() {
@@ -21,7 +21,7 @@
 		foodPrices();
 		protectMarket();
 		animationSize();
-		interestRateAutoPlay();
+		carouselAutoPlay();
 	});
 
 	function bodymovinIR() {
@@ -206,20 +206,27 @@
 		var animHeight = (animWidth);
 		$('.anim_inner').height(animHeight * 0.64);
 		$('#interest_rate_infographic .anim_inner').height(animHeight * 0.67);
+		// $('#cereal_infographic .anim_inner').height(animHeight * 0.67);
 		$('#protect_market_infographic .anim_inner').height(animHeight * 0.62);
 		$('.trade-title_animation.anim_inner').height(animHeight * 0.30265);
 	}
 
-	function interestRateAutoPlay() {
-	var items = $("#interest_rate_infographic .item");
-	$("#interest_rate_infographic .right.carousel-control").on('click',function(e) {
+	function carouselAutoPlay() {
+	var irItems = $("#interest_rate_infographic .item");
+	var cerealItems = $("#cereal_infographic .item");
+	var info = "interest_rate";
+	if (!irItems) {
+		info = "cereal";
+	}
+
+	$("#" + info +"_infographic .right.carousel-control").on('click',function(e) {
 		var nextVid = $(this).parents('.active').next().find('video')[0];
 		if(nextVid !== undefined){
 			nextVid.play();
 		}
 	});
 
-	$("#interest_rate_infographic .left.carousel-control").on('click',function(e) {
+	$("#" + info + "_infographic .left.carousel-control").on('click',function(e) {
 		var prevVid = $(this).parents('.active').prev().find('video')[0];
 		if(prevVid !== undefined) {
 			prevVid.play();

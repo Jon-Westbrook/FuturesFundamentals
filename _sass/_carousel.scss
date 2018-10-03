@@ -1,12 +1,12 @@
 .carousel-container {
 	margin:20px 0;
 	background-color:$gray-10;
-	
+
 	.carousel-image {
-		margin-left:-15px; 
+		margin-left:-15px;
 		margin-right:-15px;
-		
-		img {
+
+		img, video {
 			width:auto; height:auto; max-height:100%; max-width:100%;
 		}
 
@@ -23,7 +23,7 @@
       			width: 100%;
       			height: 100%;
     		}
-		}	
+		}
 	}
 
 
@@ -122,7 +122,7 @@
 			}
 		}
 
-		.col-md-8, .col-md-4 { margin:0; }	
+		.col-md-8, .col-md-4 { margin:0; }
 
 	}
 
@@ -147,14 +147,14 @@
 			.carousel-control {
 				&.right {right:0; left:initial;}
 			}
-		}	
+		}
 
 		.carousel-custom-slide {
 			.carousel-controls-container {
 				top:initial;
 				left:0;
 			}
-		}	
+		}
 	}
 
 	@include mq($until: medium) {
@@ -180,7 +180,7 @@
             transition-property: opacity;
             transition-duration:800ms;
         }
-        
+
         .item,
         .active.left,
         .active.right {
@@ -213,7 +213,7 @@
 	}
 
 	.carousel-inner>.item.next.left, .carousel-inner>.item.prev.right, .carousel-inner>.item.active {
-		@include animate(none);    
+		@include animate(none);
 		@include transform(none);
 	}
 
@@ -262,5 +262,3 @@
 		}
 	}
 }
-
-

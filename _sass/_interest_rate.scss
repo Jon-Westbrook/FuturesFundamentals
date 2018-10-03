@@ -1,4 +1,4 @@
-.interest-rate-container {
+.interest-rate-container, .cereal-container {
   .anim_inner {
     // left: -27px;
     // border-bottom: 1px solid transparent;
@@ -11,6 +11,9 @@
   }
   video {
     border-bottom: 1px solid transparent;
+    // min-height: 500px;
+    // width: 100%;
+    // max-width: 725px;
     // &::-webkit-media-controls {
     //   display:none !important;
     // }
@@ -30,7 +33,7 @@
   }
 }
 
-#interest_rate_infographic {
+#interest_rate_infographic, #cereal_infographic {
 	.title-slide {
 		h4 {
 			font-size:28px;
@@ -55,7 +58,7 @@
 		}
 
 		.carousel-text {
-			padding: 5px 0 30px;
+			padding: 15px 0 30px;
 		}
 
 	}
