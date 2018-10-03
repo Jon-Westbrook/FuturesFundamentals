@@ -202,11 +202,8 @@
 		if ($(window).width() < 768 ) {
 			var animWidth = $('.item.active').outerWidth(true);
 		}
-		console.log('animWidth', animWidth);
 		var animHeight = (animWidth);
 		$('.anim_inner').height(animHeight * 0.64);
-		$('#interest_rate_infographic .anim_inner').height(animHeight * 0.67);
-		// $('#cereal_infographic .anim_inner').height(animHeight * 0.67);
 		$('#protect_market_infographic .anim_inner').height(animHeight * 0.62);
 		$('.trade-title_animation.anim_inner').height(animHeight * 0.30265);
 	}
@@ -215,7 +212,8 @@
 	var irItems = $("#interest_rate_infographic .item");
 	var cerealItems = $("#cereal_infographic .item");
 	var info = "interest_rate";
-	if (!irItems) {
+
+	if (!document.getElementById('interest_rate_infographic')) {
 		info = "cereal";
 	}
 

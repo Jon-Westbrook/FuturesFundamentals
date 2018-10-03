@@ -1,24 +1,11 @@
 .interest-rate-container, .cereal-container {
-  .anim_inner {
-    // left: -27px;
-    // border-bottom: 1px solid transparent;
-    // svg {
-    //   left: 55px;
-    // }
-  }
   .carousel-text {
-    padding: 50px 15px 0 12px;
+    padding: 50px 15px 30px 12px;
   }
   video {
     border-bottom: 1px solid transparent;
-    // min-height: 500px;
-    // width: 100%;
-    // max-width: 725px;
-    // &::-webkit-media-controls {
-    //   display:none !important;
-    // }
   }
-  .interest-rate-icon {
+  .icon {
     position: absolute;
     left: -36px;
     top: 74px;
@@ -27,9 +14,6 @@
       width: 45px;
       height: 45px;
     }
-  }
-  .carousel-controls-container {
-    // left: 27px;
   }
 }
 
