@@ -35,6 +35,34 @@
 		}
 	}
 
+  @include mq($until: xlarge) {
+    .item:not(.title-slide) {
+      .icon {
+        left: 25px;
+      }
+      .carousel-text{
+        h4 {
+          padding-top: 50px;
+        }
+      }
+    }
+  }
+
+  @include mq($until: large) {
+    .item:not(.title-slide) {
+      .icon {
+        left: 15px;
+        top: 15px;
+      }
+      .carousel-text {
+        padding: 75px 0 30px;
+        h4 {
+          padding-top: 0px;
+        }
+      }
+    }
+  }
+  
 	@include mq($until: medium) {
 
 		.slide-num-mobile {
