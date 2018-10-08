@@ -262,3 +262,84 @@
 		}
 	}
 }
+.interest-rate-container, .cereal-container {
+  .carousel-text {
+    padding: 50px 15px 30px 12px;
+  }
+  video {
+    border-bottom: 1px solid transparent;
+  }
+  .icon {
+    position: absolute;
+    left: -36px;
+    top: 74px;
+
+    img {
+      width: 45px;
+      height: 45px;
+    }
+  }
+}
+
+#interest_rate_infographic, #cereal_infographic {
+	.title-slide {
+		h4 {
+			font-size:28px;
+			line-height:36px;
+			color:$gray-40;
+			text-transform:uppercase;
+			@include mq($from: large) {
+				max-width:360px;
+			}
+
+			@include mq($until: large) {
+				font-size:20px;
+				line-height:26px;
+			}
+		}
+	}
+
+  @include mq($until: xlarge) {
+    .item:not(.title-slide) {
+      .icon {
+        left: 25px;
+      }
+      .carousel-text{
+        h4 {
+          padding-top: 50px;
+        }
+      }
+    }
+  }
+
+  @include mq($until: large) {
+    .item:not(.title-slide) {
+      .icon {
+        left: 15px;
+        top: 15px;
+      }
+      .carousel-text {
+        padding: 75px 0 30px;
+        h4 {
+          padding-top: 0px;
+        }
+      }
+    }
+  }
+
+	@include mq($until: medium) {
+
+		.slide-num-mobile {
+			margin-bottom: 0px !important;
+		}
+
+		.carousel-text {
+			padding: 15px 0 30px;
+		}
+
+	}
+
+	.begin {
+		margin-left: 0 !important;
+	}
+}
