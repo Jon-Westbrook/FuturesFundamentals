@@ -168,13 +168,13 @@ body {
 			line-height:26px;
 		}
 	}
-
+@include mq($until: medium) {
 	.pre-cereal {
 		p {
 			padding-top: 25px;
 		}
 	}
-
+}
 	.article_headline {
 		font-size:24px;
 		line-height:28px;

@@ -2,11 +2,13 @@
 
 	$(document).ready(function(){
 		carouselInit();
+		// loadCarouselVideos();
 		quizLogic();
 		foodPrices();
 		protectMarket();
 		animationSize();
 		carouselAutoPlay();
+		// bodymovinIR();
 
 		$('.carousel-control').on('click',function(e) {
 			setTimeout(function() {
@@ -18,45 +20,109 @@
 
 	$(window).resize(function() {
 		carouselInit();
+		// loadCarouselVideos();
 		foodPrices();
 		protectMarket();
 		animationSize();
 		carouselAutoPlay();
 	});
 
+	function loadCarouselVideos() {
+		var irItems = $("#interest_rate_infographic .item");
+		var cerealItems = $("#cereal_infographic .item");
+		var info = "interest_rate";
+		var items = irItems.length > 0 ? irItems : cerealItems;
+
+		for(var i = 0; i < items.length; i++){
+			if ($(items[i]).find('video')[0] !== undefined) {
+				$(items[i]).find('video')[0].load();
+			}
+		}
+	}
+
 	function bodymovinIR() {
+		var cerealTitle = document.getElementById("cereal_title");
 		var irHome = document.getElementById("ir_home");
 		var irSaving = document.getElementById("ir_saving");
 		var irStudent = document.getElementById("ir_student");
 		var irCar = document.getElementById("ir_car");
-		var animationHome = lottie.loadAnimation({
-			container: irHome,
+		var info = "interest_rate";
+
+		if (!document.getElementById('interest_rate_infographic')) {
+			info = "cereal";
+		}
+
+		var animationTitle = lottie.loadAnimation({
+			container: cerealTitle,
 			render: 'svg',
-			loop: true,
-			autoplay: true,
-			path: '/assets/bodymovin/IR_animation_02.json'
+			loop: false,
+			autoplay: false,
+			path: cerealTitle.dataset.path
 		});
-		var animationSaving = lottie.loadAnimation({
-			container: irSaving,
-			render: 'svg',
-			loop: true,
-			autoplay: true,
-			path: '/assets/bodymovin/IR_animation_03.json'
+		animationTitle .addEventListener('DOMLoaded',function(){
+				animationTitle .goToAndPlay(1,true);
 		});
-		var animationStudent = lottie.loadAnimation({
-			container: irStudent,
-			render: 'svg',
-			loop: true,
-			autoplay: true,
-			path: '/assets/bodymovin/IR_animation_04.json'
+
+		$("#" + info +"_infographic .right.carousel-control").on('click',function(e) {
+			var nextVid = $(this).parents('.active').next().find('.carousel-animate');
+			var id = document.getElementById(nextVid[0].id);
+
+			if (nextVid[0] !== undefined) {
+				var data = id.dataset.path;
+				var animationHome = lottie.loadAnimation({
+					container: id,
+					render: 'svg',
+					loop: false,
+					autoplay: false,
+					path: data
+				});
+				animationHome.addEventListener('DOMLoaded',function(){
+						animationHome.goToAndPlay(1,true);
+				});
+			}
 		});
-		var animationCar = lottie.loadAnimation({
-			container: irCar,
-			render: 'svg',
-			loop: true,
-			autoplay: true,
-			path: '/assets/bodymovin/IR_animation_05.json'
+
+		$("#" + info +"_infographic .left.carousel-control").on('click',function(e) {
+			var prevVid = $(this).parents('.active').prev().find('.carousel-animate');
+
+			if (prevVid[0] !== undefined) {
+				var id = document.getElementById(prevVid[0].id);
+				var data = id.dataset.path;
+				var animationHome = lottie.loadAnimation({
+					container: id,
+					render: 'svg',
+					loop: false,
+					autoplay: false,
+					path: data
+				});
+
+				animationHome.addEventListener('DOMLoaded',function(){
+						animationHome.goToAndPlay(1,true);
+				});
+			}
 		});
+
+		// var animationSaving = lottie.loadAnimation({
+		// 	container: irSaving,
+		// 	render: 'svg',
+		// 	loop: false,
+		// 	autoplay: true,
+		// 	path: '/assets/bodymovin/IR_animation_03.json'
+		// });
+		// var animationStudent = lottie.loadAnimation({
+		// 	container: irStudent,
+		// 	render: 'svg',
+		// 	loop: false,
+		// 	autoplay: true,
+		// 	path: '/assets/bodymovin/IR_animation_04.json'
+		// });
+		// var animationCar = lottie.loadAnimation({
+		// 	container: irCar,
+		// 	render: 'svg',
+		// 	loop: false,
+		// 	autoplay: true,
+		// 	path: '/assets/bodymovin/IR_animation_05.json'
+		// });
 	}
 
 	function carouselInit() {
@@ -217,9 +283,17 @@
 			info = "cereal";
 		}
 
+		var firstItem = $(irItems[0]).hasClass('active')  ? $(irItems[0]) : $(cerealItems[0]);
+		var firstVid = $(firstItem).find('video')[0];
+		if (firstVid !== undefined) {
+			firstVid.currentTime = 0;
+			firstVid.play();
+		}
+
 		$("#" + info +"_infographic .right.carousel-control").on('click',function(e) {
 			var nextVid = $(this).parents('.active').next().find('video')[0];
 			if(nextVid !== undefined){
+				nextVid.currentTime = 0;
 				nextVid.play();
 			}
 		});
@@ -227,10 +301,10 @@
 		$("#" + info + "_infographic .left.carousel-control").on('click',function(e) {
 			var prevVid = $(this).parents('.active').prev().find('video')[0];
 			if(prevVid !== undefined) {
+				prevVid.currentTime = 0;
 				prevVid.play();
 			}
 		});
-
 	}
 
 	function smoothScroll(scrollTo, scrollOffset) {

@@ -6,7 +6,7 @@
 		margin-left:-15px;
 		margin-right:-15px;
 
-		img, video {
+		img, video{
 			width:auto; height:auto; max-height:100%; max-width:100%;
 		}
 
@@ -283,6 +283,9 @@
 
 #interest_rate_infographic, #cereal_infographic {
 	.title-slide {
+		.carousel-img {
+			padding: 0;
+		}
 		h4 {
 			font-size:28px;
 			line-height:36px;
@@ -296,6 +299,13 @@
 				font-size:20px;
 				line-height:26px;
 			}
+		}
+	}
+	svg {
+		// height: 100%;
+		@include mq($from: xlarge) {
+			max-height: 500px;
+			margin-left: -27px;
 		}
 	}
 
