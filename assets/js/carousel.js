@@ -8,13 +8,14 @@
 		protectMarket();
 		animationSize();
 		carouselAutoPlay();
-		// bodymovinIR();
+		bodymovinIR();
 
 		$('.carousel-control').on('click',function(e) {
 			setTimeout(function() {
 				animationSize();
 			},800);
 		});
+		console.log('group 35',$('.Group_35'));
 
 	});
 
@@ -39,6 +40,13 @@
 			}
 		}
 	}
+	function random(min, max){
+		if(max == null){
+			max = min;
+			min = 0;
+		}
+		return Math.round(Math.random() * (max - min) + Number(min));
+	}
 
 	function bodymovinIR() {
 		var cerealTitle = document.getElementById("cereal_title");
@@ -50,34 +58,52 @@
 
 		if (!document.getElementById('interest_rate_infographic')) {
 			info = "cereal";
-		}
+			var animationTitle = lottie.loadAnimation({
+				container: cerealTitle,
+				render: 'svg',
+				loop: false,
+				autoplay: false,
+				path: cerealTitle.dataset.path
+			});
+			animationTitle .addEventListener('DOMLoaded',function(){
+					animationTitle .goToAndPlay(1,true);
 
-		var animationTitle = lottie.loadAnimation({
-			container: cerealTitle,
-			render: 'svg',
-			loop: false,
-			autoplay: false,
-			path: cerealTitle.dataset.path
-		});
-		animationTitle .addEventListener('DOMLoaded',function(){
-				animationTitle .goToAndPlay(1,true);
-		});
+					setTimeout(function() {
+						for(i = 0; i < 28; i++){
+							var cheerio = document.getElementById("group" + random(6,35));
+							if(cheerio !== 'undefined'){
+								var cheerioRect = cheerio.getBoundingClientRect();
+								console.log('cheerio', cheerio, );
+								TweenMax.to(cheerio, random(5, 8), {
+									opacity: 1,
+									x: cheerioRect.x + 400,
+									y: cheerioRect.y + 200,
+									yoyo: true,
+									repeat: 20,
+									ease: Power0.easeOut,
+								});
+							}
+						}
+					},500);
+			});
+		}
 
 		$("#" + info +"_infographic .right.carousel-control").on('click',function(e) {
 			var nextVid = $(this).parents('.active').next().find('.carousel-animate');
-			var id = document.getElementById(nextVid[0].id);
 
 			if (nextVid[0] !== undefined) {
+				var id = document.getElementById(nextVid[0].id);
 				var data = id.dataset.path;
-				var animationHome = lottie.loadAnimation({
+				var animNext = lottie.loadAnimation({
 					container: id,
 					render: 'svg',
 					loop: false,
 					autoplay: false,
 					path: data
 				});
-				animationHome.addEventListener('DOMLoaded',function(){
-						animationHome.goToAndPlay(1,true);
+
+				animNext.addEventListener('DOMLoaded',function(){
+						animNext.goToAndPlay(0);
 				});
 			}
 		});
@@ -88,41 +114,20 @@
 			if (prevVid[0] !== undefined) {
 				var id = document.getElementById(prevVid[0].id);
 				var data = id.dataset.path;
-				var animationHome = lottie.loadAnimation({
+				var animPrev = lottie.loadAnimation({
 					container: id,
 					render: 'svg',
 					loop: false,
 					autoplay: false,
+					isPaused: false,
 					path: data
 				});
-
-				animationHome.addEventListener('DOMLoaded',function(){
-						animationHome.goToAndPlay(1,true);
+				console.log('previous domLoaded', animPrev);
+				animPrev.addEventListener('DOMLoaded',function(){
+					animPrev.goToAndPlay(1);
 				});
 			}
 		});
-
-		// var animationSaving = lottie.loadAnimation({
-		// 	container: irSaving,
-		// 	render: 'svg',
-		// 	loop: false,
-		// 	autoplay: true,
-		// 	path: '/assets/bodymovin/IR_animation_03.json'
-		// });
-		// var animationStudent = lottie.loadAnimation({
-		// 	container: irStudent,
-		// 	render: 'svg',
-		// 	loop: false,
-		// 	autoplay: true,
-		// 	path: '/assets/bodymovin/IR_animation_04.json'
-		// });
-		// var animationCar = lottie.loadAnimation({
-		// 	container: irCar,
-		// 	render: 'svg',
-		// 	loop: false,
-		// 	autoplay: true,
-		// 	path: '/assets/bodymovin/IR_animation_05.json'
-		// });
 	}
 
 	function carouselInit() {
