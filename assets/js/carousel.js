@@ -8,14 +8,13 @@
 		protectMarket();
 		animationSize();
 		carouselAutoPlay();
-		bodymovinIR();
+		bodymovin();
 
 		$('.carousel-control').on('click',function(e) {
 			setTimeout(function() {
 				animationSize();
 			},800);
 		});
-		console.log('group 35',$('.Group_35'));
 
 	});
 
@@ -40,91 +39,113 @@
 			}
 		}
 	}
+
 	function random(min, max){
 		if(max == null){
 			max = min;
-			min = 0;
+			min = 0 ? (min + 1) : (min - 1);
 		}
-		return Math.round(Math.random() * (max - min) + Number(min));
+		return Math.floor(Math.random() * (max - min) + min);
 	}
 
-	function bodymovinIR() {
+	function playSvg(anim, id){
+		var currentSvg = id.getElementsByTagName('svg');
+
+		if(currentSvg.length > 0){
+			$(currentSvg[0]).remove();
+			anim.play();
+		} else {
+			anim.addEventListener('DOMLoaded',function(){
+				anim.play();
+			});
+		}
+	}
+
+	function setSvg(id) {
+		return anim = lottie.loadAnimation({
+			container: id,
+			render: 'svg',
+			loop: false,
+			autoplay: false,
+			isPaused: false,
+			path: id.dataset.path
+		});
+	}
+
+	function animateCereal(id) {
+		var cheerios = [];
+		console.log('id', id);
+		for(var i = 0; i <= 35; i++){
+			if(id === 'cereal_title'){
+				cheerios.push(document.getElementById("group" + [i]));
+			} else {
+				if([i] > 5){
+					cheerios.push(document.getElementById(id + "_group" + [i]));
+				}
+			}
+		}
+		console.log('cheerios', cheerios);
+		for(var j = 0; j < cheerios.length; j++){
+			if(cheerios[j] !== null){
+				var style = window.getComputedStyle(cheerios[j]);
+				var matrix = new WebKitCSSMatrix(style.webkitTransform);
+				var rainbow = "rbg()";
+
+				TweenMax.to(cheerios[j], random(3,5), {
+					opacity: 1,
+					x: matrix.e + random(-20, 20),
+					y: matrix.f - random(-20, 25),
+					yoyo: true,
+					repeat: 20,
+					ease: Power0.easeInOut
+				});
+			}
+		}
+	}
+
+	function bodymovin() {
 		var cerealTitle = document.getElementById("cereal_title");
-		var irHome = document.getElementById("ir_home");
-		var irSaving = document.getElementById("ir_saving");
-		var irStudent = document.getElementById("ir_student");
-		var irCar = document.getElementById("ir_car");
 		var info = "interest_rate";
 
 		if (!document.getElementById('interest_rate_infographic')) {
 			info = "cereal";
-			var animationTitle = lottie.loadAnimation({
-				container: cerealTitle,
-				render: 'svg',
-				loop: false,
-				autoplay: false,
-				path: cerealTitle.dataset.path
-			});
-			animationTitle .addEventListener('DOMLoaded',function(){
-					animationTitle .goToAndPlay(1,true);
+			var animationTitle = setSvg(cerealTitle);
 
-					setTimeout(function() {
-						for(i = 0; i < 28; i++){
-							var cheerio = document.getElementById("group" + random(6,35));
-							if(cheerio !== 'undefined'){
-								var cheerioRect = cheerio.getBoundingClientRect();
-								console.log('cheerio', cheerio, );
-								TweenMax.to(cheerio, random(5, 8), {
-									opacity: 1,
-									x: cheerioRect.x + 400,
-									y: cheerioRect.y + 200,
-									yoyo: true,
-									repeat: 20,
-									ease: Power0.easeOut,
-								});
-							}
-						}
-					},500);
+			animationTitle.addEventListener('DOMLoaded',function(){
+				animationTitle.goToAndPlay(1,true);
+				animateCereal("cereal_title");
 			});
 		}
 
 		$("#" + info +"_infographic .right.carousel-control").on('click',function(e) {
-			var nextVid = $(this).parents('.active').next().find('.carousel-animate');
+			var nextCarousel = $(this).parents('.active').next().find('.carousel-animate');
 
-			if (nextVid[0] !== undefined) {
-				var id = document.getElementById(nextVid[0].id);
-				var data = id.dataset.path;
-				var animNext = lottie.loadAnimation({
-					container: id,
-					render: 'svg',
-					loop: false,
-					autoplay: false,
-					path: data
-				});
+			if (nextCarousel[0] !== undefined) {
+				var nextId = nextCarousel[0].id;
+				var nextEl = document.getElementById(nextId);
+				var animNext = setSvg(nextEl);
+
+				playSvg(animNext, nextEl);
 
 				animNext.addEventListener('DOMLoaded',function(){
-						animNext.goToAndPlay(0);
+					console.log('dom loaded');
+					animateCereal(nextId);
 				});
 			}
 		});
 
 		$("#" + info +"_infographic .left.carousel-control").on('click',function(e) {
-			var prevVid = $(this).parents('.active').prev().find('.carousel-animate');
+			var previousCarousel = $(this).parents('.active').prev().find('.carousel-animate');
 
-			if (prevVid[0] !== undefined) {
-				var id = document.getElementById(prevVid[0].id);
-				var data = id.dataset.path;
-				var animPrev = lottie.loadAnimation({
-					container: id,
-					render: 'svg',
-					loop: false,
-					autoplay: false,
-					isPaused: false,
-					path: data
-				});
-				console.log('previous domLoaded', animPrev);
+			if (previousCarousel[0] !== undefined) {
+				var prevId = previousCarousel[0].id;
+				var prevEl = document.getElementById(prevId);
+				var animPrev = setSvg(prevEl);
+
+				playSvg(animPrev, prevEl);
+
 				animPrev.addEventListener('DOMLoaded',function(){
-					animPrev.goToAndPlay(1);
+					animateCereal(prevId);
 				});
 			}
 		});
