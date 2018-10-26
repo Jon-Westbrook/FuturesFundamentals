@@ -2,13 +2,10 @@
 
 	$(document).ready(function(){
 		carouselInit();
-		// loadCarouselVideos();
 		quizLogic();
 		foodPrices();
 		protectMarket();
 		animationSize();
-		carouselAutoPlay();
-		bodymovin();
 
 		$('.carousel-control').on('click',function(e) {
 			setTimeout(function() {
@@ -20,136 +17,10 @@
 
 	$(window).resize(function() {
 		carouselInit();
-		// loadCarouselVideos();
 		foodPrices();
 		protectMarket();
 		animationSize();
-		carouselAutoPlay();
 	});
-
-	function loadCarouselVideos() {
-		var irItems = $("#interest_rate_infographic .item");
-		var cerealItems = $("#cereal_infographic .item");
-		var info = "interest_rate";
-		var items = irItems.length > 0 ? irItems : cerealItems;
-
-		for(var i = 0; i < items.length; i++){
-			if ($(items[i]).find('video')[0] !== undefined) {
-				$(items[i]).find('video')[0].load();
-			}
-		}
-	}
-
-	function random(min, max){
-		if(max == null){
-			max = min;
-			min = 0 ? (min + 1) : (min - 1);
-		}
-		return Math.floor(Math.random() * (max - min) + min);
-	}
-
-	function playSvg(anim, id){
-		var currentSvg = id.getElementsByTagName('svg');
-
-		if(currentSvg.length > 0){
-			$(currentSvg[0]).remove();
-			anim.play();
-		} else {
-			anim.addEventListener('DOMLoaded',function(){
-				anim.play();
-			});
-		}
-	}
-
-	function setSvg(id) {
-		return anim = lottie.loadAnimation({
-			container: id,
-			render: 'svg',
-			loop: false,
-			autoplay: false,
-			isPaused: false,
-			path: id.dataset.path
-		});
-	}
-
-	function animateCereal(id) {
-		var cheerios = [];
-		console.log('id', id);
-		for(var i = 0; i <= 35; i++){
-			if(id === 'cereal_title'){
-				cheerios.push(document.getElementById("group" + [i]));
-			} else {
-				if([i] > 5){
-					cheerios.push(document.getElementById(id + "_group" + [i]));
-				}
-			}
-		}
-		console.log('cheerios', cheerios);
-		for(var j = 0; j < cheerios.length; j++){
-			if(cheerios[j] !== null){
-				var style = window.getComputedStyle(cheerios[j]);
-				var matrix = new WebKitCSSMatrix(style.webkitTransform);
-				var rainbow = "rbg()";
-
-				TweenMax.to(cheerios[j], random(3,5), {
-					opacity: 1,
-					x: matrix.e + random(-20, 20),
-					y: matrix.f - random(-20, 25),
-					yoyo: true,
-					repeat: 20,
-					ease: Power0.easeInOut
-				});
-			}
-		}
-	}
-
-	function bodymovin() {
-		var cerealTitle = document.getElementById("cereal_title");
-		var info = "interest_rate";
-
-		if (!document.getElementById('interest_rate_infographic')) {
-			info = "cereal";
-			var animationTitle = setSvg(cerealTitle);
-
-			animationTitle.addEventListener('DOMLoaded',function(){
-				animationTitle.goToAndPlay(1,true);
-				animateCereal("cereal_title");
-			});
-		}
-
-		$("#" + info +"_infographic .right.carousel-control").on('click',function(e) {
-			var nextCarousel = $(this).parents('.active').next().find('.carousel-animate');
-
-			if (nextCarousel[0] !== undefined) {
-				var nextId = nextCarousel[0].id;
-				var nextEl = document.getElementById(nextId);
-				var animNext = setSvg(nextEl);
-
-				playSvg(animNext, nextEl);
-
-				animNext.addEventListener('DOMLoaded',function(){
-					console.log('dom loaded');
-					animateCereal(nextId);
-				});
-			}
-		});
-
-		$("#" + info +"_infographic .left.carousel-control").on('click',function(e) {
-			var previousCarousel = $(this).parents('.active').prev().find('.carousel-animate');
-
-			if (previousCarousel[0] !== undefined) {
-				var prevId = previousCarousel[0].id;
-				var prevEl = document.getElementById(prevId);
-				var animPrev = setSvg(prevEl);
-
-				playSvg(animPrev, prevEl);
-
-				animPrev.addEventListener('DOMLoaded',function(){
-					animateCereal(prevId);
-				});
-			}
-		});
-	}
 
 	function carouselInit() {
 	//	var carousel_img = $('.carousel-inner .active img').outerHeight(true),
@@ -298,39 +169,6 @@
 		$('.anim_inner').height(animHeight * 0.64);
 		$('#protect_market_infographic .anim_inner').height(animHeight * 0.62);
 		$('.trade-title_animation.anim_inner').height(animHeight * 0.30265);
-	}
-
-	function carouselAutoPlay() {
-		var irItems = $("#interest_rate_infographic .item");
-		var cerealItems = $("#cereal_infographic .item");
-		var info = "interest_rate";
-
-		if (!document.getElementById('interest_rate_infographic')) {
-			info = "cereal";
-		}
-
-		var firstItem = $(irItems[0]).hasClass('active')  ? $(irItems[0]) : $(cerealItems[0]);
-		var firstVid = $(firstItem).find('video')[0];
-		if (firstVid !== undefined) {
-			firstVid.currentTime = 0;
-			firstVid.play();
-		}
-
-		$("#" + info +"_infographic .right.carousel-control").on('click',function(e) {
-			var nextVid = $(this).parents('.active').next().find('video')[0];
-			if(nextVid !== undefined){
-				nextVid.currentTime = 0;
-				nextVid.play();
-			}
-		});
-
-		$("#" + info + "_infographic .left.carousel-control").on('click',function(e) {
-			var prevVid = $(this).parents('.active').prev().find('video')[0];
-			if(prevVid !== undefined) {
-				prevVid.currentTime = 0;
-				prevVid.play();
-			}
-		});
 	}
 
 	function smoothScroll(scrollTo, scrollOffset) {
