@@ -53,22 +53,7 @@
     return Math.floor(Math.random() * (max - min) + min);
   }
 
-  function playSvg(anim, id){
-    console.log('play svg');
-    var currentSvg = id.getElementsByTagName('svg');
-
-    if(currentSvg.length > 0){
-      $(currentSvg[0]).remove();
-      anim.play();
-    } else {
-      anim.addEventListener('DOMLoaded',function(){
-        anim.play();
-      });
-    }
-  }
-
   function setSvg(id) {
-    console.log('set svg');
     return anim = lottie.loadAnimation({
       container: id,
       render: 'svg',
@@ -101,61 +86,58 @@
     }
   }
 
+  function clickedAnimation(direction, info, animArr){
+    if (direction[0] !== undefined) {
+      var nextId = direction[0].id;
+      var nextEl = document.getElementById(nextId);
+
+      animArr.forEach(function(anim){
+        if(anim.wrapper.id === nextId){
+          anim.goToAndPlay(1, true);
+
+          if(info === "cereal"){
+            animateCereal(nextId);
+          }
+        }
+      });
+    }
+  }
+
   function bodymovin() {
     var bmAnim = Array.prototype.slice.apply(document.getElementsByClassName('carousel-animate'));
     var cerealTitle = document.getElementById("cereal_title");
     var info = "interest_rate";
-
-    bmAnim.forEach(function(bm){
-      console.log('bm', bm);
-      var animationTitle = setSvg(bm);
-      animationTitle.addEventListener('DOMLoaded',function(){
-        animationTitle.goToAndPlay(1,true);
-        animateCereal(bm.id);
-      });
-    });
+    var cerealCarousel = false;
+    var setAnims = [];
     
     if (!document.getElementById('interest_rate_infographic')) {
       info = "cereal";
     }
-    //   var animationTitle = setSvg(cerealTitle);
-    //
-    //   animationTitle.addEventListener('DOMLoaded',function(){
-    //     animationTitle.goToAndPlay(1,true);
-    //     animateCereal("cereal_title");
-    //   });
 
-    $("#" + info +"_infographic .right.carousel-control").on('click',function(e) {
-      var nextCarousel = $(this).parents('.active').next().find('.carousel-animate');
-      console.log('next');
-      if (nextCarousel[0] !== undefined) {
-        var nextId = nextCarousel[0].id;
-        var nextEl = document.getElementById(nextId);
-        var animNext = setSvg(nextEl);
+    bmAnim.forEach(function(bm, index){
+      var animationTitle = "animation" + index;
+      animationTitle = setSvg(bm);
+      setAnims.push(animationTitle);
 
-        playSvg(animNext, nextEl);
+      animationTitle.addEventListener('DOMLoaded',function(){
+        animationTitle.goToAndPlay(1,true);
 
-        animNext.addEventListener('DOMLoaded',function(){
-          console.log('dom loaded');
-          animateCereal(nextId);
-        });
-      }
+        if(info === "cereal"){
+          animateCereal(bm.id);
+        }
+      });
     });
 
+    // NEXT
+    $("#" + info +"_infographic .right.carousel-control").on('click',function(e) {
+      var nextCarousel = $(this).parents('.active').next().find('.carousel-animate');
+      clickedAnimation(nextCarousel, info, setAnims);
+    });
+
+    // PREVIOUS
     $("#" + info +"_infographic .left.carousel-control").on('click',function(e) {
-      var previousCarousel = $(this).parents('.active').prev().find('.carousel-animate');
-      console.log('previous');
-      if (previousCarousel[0] !== undefined) {
-        var prevId = previousCarousel[0].id;
-        var prevEl = document.getElementById(prevId);
-        var animPrev = setSvg(prevEl);
-
-        playSvg(animPrev, prevEl);
-
-        animPrev.addEventListener('DOMLoaded',function(){
-          animateCereal(prevId);
-        });
-      }
+      var prevCarousel = $(this).parents('.active').prev().find('.carousel-animate');
+      clickedAnimation(prevCarousel, info, setAnims);
     });
   }
 
