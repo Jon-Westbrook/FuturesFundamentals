@@ -175,7 +175,68 @@
 	}
 }
 
+// IE set up for Datagram
+@media all and (-ms-high-contrast:none){
+	.datagram {
+		&.title-slide {
+			.carousel-image {
+				padding-top: 77%;
+				position: relative;
 
+				@include mq($from: large) {
+					padding-top: 71.75%;
+				}
+				@include mq($from: xlarge) {
+					padding-top: 66.5%;
+				}
+				.carousel-animate svg {
+					margin-top: -76.5%;
+					@include mq($from: large) {
+						margin-top: -68.5%;
+					}
+				}
+			}
+		}
+		.carousel-image {
+			position: relative;
+			padding-top: 80%;
+			@include mq($from: medium) {
+				padding-top: 77%;
+			}
+			@include mq($from: large) {
+				padding-top: 70.35%;
+			}
+			@include mq($from: xlarge) {
+				padding-top: 66.5%;
+			}
+
+			.carousel-animate svg {
+				position: absolute;
+				margin-top: -78%;
+				@include mq($from: medium) {
+					margin-top: -77%;
+				}
+				@include mq($from: large) {
+					margin-top: -67.15%;
+				}
+				@include mq($from: xlarge) {
+					margin-top: -64%;
+				}
+			}
+		}
+		.carousel-text {
+			@include mq($until: large) {
+				margin-top: -5%;
+			}
+		}
+		.carousel-controls-container {
+			@include mq($until: large) {
+				margin-top: 5%;
+			}
+		}
+	}
+
+}
 
 .carousel-fade {
     .carousel-inner {
