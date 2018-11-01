@@ -15,6 +15,7 @@ track_this({"category":"", "action":"", "label":""});
 */
 
 function track_this(json) {
+	console.log('json', json);
 	json.value = null; // We are not using value on this website
 	console.log("Analytics Event", json);
 	if (typeof ga === 'function') {
