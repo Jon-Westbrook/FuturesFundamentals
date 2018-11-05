@@ -174,137 +174,117 @@
 
 // IE set up for Datagram
 @media all and (-ms-high-contrast:none){
-	#interest_rate_infographic {
-		.datagram {
-
-			&:not(.title-slide) {
-				.carousel-image {
-					position: relative;
-					padding-top: 80%;
-
-					@include mq($from: medium) {
-						padding-top: 77%;
-					}
-					@include mq($from: large) {
-						padding-top: 70.35%;
-					}
-					@include mq($from: xlarge) {
-						padding-top: 66.5%;
-					}
-
-					.carousel-animate svg {
-						position: absolute;
-						margin-top: -78%;
-						@include mq($from: medium) {
-							margin-top: -77%;
-						}
-						@include mq($from: large) {
-							margin-top: -67.15%;
-						}
-						@include mq($from: xlarge) {
-							margin-top: -64%;
-						}
-					}
+	.datagram {
+		.carousel-image {
+			position: relative;
+			padding-top: 80%;
+			@include mq($from: medium) {
+				padding-top: 77%;
+			}
+			@include mq($from: large) {
+				padding-top: 70.35%;
+			}
+			@include mq($from: xlarge) {
+				padding-top: 66.5%;
+			}
+			.carousel-animate svg {
+				position: absolute;
+				@include mq($from: medium) {
+					margin-top: -77%;
 				}
-				.carousel-text {
-					@include mq($until: large) {
-						margin-top: -5%;
-					}
+				@include mq($from: large) {
+					margin-top: -67.15%;
+				}
+				@include mq($from: xlarge) {
+					margin-top: -64%;
 				}
 			}
+		}
+		.carousel-text {
+			@include mq($until: large) {
+				margin-top: -5%;
+			}
+		}
+		.carousel-controls-container {
+			@include mq($until: large) {
+				margin-top: 5%;
+			}
+		}
+		&.title-slide {
+			.carousel-image {
+				padding-top: 0%;
+				@include mq($from: large) {
+					padding-top: 71.75%;
+				}
+				@include mq($from: xlarge) {
+					padding-top: 66.5%;
+				}
 
-			.carousel-controls-container {
-				@include mq($until: large) {
-					margin-top: 5%;
+				.carousel-animate svg {
+					margin-top: -76.5%;
+					@include mq($from: large) {
+						margin-top: -68.5%;
+					}
 				}
 			}
 		}
 	}
 	#cereal_infographic {
 		.datagram {
+			.carousel-image {
+				padding-top: 77%;
+				@include mq($from: large) {
+					padding-top: 70%;
+				}
+				@include mq($from: xlarge) {
+					padding-top: 65.95%;
+				}
+				.carousel-animate {
+					svg {
+						margin-top: -77%;
+						@include mq($from: large) {
+							margin-top: -66.75%;
+						}
+						@include mq($from: xlarge) {
+							margin-top: -63.5%;
+						}
+					}
+				}
+			}
 			&.title-slide {
 				.carousel-image {
 					padding-top: 77%;
-					position: relative;
-					@include mq($from: medium) {
-						padding-top: 77%;
-					}
 					@include mq($from: large) {
-						padding-top: 71%;
+						padding-top: 70%;
 					}
 					@include mq($from: xlarge) {
 						padding-top: 65.95%;
 					}
-					.carousel-animate svg {
-						position: absolute;
-						margin-top: -67.8%;
-						margin-left: -3.5%;
-						@include mq($from: medium) {
-							margin-top: -68.5%;
-							margin-left: -4%;
-						}
-						@include mq($from: large) {
-							margin-top: -67.25%;
-							margin-left: 0%;
-						}
-						@include mq($from: xlarge) {
-							margin-top: -66%;
+					.carousel-animate {
+							svg {
+							@include mq($from: large) {
+								margin-top: -66.75%;
+							}
+							@include mq($from: xlarge) {
+								margin-top: -63.5%;
+							}
 						}
 					}
+				}
+			}
+		}
+	}
+
+	#interest_rate_infographic {
+		.datagram {
+			&.title-slide {
+				.carousel-image {
+					padding-top: 0%;
 				}
 				.carousel-text {
-					@include mq($from: medium) {
-						margin-top: 0%;
-					}
+					padding-top: 8%;
 				}
 			}
-
-			.carousel-image {
-				position: relative;
-				padding-top: 77%;
-				@include mq($until: small){
-					margin-top: 10px;
-				}
-				@include mq($from: medium) {
-					padding-top: 77%;
-				}
-				@include mq($from: large) {
-					padding-top: 71%;
-				}
-				@include mq($from: xlarge) {
-					padding-top: 61.5%;
-				}
-				.carousel-animate svg {
-					position: absolute;
-					margin-top: -68%;
-					margin-left: -1%;
-					@include mq($from: medium) {
-						margin-top: -69.35%;
-					}
-					@include mq($from: large) {
-						margin-top: -66.85%;
-						margin-left: 0%;
-					}
-					@include mq($from: xlarge) {
-						margin-top: -63.5%;
-					}
-				}
-			}
-
-			.carousel-text {
-				@inclue mq($from: medium) {
-					margin-top: 0%;
-				}
-				@include mq($from: large) {
-					margin-top: -5%;
-				}
-			}
-			.carousel-controls-container {
-				@include mq($until: large) {
-					margin-top: 5%;
-				}
-			}
-
 		}
 	}
 }
@@ -437,14 +417,9 @@
 		}
 	}
 	svg {
-		@include mq($from: large) {
-			max-height: 500px;
-			// margin-left: -27px;
-			margin-left: 0px;
-		}
 		@include mq($from: xlarge) {
 			max-height: 500px;
-			margin-left: 0px;
+			margin-left: -27px;
 		}
 	}
 
@@ -452,10 +427,11 @@
     .item:not(.title-slide) {
       .icon {
         left: 25px;
+				top: 84px;
       }
       .carousel-text{
         h4 {
-          padding-top: 50px;
+          padding-top: 60px;
         }
       }
     }
@@ -477,117 +453,12 @@
   }
 
 	@include mq($until: medium) {
-
-		.slide-num-mobile {
-			margin-bottom: 0px !important;
-		}
-
 		.carousel-text {
 			padding: 15px 0 30px;
 		}
-
 	}
 
 	.begin {
 		margin-left: 0 !important;
 	}
 }
-#interest_rate_infographic {
-	svg {
-		@include mq($from: large) {
-			max-height: 500px;
-			margin-left: -27px;
-		}
-	}
-}
-#cereal_infographic {
-	.carousel-image {
-		background-size: cover;
-		margin-right: -11%;
-		@include mq($from: medium) {
-			margin-right: -9%;
-		}
-		@include mq($from: large) {
-			margin-right: -4%;
-		}
-		@include mq($from: xlarge) {
-			margin-right: 5%;
-		}
-	}
-	.item {
-		&:first-child {
-			.carousel-image {
-				background-image: url(../img/cereal/Datagram_Cereal_01.jpg);
-				@include mq($from: medium) {
-					margin-right: -10.3%;
-				}
-				@include mq($from: large) {
-					margin-right: -3.5%;
-				}
-				@include mq($from: xlarge) {
-					margin-right: 2%;
-				}
-			}
-		}
-		&:nth-child(2) {
-			.carousel-image {
-				background-image: url(../img/cereal/Datagram_Cereal_02.jpg);
-			}
-		}
-		&:nth-child(3) {
-			.carousel-image {
-				background-image: url(../img/cereal/Datagram_Cereal_03.jpg);
-			}
-		}
-		&:nth-child(4) {
-			.carousel-image {
-				background-image: url(../img/cereal/Datagram_Cereal_04.jpg);
-			}
-		}
-		&:nth-child(5) {
-			.carousel-image {
-				background-image: url(../img/cereal/Datagram_Cereal_05.jpg);
-			}
-		}
-		&:nth-child(6) {
-			.carousel-image {
-				background-image: url(../img/cereal/Datagram_Cereal_06.jpg);
-			}
-		}
-	}
-}
-
-// #interest_rate_infographic {
-// 	.item {
-// 		&:not(:first-child) {
-// 			.carousel-image {
-// 				background-position: center;
-// 				background-size: cover;
-// 				margin-right: -2%;
-// 				@include mq($from: large) {
-// 					margin-right: 5.5%;
-// 				}
-// 			}
-// 		}
-// 		&:nth-child(2) {
-// 			.carousel-image {
-// 				background-image: url(../img/interest-rate/Datagram_IR_02.jpg);
-// 			}
-// 		}
-// 		&:nth-child(3) {
-// 			.carousel-image {
-// 				background-image: url(../img/interest-rate/Datagram_IR_03.jpg);
-// 			}
-// 		}
-// 		&:nth-child(4) {
-// 			.carousel-image {
-// 				background-image: url(../img/interest-rate/Datagram_IR_04.jpg);
-// 			}
-// 		}
-// 		&:nth-child(5) {
-// 			.carousel-image {
-// 				background-image: url(../img/interest-rate/Datagram_IR_05.jpg);
-// 			}
-// 		}
-// 	}
-// }
