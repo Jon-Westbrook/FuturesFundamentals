@@ -1,6 +1,9 @@
 
 # Created by https://www.gitignore.io/api/node,macos,jekyll
 
+# build
+build/
+
 ### Jekyll ###
 _site/
 .sass-cache/

@@ -1,0 +1,69 @@
+<nav class="main-nav">
+  <button type="button" class="main-nav__toggle navbar-toggle">
+    <span class="icon-bar top-bar"></span>
+    <span class="icon-bar middle-bar"></span>
+    <span class="icon-bar bottom-bar"></span>
+  </button>
+  <div class="main-nav__header-holder">
+    <div class="main-nav__header">
+      <a class="main-nav__brand" href="/">Futures Fundamentals</a>
+    </div>
+  </div>
+  <div class="main-nav__links">
+    {{#with  site.data.navigation }}
+      <ul class="main-nav__primary">
+        {{#each navigation }}
+          <!-- check to see if the data file has a submenu, and if so display it -->
+          {{#if subfolderitems }}
+            <li>
+              <a class="top-nav-item  ">{{ title }}<span class="top-nav-item__marker"></span></a>
+              <div class="main-nav__dropdown">
+                <div class="constrain main-nav__dropdown-inner">
+                  <ul>
+                    {{#each subfolderitems }}
+                      <li><a class="sub-nav-item " href="{{ url }}">{{ page }}</a> </li>
+                      {{#if subsubfolderitems }}
+                        {{#each subsubfolderitems }}
+                          <li><a class="sub-nav-item child-link" href="{{ url }}">{{ page }}</a></li>
+                        {{/each}}
+                      {{/if}}
+                    {{/each}}
+                  </ul>
+                </div>
+              </div>
+            </li>
+          {{/if}}
+        {{/each}}
+      </ul>
+    {{/with}}
+    <div class="main-nav__secondarywrap clearfix">
+      <ul class="main-nav__secondary ">
+        <li><a class="main-nav__educators" href="/for-educators/">For Educators</a></li>
+        <li>
+          <a class="main-nav__share top-nav-item">Share<span class="top-nav-item__marker"></span></a>
+          <div class="main-nav__share-dropdown">
+            <div class="constrain main-nav__dropdown-inner">
+              <ul class="share-buttons">
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56b8f0ce850bc3c6" async="async"></script>
+                <li><a class="fb-icon addthis_button_facebook" href="#">Facebook</a></li>
+                <li><a class="twitter-icon addthis_button_twitter" href="#">Twitter</a></li>
+                <li><a class="gplus-icon addthis_button_google_plusone_share" href="#">Google Plus</a></li>
+                <li><a class="linkedin-icon addthis_button_linkedin" href="#">LinkedIn</a></li>
+                <li><a class="email-icon addthis_button_email" href="#">Email</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="search-wrap">
+          <form class="main-nav__search" action="/search-results/">
+            <input class="main-nav__search-input" placeholder="Search" type="search" name="q" id="search" value="">
+            <input class="main-nav__search-button" type="submit" value="">
+          </form>
+        </li>
+      </ul>
+    </div>
+    <!-- /.nav__links -->
+  </div>
+</nav>
+<div class="menu-overlay"></div>
