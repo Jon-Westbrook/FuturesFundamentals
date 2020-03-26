@@ -1,0 +1,13 @@
+//---------------------------------------------------------------------
+// Breakpoint
+// @see - https://github.com/sass-mq/sass-mq
+//---------------------------------------------------------------------
+
+$mq-breakpoints: (
+  'small':  0px,
+  'medium': 768px,
+  'large':  992px,
+  'xlarge': 1200px
+);
+
+@import 'sass-mq/_mq.scss';

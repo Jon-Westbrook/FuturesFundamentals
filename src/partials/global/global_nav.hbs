@@ -10,32 +10,30 @@
     </div>
   </div>
   <div class="main-nav__links">
-    {{#with  site.data.navigation }}
-      <ul class="main-nav__primary">
-        {{#each navigation }}
-          <!-- check to see if the data file has a submenu, and if so display it -->
-          {{#if subfolderitems }}
-            <li>
-              <a class="top-nav-item  ">{{ title }}<span class="top-nav-item__marker"></span></a>
-              <div class="main-nav__dropdown">
-                <div class="constrain main-nav__dropdown-inner">
-                  <ul>
-                    {{#each subfolderitems }}
-                      <li><a class="sub-nav-item " href="{{ url }}">{{ page }}</a> </li>
-                      {{#if subsubfolderitems }}
-                        {{#each subsubfolderitems }}
-                          <li><a class="sub-nav-item child-link" href="{{ url }}">{{ page }}</a></li>
-                        {{/each}}
-                      {{/if}}
-                    {{/each}}
-                  </ul>
-                </div>
+    <ul class="main-nav__primary">
+      {{#each site.nav }}
+        <!-- check to see if the data file has a submenu, and if so display it -->
+        {{#if subfolderitems }}
+          <li>
+            <a class="top-nav-item  ">{{ title }}<span class="top-nav-item__marker"></span></a>
+            <div class="main-nav__dropdown">
+              <div class="constrain main-nav__dropdown-inner">
+                <ul>
+                  {{#each subfolderitems }}
+                    <li><a class="sub-nav-item " href="{{ url }}">{{ page }}</a> </li>
+                    {{#if subsubfolderitems }}
+                      {{#each subsubfolderitems }}
+                        <li><a class="sub-nav-item child-link" href="{{ url }}">{{ page }}</a></li>
+                      {{/each}}
+                    {{/if}}
+                  {{/each}}
+                </ul>
               </div>
-            </li>
-          {{/if}}
-        {{/each}}
-      </ul>
-    {{/with}}
+            </div>
+          </li>
+        {{/if}}
+      {{/each}}
+    </ul>
     <div class="main-nav__secondarywrap clearfix">
       <ul class="main-nav__secondary ">
         <li><a class="main-nav__educators" href="/for-educators/">For Educators</a></li>

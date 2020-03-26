@@ -1,0 +1,12 @@
+{
+  "minify": true,
+  "options": [
+    "prefixes",
+    "testStyles",
+    "html5shiv",
+    "setClasses"
+  ],
+  "feature-detects": [
+    "test/svg"
+  ]
+}
