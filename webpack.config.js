@@ -4,11 +4,11 @@ const getLoaders = env => {
   const loaders = [
     { test: /\.js$/, loader: 'babel' },
     { test: require.resolve('bootstrap-sass'), loader: 'imports-loader?jQuery=jquery' },
-    { test: require.resolve('./src/js/vendor/jquery-easing'), loader: 'imports-loader?jQuery=jquery' }
+    { test: require.resolve('./src/_js/vendor/jquery-easing'), loader: 'imports-loader?jQuery=jquery' }
   ]
 
   if (env === 'dev') {
-    loaders.push({ test: /\.js$/, exclude: /js\/vendor/, loader: 'eslint' })
+    loaders.push({ test: /\.js$/, exclude: /_js\/vendor/, loader: 'eslint' })
   }
 
   return loaders
@@ -16,7 +16,7 @@ const getLoaders = env => {
 
 module.exports = env => ({
   context: path.resolve(__dirname),
-  entry: './src/js/index.js',
+  entry: './src/_js/index.js',
   output: {
     path: path.resolve(__dirname, 'build/js'),
     filename: 'bundle.js'

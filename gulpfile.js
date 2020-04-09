@@ -17,13 +17,14 @@ const sass = require('metalsmith-sass')
 const serve = require('metalsmith-serve')
 const watch = require('metalsmith-watch')
 const webpackMs = require('metalsmith-webpack')
+const each = require('metalsmith-each')
 const minimatch = require('minimatch')
 const postcss = require('postcss')
 const sassSyntax = require('postcss-scss')
 // const webpack = require('webpack')
 
 const webpackConfig = require('./webpack.config')
-const siteMetadata = require('./src/data/site')
+const siteMetadata = require('./src/_data/site')
 
 const sassAutoprefixer = function sassAutoprefixer () {
   return function (files, _metalsmith, done) {
@@ -105,16 +106,16 @@ envs.forEach(env => {
       .clean(true)
       .use(
         helpers({
-          directory: './src/helpers'
+          directory: './src/_helpers'
         })
       )
-      .use(ignore('helpers/**'))
+      .use(ignore('_helpers/**'))
       .use(
         partials({
-          directory: './src/partials'
+          directory: './src/_partials'
         })
       )
-      .use(ignore('partials/**'))
+      .use(ignore('_partials/**'))
       .use(sassAutoprefixer())
       .use(
         sass({
@@ -124,15 +125,15 @@ envs.forEach(env => {
           sourceMapContents: env !== 'prod'
         })
       )
-      .use(ignore(['scss/**', 'scss/.*', 'scss/**/.*']))
+      .use(ignore(['_scss/**', '_scss/.*', '_scss/**/.*']))
       .use(webpackMs(webpackConfig(env)))
-      .use(ignore('js/**'))
-      .use(ignore('data/**'))
+      .use(ignore('_js/**'))
+      .use(ignore('_data/**'))
       .use(
         jstransformer({
           pattern: '**.html.hbs',
-          layoutPattern: 'layouts/**',
-          defaultLayout: 'layouts/default.hbs'
+          layoutPattern: '_layouts/**',
+          defaultLayout: '_layouts/default.hbs'
         })
       )
       .use(inlineSource())
@@ -149,6 +150,10 @@ envs.forEach(env => {
           verbose: true
         })
       )
+      .use(each((file, filename) => {
+        if (filename.indexOf('_assets') > -1) filename = filename.replace('_assets', 'assets')
+        return filename
+      }))
 
     if (env === 'dev') {
       buildProcess = buildProcess
@@ -162,9 +167,9 @@ envs.forEach(env => {
             paths: {
               '${source}/**/*.hbs': '**/*.hbs', // eslint-disable-line no-template-curly-in-string
               '${source}/*.hbs': '*.hbs', // eslint-disable-line no-template-curly-in-string
-              '${source}/assets/**/*': true, // eslint-disable-line no-template-curly-in-string
-              '${source}/scss/**/*': 'scss/**/*', // eslint-disable-line no-template-curly-in-string
-              '${source}/js/**/*': 'js/index.js' // eslint-disable-line no-template-curly-in-string
+              '${source}/_assets/**/*': true, // eslint-disable-line no-template-curly-in-string
+              '${source}/_scss/**/*': '**/*', // eslint-disable-line no-template-curly-in-string
+              '${source}/_js/**/*': 'js/index.js' // eslint-disable-line no-template-curly-in-string
             },
             livereload: true
           })

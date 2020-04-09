@@ -10,8 +10,8 @@
     "npm": "6.13.0"
   },
   "scripts": {
-    "start": "gulp dev",
-    "build": "gulp prod",
+    "dev": "gulp dev",
+    "start": "gulp prod",
     "build:modernizr": "modernizr -c ./src/js/vendor/modernizr.config.json -d ./src/js/vendor"
   },
   "dependencies": {
@@ -42,6 +42,7 @@
     "metalsmith-clean-css": "^6.0.0",
     "metalsmith-discover-helpers": "^0.1.1",
     "metalsmith-discover-partials": "^0.1.2",
+    "metalsmith-each": "^0.1.1",
     "metalsmith-env": "^2.1.1",
     "metalsmith-ignore": "^0.1.2",
     "metalsmith-imagemin": "^4.1.3",

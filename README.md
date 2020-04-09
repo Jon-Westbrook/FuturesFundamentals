@@ -11,11 +11,10 @@ This is for Jekyll build only. The compiled static files are located in the `mas
 ### Installation
 
 ```
-npm install
-bundle install
+yarn
 ```
 
-- Make changes to html files in `_pages` folder. Add images and PDFs into appropriate folders inside `assets`.
+- Make changes to html files in `src/pages` folder. Add images and PDFs into appropriate folders inside `assets`.
 - Style changes go into `_sass`.
 - Run these commands:
 
