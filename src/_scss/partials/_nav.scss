@@ -165,7 +165,7 @@
 				position:absolute;
 				top:22px;
 				right:20px;
-				background:url('/assets/img/drop-open_icon.png') no-repeat center center;
+				background:url('/assets/img/icons/drop-open_icon.png') no-repeat center center;
 				background-size:16px 16px;
 				@include animate(all 300ms ease);
 
@@ -178,7 +178,7 @@
 					position:absolute;
 					top:0;
 					right:0;
-					background:url('/assets/img/drop-close_icon.png') no-repeat center center;
+					background:url('/assets/img/icons/drop-close_icon.png') no-repeat center center;
 					background-size:16px 16px;
 					@include animate(all 300ms ease);
 				}

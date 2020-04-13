@@ -63,7 +63,7 @@
   @include mq($until: large) {
     height: 350px;
 
-    .hero_intro {
+    &__intro {
       padding-top: 70px;
       max-width: 450px;
     }
@@ -82,7 +82,7 @@
     margin-left: -15px;
     margin-right: -15px;
 
-    .hero_intro {
+    &__intro {
       max-width: 292px;
       padding-top: 35px;
     }
@@ -110,7 +110,7 @@
       height: 100%;
       position: absolute;
       right: 50%;
-      background: url('/_assets/img/home/home_hero_1px_left.png') repeat-x center bottom;
+      background: url('/assets/img/home/home_hero_1px_left.png') repeat-x center bottom;
       background-size: auto 590px;
       z-index: -1;
     }
@@ -121,7 +121,7 @@
       height: 100%;
       position: absolute;
       left: 50%;
-      background: url('/_assets/img/home/home_hero_1px_right.png') repeat-x center bottom;
+      background: url('/assets/img/home/home_hero_1px_right.png') repeat-x center bottom;
       background-size: auto 590px;
       z-index: -1;
     }
@@ -686,7 +686,7 @@
           height: 100%;
           position: absolute;
           right: 99%;
-          background: url('/_assets/img/home/basic_image_1px_left.png') repeat-x center bottom;
+          background: url('/assets/img/home/basic_image_1px_left.png') repeat-x center bottom;
           background-size: 1px 400px;
           opacity: 0;
           @include transform(translateX(-60px));
@@ -702,7 +702,7 @@
           height: 100%;
           position: absolute;
           left: 100%;
-          background: url('/_assets/img/home/impact_image_extra_right.png') no-repeat left bottom;
+          background: url('/assets/img/home/impact_image_extra_right.png') no-repeat left bottom;
           background-size: 68px 400px;
           opacity: 0;
           @include transform(translateX(60px));
@@ -716,7 +716,7 @@
           height: 100%;
           position: absolute;
           left: 100%;
-          background: url('/_assets/img/home/impact_image_fencerepeat_right.png') repeat-x center bottom;
+          background: url('/assets/img/home/impact_image_fencerepeat_right.png') repeat-x center bottom;
           background-size: 45px 400px;
           z-index: -1;
           opacity: 0;
@@ -733,7 +733,7 @@
           height: 100%;
           position: absolute;
           right: 100%;
-          background: url('/_assets/img/home/exchange_image_extra_left.png') no-repeat left bottom;
+          background: url('/assets/img/home/exchange_image_extra_left.png') no-repeat left bottom;
           background-size: 106px 400px;
           opacity: 0;
           @include transform(translateX(60px));
@@ -747,7 +747,7 @@
           height: 100%;
           position: absolute;
           right: 100%;
-          background: url('/_assets/img/home/exchange_image_1px_left.png') repeat-x center bottom;
+          background: url('/assets/img/home/exchange_image_1px_left.png') repeat-x center bottom;
           background-size: 1px 400px;
           z-index: -1;
           opacity: 0;

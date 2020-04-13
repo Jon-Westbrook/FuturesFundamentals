@@ -152,6 +152,8 @@ envs.forEach(env => {
       )
       .use(each((file, filename) => {
         if (filename.indexOf('_assets') > -1) filename = filename.replace('_assets', 'assets')
+        if (filename.indexOf('pages/') > -1) filename = filename.replace('pages/', '')
+        if (filename.indexOf('index.html') === -1) filename = filename.replace('.html', '/index.html')
         return filename
       }))
 
@@ -168,7 +170,7 @@ envs.forEach(env => {
               '${source}/**/*.hbs': '**/*.hbs', // eslint-disable-line no-template-curly-in-string
               '${source}/*.hbs': '*.hbs', // eslint-disable-line no-template-curly-in-string
               '${source}/_assets/**/*': true, // eslint-disable-line no-template-curly-in-string
-              '${source}/_scss/**/*': '**/*', // eslint-disable-line no-template-curly-in-string
+              '${source}/_scss/**/*': '**/*.scss', // eslint-disable-line no-template-curly-in-string
               '${source}/_js/**/*': 'js/index.js' // eslint-disable-line no-template-curly-in-string
             },
             livereload: true
