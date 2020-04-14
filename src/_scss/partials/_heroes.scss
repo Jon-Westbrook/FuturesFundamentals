@@ -1,0 +1,39 @@
+.page--about {
+  .article_hero {
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-image: url('/assets/img/hero/about_cme__desktop_bg.png');
+  }
+
+  @media (max-width: 992px) {
+    .article_hero {
+      background-image: url('/assets/img/hero/about_cme__tablet_bg.png');
+    }
+  }
+
+  @media (max-width: 767px) {
+    .article_hero {
+      background-image: url('/assets/img/hero/about_cme__mobile_bg.png');
+    }
+  }
+}
+
+.page--glossary {
+  .article_hero {
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-image: url('/assets/img/hero/glossary__desktop_bg.png');
+  }
+
+  @media (max-width: 992px) {
+    .article_hero {
+      background-image: url('/assets/img/hero/glossary__tablet_bg.png');
+    }
+  }
+
+  @media (max-width: 767px) {
+    .article_hero {
+      background-image: url('/assets/img/hero/glossary__mobile_bg.png');
+    }
+  }
+}
