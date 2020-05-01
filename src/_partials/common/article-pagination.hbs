@@ -1,0 +1,25 @@
+<div id="article-nav" class="container-fluid">
+  <div class="row">
+    <div class="col-md-5 col-sm-6 pull-right">
+      {{#with next}}
+        <a href="{{ href }}" class="nav-link nav-next">
+          <div class="link-article-title">
+            <h4>Next Article</h4>
+            <h3>{{ name }}</h3>
+          </div>
+        </a>
+      {{/with}}
+    </div>
+    <div class="col-md-2 pull-right hidden-sm"></div>
+    <div class="col-md-5 col-sm-6 pull-left">
+      {{#with prev}}
+        <a href="{{ href }}" class="nav-link nav-previous">
+          <div class="link-article-title">
+            <h4>Previous Article</h4>
+            <h3>{{ name }}</h3>
+          </div>
+        </a>
+      {{/with}}
+    </div>
+  </div>
+</div>

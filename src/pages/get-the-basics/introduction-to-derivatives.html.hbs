@@ -1,0 +1,77 @@
+---
+url: get-the-basics/introduction-to-derivatives/index.html
+title: Introduction to Derivatives - Futures Fundamentals
+body:
+  class: singular page page-id-151 page-child parent-pageid-6 page-template-default page--introduction-to-derivatives
+mainDivClass: article
+eyebrow: Get the Basics
+headline: The Global Derivatives Marketplace
+article-pagination:
+  next:
+    name: Futures and Options
+    href: /get-the-basics/futures-and-options/
+---
+
+<div class="article_hero" style=" ">
+  <img class="hero__image--desktop hidden-xs hidden-sm hidden-md" src="/assets/img/hero/intro_to_risk__desktop_fg.png" />
+  <img class="hero__image--tablet hidden-xs visible-sm visible-md hidden-lg hidden-xl" src="/assets/img/hero/intro_to_risk__tablet_fg.png" />
+  <img class="hero__image--mobile visible-xs hidden-md hidden-lg " src="/assets/img/hero/intro_to_risk__mobile_fg.png" />
+</div>
+
+{{#with page}}
+  {{> page-headline }}
+{{/with}}
+
+<div class="container">
+  <article id="post-18" class="post-18 page type-page status-publish hentry">
+    <div class="cf-content">
+      {{#> column-layout--default includeGlossary=true }}
+        <p>Futures. Options. Forwards. Margins. Algorithms. Liquidity. If you think this is all above your head, think again.</p>
+
+        <p>Understanding <em class="glossary__term" data-term="derivative">derivatives</em> starts with understanding one simple concept: <em class="glossary__term" data-term="risk">risk</em>. If you buy everyday products, own property, run a business or manage money for investors, risk is all around you every day. For some, risk stands between them and progress. For others, risk represents an opportunity to invest. If you’ve bought or sold a home, a car or shares of stock, you know that there is always a risk that the price of what you buy or sell today could shift depending on market movement.</p>
+
+        <p>In a derivatives marketplace, individuals and businesses everywhere are able to lock in a future price by putting it into a binding contract. These products are called <em class="glossary__term" data-term="future">futures</em> and <em class="glossary__term" data-term="option">options</em> – contractual agreements to buy or sell an amount of something at a fixed price at a future date.</p>
+
+        <p>This enables them to navigate business and financial risks or assume risk in an effort to make money when prices fluctuate.</p>
+      {{/column-layout--default}}
+
+      {{#> carousel-container slide=true id='myCarousel' data-analytics-category='Carousel View' data-analytics-action="Carousel: How does risk look in the real world?" data-analaytics-label='Slide 1'}}
+        
+        {{#> carousel-item active=true headline='How does risk look in the real world?' img='/assets/img/slideshow/risk_carousel__1_corn.jpg' }}
+          <p>Let’s say you’re in the business of making corn flakes. You’re at risk of corn prices rising and cutting into your profits, simply because a hot, dry summer reduced the season’s harvest.</p>
+        {{/carousel-item}}
+
+        {{#> carousel-item headline='How does risk look in the real world?' img='/assets/img/slideshow/risk_carousel__2_euro.jpg'}}
+          <p>Maybe you’re a U.S. manufacturer buying parts in Europe. You’re worried that the euro is going to rise, making the parts you need more expensive.</p>
+        {{/carousel-item}}
+              
+        {{#> carousel-item headline='How does risk look in the real world?' img='/assets/img/slideshow/risk_carousel__3_developer.jpg' }}
+          <p>You might be a resort developer building a new hotel, and you need to protect your investors from construction delays that severe storms might cause.</p>
+        {{/carousel-item}}
+        
+        {{#> carousel-item headline='How does risk look in the real world?' img='/assets/img/slideshow/risk_carousel__4_airline.jpg' }}
+          <p>Perhaps you run an airline, and you believe rising fuel prices are going to eat into your forecasted profits.</p>
+        {{/carousel-item}}
+
+        {{#> carousel-item headline='How does risk look in the real world?' img='/assets/img/slideshow/risk_carousel__5_endowment.jpg' }}
+          <p>Maybe you manage a university endowment, and you need to protect your portfolio from changes in U.S. Treasury bond rates.</p>
+        {{/carousel-item}}
+
+        {{#> carousel-item headline='How does risk look in the real world?' img='/assets/img/slideshow/risk_carousel__6_auto.jpg' }}
+          <p>You may be an auto manufacturer facing unpredictable costs for metals, but you still need to deliver cars and trucks that will make a profit. </p>
+        {{/carousel-item}}
+              
+      {{/carousel-container}}
+
+      {{> link-related icon-class='call-book-of-risk-icon' headline='The book of risk' copy='Everything you want to know about risk, how it’s managed and why it matters' link-href='/assets/pdf/The_Book_of_Risk.pdf' link-text='Download PDF, 8.1 MB' }}
+
+    </div>
+  </article>
+  
+  {{> global--social-share }}
+</div>
+<!-- /.container -->
+
+{{#with page.article-pagination}}
+  {{> article-pagination }}
+{{/with}}

@@ -487,12 +487,12 @@ $color_section_background: $color_deep_blue;
 	}
 
 	.background-before {
-		background: url(../img/position-summary.png) no-repeat;
+		background: url(/assets/img/position-summary.png) no-repeat;
 		z-index: 1;
 	}
 
 	.background-after {
-		background: url(../img/position-summary-flattened.png);
+		background: url(/assets/img/position-summary-flattened.png);
 		z-index: 2;
 	}
 
@@ -616,12 +616,12 @@ $color_section_background: $color_deep_blue;
 
 				.background-before {
 					@include animation('Position_Summary_Animation_Before 3000ms linear 0ms forwards');
-					background-image: url(../img/position-summary.png);
+					background-image: url(/assets/img/position-summary.png);
 				}
 
 				.background-after {
 					@include animation('Position_Summary_Animation_After 3000ms linear 0ms forwards');
-					background-image: url(../img/position-summary-flattened.png);
+					background-image: url(/assets/img/position-summary-flattened.png);
 				}
 
 				position: relative;
@@ -1854,7 +1854,7 @@ $color_section_background: $color_deep_blue;
 
 
 	.market_order {
-		background: url("../img/market-order@2x.png");
+		background: url("/assets/img/market-order@2x.png");
 		background-size: cover;
 		margin: 0 auto 50px;
 		color: #808080;
@@ -1922,7 +1922,7 @@ $color_section_background: $color_deep_blue;
 				left: /* 12px */ 3%;
 				width: 11.75%;
 				height: 6.26%;
-				background: url(../img/market-order-mkt@2x.png);
+				background: url(/assets/img/market-order-mkt@2x.png);
 				background-size: cover;
 
 
@@ -1936,7 +1936,7 @@ $color_section_background: $color_deep_blue;
 				left: /* 12px */ 3%;
 				width: 11.75%;
 				height: 22.61%;
-				background: url(../img/market-order-options@2x.png);
+				background: url(/assets/img/market-order-options@2x.png);
 				background-size: cover;
 
 
@@ -1947,7 +1947,7 @@ $color_section_background: $color_deep_blue;
 				position: absolute;
 
 				opacity: 0;
-				background: url(../img/market-order-1@2x.png);
+				background: url(/assets/img/market-order-1@2x.png);
 				background-size: cover;
 				width: /* 33px */ 8.25%;
 				height: /* 23px */ 6.26%;
@@ -1963,7 +1963,7 @@ $color_section_background: $color_deep_blue;
 				position: absolute;
 
 				opacity: 0;
-				background: url(../img/market-order-options-quantity@2x.png);
+				background: url(/assets/img/market-order-options-quantity@2x.png);
 				background-size: cover;
 				width: 8.25%;
 				height: 17.98%;
@@ -2037,7 +2037,7 @@ $color_section_background: $color_deep_blue;
 		}
 
 		position: relative;
-		background: url("../img/confirm-order@2x.png");
+		background: url("/assets/img/confirm-order@2x.png");
 		background-size: cover;
 
 		$confirm_order_width: 500px;
@@ -2379,8 +2379,8 @@ $color_section_background: $color_deep_blue;
 
 	.market-snapshot--green & {
 		// 2016
-		//background: $light_green url(../img/Market_Snapshot_Gradient.png);
-		background: #32D200 url(../img/Market_Snapshot_Gradient@2x.png);
+		//background: $light_green url(/assets/img/Market_Snapshot_Gradient.png);
+		background: #32D200 url(/assets/img/Market_Snapshot_Gradient@2x.png);
 		background-blend-mode: multiply;
 		background-size: cover;
 		//background: $light_green;
@@ -2390,7 +2390,7 @@ $color_section_background: $color_deep_blue;
 	.market-snapshot--red & {
 		// #E92429
 		//background: $light_red
-		background: #E92429 url(../img/Market_Snapshot_Gradient@2x.png);
+		background: #E92429 url(/assets/img/Market_Snapshot_Gradient@2x.png);
 		background-size: cover;
 		background-blend-mode: multiply;
 	}

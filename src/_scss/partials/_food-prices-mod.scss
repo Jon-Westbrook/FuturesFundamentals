@@ -190,7 +190,7 @@
 				.icon-shadow {
 					width:184px;
 					height:19px;
-					background:url('../img/hedger_speculator/icon-shadow.png') no-repeat center center;
+					background:url('/assets/img/hedger_speculator/icon-shadow.png') no-repeat center center;
 					background-size:184px 19px;
 					position:absolute;
 					bottom:-50px;
@@ -258,7 +258,7 @@
 			display:block;
 			height:26px;
 			width:26px;
-			background:url('../img/carousel-close.png') no-repeat center center;
+			background:url('/assets/img/carousel-close.png') no-repeat center center;
 				background-size:26px;
 		}
 
@@ -378,35 +378,35 @@
 			@include full-center;
 
 			&.icon-global-demand {
-				background:url('../img/food-prices/food-prices_global.png') no-repeat center center;
+				background:url('/assets/img/food-prices/food-prices_global.png') no-repeat center center;
 				background-size:90px 90px;
 			}
 			&.icon-weather {
-				background:url('../img/food-prices/food-prices_weather.png') no-repeat center center;
+				background:url('/assets/img/food-prices/food-prices_weather.png') no-repeat center center;
 				background-size:90px 90px;
 			}
 			&.icon-disease {
-				background:url('../img/food-prices/food-prices_disease.png') no-repeat center center;
+				background:url('/assets/img/food-prices/food-prices_disease.png') no-repeat center center;
 				background-size:90px 90px;
 			}
 			&.icon-energy-costs {
-				background:url('../img/food-prices/food-prices_energy.png') no-repeat center center;
+				background:url('/assets/img/food-prices/food-prices_energy.png') no-repeat center center;
 				background-size:90px 90px;
 			}
 			&.icon-fluctuating-currencies {
-				background:url('../img/food-prices/food-prices_currencies.png') no-repeat center center;
+				background:url('/assets/img/food-prices/food-prices_currencies.png') no-repeat center center;
 				background-size:90px 90px;
 			}
 			&.icon-available-farmland {
-				background:url('../img/food-prices/food-prices_farm.png') no-repeat center center;
+				background:url('/assets/img/food-prices/food-prices_farm.png') no-repeat center center;
 				background-size:90px 90px;
 			}
 			&.icon-government-policy {
-				background:url('../img/food-prices/food-prices_gov.png') no-repeat center center;
+				background:url('/assets/img/food-prices/food-prices_gov.png') no-repeat center center;
 				background-size:90px 90px;
 			}
 			&.icon-geopolitical-events {
-				background:url('../img/food-prices/food-prices_events.png') no-repeat center center;
+				background:url('/assets/img/food-prices/food-prices_events.png') no-repeat center center;
 				background-size:90px 90px;
 			}
 
@@ -423,7 +423,7 @@
 		.icon-shadow {
 			width:100%;
 			height:36px;
-			background:url('../img/hedger_speculator/icon-shadow.png') no-repeat center center;
+			background:url('/assets/img/hedger_speculator/icon-shadow.png') no-repeat center center;
 			background-size:100%;
 			position:absolute;
 			bottom:-65px;
@@ -437,8 +437,8 @@
 			height:19px;
 			margin:20px 0 10px;
 
-			&.trend-up {background:url('../img/food-prices/trend-up-icon.png') no-repeat center center; background-size:26px 19px;}
-			&.trend-down {background:url('../img/food-prices/trend-down-icon.png') no-repeat center center; background-size:26px 19px;}
+			&.trend-up {background:url('/assets/img/food-prices/trend-up-icon.png') no-repeat center center; background-size:26px 19px;}
+			&.trend-down {background:url('/assets/img/food-prices/trend-down-icon.png') no-repeat center center; background-size:26px 19px;}
 		}
 		.info-text {
 			border-top:1px solid $gray-20;
@@ -495,7 +495,7 @@
 					width:26px;
 					height:19px;
 					margin:0 auto;
-					background:url('../img/food-prices/trend-icon.png') no-repeat center center;
+					background:url('/assets/img/food-prices/trend-icon.png') no-repeat center center;
 					background-size:26px 19px;
 					margin-bottom:20px;
 				}
@@ -511,7 +511,7 @@
 					width:26px;
 					height:19px;
 					margin:0 auto;
-					background:url('../img/food-prices/trend-icon.png') no-repeat center center;
+					background:url('/assets/img/food-prices/trend-icon.png') no-repeat center center;
 					background-size:26px 19px;
 					margin-top:20px;
 					@include transform(rotate(180deg));
@@ -529,7 +529,7 @@
 					width:26px;
 					height:19px;
 					margin:0 auto;
-					background:url('../img/food-prices/trend-icon.png') no-repeat center center;
+					background:url('/assets/img/food-prices/trend-icon.png') no-repeat center center;
 					background-size:26px 19px;
 					margin-right:20px;
 					@include transform(rotate(-90deg));
@@ -541,7 +541,7 @@
 					width:26px;
 					height:19px;
 					margin:0 auto;
-					background:url('../img/food-prices/trend-icon.png') no-repeat center center;
+					background:url('/assets/img/food-prices/trend-icon.png') no-repeat center center;
 					background-size:26px 19px;
 					margin-left:20px;
 					@include transform(rotate(90deg));
@@ -579,7 +579,7 @@
 				width:40px;
 				@include transform(translateY(-25%));
 				@include animate(all 500ms ease);
-				background:url('../img/carousel_restart.png') no-repeat center center;
+				background:url('/assets/img/carousel_restart.png') no-repeat center center;
 				background-size:40px 40px;
 			}
 
@@ -789,7 +789,7 @@
 				width:60px;
 				text-indent:-9999px;
 				right:0;
-				background:url('../img/carousel_restart.png') no-repeat center center $blue-20;
+				background:url('/assets/img/carousel_restart.png') no-repeat center center $blue-20;
 				background-size:40px 40px;
 
 				padding:15px 0;

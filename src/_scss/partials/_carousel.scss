@@ -97,7 +97,7 @@
 			}
 
 			&.left {
-				background:url('../img/carousel_control.png') no-repeat center center $gray-20;
+				background:url('/assets/img/carousel_control.png') no-repeat center center $gray-20;
 				background-size:40px 40px;
 				@include transform(rotate(180deg));
 				&:before {
@@ -105,7 +105,7 @@
 				}
 			}
 			&.right {
-				background:url('../img/carousel_control.png') no-repeat center center $blue-20;
+				background:url('/assets/img/carousel_control.png') no-repeat center center $blue-20;
 				background-size:40px 40px;
 				right:initial;
 				margin-left:6px;

@@ -66,7 +66,7 @@
 					top:0;
 					width:12px;
 					height:100%;
-					background:url('../img/link_caret.png') no-repeat center center;
+					background:url('/assets/img/link_caret.png') no-repeat center center;
 					background-size:12px 21px;
 					@include animate(all 300ms ease);
 				}
@@ -95,7 +95,7 @@
 					height:40px;
 					width:40px;
 					@include animate(all 500ms ease);	
-					background:url('../img/carousel_restart.png') no-repeat center right transparent;
+					background:url('/assets/img/carousel_restart.png') no-repeat center right transparent;
 					background-size:40px;
 				}
 

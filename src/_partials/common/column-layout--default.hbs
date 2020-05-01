@@ -3,4 +3,7 @@
   <div class="col-md-8">
     {{> @partial-block}}
   </div>
+  {{#if includeGlossary}}
+    <div class="col-md-2 hidden-sm hidden-xs">{{> glossary-container }}</div>
+  {{/if}}
 </div>

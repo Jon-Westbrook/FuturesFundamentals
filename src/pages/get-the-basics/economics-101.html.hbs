@@ -1,0 +1,50 @@
+---
+url: get-the-basics/economics-101/index.html
+title: "Economics 101 - Futures Fundamentals"
+body:
+  class: singular page page-id-20 page-child parent-pageid-6 page-template-default page--economics-101
+mainDivClass: article
+eyebrow: Get the Basics
+headline: A Macro Look at Microeconomics
+article-pagination:
+  next:
+    name: Here's Why Futures Matter to You
+    href: /get-the-basics/heres-why-futures-matter-to-you/
+  prev:
+    name: Futures and Options
+    href: /get-the-basics/futures-and-options/
+---
+
+<div class="article_hero" style=" ">
+  <img class="hero__image--desktop hidden-xs hidden-sm hidden-md" src="/assets/img/hero/econ_101__desktop_fg.png" />
+  <img class="hero__image--tablet hidden-xs visible-sm visible-md hidden-lg hidden-xl" src="/assets/img/hero/econ_101__tablet_fg.png" />
+  <img class="hero__image--mobile visible-xs hidden-md hidden-lg " src="/assets/img/hero/econ_101__mobile_fg.png" />
+</div>
+
+{{#with page}}
+  {{> page-headline}}
+{{/with}}
+
+<div class="container">
+  <article id="post-20" class="post-20 page type-page status-publish hentry">
+    <div class="cf-content">
+      {{#> column-layout--default includeGlossary=true}}
+        <p>To understand the world of <em class="glossary__term">risk management</em> and <em class="glossary__term" data-term="futures exchange">futures exchanges</em>, let's take a little refresher course in economics, specifically <em class="glossary__term" data-term="microeconomics">microeconomics</em> – and the simple balance between supply and demand.</p>
+      {{/column-layout--default}}
+      
+      {{> brightcove-video id='supplyanddemand' vid-id='ref:131104vsarisk_supplyanddemand' }}
+      
+      {{#> column-layout--default}}
+        <h3 class="article_headline">The bigger picture</h3>
+        <p>The global economy is based on all sorts of things that are bought and sold every day. Futures exchanges provide markets for them – from agricultural crops and livestock; to metals and natural resources; to interest rates, stock indexes and foreign currencies. It truly is a global marketplace, and futures exchanges are among the world’s leading forums for buying and selling.</p>
+      {{/column-layout--default}}
+    </div>
+  </article>
+
+  {{> global--social-share}}
+</div>
+<!-- /.container -->
+
+{{#with page.article-pagination}}
+  {{> article-pagination}}
+{{/with}}

@@ -1,0 +1,33 @@
+<div class="datagram item title-slide {{ class }} {{#if active}}active{{/if}}">
+  <div class="col-md-8">
+    {{#if slide-num}}
+      <div class="slide-num slide-num-mobile">
+        <span class="current">{{ slide-num }}</span> of {{ slide-total }}
+      </div>
+    {{/if}}
+    <div class="carousel-image">
+      <div class="carousel-animate" id="{{ id }}" data-path="{{ lottie-json }}"></div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    {{> @partial-block }}
+
+    {{#if custom-controls}}
+      <!-- Left and right controls -->
+      <div class="carousel-controls-container">
+        <a class="right begin carousel-control" href="#cereal_infographic" role="button" data-slide="next">
+          <span>Learn why</span>
+        </a>
+      </div>
+    {{else}}
+      <div class="carousel-controls-container">
+        <a class="left carousel-control" href="#cereal_infographic" role="button" data-slide="prev">
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#cereal_infographic" role="button" data-slide="next">
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    {{/if}}
+  </div>
+</div>

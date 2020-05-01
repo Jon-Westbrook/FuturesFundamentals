@@ -102,22 +102,22 @@
 			height:7.71%;
 			position:absolute;
 			z-index:1;
-			background:url('../img/how-to-clear/protect-arrow-mid.png') no-repeat center center;
+			background:url('/assets/img/how-to-clear/protect-arrow-mid.png') no-repeat center center;
 			background-size:100%;
 		}
 
 		.arrow-mid {
-			background:url('../img/how-to-clear/protect-arrow-mid.png') no-repeat center center;
+			background:url('/assets/img/how-to-clear/protect-arrow-mid.png') no-repeat center center;
 			background-size:100%;
 		}
 
 		.arrow-lt {
-			background:url('../img/how-to-clear/protect-arrow-lt.png') no-repeat center center;
+			background:url('/assets/img/how-to-clear/protect-arrow-lt.png') no-repeat center center;
 			background-size:100%;
 		}
 
 		.arrow-drk {
-			background:url('../img/how-to-clear/protect-arrow-drk.png') no-repeat center center;
+			background:url('/assets/img/how-to-clear/protect-arrow-drk.png') no-repeat center center;
 			background-size:100%;
 		}
 
@@ -129,7 +129,7 @@
 			top:35.62%;
 			left:70.35%;
 			z-index:1;
-			background:url('../img/how-to-clear/trade-rejected.png') no-repeat center center;
+			background:url('/assets/img/how-to-clear/trade-rejected.png') no-repeat center center;
 			background-size:auto 100%;
 			@include marketReject($count: infinite, $duration: 3000ms, $delay:800ms, $function:linear);
 		}
@@ -142,7 +142,7 @@
 			top:28.33%;
 			left:70.35%;
 			z-index:1;
-			background:url('../img/how-to-clear/market-pause.png') no-repeat center center;
+			background:url('/assets/img/how-to-clear/market-pause.png') no-repeat center center;
 			background-size:auto 100%;
 			@include marketReject($count: infinite, $duration: 3000ms, $delay:800ms, $function:linear);
 		}
@@ -404,7 +404,7 @@
 		top:0;
 		left:7.5%;
 		z-index:2;
-		background:url('../img/how-to-clear/simul-protections.png') no-repeat center center;
+		background:url('/assets/img/how-to-clear/simul-protections.png') no-repeat center center;
 		background-size:auto 100%;
 		@include clearIconBounce($count: 1, $function: ease-out, $delay: 800ms, $duration: 800ms);
 
@@ -418,49 +418,49 @@
 	}
 
 	.credit-controls {
-		background:url('../img/how-to-clear/icon-lg-credit-controls.png') no-repeat center center;
+		background:url('/assets/img/how-to-clear/icon-lg-credit-controls.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
 	.max-order {
-		background:url('../img/how-to-clear/icon-lg-max-order.png') no-repeat center center;
+		background:url('/assets/img/how-to-clear/icon-lg-max-order.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
 	.price-banding {
-		background:url('../img/how-to-clear/icon-lg-price-banding.png') no-repeat center center;
+		background:url('/assets/img/how-to-clear/icon-lg-price-banding.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
 	.central-limit {
-		background:url('../img/how-to-clear/icon-lg-central-limit.png') no-repeat center center;
+		background:url('/assets/img/how-to-clear/icon-lg-central-limit.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
 	.single-market {
-		background:url('../img/how-to-clear/icon-lg-single-market.png') no-repeat center center;
+		background:url('/assets/img/how-to-clear/icon-lg-single-market.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
 	.protection-points {
-		background:url('../img/how-to-clear/icon-lg-protection-points.png') no-repeat center center;
+		background:url('/assets/img/how-to-clear/icon-lg-protection-points.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
 	.stop-prices {
-		background:url('../img/how-to-clear/icon-lg-stop-prices.png') no-repeat center center;
+		background:url('/assets/img/how-to-clear/icon-lg-stop-prices.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
 	.velocity-logic {
-		background:url('../img/how-to-clear/icon-lg-velocity-logic.png') no-repeat center center;
+		background:url('/assets/img/how-to-clear/icon-lg-velocity-logic.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
 	.icon-shadow {
 		width:37.18%;
 		height:6.25%;
-		background:url('../img/hedger_speculator/icon-shadow.png') no-repeat center center;
+		background:url('/assets/img/hedger_speculator/icon-shadow.png') no-repeat center center;
 		background-size:100%;
 		position:absolute;
 		bottom:0;
@@ -472,7 +472,7 @@
 		display:block;
 		width:43.08%;
 		height:61.5%;
-		background:url('../img/how-to-clear/monitor.png') no-repeat center center;
+		background:url('/assets/img/how-to-clear/monitor.png') no-repeat center center;
 		background-size:auto 100%;
 		position:absolute;
 		top:22.9%;
@@ -484,7 +484,7 @@
 		display:block;
 		width:67.95%;
 		height:76.13%;
-		background:url('../img/how-to-clear/confetti.png') no-repeat center center;
+		background:url('/assets/img/how-to-clear/confetti.png') no-repeat center center;
 		background-size:auto 100%;
 		position:absolute;
 		top:5.38%;

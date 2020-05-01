@@ -56,4 +56,62 @@
       background-image: url('/assets/img/hero/about_cme__mobile_bg.png');
     }
   }
+
+  .page--introduction-to-derivatives & {
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-image: url('/assets/img/hero/intro_to_risk__desktop_bg.png');
+
+    @media (max-width: 992px) {
+      background-image: url('/assets/img/hero/intro_to_risk__tablet_bg.png');
+    }
+
+    @media (max-width: 767px) {
+      background-image: url('/assets/img/hero/intro_to_risk__mobile_bg.png');
+    }
+  }
+
+  .page--futures-and-options & {
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-image: url('/assets/img/hero/futures_&_optns__desktop_bg.png');
+
+    @media (max-width: 992px) {
+      background-image: url('/assets/img/hero/futures_&_optns__tablet_bg.png');
+    }
+
+    @media (max-width: 767px) {
+      background-image: url('/assets/img/hero/futures_&_optns__mobile_bg.png');
+    }
+  }
+
+  .page--economics-101 & {
+    background-position: top center;
+    background-color: #e8e8e8;
+    background-repeat: repeat-x;
+    background-image: url('/assets/img/hero/econ_101__desktop_bg.png');
+
+    @media (max-width: 992px) {
+      background-image: url('/assets/img/hero/econ_101__tablet_bg.png');
+    }
+
+    @media (max-width: 767px) {
+      background-image: url('/assets/img/hero/econ_101__mobile_bg.png');
+    }
+  }
+
+  .page--heres-why-futures-matter-to-you & {
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-image: url('/assets/img/hero/why_futures_mttr__desktop_bg.png');
+
+    @media (max-width: 992px) {
+      background-image: url('/assets/img/hero/why_futures_mttr__tablet_bg.png');
+    }
+
+
+    @media (max-width: 767px) {
+      background-image: url('/assets/img/hero/why_futures_mttr__mobile_bg.png');
+    }
+  }
 }

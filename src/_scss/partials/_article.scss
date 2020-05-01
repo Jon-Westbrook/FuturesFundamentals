@@ -229,23 +229,23 @@ body {
 	.column-icon {
 		display:table-cell;
 		height:100%;
-		background:url('../img/column-icon-article.png') no-repeat center top;
+		background:url('/assets/img/column-icon-article.png') no-repeat center top;
 
 
 		&.article-icon {
-			background-image:url('../img/column-icon-article.png')
+			background-image:url('/assets/img/column-icon-article.png')
 		}
 
 		&.futures-icon {
-			background-image:url('../img/column-icon-futures.png')
+			background-image:url('/assets/img/column-icon-futures.png')
 		}
 
 		&.grocery-icon {
-			background-image:url('../img/column-icon-grocery.png')
+			background-image:url('/assets/img/column-icon-grocery.png')
 		}
 
 		&.sun-icon {
-			background-image:url('../img/column-icon-sun.png')
+			background-image:url('/assets/img/column-icon-sun.png')
 		}
 
 		background-size:80px;
@@ -279,25 +279,25 @@ body {
 		font-weight:bold;
 
 		@include mq($until: medium) {
-			//background:url('../img/news-icon.png') no-repeat 15px center;
+			//background:url('/assets/img/news-icon.png') no-repeat 15px center;
 			background-repeat: no-repeat;
 
 			&.article-icon {
-				background-image:url('../img/column-icon-article.png')
+				background-image:url('/assets/img/column-icon-article.png')
 			}
 
 			&.futures-icon {
-				background-image:url('../img/column-icon-futures.png')
+				background-image:url('/assets/img/column-icon-futures.png')
 			}
 
 			&.grocery-icon {
-				background-image:url('../img/column-icon-grocery.png');
+				background-image:url('/assets/img/column-icon-grocery.png');
 				line-height: 24px;
 				padding-top: 3px;
 			}
 
 			&.sun-icon {
-				background-image:url('../img/column-icon-sun.png');
+				background-image:url('/assets/img/column-icon-sun.png');
 				line-height: 24px;
 				padding-top: 3px;
 			}
@@ -324,7 +324,7 @@ body {
 
 	.glossary__term {
 		padding:3px 1px;
-		background:url('../img/glossary-dot.png') repeat-x center bottom;
+		background:url('/assets/img/glossary-dot.png') repeat-x center bottom;
 		background-size:9px 4px;
 		cursor:pointer;
 		position:relative;
@@ -510,7 +510,7 @@ body {
 				}
 
 				&:before {
-					background:url('../img/article-prev-icon.png') no-repeat center center;
+					background:url('/assets/img/article-prev-icon.png') no-repeat center center;
 					background-size:34px 55px;
 					left:35px;
 					z-index:2;
@@ -546,7 +546,7 @@ body {
 				}
 
 				&:before {
-					background:url('../img/article-next-icon.png') no-repeat center center;
+					background:url('/assets/img/article-next-icon.png') no-repeat center center;
 					background-size:34px 55px;
 					right:35px;
 					z-index:2;
