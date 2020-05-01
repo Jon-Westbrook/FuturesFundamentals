@@ -1,0 +1,64 @@
+---
+url: contact-us/index.html
+title: Contact Us
+body:
+  class: singular page page-id-10 page-template-default page--contact-us
+mainDivClass: article
+headline: Contact Us
+
+---
+<div class="article_hero" style=" ">
+  <img class="hero__image--desktop hidden-xs hidden-sm hidden-md" src="/assets/img/hero/about_cme__desktop_fg.png" />
+  <img class="hero__image--tablet hidden-xs visible-sm visible-md hidden-lg hidden-xl" src="/assets/img/hero/about_cme__tablet_fg.png" />
+  <img class="hero__image--mobile visible-xs hidden-md hidden-lg " src="/assets/img/hero/about_cme__mobile_fg.png" />
+</div>
+
+{{#with page}}
+
+  {{> page-headline }}
+
+{{/with}}
+
+
+<div class="container">
+  <article id="post-10" class="post-10 page type-page status-publish hentry">
+    <div class="cf-content">
+
+      {{#> column-layout--default}}
+        <p>Please let us know if you have questions or comments about Futures Fundamentals. We are always developing new and better ways to spread the word about futures markets – and your feedback helps!</p>
+      {{/column-layout--default}}
+
+      {{#> column-layout--default}}
+        <h3 class="article_headline">Email Us</h3>
+        <p><a href="mailto:contact@futuresfundamentals.org?subject=Futures+Fundamentals+Website+Inquiry">contact@futuresfundamentals.org</a></p>
+      {{/column-layout--default}}
+
+      {{#> column-layout--default}}
+        <h3 class="article_headline">Follow Futures Fundamentals</h3>
+      {{/column-layout--default}}
+
+      <!-- error sp -->
+      <div class="module module__special module__special--social_media">
+        <div class="row">
+          <div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
+          <div class="col-sm-8 col-md-8 col-lg-8">
+            <ul>
+              <li class="social_icon social_icon--facebook"><a href="https://www.facebook.com/FuturesFundamentals/" target="_blank">&nbsp;</a></li>
+              <li class="social_icon social_icon--twitter"><a href="https://twitter.com/Futures101" target="_blank">&nbsp;</a></li>
+              <li class="social_icon social_icon--instagram"><a href="https://www.instagram.com/futuresfundamentals/" target="_blank">&nbsp;</a></li>
+              <li class="social_icon social_icon--linkedin"><a href="https://www.linkedin.com/company/18278071/" target="_blank">&nbsp;</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
+        </div>
+      </div>
+
+      {{#> column-layout--default}}
+        <h3 class="article_headline">Spread the Word</h3>
+        <p>Use the hashtag #FuturesFundamentals to let more people know about this site and the education it provides.</p>
+      {{/column-layout--default}}
+    </div>
+  </article>
+
+  {{> global--social-share}}
+</div>

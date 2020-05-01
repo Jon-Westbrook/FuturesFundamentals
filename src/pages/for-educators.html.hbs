@@ -193,49 +193,31 @@ modules:
   <img class="hero__image--tablet hidden-xs visible-sm visible-md hidden-lg hidden-xl" src="/assets/img/hero/for_ed__tablet_fg.png" />
   <img class="hero__image--mobile visible-xs hidden-md hidden-lg " src="/assets/img/hero/for_ed__mobile_fg.png" />
 </div>
-<div class="container module__hero__text-container">
-  <div class="row">
-    <div class="col-md-2 hidden-sm"></div>
-    <div class="col-md-8">
-      <h1 class="page_title_doesnt_have_eyebrow">{{ page.headline }}</h1>
-    </div>
-  </div>
-</div>
-<div class="container">
-  <article id="post-160" class="post-160 page type-page status-publish hentry">
-    <div class="cf-content">
-      <div class="row module__body-copy">
-        <div class="col-md-2 hidden-sm hidden-xs"></div>
-        <div class="col-md-8">
-          <p>{{ page.subhead }}</p>
+
+{{#with page }}
+  {{> page-headline}}
+
+  <div class="container">
+    <article id="post-160" class="post-160 page type-page status-publish hentry">
+      <div class="cf-content">
+        <div class="row module__body-copy">
+          <div class="col-md-2 hidden-sm hidden-xs"></div>
+          <div class="col-md-8">
+            <p>{{ subhead }}</p>
+          </div>
         </div>
+
+        {{#each modules}}
+          {{#with data}}
+            {{> (lookup .. 'type') }}
+          {{/with}}
+        {{/each}}
+        
       </div>
+    </article>
 
-      {{#each page.modules}}
-        {{#with data}}
-          {{> (lookup .. 'type') }}
-        {{/with}}
-      {{/each}}
-      
-    </div>
-  </article>
+    {{> global--social-share }}
 
-  {{> global--social-share }}
-
-  {{!-- <!-- #post-## -->
-  <div id="article-social" class="row">
-    <div class="social-inner clearfix">
-      <p>Share:</p>
-      <ul class="share-buttons">
-        <!-- Go to www.addthis.com/dashboard to customize your tools -->
-        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56b8f0ce850bc3c6" async="async"></script>
-        <li><a class="fb-icon addthis_button_facebook" href="#">Facebook</a></li>
-        <li><a class="twitter-icon addthis_button_twitter" href="#">Twitter</a></li>
-        <li><a class="gplus-icon addthis_button_google_plusone_share" href="#">Google Plus</a></li>
-        <li><a class="linkedin-icon addthis_button_linkedin" href="#">Linked In</a></li>
-        <li><a class="email-icon addthis_button_email" href="#">Email</a></li>
-      </ul>
-    </div>
-  </div> --}}
-</div>
-<!-- /.container -->
+  </div>
+  <!-- /.container -->
+{{/with}}
