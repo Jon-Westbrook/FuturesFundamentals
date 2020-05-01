@@ -1,0 +1,27 @@
+<div class="row module__body-copy">
+  <div class="col-md-2 hidden-sm hidden-xs"></div>
+  <div class="col-md-8">
+    <h3 class="article_headline">{{ headline }}</h3>
+    <p>{{ copy }}</p>
+  </div>
+  <div class="col-md-2 hidden-sm hidden-xs"></div>
+</div>
+<div class="row module module__two-col-image-links {{ class }}">
+  <div class="col-md-2 hidden-sm"></div>
+  <div class="col-md-8">
+    <div class="row">
+      {{#each links}}
+        <div class="col-md-6">
+          <a class=" link-list__item" href="{{ href }}" target="_blank">
+            <div class="img_wrap">
+              <img src="{{ image.src }}" />
+            </div>
+            <p>{{ text }}</span>
+            </p>
+          </a>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+  <div class="col-md-2 hidden-sm"></div>
+</div>

@@ -1,0 +1,26 @@
+<div class="module module__promo {{ class }}" id="{{ id }}">
+  <div class="row">
+    <div class="col-md-2 col-lg-2"></div>
+    <div class="col-md-8 col-lg-8 module__promo__well col-imagelink" style="background-color:#48bfff">
+      <div class="row">
+        <div class="col-md-6 col-lg-6">
+          <a target="_blank" href="{{ link.href }}" class="module__promo__imagelink>">
+            <img src="{{ image.src }}" class="module__promo__featured-image" />
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <div class="module__promo__title" style="color:#ffffff">{{ headline }}</div>
+          <div class="module__promo__body" style="color:#ffffff">
+            <p style='color:#ffffff'>{{ copy }}</p>
+          </div>
+          <div class="module__promo__links">
+            {{#each links}}
+              <a target="_blank" href="{{ href }}" class="button button--index-{{ @index }}" style="color:#ffffff; background-color:#0079c1;">{{ text }}</a>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2 col-lg-2"></div>
+  </div>
+</div>
