@@ -1,0 +1,81 @@
+---
+url: see-the-impact/energy-futures/index.html
+title: "Energy Futures: Between the Ground and the Pump - Futures Fundamentals" 
+body:
+  class: singular page page-id-30 page-parent page-child parent-pageid-7 page-template-default page--energy-futures
+mainDivClass: article
+hero:
+  image:
+    id: fuel_and_futures
+eyebrow: See the Impact
+headline: "Energy Futures: Between the Ground and the Pump"
+video-callout:
+  headline: Algae as an energy source?
+  copy: Visit an algae pond in Hawaii where scientists are studying and refining ways to use the plant as an alternative fuel source. Learn about how this biofuel has the potential to change our world economy and the environment forever.
+  img:
+    src: /assets/img/seeker-stories-logo.png
+    eyebrow: EconEssentials
+  link:
+    href: http://www.econessentialsinschool.com/videos
+    img: /assets/img/screenshots/seekervideo_energy.jpg
+related-links:
+  -
+    headline: Want to learn more?
+    copy: See if you can predict future gas prices using our interactive, educational resource developed in partnership with Discovery Education.
+    icon-class: call-discovery-icon
+    link:
+      href: http://www.econessentialsinschool.com/sites/econessentialsinschool.com/themes/econ_ui/assets/modules/fuel/
+      text: CHECK OUT THE "FUELING THE FUTURE" MODULE
+article-pagination:
+  next:
+    href: /see-the-impact/energy-futures/gas-prices-explained/
+    name: Gas Prices Explained
+  prev:
+    href: /see-the-impact/agriculture-futures/food-prices-explained/
+    name: Food Prices Explained
+---
+
+{{#with page.hero}}
+  {{> article-hero }}
+{{/with}}
+
+{{#with page }}
+  {{> page-headline}}
+{{/with}}
+
+<div class="container">
+  <article id="post-30" class="post-30 page type-page status-publish hentry">
+    <div class="cf-content">
+
+      {{#> column-layout--default includeGlossary=true }}
+        <p>Energy products are vital to our everyday lives. They get us from here to there, they keep us warm in the winter, they refrigerate our food and they power our smartphones.</p>
+        <p>At the same time, these energy products are the most coveted and controversial of the world’s <em class="glossary__term" data-term="commodity">commodities</em>. Wars are waged over foreign oil. Congressional hearings are held to discuss policies and initiatives around alternative fuel sources. People around the world are tackling the environmental impact of human energy use.</p>
+        <p>These kinds of activities often cause market <em class="glossary__term" data-term="volatility"><br />volatility</em>. Yet in the face of all this volatility, energy futures present opportunities to increase stability and drive innovation.</p>
+      {{/column-layout--default}}
+
+      {{#> column-layout--default }}
+        <h3 class="article_headline">A stable market for a volatile industry</h3>
+        <p>As political and environmental factors constantly change, futures exchanges provide a stable and highly regulated venue for price discovery on products like crude oil and natural gas. And as industries race to create increasingly clean and efficient resources, these exchanges are becoming the marketplace of choice for products such as ethanol, biodiesel and wind power.</p>
+        <p>So if you’re in the business of producing or consuming energy products, the futures exchange is where you come to set transparent, predictable prices for those resources – prices that ultimately impact what you pay at the pump and at the meter.</p>
+      {{/column-layout--default}}
+
+      {{#> callout-example icon='sun-icon' }}
+        <p class="caption_subtitle sun-icon">Are gas prices higher in the summer?</p>
+        <p>Gasoline prices average about 10 cents per gallon higher at their summer high than at their winter low. This is usually due to an uptick in demand and the logistics of refining gasoline that will perform better in hot weather. But with the rise of fuel-efficient cars, government-mandated fuel efficiency standards, and a younger generation of Americans choosing to drive less, the summer spike is likely to become less and less pronounced over time.</p>
+      {{/callout-example}}
+
+      {{#with page.video-callout }}
+        {{> video-callout}}
+      {{/with}}
+
+      {{> links-related links=page.related-links }}
+
+    </div>
+  </article>
+  
+  {{> global--social-share}}
+</div>
+
+{{#with page.article-pagination}}
+  {{> article-pagination}}
+{{/with}}

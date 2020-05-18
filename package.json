@@ -12,7 +12,7 @@
   "scripts": {
     "dev": "gulp dev",
     "start": "gulp prod",
-    "build:modernizr": "modernizr -c ./src/js/vendor/modernizr.config.json -d ./src/js/vendor"
+    "build:modernizr": "modernizr -c ./src/_js/vendor/modernizr.config.json -d ./src/_js/vendor"
   },
   "dependencies": {
     "autoprefixer": "^8.0.0",

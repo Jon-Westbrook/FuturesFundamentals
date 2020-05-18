@@ -1,0 +1,18 @@
+{{#*inline 'card'}}
+  <div class="col-md-3 col-sm-3 col-xs-6 scrollAnimation--capable scrollAnimation--before">
+    <div id="fp-{{ img-id }}" class="food-prices-factor" data-target="#food-price-carousel" data-slide-to="{{ @index }}">
+      <div class="card-front">
+        <img src="/assets/img/food-prices/fp_{{ img-id }}.png" />
+        <h4><span>{{ headline }}</span></h4>
+      </div>
+      <div class="card-back"></div>
+    </div>
+  </div>
+{{/inline}}
+
+<div class="row food-prices-factors-mod">
+  {{#each cards }}
+    {{> card}}
+  {{/each}}
+</div>
+    

@@ -1,0 +1,35 @@
+{{#* inline 'trend-col'}}
+  <div class="col trend-col col-xs-6">
+    <div class="fp-image image-{{ side }}">
+      <div class="fp-icon"></div>
+      <img src="/assets/img/food-prices/corn-{{ side }}.png" />
+      <span class="icon-shadow"></span>
+    </div>
+    <div class="fp-info info-{{ side }}">
+      <div class="trend-icon"></div>
+      <div class="info-text">
+        <div class="text-inner">
+          <h4></h4>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+{{/inline}}
+
+<div id="food-prices-move" class="row full-width scrollAnimation--capable scrollAnimation--before">
+  <div class="col col-sm-8">
+    <h4 class="fp-title">Why food prices move</h4>
+    {{> trend-col side='left' }}
+    {{> trend-col side='right' }}
+  </div>
+  <div class="col col-sm-4">
+    <div class="trend-holder">
+      <div class="price-trend">
+        <h3></h3>
+      </div>
+      <div class="price-move-button">
+        <h4>Make prices move<span class="move-icon"></span></h4></div>
+    </div>
+  </div>
+</div>

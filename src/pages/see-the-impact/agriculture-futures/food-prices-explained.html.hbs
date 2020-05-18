@@ -1,0 +1,162 @@
+---
+url: see-the-impact/agriculture-futures/food-prices-explained/index.html
+title: Food Price Explained - Futures Fundamentals
+body:
+  class: singular page page-id-151 page-child parent-pageid-6 page-template-default page--food-prices-explained
+mainDivClass: article
+eyebrow: See the Impact
+headline: Food Prices Explained
+card-carousel:
+  cards:
+    -
+      headline: Geopolitical Events
+      img-id: events
+      copy:
+        - Political unrest can disrupt productivity, impacting supply and commodity pricing.
+        - During 2012, wheat prices spiked as a direct result of protests in Egypt, one of the world’s biggest wheat importers.
+    -
+      headline: Global Demand
+      img-id: global
+      copy:
+        - A growing middle class in China and India means increased demand for meat and grains.
+        - The U.N. estimates 70% more food will need to be produced by 2050 to meet growing demand and rising population.
+    -
+      headline: Government Policy
+      img-id: gov
+      copy:
+        - Tariffs to support domestic production, to reduce competition, and to limit supplies available for international trade can have an impact on prices.
+        - Russia’s ban on wheat exports reduced global trade supplies by 15 million metric tons in 2010-2011.
+    -
+      headline: Disease
+      img-id: disease
+      copy:
+        - Diseases and infestations cause shortages in grains and livestock, which reduce food supply.
+        - On average, roughly 35% of global crop production falls prey to diseases and pests.
+    -
+      headline: Fluctuating Currencies
+      img-id: currencies
+      copy:
+        - A strong U.S. dollar, relative to European and other currencies, has a dramatic effect on all commodity prices.
+        - The economic woes in Europe and slowing growth in China played a significant role in the 2012 commodity markets.
+    -
+      headline: Energy Costs
+      img-id: energy
+      copy:
+        - High oil prices drive up the costs of bringing food to market, and these costs are passed along to consumers.
+    -
+      headline: Available Farmland
+      img-id: farm
+      copy:
+        - Farmland is being lost at an alarming rate due to development and other factors. At the same time, food prices increase as more farmland is devoted to non-food items.
+    -
+      headline: Weather
+      img-id: weather
+      copy:
+        - Drought, flooding and freezing reduce supply, which can cause dramatic price increases in essential crops.</p>
+        - The 2012 U.S. drought, which was the most widespread in more than half a century, resulted in record prices for corn and soybeans.
+related-links:
+  -
+    headline: Grain prices
+    copy: Get more specifics about the prices of corn, wheat, soy and more.
+    icon-class: call-grain-prices-icon
+    link:
+      type: pdf
+      href: /assets/pdf/The_Facts_Behind_Food_Prices.pdf
+      text: Download PDF, 1.1MB
+  -
+    headline: Pork prices
+    copy: Take a closer look at the factors surrounding pork prices.
+    icon-class: call-pork-prices-icon
+    link:
+      type: pdf
+      href: /assets/pdf/The_Facts_Behind_Pork_Prices.pdf
+      text: Download PDF, 179KB
+  -
+    headline: Beef prices
+    copy: Take a closer look at the factors surrounding livestock prices.</p>
+    icon-class: call-beef-prices-icon
+    link:
+      type: pdf
+      href: /assets/pdf/The_Facts_Behind_Beef_Prices.pdf
+      text: Download PDF, 1MB
+  -
+    headline: Want to learn more?
+    copy: Take an interactive journey from the farm to the table in this new educational resource developed in partnership with Discovery Education.
+    icon-class: call-discovery-icon
+    link:
+      href: http://www.econessentialsinschool.com/sites/econessentialsinschool.com/themes/econ_ui/assets/modules/food/#slide1-1
+      text: CHECK OUT THE “FACTS ABOUT FOOD” MODULE
+article-pagination:
+  next:
+    href: /see-the-impact/energy-futures/
+    name: Energy Futures
+  prev:
+    href: /see-the-impact/agriculture-futures/
+    name: Agriculture Futures
+---
+
+<div class="article_hero" style=" ">
+  <img class="hero__image--desktop hidden-xs hidden-sm hidden-md" src="/assets/img/hero/food_prices_explained__desktop_fg.png" />
+  <img class="hero__image--tablet hidden-xs visible-sm visible-md hidden-lg hidden-xl" src="/assets/img/hero/food_prices_explained__tablet_fg.png" />
+  <img class="hero__image--mobile visible-xs hidden-md hidden-lg " src="/assets/img/hero/food_prices_explained__mobile_fg.png" />
+</div>
+
+{{#with page}}
+  {{> page-headline }}
+{{/with}}
+
+<div class="container">
+  <article id="post-120" class="post-120 page type-page status-publish hentry">
+    <div class="cf-content">
+      {{#> column-layout--default includeGlossary=true }}
+        <p>Long after all the <em class="glossary__term" data-term="hedge">hedging</em> and <em class="glossary__term" data-term="speculator">speculating</em>, and after the physical <em class="glossary__term" data-term="delivery">delivery</em> of the goods under <em class="glossary__term" data-term="contract">contract</em>, these food products make their way to your supermarket. Because our hedgers were able to set predictable prices for their products, you get relative consistency in the prices you pay for groceries from week to week. But sometimes, these prices fluctuate.</p>
+      {{/column-layout--default}}
+        
+      <a name="riskontheranch"></a>
+      {{> brightcove-video id='riskontheranch' vid-id='ref:150616vsa_riskontheranch' }}
+
+      {{#> column-layout--default includeGlossary=true }}
+        <h3 class="article_headline">The Facts Behind Food Prices</h3>
+        <p>The prices of agricultural futures depend on a number of external factors – and these prices ultimately impact what you pay for your food.</p>
+        <p>You’ll probably never have to think about any of this when you’re at the store. That’s because hedgers already have. By using futures to protect their <em class="glossary__term" data-term="commodity">commodities</em> from this world of price variables, they can cut their prices – and yours.</p>
+      {{/column-layout--default}}
+
+      {{#> column-layout--default}}
+        <h3 class="article_headline">Explore the Factors Below</h3>
+      {{/column-layout--default}}
+
+      {{#with page.card-carousel}}
+        <div id="food-prices__mod" class="row">
+          <div class="col-md-2 hidden-sm"></div>
+          <div class="col-md-8">
+            {{> food-prices--card-carousel-nav }}
+
+            {{#> carousel-container id='food-price-carousel' class='fp-carousel-container infographic' no-analytics=true controls-href='#food-price-carousel' }}
+              <div class="carousel-close"></div>
+              {{#each cards}}
+                {{> food-prices--carousel-item total-items=../cards.length}}
+              {{/each}}
+            {{/carousel-container}}
+          </div>
+        </div>
+      {{/with}}
+
+      {{#> column-layout--default}}  
+        <p>You know the factors. Now let's see how they work together to move prices up or down.</p>
+      {{/column-layout--default}}
+
+      <a name="food-prices-move"></a>
+      {{> food-prices--move-animation }}
+
+      {{> links-related links=page.related-links}}
+
+    </div>
+  </article>
+
+  {{> global--social-share }}
+</div>
+<!-- /.container -->
+
+{{#with page.article-pagination}}
+  {{> article-pagination}}
+{{/with}}

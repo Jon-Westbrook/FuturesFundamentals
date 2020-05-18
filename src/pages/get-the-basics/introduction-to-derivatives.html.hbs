@@ -6,6 +6,15 @@ body:
 mainDivClass: article
 eyebrow: Get the Basics
 headline: The Global Derivatives Marketplace
+related-links:
+  -
+    headline: The book of risk
+    copy: Everything you want to know about risk, how it’s managed and why it matters
+    icon-class: call-book-of-risk-icon
+    link:
+      href: /assets/pdf/The_Book_of_Risk.pdf
+      text: Download PDF, 8.1 MB
+      type: pdf
 article-pagination:
   next:
     name: Futures and Options
@@ -35,7 +44,7 @@ article-pagination:
         <p>This enables them to navigate business and financial risks or assume risk in an effort to make money when prices fluctuate.</p>
       {{/column-layout--default}}
 
-      {{#> carousel-container slide=true id='myCarousel' data-analytics-category='Carousel View' data-analytics-action="Carousel: How does risk look in the real world?" data-analaytics-label='Slide 1'}}
+      {{#> carousel-container slide=true id='myCarousel' controls-href='#myCarousel' data-analytics-category='Carousel View' data-analytics-action="Carousel: How does risk look in the real world?" data-analaytics-label='Slide 1' }}
         
         {{#> carousel-item active=true headline='How does risk look in the real world?' img='/assets/img/slideshow/risk_carousel__1_corn.jpg' }}
           <p>Let’s say you’re in the business of making corn flakes. You’re at risk of corn prices rising and cutting into your profits, simply because a hot, dry summer reduced the season’s harvest.</p>
@@ -63,7 +72,7 @@ article-pagination:
               
       {{/carousel-container}}
 
-      {{> link-related icon-class='call-book-of-risk-icon' headline='The book of risk' copy='Everything you want to know about risk, how it’s managed and why it matters' link-href='/assets/pdf/The_Book_of_Risk.pdf' link-text='Download PDF, 8.1 MB' }}
+      {{> links-related links=page.related-links }}
 
     </div>
   </article>

@@ -63,7 +63,7 @@
 
 			/* start */
 			&.call-sources-oil-prices-icon {
-				background:url('/assets/img/call-icon-Oil_Prices@2x.png') no-repeat center center;
+				background:url('/assets/img/icons/call-icon-Oil_Prices@2x.png') no-repeat center center;
 				background-size:73px 90px; // 146 180
 
 				@include mq($until: 768px) {
@@ -81,7 +81,7 @@
 			}
 
 			&.call-beef-prices-icon {
-				background:url('/assets/img/call-icon-Beef_Prices@2x.png') no-repeat center center;
+				background:url('/assets/img/pdf-icons/call-icon-Beef_Prices@2x.png') no-repeat center center;
 				background-size:73px 90px; // 146 180
 
 				@include mq($until: 768px) {
@@ -90,7 +90,7 @@
 			}
 
 			&.call-grain-prices-icon {
-				background:url('/assets/img/call-icon-Grain_Prices@2x.png') no-repeat center center;
+				background:url('/assets/img/pdf-icons/call-icon-Grain_Prices@2x.png') no-repeat center center;
 				background-size:73px 90px; // 146 180
 
 				@include mq($until: 768px) {
@@ -99,7 +99,7 @@
 			}
 
 			&.call-pork-prices-icon {
-				background:url('/assets/img/call-icon-Pork_Prices@2x.png') no-repeat center center;
+				background:url('/assets/img/pdf-icons/call-icon-Pork_Prices@2x.png') no-repeat center center;
 				background-size:73px 90px; // 146 180
 
 				@include mq($until: 768px) {

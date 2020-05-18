@@ -74,14 +74,14 @@
   .page--futures-and-options & {
     background-position: top center;
     background-repeat: repeat-x;
-    background-image: url('/assets/img/hero/futures_&_optns__desktop_bg.png');
+    background-image: url('/assets/img/hero/futures_and_optns__desktop_bg.png');
 
     @media (max-width: 992px) {
-      background-image: url('/assets/img/hero/futures_&_optns__tablet_bg.png');
+      background-image: url('/assets/img/hero/futures_and_optns__tablet_bg.png');
     }
 
     @media (max-width: 767px) {
-      background-image: url('/assets/img/hero/futures_&_optns__mobile_bg.png');
+      background-image: url('/assets/img/hero/futures_and_optns__mobile_bg.png');
     }
   }
 
@@ -112,6 +112,97 @@
 
     @media (max-width: 767px) {
       background-image: url('/assets/img/hero/why_futures_mttr__mobile_bg.png');
+    }
+  }
+
+  .page--ingredients-of-everyday-life & {
+    background-position: top center;
+    background-color: #0d671e;
+    background-repeat: repeat-x;
+    background-image: url('/assets/img/hero/ingred_everyday__desktop_bg.png');
+  }
+
+  .page--agriculture-futures & {
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-image: url('/assets/img/hero/food_and_futures__desktop_bg.png');
+
+
+    @media (max-width: 992px) {
+      background-image: url('/assets/img/hero/food_and_futures__tablet_bg.png');
+    }
+
+
+    @media (max-width: 767px) {
+      background-image: url('/assets/img/hero/food_and_futures__mobile_bg.png');
+    }
+  }
+
+  .page--food-prices-explained & {
+    background-color: #FFCA11;
+  }
+ 
+  .page--energy-futures & {
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-image: url('/assets/img/hero/fuel_and_futures__desktop_bg.png');
+
+
+    @media (max-width: 992px) {
+      background-image: url('/assets/img/hero/fuel_and_futures__tablet_bg.png');
+    }
+
+
+    @media (max-width: 767px) {
+      background-image: url('/assets/img/hero/fuel_and_futures__mobile_bg.png');
+    }
+  }
+
+  .page--gas-prices-explained & {
+    background-color: #5fbae9;
+    
+    // this file didn't exist during 2020 rebuild and was not in use on prod
+    // background-image: url('/assets/img/hero/gas_prices_explained__desktop_bg.png');
+    // background-position: top center;
+    // background-repeat: repeat-x;
+  }
+
+  .page--north-american-oil-production & {
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-image: url('/assets/img/hero/todays_oil_boom__desktop_bg.png');
+
+
+    @media (max-width: 992px) {
+      background-image: url('/assets/img/hero/todays_oil_boom__tablet_bg.png');
+    }
+
+    @media (max-width: 767px) {
+      background-image: url('/assets/img/hero/todays_oil_boom__mobile_bg.png');
+    }
+  }
+
+  .page--financial-futures & {
+    background-color: #0079c1;
+
+    // this file didn't exist during 2020 rebuild and was not in use on prod
+    // background-image: url('/assets/img/hero/econ_and_futures__desktop_bg.png');
+    // background-position: top center;
+    // background-repeat: repeat-x;
+  }
+
+  .page--interest-rates-explained & {
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-image: url('/assets/img/hero/mortgage_rates__desktop_bg.png');
+
+    @media (max-width: 992px) {
+      background-image: url('/assets/img/hero/mortgage_rates__tablet_bg.png');
+    }
+
+
+    @media (max-width: 767px) {
+      background-image: url('/assets/img/hero/mortgage_rates__mobile_bg.png');
     }
   }
 }

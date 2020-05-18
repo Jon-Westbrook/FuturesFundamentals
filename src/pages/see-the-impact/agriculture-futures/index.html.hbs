@@ -1,0 +1,97 @@
+---
+url: see-the-impact/agriculture-futures/index.html
+title: Agriculture Futures - Futures Fundamentals
+body:
+  class: page page-id-23 page-parent page-child parent-pageid-7 page-template-default page--agriculture-futures
+mainDivClass: article
+eyebrow: See the Impact 
+headline: "Agriculture Futures: Between the Farm and the Table"
+video-callout:
+  link:
+    href: http://www.econessentialsinschool.com/videos
+    img: /assets/img/screenshots/seekervideo_farm.jpg
+  headline: Creating the Farm of the Future
+  copy: A wave of young American farmers is taking its place at the forefront of the industry. See how this new generation is changing the way people think about agriculture.
+  img:
+    eyebrow: EconEssentials
+    src: /assets/img/seeker-stories-logo.png
+related-links:
+  -
+    headline: Want to learn more?
+    copy: Take an interactive journey from the farm to the table in this new educational resource developed in partnership with Discovery Education
+    icon-class: call-discovery-icon
+    link:
+      href: http://www.econessentialsinschool.com/sites/econessentialsinschool.com/themes/econ_ui/assets/modules/food/#slide1-1
+      text: CHECK OUT THE “FACTS ABOUT FOOD” MODULE
+article-pagination:
+  next:
+    href: /see-the-impact/agriculture-futures/food-prices-explained/
+    name: Food Prices Explained
+  prev:
+    href: /see-the-impact/the-ingredients-of-everyday-life/
+    name: Futures Products
+---
+
+<div class="article_hero" style=" ">
+  <img class="hero__image--desktop hidden-xs hidden-sm hidden-md" src="/assets/img/hero/food_and_futures__desktop_fg.png" />
+  <img class="hero__image--tablet hidden-xs visible-sm visible-md hidden-lg hidden-xl" src="/assets/img/hero/food_and_futures__tablet_fg.png" />
+  <img class="hero__image--mobile visible-xs hidden-md hidden-lg " src="/assets/img/hero/food_and_futures__mobile_fg.png" />
+</div>
+
+{{#with page}}
+  {{> page-headline}}
+{{/with}}
+
+<div class="container">
+  <article id="post-23" class="post-23 page type-page status-publish hentry">
+    <div class="cf-content">
+
+      {{#> column-layout--default}}
+        <p>We all know that grains and livestock have sustained us for thousands of years, but did you know that they are the foundational products upon which the first futures exchanges were established? Today, agricultural markets are highly complex. They involve farmers, ranchers, processors, distributors, packagers, wholesalers and retailers all working to help lock in fair and predictable prices for the food we buy at the store.</p>
+      {{/column-layout--default}}
+
+      {{#> column-layout--default includeGlossary=true}}
+        <h3 class="article_headline">Who hedges?</h3>
+        <p>Let’s say that a cattle rancher is concerned about lower prices at the time his animals will be ready to bring to market. He uses the futures market to <em class="glossary__term" data-term="hedge">hedge</em>, or attempt to minimize, his price <em class="glossary__term" data-term="risk">risk</em>. He can calculate the cash price he needs for his livestock, and then sell live cattle futures at the futures exchange to lock in that price. This will ensure his profitability, despite any declines in the market price for his herd.</p>
+      {{/column-layout--default}}
+        
+      {{#> column-layout--default includeGlossary=true}}
+        <h3 class="article_headline">And who speculates?</h3>
+        <p>Now, on the other side of the transaction are the individual and <em class="glossary__term" data-term="institutional trader">institutional traders</em> who are willing to absorb the risk being transferred by the cattle rancher. They <em class="glossary__term" data-term="speculator">speculate</em>, or invest with intent to profit, by buying and selling cattle contracts.</p>
+      {{/column-layout--default}}
+      
+          {{!-- <div class="col col-md-2 col-sm-3 hidden-xs column-icon "> --}}
+      {{#> callout-example icon='grocery-icon'}}
+        <p class="caption_subtitle grocery-icon">How do real grocery stores use futures?</p>
+        <p>Linda Whiteside is responsible for dairy and frozen food products at Associated Wholesale Grocers (AWG), a member-owned co-op serving more than 2,900 stores in 24 states.</p>
+        <p>“Our concern is controlling our costs,” Whiteside says. “Our goal is to keep our stores very competitive in their markets.”</p>
+        <p>To control costs, AWG works with vendors to ensure price points. For example, she works with cheese vendors to hedge their needs over a certain period of time, generally via CME Group Class III milk futures or cheese futures contracts.</p>
+        <p>“Where we can, we will work with vendors to establish a hedge that they might choose,” she says, “but every vendor is different, and we work with multiple vendors to ensure consistent supply.”</p>
+      {{/callout-example}}
+      
+      <!--
+<div class="vsa__unfinished">
+  <h3 style="text-align:center">[Placeholder for image "[rising demand for meat infographic]"]</h3>
+</div>
+-->
+
+      {{#> module-image}}
+        <img alt="[rising demand for meat infographic]" src="{{site.baseurl}}/assets/img/infographics/rising_demand_meat_infographic__desktop.png" class="hidden-xs" /> <img alt="[rising demand for meat infographic]" src="{{site.baseurl}}/assets/img/infographics/rising_demand_meat_infographic__mobile.png" class="hidden-sm  hidden-md hidden-lg" />
+      {{/module-image}}
+      
+
+      {{#with page.video-callout}}
+        {{> video-callout }}
+      {{/with}}
+
+      {{> links-related links=page.related-links }}
+
+    </div>
+  </article>
+  
+  {{> global--social-share}}
+</div>
+
+{{#with page.article-pagination}}
+  {{> article-pagination}}
+{{/with}}

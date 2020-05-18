@@ -229,11 +229,11 @@ body {
 	.column-icon {
 		display:table-cell;
 		height:100%;
-		background:url('/assets/img/column-icon-article.png') no-repeat center top;
+		background:url('/assets/img/icons/column-icon-article.png') no-repeat center top;
 
 
 		&.article-icon {
-			background-image:url('/assets/img/column-icon-article.png')
+			background-image:url('/assets/img/icons/column-icon-article.png')
 		}
 
 		&.futures-icon {
@@ -245,7 +245,7 @@ body {
 		}
 
 		&.sun-icon {
-			background-image:url('/assets/img/column-icon-sun.png')
+			background-image:url('/assets/img/icons/column-icon-sun.png')
 		}
 
 		background-size:80px;
@@ -283,7 +283,7 @@ body {
 			background-repeat: no-repeat;
 
 			&.article-icon {
-				background-image:url('/assets/img/column-icon-article.png')
+				background-image:url('/assets/img/icons/column-icon-article.png')
 			}
 
 			&.futures-icon {
@@ -297,7 +297,7 @@ body {
 			}
 
 			&.sun-icon {
-				background-image:url('/assets/img/column-icon-sun.png');
+				background-image:url('/assets/img/icons/column-icon-sun.png');
 				line-height: 24px;
 				padding-top: 3px;
 			}

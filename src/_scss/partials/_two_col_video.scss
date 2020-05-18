@@ -1,7 +1,8 @@
 .video-2col-container {
-	margin:20px 0;
+	// align-items: stretch;
 	background-color:$gray-10;
-	display: table;
+	display: flex;
+	margin: 20px 0;
 	width: 100%;
 	
 	.col-md-8 {
@@ -29,8 +30,20 @@
       	}
 	}
 
+	.col-md-4 {
+		display: flex;
+	}
+
+	.video-callout__wrapper {
+		display: flex;
+		flex-direction: column;
+		// height: 100%;
+		justify-content: space-between;
+		padding: 30px 15px 0;
+	}
+
 	.text {
-		padding:30px 15px 0;
+
 		h4, p {
 			font-size:18px;
 			line-height:1.5em;
@@ -63,7 +76,7 @@
 }
 
 .econ-essentials {
-	margin-top: 73px;
+	margin-bottom: 52px;
 	
 	h5 {
 		color: #fff;

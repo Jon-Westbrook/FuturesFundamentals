@@ -178,10 +178,14 @@ envs.forEach(env => {
         )
     }
 
-    buildProcess.build(err => {
-      if (err) {
-        throw err
-      }
+    return new Promise((resolve, reject) => {
+      buildProcess.build(err => {
+        if (err) {
+          reject(err)
+        }
+
+        resolve()
+      })
     })
   })
 })

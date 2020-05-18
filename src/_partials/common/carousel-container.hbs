@@ -1,19 +1,21 @@
 <div class="row full-width">
   <div class="carousel-container {{ class }}">
-    <div id="{{ id }}" class="carousel {{#if slide}}slide carousel-custom-slide{{/if}} scrollAnalyticsItem" data-ride="carousel" data-interval="false" data-analytics-category="{{ data-analytics-category }}" data-analytics-action="{{ data-analytics-action }}" data-analytics-label="{{ data-analytics-label }}">
+    <div id="{{ id }}" class="carousel {{#if slide}}slide carousel-custom-slide{{/if}} {{#unless no-analytics}}scrollAnalyticsItem{{/unless}}" data-ride="carousel" data-interval="false" {{#unless no-analytics}}data-analytics-category="{{ data-analytics-category }}" data-analytics-action="{{ data-analytics-action }}" data-analytics-label="{{ data-analytics-label }}"{{/unless}}>
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
 
         {{> @partial-block}}
 
-        <div class="carousel-controls-container hidden-md hidden-lg">
-          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
+        {{#unless hide-controls}}
+          <div class="carousel-controls-container hidden-md hidden-lg">
+            <a class="left carousel-control" href="{{ controls-href }}" role="button" data-slide="prev">
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="{{ controls-href }}" role="button" data-slide="next">
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        {{/unless}}
       </div>
     </div>
   </div>

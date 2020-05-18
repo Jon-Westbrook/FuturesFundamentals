@@ -1,0 +1,33 @@
+<div class="item {{#if (eq 0 @index)}}active{{/if}}">
+  <div class="col-md-6">
+    <div class="slide-num slide-num-mobile">
+      <span class="current">{{ sum @index 1 }}</span> of {{ total-items }}
+    </div>
+    <div class="carousel-image">
+      <div class="fp_icon icon-drop">
+        <img src="/assets/img/food-prices/food-prices_{{ img-id }}.png" />
+        <span class="icon-shadow"></span>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="carousel-text">
+      <div class="slide-num">
+        <span class="current">{{ sum @index 1 }}</span> of {{ total-items }}
+      </div>
+      <h4>{{ headline }}</h4>
+      {{#each copy}}
+        <p>{{ . }}</p>
+      {{/each}}
+    </div>
+    
+    <div class="carousel-controls-container">
+      <a class="left carousel-control" href="#food-price-carousel" role="button" data-slide="prev">
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#food-price-carousel" role="button" data-slide="next">
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</div>

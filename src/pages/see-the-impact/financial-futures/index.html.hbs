@@ -1,0 +1,123 @@
+---
+url: ./see-the-impact/financial-futures/index.html
+title: "Financial Futures - Futures Fundamentals"
+body:
+  class: singular page page-id-34 page-parent page-child parent-pageid-7 page-template-default page--financial-futures
+mainDivClass: article
+hero:
+  image:
+    id: econ_and_futures
+eyebrow: See the Impact
+headline: "Financial Futures: Between a Business and Its Global Consumers"
+example-list:
+  headline: Three types of financial futures markets
+  examples:
+    -
+      headline: The Foreign Currency Market
+      copy: If you buy products or services in other countries, you must manage the risk of fluctuations in <em class="glossary__term" data-term="foreign exchange rate">foreign exchange rates</em>.
+      examples:
+        -
+          icon: flight
+          copy: You’re planning a European vacation for your family. The exchange rate you pay when you convert your money is shaped by euro futures.
+        -
+          icon: profit
+          copy: An international company sees its profits from global commerce rise and fall due to swings in these exchange rates. It uses currency futures to stabilize its profits.
+        -
+          icon: manufacture
+          copy: A manufacturer has a number of investments in foreign factories. It uses currency futures to protect its holdings against currency fluctuations in the countries where these factories are based.
+    -
+      headline: The interest rate market
+      copy: If you lend or borrow money, you must manage the risk of shifting interest rates to ensure a steady level of access to your capital.
+      examples:
+        -
+          icon: car
+          copy: You are financing a new car. The interest rate you pay on your loan is stabilized by interest rate swap futures.
+        -
+          icon: art
+          copy: A city art museum wants to manage the value of its endowment. It uses futures to protect itself from changes in U.S. Treasury bond rates.
+        -
+          icon: open
+          copy: A bank is lending money to a promising small business. Interest rate futures let the bank manage the costs of lending and give the business a more predictable line of credit it can use to hire more people and create new products.
+    -
+      headline: The equity index market
+      copy: If you invest in stocks, you may want to manage the risk of price changes reflected in underlying equity indexes such as the S&P 500 and the Dow Jones Industrial Average.
+      examples:
+        -
+          icon: bank
+          copy: You contribute to a company-sponsored 401k. The investment manager in charge of the program uses equity index futures to balance your portfolio, and protect it against sudden drops in the major stock indexes.
+        -
+          icon: building
+          copy: A hedge fund makes a large investment on behalf of an institutional client. Equity index futures protect the value of that investment, no matter what happens in the stock market.
+        -
+          icon: trader
+          copy: An individual trader might want to profit from movements in a stock index. He’ll use equity index futures to <em class="glossary__term" data-term="leverage">leverage</em> his portfolio. At the same time, he absorbs the risks of those looking to hedge against those same price movements.
+video-callout:
+  headline: Open for Business in a Newly Open Cuba
+  copy: Meet a restaurateur looking to capitalize on new opportunities and build her business in a post-embargo Cuba.
+  link:
+    href: http://www.econessentialsinschool.com/videos
+    img: /assets/img/screenshots/seekervideo_cuba.jpg
+  img:
+    src: /assets/img/seeker-stories-logo.png
+    eyebrow: EconEssentials
+related-links:
+  -
+    headline: Want to learn more?
+    copy: See if you can navigate tricky financial situations – like dealing with student loans and buying a car – using our educational resource developed in partnership with Discovery Education.
+    icon-class: call-discovery-icon
+    link:
+      href: http://www.econessentialsinschool.com/sites/econessentialsinschool.com/files/InteractiveModules/foundations-of-finance/
+      text: Check out the “Foundations of Finance” module
+article-pagination:
+  next:
+    href: /see-the-impact/financial-futures/interest-rates-explained/
+    name: Interest Rates Explained
+  prev:
+    href: /see-the-impact/energy-futures/north-american-oil-production/
+    name: Today's Crude Oil Boom
+---
+
+{{#with page.hero}}
+  {{> article-hero}}
+{{/with}}
+
+{{#with page}}
+  {{> page-headline}}
+{{/with}}
+
+<div class="container">
+  <article id="post-34" class="post-34 page type-page status-publish hentry">
+    <div class="cf-content">
+
+      {{#> column-layout--default includeGlossary=true }}
+        <p>The concept of <em class="glossary__term">futures</em> trading can seem fairly simple when we’re explaining physical <em class="glossary__term" data-term="commodity">commodities</em> such as agricultural products, metals or crude oil. But things start to get more complex when we enter the intangible world of financial futures.</p>
+        <p>This is where we get into the business of <em class="glossary__term" data-term="financial instrument">financial instruments</em> – trading numbers and figures, calculations and data, percentages and indexes. The products may seem abstract, but they are integral to the world’s economies because they enable governments, businesses and financial institutions to manage the costs of doing business. </p>
+      {{/column-layout--default}}
+
+      {{#> callout-example includeGlossary=true }}
+        <p class="caption_subtitle article-icon">A quick history</p>
+        <p>In 1972, the post-WWII Bretton Woods agreement – which attempted to peg the world’s currencies against the U.S. dollar – had failed. <em class="glossary__term" data-term="financial future">Financial futures</em> in foreign currencies were introduced to help resolve the crisis, introducing the first non-commodity-based contracts. These innovations are now among the most vital and actively traded futures in today’s markets.</p>
+      {{/callout-example}}
+
+      <a name="fxexplained"></a>
+      {{> brightcove-video id='fxexplained' vid-id='ref:150616vsa_fxexplained' }}
+      
+      {{#with page.example-list}}
+        {{> example-list}}
+      {{/with}}
+
+      {{#with page.video-callout}}
+        {{> video-callout }}
+      {{/with}}
+
+      {{> links-related links=page.related-links}}
+
+    </div>
+  </article>
+  
+  {{> global--social-share}}
+</div>
+
+{{#with page.article-pagination}}
+  {{> article-pagination }}
+{{/with}}

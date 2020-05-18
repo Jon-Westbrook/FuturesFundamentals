@@ -1,0 +1,69 @@
+---
+url: /see-the-impact/energy-futures/gas-prices-explained/index.html
+title: "Gas Prices Explained - Futures Fundamentals"
+body:
+  class: singular page page-id-31 page-child parent-pageid-30 page-template-default page--gas-prices-explained
+mainDivClass: article
+hero:
+  image:
+    id: gas_prices_explained
+eyebrow: See the Impact
+headline: Gas Prices Explained
+related-links:
+  -
+    headline: The sources of oil prices
+    copy: See a broad overview of the global factors that influence crude oil prices
+    icon-class: call-sources-oil-prices-icon
+    link:
+      href: /assets/pdf/The_Facts_Behind_Oil_Prices.pdf
+      text: Download PDF, 768KB
+  -
+    headline: Want to learn more?
+    copy: See if you can predict future gas prices using our interactive, educational resource developed in partnership with Discovery Education.
+    icon-class: call-discovery-icon
+    link:
+      href: http://www.econessentialsinschool.com/sites/econessentialsinschool.com/themes/econ_ui/assets/modules/fuel/
+      text: CHECK OUT THE "FUELING THE FUTURE" MODULE
+article-pagination:
+  next:
+    href: /see-the-impact/energy-futures/north-american-oil-production/
+    name: Today's Crude Oil Boom
+  prev:
+    href: /see-the-impact/energy-futures/
+    name: Energy Futures
+---
+
+{{#with page.hero}}
+  {{> article-hero}}
+{{/with}}
+
+{{#with page}}
+  {{> page-headline }}
+{{/with}}
+
+<div class="container">
+  <article id="post-31" class="post-31 page type-page status-publish hentry">
+    <div class="cf-content">
+      
+      {{#> column-layout--default includeGlossary=true }}
+        <p>Gas prices never seem to stay in one spot for very long. To understand <em>why</em> it’s like this, we have to look beyond the pump and see the bigger picture.</p>
+      {{/column-layout--default}}
+      
+      {{#> column-layout--default}}
+        <h3 class="article_headline">See the journey from ground to pump.</h3>
+      {{/column-layout--default}}
+
+      <a name="thestoryofoil"></a>
+      {{> brightcove-video id='thestoryofoil' vid-id='ref:140523StoryofOil_1080' }}
+      
+      {{> links-related links=page.related-links}}
+
+    </div>
+  </article>
+  
+  {{> global--social-share}}
+</div>
+
+{{#with page.article-pagination}}
+  {{> article-pagination}}
+{{/with}}

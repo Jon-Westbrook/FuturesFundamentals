@@ -33,7 +33,7 @@ article-pagination:
         <p><em class="glossary__term">Futures</em> trading helps businesses around the world navigate risk and uncertainty. By locking in future prices using futures products, they are better equipped to take on new opportunities, act more quickly and decisively, grow their businesses and ultimately help reduce costs for you, the consumer.</p>
       {{/column-layout--default}}
       
-      {{#> carousel-container slide=true id='myCarousel' data-analytics-category='Carousel View' data-analytics-action='Carousel: Turning futures into opportunity' data-analytics-label='Slide 1' }}
+      {{#> carousel-container slide=true id='myCarousel' controls-href='#myCarousel' data-analytics-category='Carousel View' data-analytics-action='Carousel: Turning futures into opportunity' data-analytics-label='Slide 1' }}
 
         {{#> carousel-item active=true headline='Turning futures into opportunity' img='/assets/img/slideshow/WDFM_carousel__1_RealEstate.jpg' }}
           <p>Real estate developers can put more money into new building projects. So your community gets new schools, new homes and new commercial centers.</p>
@@ -57,16 +57,16 @@ article-pagination:
         <p>Futures play a huge role in our economy. But they also impact the smallest areas of your life — like the cereal you have for breakfast. See how below.</p>
       {{/column-layout--default}}
 
-      {{#> carousel-container id='cereal_infographic' class='cereal-container infographic' data-analytics-category='Interactive Infographic View' data-analytics-action='Cereal Datagram' data-analytics-label='Slide 1' }}
+      {{#> carousel-container id='cereal_infographic' class='cereal-container infographic' hide-controls=true data-analytics-category='Interactive Infographic View' data-analytics-action='Cereal Datagram' data-analytics-label='Slide 1' }}
       
-        {{#> carousel-item--lottie active=true id='cereal_title' class='title-slide' lottie-json='/assets/json/lottie/Cereal_animation_01.json' custom-controls=true custom-controls-text='Learn why' custom-controls-href='#cereal_infographic' }}
+        {{#> carousel-item--lottie active=true id='cereal_title' class='title-slide' lottie-json='/assets/json/lottie/Cereal_animation_01.json' custom-controls=true custom-controls-text='Learn why' controls-href='#cereal_infographic' }}
           <div class="carousel-text">
             <h4>More goes into your bowl of breakfast cereal than milk</h4>
             <p>On the surface, the recipe for a bowl of cereal seems simple: just add milk and find a spoon. But futures play a role in every part of your breakfast — from the grains it’s made with to the milk you pour on it. </p>
           </div>
         {{/carousel-item--lottie}}
 
-        {{#> carousel-item--lottie id="cereal_2" lottie-json='/assets/json/lottie/Cereal_animation_02.json' slide-num='1' slide-total='5' }}
+        {{#> carousel-item--lottie id="cereal_2" lottie-json='/assets/json/lottie/Cereal_animation_02.json' controls-href='#cereal_infographic' slide-num='1' slide-total='5' }}
           <div class="icon">
             <img src="/assets/img/cereal/Cereal_icon_1_grain_@2x.png">
           </div>
@@ -79,7 +79,7 @@ article-pagination:
           </div>
         {{/carousel-item--lottie}}
 
-        {{#> carousel-item--lottie id="cereal_3" lottie-json='/assets/json/lottie/Cereal_animation_03.json' slide-num='2' slide-total='5' }}
+        {{#> carousel-item--lottie id="cereal_3" lottie-json='/assets/json/lottie/Cereal_animation_03.json' controls-href='#cereal_infographic' slide-num='2' slide-total='5' }}
           <div class="icon">
             <img src="/assets/img/cereal/Cereal_icon_2_energy_@2x.png">
           </div>
@@ -92,7 +92,7 @@ article-pagination:
           </div>
         {{/carousel-item--lottie}}
 
-        {{#> carousel-item--lottie id='cereal_4' lottie-json='/assets/json/lottie/Cereal_animation_04.json' slide-num='3' slide-total='5'}}
+        {{#> carousel-item--lottie id='cereal_4' lottie-json='/assets/json/lottie/Cereal_animation_04.json' controls-href='#cereal_infographic' slide-num='3' slide-total='5'}}
           <div class="icon">
             <img src="/assets/img/cereal/Cereal_icon_3_IR_@2x.png">
           </div>
@@ -105,7 +105,7 @@ article-pagination:
           </div>
         {{/carousel-item--lottie}}
               
-        {{#> carousel-item--lottie id='cereal_5' lottie-json='/assets/json/lottie/Cereal_animation_05.json' slide-num='4' slide-total='5' }}
+        {{#> carousel-item--lottie id='cereal_5' lottie-json='/assets/json/lottie/Cereal_animation_05.json' controls-href='#cereal_infographic' slide-num='4' slide-total='5' }}
           <div class="icon">
             <img src="/assets/img/cereal/Cereal_icon_4_dairy_@2x.png">
           </div>
@@ -118,7 +118,7 @@ article-pagination:
           </div>
         {{/carousel-item--lottie}}
 
-        {{#> carousel-item--lottie id='cereal_6' lottie-json='/assets/json/lottie/Cereal_animation_06.json' slide-num='5' slide-total='5' }}
+        {{#> carousel-item--lottie id='cereal_6' lottie-json='/assets/json/lottie/Cereal_animation_06.json' controls-href='#cereal_infographic' restart-control=true slide-num='5' slide-total='5' }}
           <div class="icon">
             <img src="/assets/img/cereal/Cereal_icon_5_steel_@2x.png">
           </div>

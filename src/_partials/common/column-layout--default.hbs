@@ -1,4 +1,4 @@
-<div class="row module__body-copy">
+<div class="row module__{{ ifElse module-type module-type 'body-copy' }}">
   <div class="col-md-2 hidden-sm hidden-xs"></div>
   <div class="col-md-8">
     {{> @partial-block}}
