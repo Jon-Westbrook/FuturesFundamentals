@@ -116,10 +116,15 @@
   }
 
   .page--ingredients-of-everyday-life & {
-    background-position: top center;
     background-color: #0d671e;
-    background-repeat: repeat-x;
-    background-image: url('/assets/img/hero/ingred_everyday__desktop_bg.png');
+
+    // this file didn't exist during 2020 rebuild and was not in use on prod
+    // background-image: url('/assets/img/hero/gas_prices_explained__desktop_bg.png');
+    // background-position: top center;
+    // background-repeat: repeat-x;
+    // background-image: url('/assets/img/hero/ingred_everyday__desktop_bg.png');
+    // background-position: top center;
+    // background-repeat: repeat-x;
   }
 
   .page--agriculture-futures & {
@@ -194,15 +199,92 @@
   .page--interest-rates-explained & {
     background-position: top center;
     background-repeat: repeat-x;
-    background-image: url('/assets/img/hero/mortgage_rates__desktop_bg.png');
+    background-image: url('/assets/img/hero/interest_rates__desktop_bg.png');
 
     @media (max-width: 992px) {
-      background-image: url('/assets/img/hero/mortgage_rates__tablet_bg.png');
+      background-image: url('/assets/img/hero/interest_rates__tablet_bg.png');
     }
 
 
     @media (max-width: 767px) {
-      background-image: url('/assets/img/hero/mortgage_rates__mobile_bg.png');
+      background-image: url('/assets/img/hero/interest_rates__mobile_bg.png');
+    }
+  }
+
+  .page--wide-world-futures-traders & {
+    background-color: #7ed9fe;
+
+    // this file didn't exist during 2020 rebuild and was not in use on prod
+    // background-image: url('/assets/img/hero/world_futures_trading__desktop_bg.png');
+    // background-position: top center;
+    // background-repeat: repeat-x;
+  }
+
+  .page--exchange-how-it-works & {
+    background-position: top center;
+    background-color: #000000;
+    background-repeat: repeat-x;
+    background-image: url('/assets/img/hero/exch_how_it_works__desktop_bg.png');
+
+    @media (max-width: 992px) {
+      background-image: url('/assets/img/hero/exch_how_it_works__tablet_bg.png');
+    }
+
+    @media (max-width: 767px) {
+      background-image: url('/assets/img/hero/exch_how_it_works__mobile_bg.png');
+    }
+  }
+
+  .page--learn-how-to-trade & {
+    background-color: #D4DBE5;
+  }
+
+  .page--understand-market-snapshot & {
+    background-color: #0dd81e;
+
+    // this file didn't exist during 2020 rebuild and was not in use on prod
+    // background-image: url('/assets/img/hero/undrstnd_mkt_snapshot__desktop_bg.png');
+    // background-position: top center;
+    // background-repeat: repeat-x;
+  }
+
+  .page--study-trading-chart & {
+    background-position: top center;
+    background-color: #dcf6ff;
+    background-repeat: repeat-x;
+    background-image: url('/assets/img/hero/study_trading_chart__desktop_bg.png');
+
+    @media (max-width: 992px) {
+      background-image: url('/assets/img/hero/study_trading_chart__tablet_bg.png');
+    }
+
+    @media (max-width: 767px) {
+      background-image: url('/assets/img/hero/study_trading_chart__mobile_bg.png');
+    }
+  }
+
+  .page--assess-market-conditions & {
+    background-color: #5FBAE9;
+
+    // this file didn't exist during 2020 rebuild and was not in use on prod
+    // background-image: url('/assets/img/hero_images/assess_mkt_condtns__desktop_bg.png');
+    // background-position: top center;
+    // background-repeat: repeat-x;
+  }
+
+  .page--place-a-trade & {
+    background-position: top center;
+    background-color: #d4dbe5;
+    background-repeat: repeat-y;
+    background-size: 100% 100% !important;
+    background-image: url('/assets/img/hero/place_trade__desktop_bg.png');
+
+    @media (max-width: 992px) {
+      background-image: url('/assets/img/hero/place_trade__tablet_bg.png');
+    }
+
+    @media (max-width: 767px) {
+      background-image: url('/assets/img/hero/place_trade__mobile_bg.png');
     }
   }
 }

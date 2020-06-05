@@ -1,0 +1,98 @@
+---
+url: explore-the-marketplace/the-exchange-how-it-works/learn-how-to-trade/index.html
+title: Learn How to Trade  - Futures Fundamentals
+body:
+  class: singularpage page-id-136 page-child parent-pageid-121 page-template-default page--learn-how-to-trade
+  id: main-content
+mainDivClass: article 
+hero:
+  image:
+    id: learn_how_trade
+eyebrow: 'The Exchange: How it Works'
+headline: Learn How to Trade
+candlesticks:
+  - red
+  - red
+  - doji
+  - green
+  - green
+  - red
+  - red
+  - green
+  - green
+  - green
+  - red
+  - red
+  - red
+  - green
+  - red
+  - red
+  - green
+  - doji
+  - green
+  - green
+  - green
+related-links:
+  -
+    headline: ALREADY KNOW THE BASICS?
+    copy: Bypass the tutorial and start trading now using our practice simulator.
+    icon-class: call-trade-icon
+    link:
+      href: http://futures-fundamentals-ndjmr3dnam.elasticbeanstalk.com
+      text: Launch Simulator
+article-pagination:
+  next:
+    href: /explore-the-marketplace/the-exchange-how-it-works/understand-the-market-snapshot/
+    name: Understand the Market Snapshot
+  prev:
+    href: /explore-the-marketplace/the-exchange-how-it-works/
+    name: 'The Exchange: How It Works'
+---
+
+{{#with page.hero}}
+  {{> article-hero}}
+{{/with}}
+
+{{#with page}}
+  {{> page-headline }}
+{{/with}}
+
+<div class="container">
+  <article id="post-136" class="post-136 page type-page status-publish hentry">
+    <div class="cf-content">
+
+      {{#> column-layout--default includeGlossary=true}}
+        <p>If you're curious about what it's like to trade <em class="glossary__term" data-term="future">futures</em> and <em class="glossary__term" data-term="option">options</em>, now's your chance to try in a practice trading environment. But before you start buying and selling, let’s look at an example. Over the next four pages, we’ll walk through the steps of a sample corn trade. From research and analysis to reading market conditions and placing a trade, this tutorial will help you understand what to expect when you try your hand at trading using our simulator.</p>
+        <p>We’re not going to lie – this is complicated. There’s a lot to consider when making a trade. But when you focus on the different pieces, you can more easily make sense of the whole electronic trading process. First you need to get a sense of the current market. </p>
+      {{/column-layout--default}}
+
+      <!-- error ai -->
+      <div class="module__animated-image full-width" id="controller_Simulator_Intro">
+        <div id="simulator_intro" class="module__bg module module__animated-image scrollAnimation--capable scrollAnimation--before">
+          <div class="simulator-ui">
+            <img class="simulator-img" src="/assets/img/FPO-simulator_intro_bg.jpg" />
+            <div class="sticks">
+              {{#each page.candlesticks}}
+                {{> candlestick color=. num=(sum @index 1) large=true no-label=true stick=true }}
+              {{/each}}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {{#> column-layout--default includeGlossary=true}}
+        <p>Most <em class="glossary__term" data-term="trader">traders</em> use a variety of tools to inform their decision making. Broadly speaking, there are two kinds of analytical tools that can help you make the most of your trades: <em class="glossary__term" data-term="technical analysis">technical analysis</em> and <em class="glossary__term" data-term="fundamental analysis">fundamental analysis</em>. Let's start with technical analysis.</p>
+      {{/column-layout--default}}
+
+      {{> links-related links=page.related-links}}
+
+    </div>
+  </article>
+  
+  {{> global--social-share}}
+
+</div>
+
+{{#with page.article-pagination}}
+  {{> article-pagination}}
+{{/with}}

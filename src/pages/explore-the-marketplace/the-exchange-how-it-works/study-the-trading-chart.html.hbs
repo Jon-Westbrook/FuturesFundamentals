@@ -1,0 +1,156 @@
+---
+url: explore-the-marketplace/the-exchange-how-it-works/study-the-trading-chart/index.html
+title: Study the Trading Chart - Futures Fundamentals
+body:
+  class: singular page page-id-138 page-child parent-pageid-121 page-template-default page--study-trading-chart
+mainDivClass: article
+hero:
+  image:
+    id: study_trading_chart
+eyebrow: 'The Exchange: How it Works'
+headline: Study the Trading Chart
+related-links:
+  -
+    headline: ALREADY KNOW THE BASICS?
+    copy: Bypass the tutorial and start trading now using our practice simulator.
+    icon-class: call-trade-icon
+    link:
+      href: http://futures-fundamentals-ndjmr3dnam.elasticbeanstalk.com
+      text: Launch Simulator
+article-pagination:
+  next:
+    href: /explore-the-marketplace/the-exchange-how-it-works/assess-market-conditions/
+    name: Assess Market Conditions
+  prev:
+    href: /explore-the-marketplace/the-exchange-how-it-works/understand-the-market-snapshot/
+    name: Understand the Market Snapshot
+---
+
+{{#with page.hero}}
+  {{> article-hero}}
+{{/with}}
+
+{{#with page}}
+  {{> page-headline}}
+{{/with}}
+
+<div class="container">
+  <article id="post-138" class="post-138 page type-page status-publish hentry">
+    <div class="cf-content">
+
+      {{#> column-layout--default}}
+        <p>The trading chart displays information that can help you decide when to enter and exit a position. There are many kinds of trading charts: bar charts, line charts, point and figure, market profile and candlesticks. For this example, we’ll focus on candlesticks, one commonly used chart type.</p>
+      {{/column-layout--default}}
+      
+      <!-- error ai -->
+      <div class="module__animated-image full-width" id="controller_Candlestick_Colors">
+        <div id="simulator_candlestick_colors" class="module__animated-image module ">
+          <div class="row">
+            <div class="col-sm-0 col-md-2 col-lg-2">&nbsp;</div>
+            <div class="col-sm-6 col-md-4 col-lg-4 module__bg scrollAnimation--capable scrollAnimation--before">
+              <div id="Candlestick_Labelled">
+                {{> candlestick}}
+                <div class="shadow shadow_356"></div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 module__bg scrollAnimation--capable scrollAnimation--before">
+              <div cid="Candlestick_Labelled">
+                {{> candlestick color='red'}}
+                <div class="shadow shadow_356"></div>
+              </div>
+            </div>
+            <div class="col-sm-0 col-md-2 col-lg-2">&nbsp;</div>
+          </div>
+        </div>
+      </div>
+
+      {{#> column-layout--default}}
+        <p>A candlestick chart is a combination of a line chart and a bar graph. You can change chart types depending on your preferred view, but most traders prefer candlesticks because of the depth of information each stick can convey. Each candlestick gives you four key pieces of information within your selected time interval.</p>
+        <p>Again, red and green are important visual indicators. This time, the stick will be red if the market started the time interval higher and ended lower. But what do the different lengths mean?</p>
+        <p>Each stick and wick on the chart tells you where the market has been and where it could be going. Typically, each candlestick represents only a small portion of the trading period, 10 minutes, for example.</p>
+      {{/column-layout--default}}
+
+      <!-- error ai -->
+      <div class="module__animated-image full-width" id="controller_Candlestick_Types">
+        <div id="simulator_candlestick_types" class="module__animated-image module ">
+          <div class="row candlestick-container">
+            <div class="col col-lg-2 col-md-2 module__bg col-sm-2 col-xs-6 scrollAnimation--capable scrollAnimation--before">
+              <div id="candlestick__short-stick">
+                {{> candlestick color='green' no-label=true short=true}}
+                <div class="shadow shadow_150"></div>
+                <div class="candlestick__caption">
+                  <div class="candlestick__name">Short Stick</div>
+                  <div class="candlestick__description">Indicates little price movement throughout the trading period.</div>
+                </div>
+              </div>
+            </div>
+            <div class="col col-lg-2 col-md-2 module__bg col-sm-2 col-xs-6 scrollAnimation--capable scrollAnimation--before">
+              <div id="candlestick__long-stick">
+                {{> candlestick color='green' long=true no-label=true}}
+                <div class="shadow shadow_150"></div>
+                <div class="candlestick__caption">
+                  <div class="candlestick__name">Long Stick</div>
+                  <div class="candlestick__description">Indicates large price movement throughout the trading period.</div>
+                </div>
+              </div>
+            </div>
+            <div class="col col-lg-2 col-md-2 module__bg col-sm-2 col-xs-6 scrollAnimation--capable scrollAnimation--before">
+              <div id="candlestick__short-wick">
+                {{> candlestick color='green' no-label=true wick=true short-wick=true}}
+                <div class="shadow shadow_150"></div>
+                <div class="candlestick__caption">
+                  <div class="candlestick__name">Short Wick</div>
+                  <div class="candlestick__description">Shows that most of the trading happened close to the starting price.</div>
+                </div>
+              </div>
+            </div>
+            <div class="col col-lg-2 col-md-2 module__bg col-sm-2 col-xs-6 scrollAnimation--capable scrollAnimation--before">
+              <div id="candlestick__long-wick">
+                {{> candlestick color='green' no-label=true wick=true long-wick=true }}
+                <div class="shadow shadow_150"></div>
+                <div class="candlestick__caption">
+                  <div class="candlestick__name">Long Wick</div>
+                  <div class="candlestick__description">Shows that the price moved significantly.</div>
+                </div>
+              </div>
+            </div>
+            <div class="col col-lg-2 col-md-2 module__bg col-sm-2 col-xs-6 scrollAnimation--capable scrollAnimation--before">
+              <div id="candlestick__doji">
+                {{> candlestick color='doji' no-label=true }}
+                <div class="shadow shadow_150"></div>
+                <div class="candlestick__caption">
+                  <div class="candlestick__name">Doji</div>
+                  <div class="candlestick__description">Tells you the period’s beginning and ending prices were nearly identical.</div>
+                </div>
+              </div>
+            </div>
+            <div class="col col-lg-2 col-md-2 module__bg col-sm-2 col-xs-6 scrollAnimation--capable scrollAnimation--before">
+              <div id="candlestick__dragonfly-doji">
+                {{> candlestick color='doji dragonfly' no-label=true}}
+                <div class="shadow shadow_150"></div>
+                <div class="candlestick__caption">
+                  <div class="candlestick__name">Dragonfly Doji</div>
+                  <div class="candlestick__description">Tells you the opening, closing and highest prices of the period were nearly identical.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {{#> column-layout--default}}
+        <p>Understanding these charts will allow you to do <em class="glossary__term" data-term="technical analysis">technical analysis</em> of the corn market, which can help you spot trends and capitalize on potential opportunities.</p>
+      {{/column-layout--default}}
+
+      {{> links-related links=page.related-links}}
+
+    </div>
+  </article>
+  
+  {{> global--social-share}}
+
+</div>
+
+{{#with page.article-pagination}}
+  {{> article-pagination}}
+{{/with}}

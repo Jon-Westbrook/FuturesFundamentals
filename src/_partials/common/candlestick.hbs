@@ -1,0 +1,16 @@
+<div class="candlestick {{#if no-label}}no_label{{/if}} {{#if large}}candlestick--large{{/if}} {{#if short}}short{{/if}} {{#if long}}long{{/if}} {{#if wick}}wick{{/if}} {{#if short-wick}}short-wick{{/if}} {{#if long-wick}}long-wick{{/if}} {{#if stick}}stick{{/if}} {{#if num}}stick_{{ num }}{{/if}} {{#if color}}{{ color }}{{/if}}">
+  <div class="wick"></div>
+  <div class="stick"></div>
+  <div class="candlestick_label wick__label__top indicator--right">Market High
+    <div class="indicator"></div>
+  </div>
+  <div class="candlestick_label wick__label__bottom indicator--right">Market Low
+    <div class="indicator "></div>
+  </div>
+  <div class="candlestick_label stick__label__top indicator--left">Starting Price
+    <div class="indicator "></div>
+  </div>
+  <div class="candlestick_label stick__label__bottom indicator--left">Ending Price
+    <div class="indicator "></div>
+  </div>
+</div>

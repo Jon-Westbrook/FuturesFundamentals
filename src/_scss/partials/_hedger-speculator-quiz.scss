@@ -6,7 +6,7 @@
 	.quiz-animation {
 		height:100%;
 		width:100%;
-		background:url('/assets/img/hedger_speculator/quiz-scroll-vertical.png') repeat-y center center;
+		background:url('/assets/img/hedger-speculator/quiz-scroll-vertical.png') repeat-y center center;
 
 		@include scrollVert($count: infinite, $function: linear, $duration: 20s);
 	}
@@ -27,7 +27,7 @@
 		.icon-shadow {
 			width:250px;
 			height:26px;
-			background:url('/assets/img/hedger_speculator/icon-shadow.png') no-repeat center center;
+			background:url('/assets/img/hedger-speculator/icon-shadow.png') no-repeat center center;
 			background-size:250px 26px;
 			position:absolute;
 			bottom:-50px;
@@ -48,20 +48,20 @@
 
 		&.icon-correct {
 			&:after {
-				background:url('/assets/img/hedger_speculator/icon-check.png') no-repeat center center;
+				background:url('/assets/img/hedger-speculator/icon-check.png') no-repeat center center;
 				background-size:250px 250px;
 			}
 		}	
 
 		&.icon-incorrect {
 			&:after {
-				background:url('/assets/img/hedger_speculator/icon-wrong.png') no-repeat center center;
+				background:url('/assets/img/hedger-speculator/icon-wrong.png') no-repeat center center;
 				background-size:250px 250px;
 			}
 		}
 
 		.results-icon {
-			background:url('/assets/img/hedger_speculator/bkg-medal.png') no-repeat center center;
+			background:url('/assets/img/hedger-speculator/bkg-medal.png') no-repeat center center;
 			background-size:250px 855px;
 			height:285px;
 		}
@@ -502,7 +502,7 @@
         .quiz-animation-mobile {
         	height:100px;
         	margin:0 -15px 50px;
-        	background:url('/assets/img/hedger_speculator/quiz-scroll-horizontal.png') repeat-x center center;
+        	background:url('/assets/img/hedger-speculator/quiz-scroll-horizontal.png') repeat-x center center;
         	background-size:549px 100px;
 
         	@include scrollHoriz($count: infinite, $function: linear, $duration: 12s);

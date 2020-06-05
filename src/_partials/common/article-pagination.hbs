@@ -4,7 +4,7 @@
       {{#with next}}
         <a href="{{ href }}" class="nav-link nav-next">
           <div class="link-article-title">
-            <h4>Next Article</h4>
+            <h4>{{#unless section}}Next Article{{else}}Next Section: {{ section }}{{/unless}}</h4>
             <h3>{{ name }}</h3>
           </div>
         </a>
@@ -15,7 +15,7 @@
       {{#with prev}}
         <a href="{{ href }}" class="nav-link nav-previous">
           <div class="link-article-title">
-            <h4>Previous Article</h4>
+            <h4>{{#unless section}}Previous Article{{else}}Previous Section: {{ section }}{{/unless}}</h4>
             <h3>{{ name }}</h3>
           </div>
         </a>

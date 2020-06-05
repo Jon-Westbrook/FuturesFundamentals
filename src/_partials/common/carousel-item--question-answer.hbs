@@ -1,0 +1,76 @@
+{{!-- question --}}
+<div class="item">
+  <div class="col-md-4">
+    <div class="slide-num slide-num-mobile">
+      No. <span class="slide-number-index">{{ num }}</span>
+      <div class="score-holder"><span class="score-title">Score</span> <span class="score">0</span> of <span class="total">{{ total-num }}</span></div>
+    </div>
+    <div class="carousel-image">
+      <div class="quiz-icon icon-drop">
+        <img src="/assets/img/hedger-speculator/icon-{{ icon }}.png" />
+        <span class="icon-shadow"></span>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="carousel-text">
+      <div class="slide-num">
+        No. {{ num }}
+        <div class="score-holder"><span class="score-title">Score</span> <span class="score">0</span> of <span class="total">{{ total-num }}</span></div>
+      </div>
+      <div class="slide-title">
+        <h4>{{ question.headline }}</h4>
+      </div>
+      <p>{{ question.copy }}</p>
+    </div>
+    <div class="carousel-controls-container quiz-answer">
+      <a class="hedger {{ifElse (eq answer.solution 'hedger') 'correct' 'incorrect'}} carousel-control" href="#quiz-carousel" role="button" data-slide="next">
+        <span>Hedger</span>
+      </a>
+      <a class="speculator {{ifElse (eq answer.solution 'speculator') 'correct' 'incorrect'}} carousel-control" href="#quiz-carousel" role="button" data-slide="next">
+        <span>Speculator</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+{{!-- answer --}}
+<div class="item">
+  <div class="col-md-4">
+    <div class="slide-num slide-num-mobile">
+      No. {{ num }}
+      <div class="score-holder"><span class="score-title">Score</span> <span class="score">0</span> of <span class="total">{{ total-num }}</span></div>
+    </div>
+    <div class="carousel-image">
+      <div class="quiz-icon answer-icon">
+        <img src="/assets/img/hedger-speculator/icon-{{ icon }}.png" />
+        <span class="icon-shadow"></span>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="carousel-text">
+      <div class="slide-num">
+        No. {{ num }}
+        <div class="score-holder"><span class="score-title">Score</span> <span class="score">0</span> of <span class="total">{{ total-num }}</span></div>
+      </div>
+      <div class="slide-title">
+        <h4>{{ answer.headline }}</h4>
+      </div>
+      <p>{{ answer.copy }}</p>
+    </div>
+    {{#unless see-results}}
+      <div class="carousel-controls-container">
+        <a class="next-question right carousel-control" href="#quiz-carousel" role="button" data-slide="next">
+          <span>Next Question</span>
+        </a>
+      </div>
+    {{else}}
+      <div class="carousel-controls-container">
+        <a class="next-question results right carousel-control" href="#quiz-carousel" role="button" data-slide="next">
+          <span>See your results</span>
+        </a>
+      </div>
+    {{/unless}}
+  </div>
+</div>

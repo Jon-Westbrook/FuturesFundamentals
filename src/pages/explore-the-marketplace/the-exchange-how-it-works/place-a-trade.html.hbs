@@ -1,0 +1,143 @@
+---
+url: explore-the-marketplace/the-exchange-how-it-works/place-a-trade/index.html
+title: "Future Products: The Ingredients of Everyday Life - Futures Fundamentals" 
+body:
+  id: main-content
+  class: singular  page page-id-140 page-child parent-pageid-121 page-template-default page--place-a-trade
+mainDivClass: article 
+hero:
+  image:
+    id: place_trade
+eyebrow: 'The Exchange: How it Works'
+headline: Place a Trade
+promo:
+  id: module_promo__You_have_the_basics
+  headline: You have the basics
+  copy: Now it's time to try it in real time. Think you're ready? Click here to launch the simulator and get trading.
+  image:
+    src: /assets/img/Simulator_promotion1@2x.png
+  links:
+    -
+      href: http://futures-fundamentals-ndjmr3dnam.elasticbeanstalk.com/
+      text: Launch Simulator
+article-pagination:
+  next:
+    href: /explore-the-marketplace/the-role-of-technology-in-futures-markets/
+    name: The Role of Technology in Futures Markets
+  prev:
+    href: /explore-the-marketplace/the-exchange-how-it-works/assess-market-conditions/
+    name: Assess Market Conditions
+---
+
+{{#with page.hero}}
+  {{> article-hero}}
+{{/with}}
+
+{{#with page}}
+  {{> page-headline}}
+{{/with}}
+
+<div class="container">
+  <article id="post-140" class="post-140 page type-page status-publish hentry">
+    <div class="cf-content">
+
+      {{#> column-layout--default}}
+        <p>You’ve done your research, evaluated trends and assessed the marketplace. Now it’s time to place a trade.</p>
+        <p>After clicking the TRADE button within the corn section of the heatmap, you’ll be given a breakdown of current market information. Then, you put your analysis to work.</p>
+      {{/column-layout--default}}
+      
+      {{#> column-layout--default includeGlossary=true}}
+        <h3 class="article_headline">Step 1. Order Types</h3>
+        <p>In the simulator, you'll be limited to trading the <em class="glossary__term" data-term="contract">contracts</em> that expire next, often referred to as the front month. In this instance, that's December. There are four order types to choose from: <em class="glossary__term" data-term="Market order">market</em>, <em class="glossary__term" data-term="Limit order">limit</em>, <em class="glossary__term" data-term="Stop order">stop</em> and <em class="glossary__term" data-term="Stop-limit order">stop-limit</em>. For this example, we'll focus on a market order, an order placed at any time during the trading session with the intention of immediately executing the entire order at the best available offer price (for buy orders) or bid price (for sell orders).</p>
+      {{/column-layout--default}}
+      
+      <!-- error ai -->
+      <div class="module__animated-image full-width" id="controller_Market_Order">
+        <div id="simulator_market_order" class="module__animated-image module  scrollAnimation--capable scrollAnimation--before">
+          <div class="row">
+            <div class="col-sm-0 hidden-sm col-md-2 col-lg-2">&nbsp;</div>
+            <div class="col-md-8 col-lg-8 module__bg">
+              <div class="market_order highlight-container ">
+                <div class="mouse"></div>
+                <div class="market_order__dropdown"></div>
+                <div class="market_order__dropdown--opened"></div>
+                <div class="market_order__dropdown_quantity"></div>
+                <div class="market_order__dropdown_quantity--opened"></div>
+              </div>
+              <div class="shadow shadow_600"></div>
+            </div>
+            <div class="col-sm-0 hidden-sm col-md-2 col-lg-2">&nbsp;</div>
+          </div>
+        </div>
+      </div>
+
+      {{#> column-layout--default}}
+        <h3 class="article_headline">Step 2. Quantity</h3>
+        <p>Select the number of units you want to buy or sell.</p>
+      {{/column-layout--default}}
+
+      {{#> column-layout--default}}
+        <h4 class="article_subhead">Understanding Quantities</h4>
+        <p>To purchase one unit or futures contract does not mean you are purchasing a single cob or even stalk of corn. In fact, one futures contract of corn is equal to 5,000 bushels.</p>
+      {{/column-layout--default}}
+
+      {{#> column-layout--default}}
+        <h3 class="article_headline">Step 3. Buying vs. Selling</h3>
+        <p>Unlike stocks, you can sell futures without making a previous purchase. However, you cannot realize a profit in futures trading until you “flatten” your position – placing an order for the same quantity on the opposite side of the market.</p>
+        <p>If that rainfall has you thinking that prices in the corn market will spike, you'll purchase one corn futures contract in anticipation of that potential rise.</p>
+        <p>On the other hand, if that bumper crop came through and supply is set to exceed demand, you’ll sell in anticipation of a downward trend in prices.</p>
+      {{/column-layout--default}}
+
+      <!-- error ai -->
+      <div class="module__animated-image full-width" id="controller_Confirm_Order">
+        <div id="simulator_confirm_order" class="module__animated-image module  scrollAnimation--capable scrollAnimation--before">
+          <div class="row">
+            <div class="col-md-2 col-lg-2">&nbsp;</div>
+            <div class="col-md-8 col-lg-8 module__bg">
+              <div class="confirm-order">
+                <a href="#" class="button ok">OK</a>
+                <a href="#" class="button cancel">Cancel</a>
+                <div class="mouse"></div>
+              </div>
+              <div class="shadow shadow_600"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {{#> column-layout--default}}
+        <h3 class="article_headline">Step 4. Confirm</h3>
+        <p>Once you place your order, the confirmation screen gives you a summary of the transaction. One key piece of information: the notional value of your order, which is the number of contracts multiplied by the price of the last trade. The confirmation screen also shows the margin requirement for buyers or sellers to commit in order to hold a position for the future.</p>
+      {{/column-layout--default}}
+      
+      <!-- error ai -->
+      <div class="module__animated-image full-width" id="controller_Position_Summary">
+        <div id="simulator_position_summary" class="module module__animated-image module__bg scrollAnimation--capable scrollAnimation--before">
+          <div class="position-summary">
+            <div class="background-before"></div>
+            <div class="background-after"></div>
+            <a class="button" href="#">Flatten All Positions</a>
+            <div class="mouse"></div>
+          </div>
+          <div class="shadow shadow_740"></div>
+        </div>
+      </div>
+
+      {{#> column-layout--default}}
+        <h3 class="article_headline">Step 5. Position Summary</h3>
+        <p>Having decided to buy, you have a trading position that is now long one unit of corn. (Selling would result in a short position.) Your position is reflected below the trading chart in the position summary. You'll notice that prices – as well as your unrealized profit and loss – update in real time in the summary. That way, if the market moves in your favor, you can simply click flatten to even your position and realize a profit.</p>
+      {{/column-layout--default}}
+      
+      {{#with page.promo}}
+        {{> for-educators--promo }}
+      {{/with}}
+
+    </div>
+  </article>
+  
+  {{> global--social-share}}
+</div>
+
+{{#with page.article-pagination}}
+  {{> article-pagination}}
+{{/with}}
