@@ -9,6 +9,6 @@ users[process.env.USERNAME] = process.env.PASSWORD
 
 app.use(auth({ users: users }))
 
-app.use(express.static(__dirname))
+app.use(express.static(__dirname + '/public'))
 
 app.listen(3000)

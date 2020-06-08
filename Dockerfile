@@ -5,7 +5,10 @@ ENV NODE_ENV=production
 
 WORKDIR /usr/src/app
 
-COPY ./build .
+COPY ./build ./public
+COPY package.json .
+
+yarn
 
 # expose the port the app runs on
 EXPOSE 3000
