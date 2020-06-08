@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 COPY ./build ./public
 COPY package.json .
 
-yarn
+RUN yarn install
 
 # expose the port the app runs on
 EXPOSE 3000
