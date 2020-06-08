@@ -1,0 +1,56 @@
+---
+url: explore-the-marketplace/the-role-of-technology-in-futures-markets/a-simple-guide-to-algorithms/index.html
+title: A Simple Guide to Algorithms - Futures Fundamentals
+body:
+  class: singular page page-id-54 page-child parent-pageid-128 page-template-default page--guide-algorithms
+mainDivClass: article
+hero:
+  image:
+    id: algo_made_simple
+eyebrow: The Role of Technology in Futures Markets
+headline: A Simple Guide to Algorithms
+article-pagination:
+  next:
+    href: /explore-the-marketplace/protecting-the-futures-markets/
+    name: Protecting the Futures Markets
+  prev:
+    href: /explore-the-marketplace/the-role-of-technology-in-futures-markets/
+    name: The Role of Technology in Futures Markets
+---
+
+{{#with page.hero}}
+  {{> article-hero}}
+{{/with}}
+
+{{#with page}}
+  {{> page-headline}}
+{{/with}}
+
+<div class="container">
+  <article id="post-54" class="post-54 page type-page status-publish hentry">
+    <div class="cf-content">
+
+      {{#> column-layout--default includeGlossary=true }}
+        <p>Think about your favorite digital bookstore, your checking account’s mobile app or your go-to weather widget. All of these systems operate on mathematical models called <em class="glossary__term">algorithms</em>. With every click and tap you make, these algorithms make thousands of micro-decisions that instantly serve up the information you want. At a futures <em class="glossary__term" data-term="exchange">exchange</em>, algorithms like these play a vital role in the trading and <em class="glossary__term">clearing</em> process.</p>
+      {{/column-layout--default}}
+        
+      {{#> column-layout--default includeGlossary=true }}
+        <h3 class="article_headline">Algorithms: the building blocks of trade exchange</h3>
+        <p>An algorithm is like a recipe for a meal: a set of step-by-step instructions for achieving a specific outcome. When it comes to trading <em class="glossary__term" data-term="future">futures</em>, different kinds of algorithms give traders different options for <em class="glossary__term" data-term="execution">executing</em> their orders. These options can be common, run-of-the-mill order types that are supported by the exchange, or they can be customized algorithms designed to meet a range of unique trading needs.</p>
+      {{/column-layout--default}}
+
+      {{#> column-layout--default includeGlossary=true }}
+        <h3 class="article_headline">An example: the Time Weighted Average Price (TWAP) algorithm</h3>
+        <p>Every day, <em class="glossary__term" data-term="institutional trader">institutional traders</em> buy and sell large numbers of futures contracts through the exchange. If they were to make each of these large trades in one fell swoop, the resulting price swings would influence the baseline market price and increase <em class="glossary__term" data-term="volatility">volatility</em> and price risk among all <em class="glossary__term" data-term="market participant">market participants</em>.</p>
+        <p>A TWAP algorithm allows traders to break their trades into multiple small orders. The algorithm uses its own complex set of rules to determine the best time to buy or sell, while having the least impact on the market. By spreading out these trades strategically over time, the TWAP algorithm helps the markets maintain a stable amount of <em class="glossary__term" data-term="liquidity">liquidity</em>.</p>
+      {{/column-layout--default}}
+
+    </div>
+  </article>
+  
+  {{> global--social-share}}
+</div>
+
+{{#with page.article-pagination}}
+  {{> article-pagination}}
+{{/with}}

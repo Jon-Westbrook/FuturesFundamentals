@@ -118,7 +118,7 @@
   .page--ingredients-of-everyday-life & {
     background-color: #0d671e;
 
-    // this file didn't exist during 2020 rebuild and was not in use on prod
+    // this file didn't exist during 2020 rebuild
     // background-image: url('/assets/img/hero/gas_prices_explained__desktop_bg.png');
     // background-position: top center;
     // background-repeat: repeat-x;
@@ -166,7 +166,7 @@
   .page--gas-prices-explained & {
     background-color: #5fbae9;
     
-    // this file didn't exist during 2020 rebuild and was not in use on prod
+    // this file didn't exist during 2020 rebuild
     // background-image: url('/assets/img/hero/gas_prices_explained__desktop_bg.png');
     // background-position: top center;
     // background-repeat: repeat-x;
@@ -190,7 +190,7 @@
   .page--financial-futures & {
     background-color: #0079c1;
 
-    // this file didn't exist during 2020 rebuild and was not in use on prod
+    // this file didn't exist during 2020 rebuild
     // background-image: url('/assets/img/hero/econ_and_futures__desktop_bg.png');
     // background-position: top center;
     // background-repeat: repeat-x;
@@ -214,7 +214,7 @@
   .page--wide-world-futures-traders & {
     background-color: #7ed9fe;
 
-    // this file didn't exist during 2020 rebuild and was not in use on prod
+    // this file didn't exist during 2020 rebuild
     // background-image: url('/assets/img/hero/world_futures_trading__desktop_bg.png');
     // background-position: top center;
     // background-repeat: repeat-x;
@@ -242,7 +242,7 @@
   .page--understand-market-snapshot & {
     background-color: #0dd81e;
 
-    // this file didn't exist during 2020 rebuild and was not in use on prod
+    // this file didn't exist during 2020 rebuild
     // background-image: url('/assets/img/hero/undrstnd_mkt_snapshot__desktop_bg.png');
     // background-position: top center;
     // background-repeat: repeat-x;
@@ -266,7 +266,7 @@
   .page--assess-market-conditions & {
     background-color: #5FBAE9;
 
-    // this file didn't exist during 2020 rebuild and was not in use on prod
+    // this file didn't exist during 2020 rebuild
     // background-image: url('/assets/img/hero_images/assess_mkt_condtns__desktop_bg.png');
     // background-position: top center;
     // background-repeat: repeat-x;
@@ -285,6 +285,82 @@
 
     @media (max-width: 767px) {
       background-image: url('/assets/img/hero/place_trade__mobile_bg.png');
+    }
+  }
+
+  .page--role-technology-futures-markets & {
+    background-position: top center;
+    background-color: #fcf177;
+    background-repeat: repeat-x;
+    background-image: url('/assets/img/hero/technology__desktop_bg.png');
+
+    @media (max-width: 992px) {
+      background-image: url('/assets/img/hero/technology__tablet_bg.png');
+    }
+
+    @media (max-width: 767px) {
+      background-image: url('/assets/img/hero/technology__mobile_bg.png');
+    }
+  }
+
+  .page--guide-algorithms & {
+    background-color: #373737;
+
+    // this file didn't exist during 2020 rebuild
+    // background-image: url('/assets/img/hero/algo_made_simple__desktop_bg.png');
+    // background-position: top center;
+    // background-repeat: repeat-x;
+  }
+
+  .page--protecting-futures-markets & {
+    background-color: #7ed9fe;
+
+    // this file didn't exist during 2020 rebuild
+    // background-image: url('/assets/img/hero/protections__desktop_bg.png');
+    // background-position: top center;
+    // background-repeat: repeat-x;
+  }
+
+  .page--clearing-house & {
+    background-color: #d4dbe5;
+
+    // this file didn't exist during 2020 rebuild
+    // background-image: url('/assets/img/hero/role_clrng_hses__desktop_bg.png');
+    // background-position: top center;
+    // background-repeat: repeat-x;
+  }
+
+  .page--how-to-clear-trade & {
+    background-color: #e8e8e8;
+
+    // this file didn't exist during 2020 rebuild
+    // background-image: url('/assets/img/hero/how_clr_trade__desktop_bg.png');
+    // background-position: top center;
+    // background-repeat: repeat-x;
+  }
+
+  .page--regulatory-measures & {
+    background-color: #7ed9fe;
+
+    // this file didn't exist during 2020 rebuild
+    // background-image: url('/assets/img/hero/regul_msrs__desktop_bg.png');
+    // background-position: top center;
+    // background-repeat: repeat-x;
+  }
+
+  .page--over-the-counter-trading & {
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-image: url('/assets/img/hero/over_counter_trdng__desktop_bg.png');
+
+
+    @media (max-width: 992px) {
+      background-image: url('/assets/img/hero/over_counter_trdng__tablet_bg.png');
+    }
+
+
+    @media (max-width: 767px) {
+      background-image: url('/assets/img/hero/over_counter_trdng__mobile_bg.png');
     }
   }
 }

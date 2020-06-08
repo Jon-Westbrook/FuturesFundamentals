@@ -64,7 +64,7 @@
 			top:21.25%;
 			left:25.62%;
 			z-index:1;
-			background:url('/assets/img/clearing_house/big_monitor.png') no-repeat center center;
+			background:url('/assets/img/clearing-house/big_monitor.png') no-repeat center center;
 			background-size:auto 100%;
 		}
 
@@ -76,7 +76,7 @@
 			top:55%;
 			left:60%;
 			z-index:3;
-			background:url('/assets/img/clearing_house/big_cursor.png') no-repeat center center;
+			background:url('/assets/img/clearing-house/big_cursor.png') no-repeat center center;
 			background-size:auto 100%;
 
 			@include cursorMove($count: infinite, $duration: 6000ms, $delay: 200ms);
@@ -90,7 +90,7 @@
 			top:32.29%;
 			left:34.62%;
 			z-index:2;
-			background:url('/assets/img/clearing_house/buy_btn.png') no-repeat center center;
+			background:url('/assets/img/clearing-house/buy_btn.png') no-repeat center center;
 			background-size:auto 100%;
 			@include buyBtn($count: infinite, $duration: 6000ms, $delay: 200ms);
 		}
@@ -104,7 +104,7 @@
 			left:34.62%;
 			z-index:2;
 			opacity:0;
-			background:url('/assets/img/clearing_house/sell_btn.png') no-repeat center center;
+			background:url('/assets/img/clearing-house/sell_btn.png') no-repeat center center;
 			background-size:auto 100%;
 			@include sellBtn($count: infinite, $duration: 6000ms, $delay: 200ms);
 		}
@@ -118,7 +118,7 @@
 			left:32.82%;
 			z-index:2;
 			opacity:0;
-			background:url('/assets/img/clearing_house/cleared_screen.png') no-repeat center center;
+			background:url('/assets/img/clearing-house/cleared_screen.png') no-repeat center center;
 			//background-size:auto 100%;
 			background-size: 100% 100%;
 			@include clearScreen($count: infinite, $duration: 6000ms, $delay: 200ms);
@@ -133,7 +133,7 @@
 		top:11.67%;
 		left:27.44%;
 		z-index:2;
-		background:url('/assets/img/clearing_house/clearinghouse_firms.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/clearinghouse_firms.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -145,7 +145,7 @@
 		top:7.5%;
 		left:8.72%;
 		z-index:2;
-		background:url('/assets/img/clearing_house/people_01.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/people_01.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -157,7 +157,7 @@
 		top:14.17%;
 		left:68.21%;
 		z-index:2;
-		background:url('/assets/img/clearing_house/people_02.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/people_02.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -169,7 +169,7 @@
 		top:61.25%;
 		left:20.77%;
 		z-index:2;
-		background:url('/assets/img/clearing_house/people_03.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/people_03.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -181,7 +181,7 @@
 		top:52.5%;
 		left:51.54%;
 		z-index:2;
-		background:url('/assets/img/clearing_house/people_04.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/people_04.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -193,7 +193,7 @@
 		top:20.83%;
 		left:12.31%;
 		z-index:1;
-		background:url('/assets/img/clearing_house/inter_arrow01.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/inter_arrow01.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -205,7 +205,7 @@
 		top:40.83%;
 		left:26.54%;
 		z-index:3;
-		background:url('/assets/img/clearing_house/inter_arrow02.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/inter_arrow02.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -217,7 +217,7 @@
 		top:37.08%;
 		left:54.87%;
 		z-index:3;
-		background:url('/assets/img/clearing_house/inter_arrow03.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/inter_arrow03.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -229,7 +229,7 @@
 		top:31.67%;
 		left:39.36%;
 		z-index:1;
-		background:url('/assets/img/clearing_house/inter_arrow_sm01.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/inter_arrow_sm01.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -241,7 +241,7 @@
 		top:34.38%;
 		left:36.15%;
 		z-index:3;
-		background:url('/assets/img/clearing_house/inter_arrow_sm02.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/inter_arrow_sm02.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -253,7 +253,7 @@
 		top:37.5%;
 		left:36.15%;
 		z-index:3;
-		background:url('/assets/img/clearing_house/inter_arrow_sm03.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/inter_arrow_sm03.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -265,7 +265,7 @@
 		top:31.67%;
 		left:53.85%;
 		z-index:1;
-		background:url('/assets/img/clearing_house/inter_arrow_sm04.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/inter_arrow_sm04.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -277,7 +277,7 @@
 		top:34.38%;
 		left:54.49%;
 		z-index:3;
-		background:url('/assets/img/clearing_house/inter_arrow_sm05.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/inter_arrow_sm05.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -289,7 +289,7 @@
 		top:39.58%;
 		left:53.59%;
 		z-index:3;
-		background:url('/assets/img/clearing_house/inter_arrow_sm06.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/inter_arrow_sm06.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -301,7 +301,7 @@
 		top:41.67%;
 		left:49.74%;
 		z-index:3;
-		background:url('/assets/img/clearing_house/inter_arrow_sm07.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/inter_arrow_sm07.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -375,7 +375,7 @@
 		top:15.63%;
 		left:32.69%;
 		z-index:2;
-		background:url('/assets/img/clearing_house/human.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/human.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -387,7 +387,7 @@
 		top:25%;
 		left:16.67%;
 		z-index:1;
-		background:url('/assets/img/clearing_house/store.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/store.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -406,7 +406,7 @@
 		height:100%;
 		position:absolute;
 		z-index:1;
-		background:url('/assets/img/clearing_house/empty_monitor.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/empty_monitor.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -418,7 +418,7 @@
 		top:20%;
 		left:22.72%;
 		z-index:2;
-		background:url('/assets/img/clearing_house/buy-btn.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/buy-btn.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -430,7 +430,7 @@
 		top:36.84%;
 		left:67.27%;
 		z-index:3;
-		background:url('/assets/img/clearing_house/cursor.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/cursor.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -463,7 +463,7 @@
 		top:43.75%;
 		left:49.5%;
 		z-index:1;
-		background:url('/assets/img/clearing_house/drk-arrow.png') no-repeat center right;
+		background:url('/assets/img/clearing-house/drk-arrow.png') no-repeat center right;
 		background-size:auto 100%;
 	}
 
@@ -475,7 +475,7 @@
 		top:38.54%;
 		left:66.15%;
 		z-index:1;
-		background:url('/assets/img/clearing_house/box.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/box.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -505,7 +505,7 @@
 		top:37.08%;
 		left:49.5%;
 		z-index:1;
-		background:url('/assets/img/clearing_house/lt-arrow.png') no-repeat center left;
+		background:url('/assets/img/clearing-house/lt-arrow.png') no-repeat center left;
 		background-size:auto 100%;
 	}
 
@@ -517,7 +517,7 @@
 		top:5.2%;
 		left:68.2%;
 		z-index:1;
-		background:url('/assets/img/clearing_house/chart.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/chart.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -554,7 +554,7 @@
 		top:16.67%;
 		left:74.26%;
 		z-index:1;
-		background:url('/assets/img/clearing_house/building.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/building.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -595,7 +595,7 @@
 		top:31.25%;
 		left:79.92%;
 		z-index:1;
-		background:url('/assets/img/clearing_house/farmer.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/farmer.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -636,7 +636,7 @@
 		top:32.46%;
 		left:82.77%;
 		z-index:1;
-		background:url('/assets/img/clearing_house/checklist.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/checklist.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -647,7 +647,7 @@
 		position:absolute;
 		left:82.4%;
 		z-index:1;
-		background:url('/assets/img/clearing_house/check-mark.png') no-repeat center left;
+		background:url('/assets/img/clearing-house/check-mark.png') no-repeat center left;
 		background-size:auto 100%;
 	}
 
@@ -704,7 +704,7 @@
 		top:32.5%;
 		left:2%;
 		z-index:1;
-		background:url('/assets/img/clearing_house/cleared.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/cleared.png') no-repeat center center;
 		background-size:auto 100%;
 	}
 
@@ -751,7 +751,7 @@
 		top:9%;
 		left:35%;
 		z-index:2;
-		background:url('/assets/img/clearing_house/stopwatch.png') no-repeat center center;
+		background:url('/assets/img/clearing-house/stopwatch.png') no-repeat center center;
 		background-size:100%;
 	}
 
@@ -761,7 +761,7 @@
 			width:45.1%;
 			height:6.3%;
 			position:absolute;
-			background:url('/assets/img/clearing_house/mid-blue-arrow.png') no-repeat center center;
+			background:url('/assets/img/clearing-house/mid-blue-arrow.png') no-repeat center center;
 			background-size:100%;
 		}
 
@@ -777,7 +777,7 @@
 
 		.arrow-1 {
 			top:15%;
-			background:url('/assets/img/clearing_house/dark-blue-arrow.png') no-repeat center center;
+			background:url('/assets/img/clearing-house/dark-blue-arrow.png') no-repeat center center;
 			background-size:100%;
 		}
 
@@ -789,7 +789,7 @@
 		.arrow-3 {
 			top:56%;
 			left:-41%;
-			background:url('/assets/img/clearing_house/light-blue-arrow.png') no-repeat center center;
+			background:url('/assets/img/clearing-house/light-blue-arrow.png') no-repeat center center;
 			background-size:100%;
 		}
 
@@ -801,7 +801,7 @@
 		.arrow-1-2 {
 			top:15%;
 			left:-83%;
-			background:url('/assets/img/clearing_house/dark-blue-arrow.png') no-repeat center center;
+			background:url('/assets/img/clearing-house/dark-blue-arrow.png') no-repeat center center;
 			background-size:100%;
 		}
 
@@ -813,7 +813,7 @@
 		.arrow-3-2 {
 			top:56%;
 			left:-92%;
-			background:url('/assets/img/clearing_house/light-blue-arrow.png') no-repeat center center;
+			background:url('/assets/img/clearing-house/light-blue-arrow.png') no-repeat center center;
 			background-size:100%;
 		}
 
@@ -825,7 +825,7 @@
 		.arrow-1-3 {
 			top:15%;
 			left:-112%;
-			background:url('/assets/img/clearing_house/dark-blue-arrow.png') no-repeat center center;
+			background:url('/assets/img/clearing-house/dark-blue-arrow.png') no-repeat center center;
 			background-size:100%;
 		}
 
@@ -837,7 +837,7 @@
 		.arrow-3-3 {
 			top:56%;
 			left:-106%;
-			background:url('/assets/img/clearing_house/light-blue-arrow.png') no-repeat center center;
+			background:url('/assets/img/clearing-house/light-blue-arrow.png') no-repeat center center;
 			background-size:100%;
 		}
 
@@ -850,13 +850,13 @@
 		.arrow-5 {
 			top:25%;
 			right:-37%;
-			background:url('/assets/img/clearing_house/light-blue-arrow.png') no-repeat center center;
+			background:url('/assets/img/clearing-house/light-blue-arrow.png') no-repeat center center;
 			background-size:100%;
 		}
 
 		.arrow-6 {
 			top:46%;
-			background:url('/assets/img/clearing_house/dark-blue-arrow.png') no-repeat center center;
+			background:url('/assets/img/clearing-house/dark-blue-arrow.png') no-repeat center center;
 			background-size:100%;
 		}
 
@@ -868,14 +868,14 @@
 		.arrow-5-2 {
 			top:25%;
 			right:-88%;
-			background:url('/assets/img/clearing_house/light-blue-arrow.png') no-repeat center center;
+			background:url('/assets/img/clearing-house/light-blue-arrow.png') no-repeat center center;
 			background-size:100%;
 		}
 
 		.arrow-6-2 {
 			top:46%;
 			right:-83%;
-			background:url('/assets/img/clearing_house/dark-blue-arrow.png') no-repeat center center;
+			background:url('/assets/img/clearing-house/dark-blue-arrow.png') no-repeat center center;
 			background-size:100%;
 		}
 
@@ -887,14 +887,14 @@
 		.arrow-5-3 {
 			top:25%;
 			right:-122%;
-			background:url('/assets/img/clearing_house/light-blue-arrow.png') no-repeat center center;
+			background:url('/assets/img/clearing-house/light-blue-arrow.png') no-repeat center center;
 			background-size:100%;
 		}
 
 		.arrow-6-3 {
 			top:46%;
 			right:-102%;
-			background:url('/assets/img/clearing_house/dark-blue-arrow.png') no-repeat center center;
+			background:url('/assets/img/clearing-house/dark-blue-arrow.png') no-repeat center center;
 			background-size:100%;
 		}
 

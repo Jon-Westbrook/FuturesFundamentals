@@ -1,0 +1,60 @@
+{{#*inline 'image-list'}}
+  {{#if (eq (type .) 'string') }}
+    <div class="{{ . }}"></div>
+  {{else}}
+    <div class="{{ class }}">
+      {{#each images}}
+        {{> image-list }}
+      {{/each}}
+    </div>
+  {{/if}}
+{{/inline}}
+
+<div class="item {{ class }} {{#if active}}active{{/if}}">
+  <div class="col-md-8">
+    {{#unless (eq class 'title-slide') }}
+      <div class="slide-num slide-num-mobile">
+        <span class="current">{{ slide-num }}</span> of {{ total-num }}
+      </div>
+    {{/unless}}
+    <div class="carousel-image anim_container">
+      <div class="{{ animation-id }}_animation anim_inner">
+        {{#each images}}
+          {{> image-list}}
+        {{/each}}
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="carousel-text">
+      {{#unless (eq class 'title-slide') }}
+        <div class="slide-num">
+          <span class="current">{{ slide-num }}</span> of {{ total-num }}
+        </div>
+      {{/unless}}
+      <h4>{{ headline }}</h4>
+      <p>{{ copy }}</p>
+    </div>
+    <div class="carousel-controls-container">
+      {{#if (eq controls 'begin')}}
+        <a class="right begin carousel-control" href="#clearing_infographic" role="button" data-slide="next">
+          <span>Get started</span>
+        </a>
+      {{else if (eq controls 'end') }}
+        <a class="left carousel-control" href="#clearing_infographic" role="button" data-slide="prev">
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right restart carousel-control" href="#clearing_infographic" role="button" data-slide="next">
+          <span class="sr-only">Start over</span>
+        </a>
+      {{else}}
+        <a class="left carousel-control" href="#clearing_infographic" role="button" data-slide="prev">
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#clearing_infographic" role="button" data-slide="next">
+          <span class="sr-only">Next</span>
+        </a>
+      {{/if}}
+    </div>
+  </div>
+</div>
