@@ -1,0 +1,23 @@
+image: node:10.13.0
+options:
+  docker: true
+pipelines:
+  branches:
+    fix-this-repo:
+      - step:
+        - curl https://cli-assets.heroku.com/install.sh | sh
+        - docker login --username=_ --password=$HEROKU_API_KEY registry.heroku.com
+        - yarn
+        - yarn build
+        - >
+            docker build
+            --build-arg USERNAME
+            --build-arg PASSWORD
+            .
+        - docker tag test-futures-fundamentals registry.heroku.com/test-futures-fundamentals/web
+        - docker push registry.heroku.com/test-futures-fundamentals/web
+        - heroku container:release web --app test-futures-fundamentals
+definitions:
+  services:
+    docker:
+      memory: 3072  # increase memory for docker-in-docker from 1GB to 3GB
