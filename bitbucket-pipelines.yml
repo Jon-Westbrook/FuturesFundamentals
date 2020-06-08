@@ -15,10 +15,11 @@ pipelines:
                 docker build
                 --build-arg USERNAME
                 --build-arg PASSWORD
+                -t ${HEROKU_SERVER_ID}
                 .
-            - docker tag test-futures-fundamentals registry.heroku.com/test-futures-fundamentals/web
-            - docker push registry.heroku.com/test-futures-fundamentals/web
-            - heroku container:release web --app test-futures-fundamentals
+            - docker tag ${HEROKU_SERVER_ID} registry.heroku.com/${HEROKU_SERVER_ID}/web
+            - docker push registry.heroku.com/${HEROKU_SERVER_ID}/web
+            - heroku container:release web --app ${HEROKU_SERVER_ID}
 definitions:
   services:
     docker:
