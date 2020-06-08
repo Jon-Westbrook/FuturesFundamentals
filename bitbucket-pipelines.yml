@@ -5,18 +5,20 @@ pipelines:
   branches:
     fix-this-repo:
       - step:
-        - curl https://cli-assets.heroku.com/install.sh | sh
-        - docker login --username=_ --password=$HEROKU_API_KEY registry.heroku.com
-        - yarn
-        - yarn build
-        - >
-            docker build
-            --build-arg USERNAME
-            --build-arg PASSWORD
-            .
-        - docker tag test-futures-fundamentals registry.heroku.com/test-futures-fundamentals/web
-        - docker push registry.heroku.com/test-futures-fundamentals/web
-        - heroku container:release web --app test-futures-fundamentals
+          name: deploy
+          script:
+            - curl https://cli-assets.heroku.com/install.sh | sh
+            - docker login --username=_ --password=$HEROKU_API_KEY registry.heroku.com
+            - yarn
+            - yarn build
+            - >
+                docker build
+                --build-arg USERNAME
+                --build-arg PASSWORD
+                .
+            - docker tag test-futures-fundamentals registry.heroku.com/test-futures-fundamentals/web
+            - docker push registry.heroku.com/test-futures-fundamentals/web
+            - heroku container:release web --app test-futures-fundamentals
 definitions:
   services:
     docker:
