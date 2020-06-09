@@ -13,8 +13,9 @@ pipelines:
             - yarn build
             - >
                 docker build
-                --build-arg USERNAME
-                --build-arg PASSWORD
+                --build-arg USERNAME=$USERNAME
+                --build-arg PASSWORD=$PASSWORD
+                --build-arg PORT=$PORT
                 -t ${HEROKU_SERVER_ID}
                 .
             - docker tag ${HEROKU_SERVER_ID} registry.heroku.com/${HEROKU_SERVER_ID}/web
