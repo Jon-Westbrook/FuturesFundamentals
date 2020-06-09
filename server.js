@@ -12,4 +12,4 @@ app.use(auth({ users: users, challenge: true }))
 
 app.use(express.static(path.resolve(__dirname, 'public')))
 
-app.listen(3000)
+app.listen(process.env.PORT || 3000)
