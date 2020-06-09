@@ -1,3 +1,4 @@
+var path = require('path')
 var express = require('express')
 var auth = require('express-basic-auth')
 
@@ -7,8 +8,8 @@ var users = {}
 
 users[process.env.USERNAME] = process.env.PASSWORD
 
-app.use(auth({ users: users }))
+app.use(auth({ users: users, challenge: true }))
 
-app.use(express.static(__dirname + '/public'))
+app.use(express.static(path.resolve(__dirname, 'public')))
 
 app.listen(3000)

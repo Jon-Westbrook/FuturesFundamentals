@@ -1,7 +1,14 @@
 # use the same node version as in .nvmrc
 FROM node:10.13.0
 
+# get vars from cli
+ARG USERNAME
+ARG PASSWORD
+
+# set env
 ENV NODE_ENV=production
+ENV USERNAME=$USERNAME
+ENV PASSWORD=$PASSWORD
 
 WORKDIR /usr/src/app
 
