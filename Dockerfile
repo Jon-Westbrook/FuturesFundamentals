@@ -7,6 +7,7 @@ WORKDIR /usr/src/app
 
 COPY ./build ./public
 COPY package.json .
+COPY server.js .
 
 RUN yarn install
 
