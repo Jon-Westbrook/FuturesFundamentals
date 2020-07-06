@@ -4,6 +4,9 @@ title: Introduction to Derivatives - Futures Fundamentals
 body:
   class: singular page page-id-151 page-child parent-pageid-6 page-template-default page--introduction-to-derivatives
 mainDivClass: article
+hero:
+  image:
+    id: intro_to_risk
 eyebrow: Get the Basics
 headline: The Global Derivatives Marketplace
 related-links:
@@ -21,11 +24,9 @@ article-pagination:
     href: /get-the-basics/futures-and-options/
 ---
 
-<div class="article_hero" style=" ">
-  <img class="hero__image--desktop hidden-xs hidden-sm hidden-md" src="/assets/img/hero/intro_to_risk__desktop_fg.png" />
-  <img class="hero__image--tablet hidden-xs visible-sm visible-md hidden-lg hidden-xl" src="/assets/img/hero/intro_to_risk__tablet_fg.png" />
-  <img class="hero__image--mobile visible-xs hidden-md hidden-lg " src="/assets/img/hero/intro_to_risk__mobile_fg.png" />
-</div>
+{{#with page.hero}}
+  {{> article-hero }}
+{{/with}}
 
 {{#with page}}
   {{> page-headline }}
