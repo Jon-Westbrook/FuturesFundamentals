@@ -49,7 +49,7 @@ module.exports = [{
     page: 'The Wide World of Futures Traders',
     url: '/explore-the-marketplace/the-wide-world-of-futures-traders/'
   }, {
-    page: 'The Exchane How it Works',
+    page: 'The Exchange: How it Works',
     url: '/explore-the-marketplace/the-exchange-how-it-works/',
     subsubfolderitems: [{
       page: 'Learn How to Trade',
@@ -88,7 +88,7 @@ module.exports = [{
       url: '/explore-the-marketplace/the-regulatory-measures/'
     }]
   }, {
-    page: 'Over the Counter Trading',
+    page: 'Over-the-Counter Trading',
     url: '/explore-the-marketplace/over-the-counter-trading/'
   }]
 }]
