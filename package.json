@@ -16,6 +16,10 @@
     "build:modernizr": "modernizr -c ./src/_js/vendor/modernizr.config.json -d ./src/_js/vendor"
   },
   "dependencies": {
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0",
+  },
+  "devDependencies": {
     "autoprefixer": "^8.0.0",
     "babel-core": "6",
     "babel-loader": "6",
@@ -29,8 +33,6 @@
     "eslint-plugin-node": "5.2",
     "eslint-plugin-promise": "3.6",
     "eslint-plugin-standard": "3.0",
-    "express": "^4.17.1",
-    "express-basic-auth": "^1.2.0",
     "font-awesome": "4.1.0",
     "gulp": "^3.9.1",
     "gulp-debug": "^4.0.0",
