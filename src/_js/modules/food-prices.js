@@ -92,7 +92,6 @@ function makePricesMove (data) {
 function validate (data, num, check) {
   // Choose a random number
   randNum = Math.floor(Math.random() * num)
-  console.log(num, randNum)
 
   // Check to Make sure Factor Names are not the same.
   $.each(check, function (i, l) {
