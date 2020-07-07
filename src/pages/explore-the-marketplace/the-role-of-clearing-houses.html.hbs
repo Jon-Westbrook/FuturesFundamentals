@@ -295,7 +295,7 @@ article-pagination:
 
       <!-- error sp -->
       <a name="clearing_made_clear"></a>
-      {{#> carousel-container id='clearing_infographic' class='clearing-container infographic' data-analytics-category='Interactive Infographic View' data-analytics-action='Clearing Made Clear' data-analytics-label='Slide 1' }}
+      {{#> carousel-container id='clearing_infographic' class='clearing-container infographic' data-analytics-category='Interactive Infographic View' data-analytics-action='Clearing Made Clear' data-analytics-label='Slide 1' hide-controls=true }}
 
         {{#each page.carousel}}
           {{> carousel-item--animation slide-num=@index total-num=(sum ../page.carousel.length -1) }}
