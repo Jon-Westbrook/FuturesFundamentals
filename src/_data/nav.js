@@ -49,7 +49,7 @@ module.exports = [{
     page: 'The Wide World of Futures Traders',
     url: '/explore-the-marketplace/the-wide-world-of-futures-traders/'
   }, {
-    page: 'The Exchange: How it Works',
+    page: 'The Exchange: How It Works',
     url: '/explore-the-marketplace/the-exchange-how-it-works/',
     subsubfolderitems: [{
       page: 'Learn How to Trade',
