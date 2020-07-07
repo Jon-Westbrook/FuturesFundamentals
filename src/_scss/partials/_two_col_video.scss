@@ -2,6 +2,7 @@
 	// align-items: stretch;
 	background-color:$gray-10;
 	display: flex;
+	flex-wrap: wrap;
 	margin: 20px 0;
 	width: 100%;
 	
@@ -39,7 +40,11 @@
 		flex-direction: column;
 		// height: 100%;
 		justify-content: space-between;
-		padding: 30px 15px 0;
+		padding: 10px 15px 0;
+
+		@media (min-width: 992px) {
+			padding: 30px 15px 0;
+		}
 	}
 
 	.text {
