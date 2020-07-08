@@ -1,0 +1,25 @@
+<div class="row section__econ-essentials--summary">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <img class="img" src="/assets/img/for-educators/econ_essentials_logo_blue.png" />
+    <p class="body-secondary">{{copy}}</p>
+  </div>
+</div>
+
+<div class="row section__econ-essentials--cards">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    {{#each cards}}
+      <div class="card">
+        <div class="card_img">
+          <img src="/assets/img/for-educators/{{image.src}}.jpg" />
+        </div>
+        <div class="card_content">
+          <p class="card_headline article_headline">{{headline}}</p>
+          <p class="card_copy">{{copy}}</p>
+          <a class="button card_button" href="{{link.href}}">{{link.text}}</a>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>

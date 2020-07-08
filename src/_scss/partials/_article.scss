@@ -899,6 +899,10 @@ body {
 }
 
 .module__promo {
+	&__section {
+		margin-bottom: 16px;
+	}
+
 	/* Related links make image clickable */
 	.col-imagelink {
 		position: relative;
@@ -925,18 +929,12 @@ body {
 		padding: 18px;
 	}
 
-
-
 	.module__promo__title {
 		font-weight: bold;
 		font-family: $benton-bold;
 		color: #FFFFFF;
 		letter-spacing: 0.76px;
 		padding-top: 12px;
-	}
-
-	p {
-		margin: 0;
 	}
 
 	.module__promo__body {

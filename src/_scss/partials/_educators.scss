@@ -1,6 +1,17 @@
-.page-template-tpl_educators {
+
+
+.page--for-educators {
 	.main-nav__educators {
 		background-color:$blue-40;
+	}
+
+	.body-secondary {
+		font-size: 20px;
+	}
+
+	.module__promo__block {
+		align-items: center;
+		display: flex;
 	}
 }
 
@@ -34,6 +45,8 @@
 
 	.module__two-col-image-links {
 		margin-top:20px;
+		margin-bottom: 20px;
+
 		&.infographic_links {
 			.img_wrap:after {
 				background-color:rgba(155,155,155,0.3);
@@ -90,6 +103,9 @@
 		padding:30px 15px;
 		margin:35px -15px;
 		color:$white;
+		display: flex;
+		align-items: center;
+
 		.featured-pdf__image-wrap {text-align:center;}
 		.featured-pdf__text-wrap {
 
@@ -149,47 +165,146 @@
 		}
 	}
 
-	.econ-essentials-promo {
-		.module__promo__well {
-			padding:15px 0;
+	.section__econ-essentials {
+		&--summary {
+			margin-top: 40px;
 
-			img {
-				max-width:100%;
-				padding:0 15px;
-			}
-
-			.module__promo__title {
-				text-indent:-9999px;
-				width:265px;
-				height:124px;
-				margin:20px 0;
-				background:url('/assets/img/for-educators/econ_essentials_logo_white.png') no-repeat left bottom;
-				background-size:auto 100%;
+			.img {
+				margin-bottom: 24px;
+				width: 150px;
 			}
 		}
 
-		@include mq($until: xlarge) {
-			.module__promo__well {
-				.module__promo__title {
-					width:220px;
-					height:103px;
-					margin-top:0;
+		&--cards {
+			margin-top: 40px;
+
+			.card {
+				background-color: rgba(232,232,232,0.5);
+				margin-bottom: 40px;
+
+				@media (min-width: 768px) {
+					display: flex;
+					min-height: 300px;
+
+					&_img,
+					&_content {
+						width: 50%;
+					}
+				}
+
+				&_img {
+
+					// img {
+					// 	max-width: 100%;
+					// }
+					max-height: 450px;
+					overflow: hidden;
+					position: relative;
+
+					&:after {
+						content: '';
+						display: block;
+						padding-top: 78%;
+					}
+
+					img {
+						left: 0;
+						max-width: 100%;
+						position: absolute;
+						right: 0;
+						top: 50%;
+						transform: translateY(-50%);
+					}
+
+					@media (min-width: 768px) {
+
+						img {
+							bottom: 0;
+							height: 100%;
+							left: 50%;
+							max-width: none;
+							position: absolute;
+							transform: translateX(-50%);
+							top: 0;
+						}
+					}
+				}
+
+				&_content {
+					padding: 30px;
+					max-width: 60rem;
+				}
+
+				&_headline {
+					color: #4A4A4A;
+					margin-top: 0;
+					margin-bottom: 8px;
+				}
+
+				&_copy {
+					font-family: "Benton Sans Reg","Helvetica Neue",Helvetica,Arial,sans-serif;
+					font-size: 16px;
+	  			letter-spacing: 0;
+	  			line-height: 24px;
+	  			margin-bottom: 24px;
+				}
+
+				&_button {
+					background-color: #0079C1;
 				}
 			}
 		}
+	}
+}
 
-		@include mq($until: large) {
-			.module__promo__well { 
-				img { padding:0; }
-			}
-		}
+.module__promo__for-educators {
+	margin-bottom: 60px;
 
-		@include mq($until: medium) {
-			.module__promo__well { 
-				.module__promo__body {
-					max-width:100%;
-				}
-			}
-		}
+	.intro {
+		margin-bottom: 32px;
+	}
+
+	.wrapper {
+		align-items: center;
+		background-color: #48bfff;
+		display: flex;
+		min-height: 290px;
+		padding: 12px;
+	}
+
+	.image,
+	.content {
+		width: 50%;
+	}
+
+	.image img {
+		display: block;
+		margin: 0 auto;
+		max-width: 50%;
+	}
+
+	.content {
+		padding: 15px;
+	}
+
+	.headline,
+	.copy {
+		color:#ffffff;
+	}
+
+	.headline {
+		font-family: "Benton Sans Reg","Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size: 22px;
+		font-weight: 600;
+		letter-spacing: .45px;
+		line-height: 26px;
+		text-transform: uppercase;
+	}
+
+	.copy {
+		font-family: "Benton Sans Reg","Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 30px;
 	}
 }
