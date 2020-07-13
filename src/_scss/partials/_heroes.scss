@@ -363,4 +363,32 @@
       background-image: url('/assets/img/hero/over_counter_trdng__mobile_bg.png');
     }
   }
+
+  .page--404 & {
+    background-position: top center;
+    background-color: #e8e8e8;
+    background-repeat: repeat-x;
+
+    @media (max-width: 992px) {
+      background-image: url('/assets/img/hero/404__tablet_bg.png');
+    }
+
+    @media (max-width: 767px) {
+      background-image: url('/assets/img/hero/404__mobile_bg.png');
+    }
+  }
+
+  .page--search & {
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-image: url('/assets/img/hero/search__desktop_bg.png');
+
+    @media (max-width: 992px) {
+      background-image: url('/assets/img/hero/search__tablet_bg.png');
+    }
+
+    @media (max-width: 767px) {
+      background-image: url('/assets/img/hero/search__mobile_bg.png');
+    }
+  }
 }

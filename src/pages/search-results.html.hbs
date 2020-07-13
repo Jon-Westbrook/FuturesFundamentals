@@ -1,0 +1,38 @@
+---
+url: search-results/index.html
+title: Search Results - Futures Fundamentals
+body:
+  class: singular page page-id-742 page-template page-template-tpl_search_results page-template-tpl_search_results-php page--search
+mainDivClass: article
+hero:
+  image:
+    id: search
+---
+
+{{#with page.hero}}
+  {{> article-hero }}
+{{/with}}
+    
+<div class="container module__hero__text-container">
+  <div class="row">
+    <div class="col-md-2 hidden-sm"></div>
+    <div class="col-md-8">
+      <h1 class="page_title_doesnt_have_eyebrow">Search Results: </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <script>
+  (function() {
+    var cx = '009415497659810401412:4ml1g3tzkil';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+  </script>
+  <gcse:searchresults-only></gcse:searchresults-only>
+</div>

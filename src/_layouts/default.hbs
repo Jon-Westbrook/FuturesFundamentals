@@ -4,12 +4,22 @@
   {{> global--head }}
 
   <body id="{{ page.body.id }}" class="{{ page.body.class }}"  data-module=" ">
-      {{> global--nav }}
-      <div id="main-content" class="{{ page.mainDivClass }}">
-          {{{ contents }}}
-      </div>
-      {{> global--footer }}
-      {{> global--js }}
+    
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K9KV798"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    {{> global--nav }}
+    
+    <div id="main-content" class="{{ page.mainDivClass }}">
+      {{{ contents }}}
+    </div>
+    
+    {{> global--footer }}
+    
+    {{> global--js }}
+
   </body>
 
 </html>
