@@ -921,37 +921,6 @@ body {
 
 }
 
-
-
-#module_promo__Risk_Ranch {
-
-	.module__promo__well {
-		padding: 18px;
-	}
-
-	.module__promo__title {
-		font-weight: bold;
-		font-family: $benton-bold;
-		color: #FFFFFF;
-		letter-spacing: 0.76px;
-		padding-top: 12px;
-	}
-
-	.module__promo__body {
-		margin: 5px 0 16px;
-	}
-
-	.button {
-		display: inline-block;
-		clear: both;
-		margin-bottom: 10px;
-
-		&.button--index-0, &.button--index-1 {
-			width: 235px; /* To make Download for iPhone and Download for Android buttons same length */
-		}
-	}
-}
-
 .page-id-152, // Terms of us
 .page-id-10  // Contact
 {
