@@ -9,7 +9,7 @@ pipelines:
           script:
             - yarn install
             - yarn build
-            - scp -r build/* admin@$PRODUCTION_HOST:/var/w3/html/cme_ff_org/test_deploy/
+            - rsync -av build/ admin@futuresfundamentals.org:/var/w3/html/cme_ff_org/test_deploy/
   branches:
     fix-this-repo:
       - step:
