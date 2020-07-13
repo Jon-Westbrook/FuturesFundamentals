@@ -261,22 +261,32 @@
 	}
 
 	.wrapper {
-		align-items: center;
 		background-color: #48bfff;
-		display: flex;
-		min-height: 290px;
 		padding: 12px;
+
+		@media (min-width: 767px) {
+			align-items: center;
+			display: flex;
+			min-height: 290px;
+		}
 	}
 
 	.image,
 	.content {
-		width: 50%;
+		@media (min-width: 767px) {
+			width: 50%;
+		}
 	}
 
 	.image img {
 		display: block;
 		margin: 0 auto;
-		max-width: 50%;
+		max-height: 250px;
+
+		@media (min-width: 767px) {
+			max-height: none;
+			max-width: 50%;
+		}
 	}
 
 	.content {
