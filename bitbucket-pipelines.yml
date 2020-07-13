@@ -2,6 +2,13 @@ image: node:10.13.0
 options:
   docker: true
 pipelines:
+  custom:
+    production:
+      - step:
+          name: build
+          script:
+            - yarn install
+            - yarn build
   branches:
     fix-this-repo:
       - step:
