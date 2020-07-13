@@ -9,7 +9,7 @@ const partials = require('metalsmith-discover-partials')
 const msEnv = require('metalsmith-env')
 const ignore = require('metalsmith-ignore')
 const imagemin = require('metalsmith-imagemin')
-const inlineSource = require('metalsmith-inline-source')
+// const inlineSource = require('metalsmith-inline-source')
 const jstransformer = require('metalsmith-jstransformer')
 const frontmatter = require('metalsmith-matters')
 // const redirect = require('metalsmith-redirect')
@@ -136,7 +136,7 @@ envs.forEach(env => {
           defaultLayout: '_layouts/default.hbs'
         })
       )
-      .use(inlineSource())
+      // .use(inlineSource())
       .use(
         cleanCss({
           files: '**/*.css',
@@ -152,8 +152,15 @@ envs.forEach(env => {
       )
       .use(each((file, filename) => {
         if (filename.indexOf('_assets') > -1) filename = filename.replace('_assets', 'assets')
-        if (filename.indexOf('pages/') > -1) filename = filename.replace('pages/', '')
-        if (filename.indexOf('index.html') === -1) filename = filename.replace('.html', '/index.html')
+
+        if (filename.indexOf('pages/') > -1) {
+          filename = filename.replace('pages/', '')
+
+          if (filename.indexOf('index.html') === -1) {
+            filename = filename.replace('.html', '/index.html')
+          }
+        }
+
         return filename
       }))
 
