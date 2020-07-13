@@ -22,7 +22,7 @@
             <p class="copy">{{ copy }}</p>
             <div class="module__promo__links">
               {{#each links}}
-                <a target="_blank" href="{{ href }}" class="button button--index-{{ @index }}">{{ text }}</a>
+                <a target="_blank" href="{{ href }}" class="button button--index-{{ @index }} {{#if download}}button--download{{/if}}">{{ text }}</a>
               {{/each}}
             </div>
           </div>

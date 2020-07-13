@@ -34,6 +34,7 @@ hr {
 	text-transform:uppercase;
 	position:relative;
 	@include animate(all 300ms ease);
+	
 	&:before {
 		content:"";
 		display:block;
@@ -46,6 +47,7 @@ hr {
 		opacity:0;
 		@include animate(opacity 300ms ease);
 	}
+	
 	&:after {
 		content:"";
 		display:block;
@@ -58,12 +60,15 @@ hr {
 		background-size:12px 21px;
 		@include animate(all 300ms ease);
 	}
+	
 	&:hover {
 		color:$white;
 		text-decoration:none;
+		
 		&:before {
 			opacity:1;
 		}
+		
 		&:after {
 			@include transform(translateX(5px));
 		}
@@ -73,6 +78,16 @@ hr {
 		color: #fff;
 		text-decoration: none;
 		outline: 0;
+	}
+
+	&--download:after {
+		background: url('/assets/img/for-educators/download_icon.png') no-repeat top center;
+		background-size: 14px 15px;
+		border-bottom: 1px solid #fff;
+		bottom: 16px;
+		height: 20px;
+		top: initial;
+		width: 14px;
 	}
 
 	@include mq($until: large) {
