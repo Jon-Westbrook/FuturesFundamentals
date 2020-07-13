@@ -5,14 +5,11 @@ pipelines:
   custom:
     production:
       - step:
-          name: build
+          name: build and deploy
           script:
             - yarn install
             - yarn build
-      - step:
-          name: deploy
-          script:
-            - scp -r build/* deploy@$PRODUCTION_HOST:/var/w3/html/cme_ff_org/test_deploy/
+            - scp -r build/* admin@$PRODUCTION_HOST:/var/w3/html/cme_ff_org/test_deploy/
   branches:
     fix-this-repo:
       - step:
