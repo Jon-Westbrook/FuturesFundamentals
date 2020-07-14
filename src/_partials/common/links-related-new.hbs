@@ -13,7 +13,7 @@
     {{#if econ-links}}
       <div class="row econ-essentials-links">
         <div class="col col-xs-12">
-          <p class="body-tertiary module__related-links-new__econ-copy">The following resource is from Econ Essentials, created in partnership with Discovery 
+          <p class="body-tertiary module__related-links-new__econ-copy">The following resource{{ifElse (gt econ-links.length 1) 's are' ' is' }} from Econ Essentials, created in partnership with Discovery 
           Education.</p>
           <div class="row card-grid">
             {{#each econ-links}}
