@@ -29,13 +29,6 @@ body {
 	}
 }
 
-.module__related-links-new {
-  .row {
-    margin-left: -15px;
-    margin-right: -15px;
-  }
-}
-
 
 .module__image {
 	img {
@@ -947,4 +940,32 @@ body {
 
 .no-break {
 	white-space: nowrap;
+}
+
+.module__related-links-new {
+	margin-top: 64px;
+
+  .row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .card-grid {
+  	align-items: stretch;
+  	display: flex;
+  	flex-wrap: wrap;
+  }
+
+  & &__headline {
+  	margin-bottom: 0;
+  }
+
+  & &__hr {
+  	margin-bottom: 30px;
+  	margin-top: 25px;
+  }
+
+  & &__econ-copy {
+  	margin-bottom: 20px;
+  }
 }

@@ -1,10 +1,12 @@
 <div class="row module__related-links-new">
   <div class="col-md-2 hidden-sm"></div>
   <div class="col-md-8">
-    <h2 class="article_headline">Additional resource</h2>
-    <hr />
+    {{log links.length}}
+    {{log econ-links.length }}
+    <h2 class="module__related-links-new__headline article_headline">Additional Resource{{#if (gt (sum links.length econ-links.length) 1)}}s{{/if}}</h2>
+    <hr class="module__related-links-new__hr" />
     {{#if links}}
-      <div class="row">
+      <div class="row card-grid">
         {{#each links}}
           <div>
             <div class="col col-xs-3">
@@ -25,9 +27,9 @@
     {{#if econ-links}}
       <div class="row econ-essentials-links">
         <div class="col col-xs-12">
-          <p class="body-tertiary">The following resource is from Econ Essentials, created in partnership with Discovery 
+          <p class="body-tertiary module__related-links-new__econ-copy">The following resource is from Econ Essentials, created in partnership with Discovery 
           Education.</p>
-          <div class="row">
+          <div class="row card-grid">
             {{#each econ-links}}
               {{> resource-card }}
             {{/each}}

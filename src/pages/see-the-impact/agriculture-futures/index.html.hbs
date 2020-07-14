@@ -9,20 +9,46 @@ headline: "Agriculture Futures: Between the Farm and the Table"
 video-callout:
   link:
     href: http://www.econessentialsinschool.com/videos
-    img: /assets/img/screenshots/seekervideo_farm.jpg
+    img: /assets/img/screenshots/.jpg
   headline: Creating the Farm of the Future
   copy: A wave of young American farmers is taking its place at the forefront of the industry. See how this new generation is changing the way people think about agriculture.
   img:
     eyebrow: EconEssentials
     src: /assets/img/seeker-stories-logo.png
 related-links:
-  -
-    headline: Want to learn more?
-    copy: Take an interactive journey from the farm to the table in this new educational resource developed in partnership with Discovery Education
-    icon-class: call-discovery-icon
-    link:
-      href: https://www.econessentialsinschool.com/sites/all/themes/econ_ui/assets/modules/food/#slide1-1
-      text: CHECK OUT THE “FACTS ABOUT FOOD” MODULE
+  econ-links:
+    - 
+      eyebrow: Video series
+      headline: New Generation of Farmers
+      copy: The future of the US food supply will soon be in the hands of millenials. Continue learning with the three-part series by Seeker Stories.
+      link: http://www.econessentialsinschool.com/videos
+      image: video-farmers.jpg
+      icon: link-external
+      layout: vertical
+    -
+      eyebrow: Learning module
+      headline: Facts about food
+      copy: Take an interactive journey from the farm to the table with this educational resource.
+      link: https://www.econessentialsinschool.com/sites/all/themes/econ_ui/assets/modules/food/#slide1-1
+      image: learning-food-fact.png
+      icon: link-external
+      layout: vertical
+    -
+      eyebrow: Economics lesson
+      headline: An Introduction to  Behavioral Economics
+      copy: Explore behavioral economic theory and the mysteries behind human decision-making. 
+      link: https://www.econessentialsinschool.com/behavioral-econ-lessons#introduction
+      image: lesson-intro.jpg
+      icon: link-external
+      layout: vertical
+    -
+      eyebrow: Economics lesson
+      headline: How We Are Affected  by Preference
+      copy: Gain an understanding of how concepts like loss aversion and the endowment effect factor into the financial decision making process.
+      link: https://www.econessentialsinschool.com/behavioral-econ-lessons#lesson-two
+      image: lesson-preference.jpg
+      icon: link-external
+      layout: vertical
 article-pagination:
   next:
     href: /see-the-impact/agriculture-futures/food-prices-explained/
@@ -80,11 +106,9 @@ article-pagination:
       {{/module-image}}
       
 
-      {{#with page.video-callout}}
-        {{> video-callout }}
+      {{#with page.related-links}}
+        {{> links-related-new }}
       {{/with}}
-
-      {{> links-related links=page.related-links }}
 
     </div>
   </article>
