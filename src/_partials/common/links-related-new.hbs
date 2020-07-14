@@ -6,19 +6,7 @@
     {{#if links}}
       <div class="row card-grid">
         {{#each links}}
-          <div>
-            <div class="col col-xs-3">
-              <a class="" href="{{ link.href }}" target="_blank">&nbsp;</a>
-              <div></div>
-            </div>
-            <div class="col-xs-9">
-              <div class="">
-                <h2>{{ headline }}</h2>
-                <p>{{ copy }}</p>
-                <a href="{{ link.href }}" target="_blank">{{ link.text }}</a>
-              </div>
-            </div>
-          </div>
+          {{> resource-card color='blue' }}
         {{/each}}
       </div>
     {{/if}}

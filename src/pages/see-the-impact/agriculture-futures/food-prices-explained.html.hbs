@@ -55,37 +55,48 @@ card-carousel:
         - Drought, flooding and freezing reduce supply, which can cause dramatic price increases in essential crops.</p>
         - The 2012 U.S. drought, which was the most widespread in more than half a century, resulted in record prices for corn and soybeans.
 related-links:
-  -
-    headline: Grain prices
-    copy: Get more specifics about the prices of corn, wheat, soy and more.
-    icon-class: call-grain-prices-icon
-    link:
-      type: pdf
-      href: /assets/pdf/The_Facts_Behind_Food_Prices.pdf
-      text: Download PDF, 1.1MB
-  -
-    headline: Pork prices
-    copy: Take a closer look at the factors surrounding pork prices.
-    icon-class: call-pork-prices-icon
-    link:
-      type: pdf
-      href: /assets/pdf/The_Facts_Behind_Pork_Prices.pdf
-      text: Download PDF, 179KB
-  -
-    headline: Beef prices
-    copy: Take a closer look at the factors surrounding livestock prices.
-    icon-class: call-beef-prices-icon
-    link:
-      type: pdf
-      href: /assets/pdf/The_Facts_Behind_Beef_Prices.pdf
-      text: Download PDF, 1MB
-  -
-    headline: Want to learn more?
-    copy: Take an interactive journey from the farm to the table in this new educational resource developed in partnership with Discovery Education.
-    icon-class: call-discovery-icon
-    link:
-      href: https://www.econessentialsinschool.com/sites/all/themes/econ_ui/assets/modules/food/#slide1-1
-      text: CHECK OUT THE “FACTS ABOUT FOOD” MODULE
+  links:
+    -
+      eyebrow: Downloadable PDF
+      headline: The Facts Behind Food Prices
+      copy: Get more specifics about the prices  of corn, wheat, soy and more.
+      icon: download
+      link: /assets/pdf/The_Facts_Behind_Food_Prices.pdf
+      image: food-prices-grain.jpg
+      layout: horizontal
+    -
+      eyebrow: Downloadable PDF
+      headline: The Facts Behind Pork Prices
+      copy: Take a closer look at the factors surrounding pork prices.
+      icon: download
+      link: /assets/pdf/The_Facts_Behind_Pork_Prices.pdf
+      image: food-prices-pork.jpg
+      layout: horizontal
+    -
+      eyebrow: Downloadable PDF
+      headline: The Facts Behind Beef Prices
+      copy: Take a closer look at the factors surrounding livestock prices.
+      icon: download
+      link: /assets/pdf/The_Facts_Behind_Beef_Prices.pdf
+      image: food-prices-beef.jpg
+      layout: horizontal
+  econ-links:
+    -
+      eyebrow: Learning module
+      headline: Facts about food
+      copy: Take an interactive journey from the farm to the table with this educational resource.
+      link: https://www.econessentialsinschool.com/sites/all/themes/econ_ui/assets/modules/food/#slide1-1
+      image: learning-food-fact.png
+      icon: link-external
+      layout: vertical
+    -
+      eyebrow: Economics lesson
+      headline: The Question of Choice
+      copy: Explore how individual decision-making  can be influenced by peers, businesses, organizations, and others.
+      link: https://www.econessentialsinschool.com/behavioral-econ-lessons#lesson-three
+      image: lesson-choice.jpg
+      icon: link-external
+      layout: vertical
 article-pagination:
   next:
     href: /see-the-impact/energy-futures/
@@ -148,7 +159,9 @@ article-pagination:
       <a name="food-prices-move"></a>
       {{> food-prices--move-animation }}
 
-      {{> links-related links=page.related-links}}
+      {{#with page.related-links}}
+        {{> links-related-new }}
+      {{/with}}
 
     </div>
   </article>

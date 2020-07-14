@@ -14,14 +14,6 @@
     transition: background-color 0.2s;
   }
 
-  &.blue {
-    background-color: #55C0FA;
-  }
-
-  &.blue &__link:hover {
-    background-color: rgba(#0079C1, 0.32);
-  }
-
   &__link:hover {
     background-color: rgba(#6D6C6D, 0.25);
     text-decoration: none;
@@ -73,6 +65,7 @@
   }
 
   &__copy-container &__copy {
+    font-family: "Benton Sans Bd", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 20px;
   }
@@ -90,6 +83,10 @@
     }
   }
 
+  &--vertical &__copy-container {
+    position: relative;
+  }
+
   &--horizontal &__image-container,
   &--horizontal &__copy-container {
     @media (min-width: 575px) {
@@ -101,7 +98,49 @@
     align-self: stretch;
   }
 
-  &--vertical &__copy-container {
-    position: relative;
+  &--blue &__eyebrow,
+  &--blue &__headline,
+  &--blue &__copy {
+    color: #fff;
+  }
+
+  &--blue &__link {
+    background-color: transparent;
+
+    &:before {
+      background-color: #55C0FA;
+      bottom: 0;
+      content: '';
+      display: block;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: -2;
+    }
+
+    &:after {
+      background-color: rgba(#0079C1, 0.32);
+      bottom: 0;
+      content: '';
+      display: block;
+      left: 0;
+      opacity: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      transition: opacity 0.2s;
+      z-index: -1;
+    }
+  }
+
+  &--blue &__link:hover {
+    &:after {
+      opacity: 1;
+    }
+  }
+
+  &--blue &__link-icon {
+    background-color: #0079C1;
   }
 }
