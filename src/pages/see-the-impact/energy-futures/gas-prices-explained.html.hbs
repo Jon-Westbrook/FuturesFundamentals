@@ -10,20 +10,32 @@ hero:
 eyebrow: Energy Futures
 headline: Gas Prices Explained
 related-links:
-  -
-    headline: The sources of oil prices
-    copy: See a broad overview of the global factors that influence crude oil prices
-    icon-class: call-sources-oil-prices-icon
-    link:
-      href: /assets/pdf/The_Facts_Behind_Oil_Prices.pdf
-      text: Download PDF, 768KB
-  -
-    headline: Want to learn more?
-    copy: See if you can predict future gas prices using our interactive, educational resource developed in partnership with Discovery Education.
-    icon-class: call-discovery-icon
-    link:
-      href: https://www.econessentialsinschool.com/sites/all/themes/econ_ui/assets/modules/fuel/#package.json:-1
-      text: CHECK OUT THE "FUELING THE FUTURE" MODULE
+  links:
+    -
+      eyebrow: Downloadable PDF
+      headline: The Facts behind Oil Prices
+      copy: See a broad overview of the global factors that influence crude oil prices.
+      icon: download
+      link: /assets/pdf/The_Facts_Behind_Oil_Prices.pdf
+      layout: horizontal
+      image: pdf-oil-prices.jpg
+  econ-links:
+    -
+      eyebrow: Economics lesson
+      headline: How We Are Affected  by Price
+      copy: Are people’s buying decisions dictated more by preference or by price? Learn how concepts like price anchoring can play a role.
+      icon: link-external
+      image: lesson-price.jpg
+      layout: vertical
+      link: https://www.econessentialsinschool.com/behavioral-econ-lessons#lesson-four
+    -
+      eyebrow: Learning module
+      headline: Fueling the future
+      copy: See if you can predict future  gas prices using our interactive, educational resource.
+      icon: link-external
+      image: learning-fueling-future.jpg
+      link: https://www.econessentialsinschool.com/sites/all/themes/econ_ui/assets/modules/fuel/#package.json:-1
+      layout: vertical
 article-pagination:
   next:
     href: /see-the-impact/energy-futures/north-american-oil-production/
@@ -56,7 +68,9 @@ article-pagination:
       <a name="thestoryofoil"></a>
       {{> brightcove-video id='thestoryofoil' vid-id='ref:140523StoryofOil_1080' }}
       
-      {{> links-related links=page.related-links}}
+      {{#with page.related-links}}
+        {{> links-related-new }}
+      {{/with}}
 
     </div>
   </article>

@@ -51,23 +51,24 @@ example-list:
         -
           icon: trader
           copy: An individual trader might want to profit from movements in a stock index. He’ll use equity index futures to <em class="glossary__term" data-term="leverage">leverage</em> his portfolio. At the same time, he absorbs the risks of those looking to hedge against those same price movements.
-video-callout:
-  headline: Open for Business in a Newly Open Cuba
-  copy: Meet a restaurateur looking to capitalize on new opportunities and build her business in a post-embargo Cuba.
-  link:
-    href: http://www.econessentialsinschool.com/videos
-    img: /assets/img/screenshots/seekervideo_cuba.jpg
-  img:
-    src: /assets/img/seeker-stories-logo.png
-    eyebrow: EconEssentials
 related-links:
-  -
-    headline: Want to learn more?
-    copy: See if you can navigate tricky financial situations – like dealing with student loans and buying a car – using our educational resource developed in partnership with Discovery Education.
-    icon-class: call-discovery-icon
-    link:
-      href: https://www.econessentialsinschool.com/sites/default/files/InteractiveModules/foundations-of-finance/
-      text: Check out the “Foundations of Finance” module
+  econ-links:
+    -
+      eyebrow: Video series
+      headline: Owning a Restaurant in  Post-Embargo Cuba
+      copy: Meet a restaurateur looking to capitalize on new opportunities and build her business. Continue learning with the three-part series by Seeker Stories.
+      link: http://www.econessentialsinschool.com/videos
+      image: video-cuba.jpg
+      layout: vertical
+      icon: link-external
+    -
+      eyebrow: Learning module
+      headline: Foundations of Finance
+      copy: See if you can navigate tricky financial situations – like dealing with student loans and buying a car.
+      icon: link-external
+      link: https://www.econessentialsinschool.com/sites/default/files/InteractiveModules/foundations-of-finance/
+      image: learning-finance.jpg
+      layout: vertical
 article-pagination:
   next:
     href: /see-the-impact/financial-futures/interest-rates-explained/
@@ -106,11 +107,9 @@ article-pagination:
         {{> example-list}}
       {{/with}}
 
-      {{#with page.video-callout}}
-        {{> video-callout }}
+      {{#with page.related-links}}
+        {{> links-related-new }}
       {{/with}}
-
-      {{> links-related links=page.related-links}}
 
     </div>
   </article>

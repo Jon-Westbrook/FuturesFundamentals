@@ -9,23 +9,24 @@ hero:
     id: fuel_and_futures
 eyebrow: See the Impact
 headline: "Energy Futures: Between the Ground and the Pump"
-video-callout:
-  headline: Algae as an energy source?
-  copy: Visit an algae pond in Hawaii where scientists are studying and refining ways to use the plant as an alternative fuel source. Learn about how this biofuel has the potential to change our world economy and the environment forever.
-  img:
-    src: /assets/img/seeker-stories-logo.png
-    eyebrow: EconEssentials
-  link:
-    href: http://www.econessentialsinschool.com/videos
-    img: /assets/img/screenshots/seekervideo_energy.jpg
 related-links:
-  -
-    headline: Want to learn more?
-    copy: See if you can predict future gas prices using our interactive, educational resource developed in partnership with Discovery Education.
-    icon-class: call-discovery-icon
-    link:
-      href: https://www.econessentialsinschool.com/sites/all/themes/econ_ui/assets/modules/fuel/#package.json:-1
-      text: CHECK OUT THE "FUELING THE FUTURE" MODULE
+  econ-links:
+    -
+      eyebrow: Video series
+      headline: Algae as an Energy Source?
+      copy: Learn how scientists in Hawaii use algae as an alternative fuel source. Continue learning with the three-part series by Seeker Stories.
+      link: http://www.econessentialsinschool.com/videos
+      icon: link-external
+      layout: vertical
+      image: video-algae.jpg
+    -
+      eyebrow: Learning module
+      headline: Fueling the future
+      copy: See if you can predict future  gas prices using our interactive, educational resource.
+      icon: link-external
+      image: learning-fueling-future.jpg
+      link: https://www.econessentialsinschool.com/sites/all/themes/econ_ui/assets/modules/fuel/#package.json:-1
+      layout: vertical
 article-pagination:
   next:
     href: /see-the-impact/energy-futures/gas-prices-explained/
@@ -64,11 +65,9 @@ article-pagination:
         <p>Gasoline prices average about 10 cents per gallon higher at their summer high than at their winter low. This is usually due to an uptick in demand and the logistics of refining gasoline that will perform better in hot weather. But with the rise of fuel-efficient cars, government-mandated fuel efficiency standards, and a younger generation of Americans choosing to drive less, the summer spike is likely to become less and less pronounced over time.</p>
       {{/callout-example}}
 
-      {{#with page.video-callout }}
-        {{> video-callout}}
+      {{#with page.related-links}}
+        {{> links-related-new }}
       {{/with}}
-
-      {{> links-related links=page.related-links }}
 
     </div>
   </article>

@@ -10,13 +10,15 @@ hero:
 eyebrow: Energy Futures
 headline: 'North American Oil Production: The Rapid Move to Energy <span class="no-break">Self-Sufficiency</span>'
 related-links:
-  -
-    headline: Want to learn more?
-    copy: See if you can predict future gas prices using our interactive, educational resource developed in partnership with Discovery Education.
-    icon-class: call-discovery-icon
-    link:
-      href: https://www.econessentialsinschool.com/sites/all/themes/econ_ui/assets/modules/fuel/#package.json:-1
-      text: CHECK OUT THE "FUELING THE FUTURE" MODULE
+  econ-links:
+    -
+      eyebrow: Learning module
+      headline: Fueling the future
+      copy: See if you can predict future  gas prices using our interactive, educational resource.
+      icon: link-external
+      image: learning-fueling-future.jpg
+      link: https://www.econessentialsinschool.com/sites/all/themes/econ_ui/assets/modules/fuel/#package.json:-1
+      layout: horizontal
 article-pagination:
   next:
     href: /see-the-impact/financial-futures/
@@ -47,7 +49,9 @@ article-pagination:
         <img alt="Did you know: In 2014, the U.S. became the third-largest oil-producing country in the world. Only Russia and Saudi Arabia produced more." src="/assets/img/infographics/leading_oil_producers__mobile.png" class="hidden-sm  hidden-md hidden-lg" />
       {{/module-image}}
 
-      {{> links-related links=page.related-links}}
+      {{#with page.related-links}}
+        {{> links-related-new}}
+      {{/with}}
 
     </div>
   </article>

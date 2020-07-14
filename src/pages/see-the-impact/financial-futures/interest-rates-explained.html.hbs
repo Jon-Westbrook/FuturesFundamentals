@@ -10,13 +10,15 @@ hero:
 eyebrow: Financial Futures
 headline: Interest Rates Explained
 related-links:
-  -
-    headline: Want to learn more?
-    copy: See if you can navigate tricky financial situations – like dealing with student loans and buying a car – using our educational resource developed in partnership with Discovery Education.
-    icon-class: call-discovery-icon
-    link:
-      href: https://www.econessentialsinschool.com/sites/default/files/InteractiveModules/foundations-of-finance/
-      text: Check out the “Foundations oF Finance” module
+  econ-links:
+    -
+      eyebrow: Learning module
+      headline: Foundations of Finance
+      copy: See if you can navigate tricky financial situations – like dealing with student loans and buying a car.
+      icon: link-external
+      link: https://www.econessentialsinschool.com/sites/default/files/InteractiveModules/foundations-of-finance/
+      image: learning-finance.jpg
+      layout: horizontal
 article-pagination:
   next:
     section: Explore the Marketplace
@@ -125,7 +127,9 @@ article-pagination:
 
       {{/carousel-container}}
 
-      {{> links-related links=page.related-links}}
+      {{#with page.related-links}}
+        {{> links-related-new }}
+      {{/with}}
       
     </div>
   </article>
