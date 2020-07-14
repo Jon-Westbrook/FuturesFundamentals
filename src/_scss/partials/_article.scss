@@ -29,6 +29,13 @@ body {
 	}
 }
 
+.module__related-links-new {
+  .row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+
 
 .module__image {
 	img {
@@ -168,13 +175,24 @@ body {
 			line-height:26px;
 		}
 	}
-@include mq($until: medium) {
-	.pre-cereal {
-		p {
-			padding-top: 25px;
+
+	.body-secondary {
+		font-size: 20px;
+	}
+
+	.body-tertiary {
+		font-size: 16px;
+	}
+
+
+	@include mq($until: medium) {
+		.pre-cereal {
+			p {
+				padding-top: 25px;
+			}
 		}
 	}
-}
+
 	.article_headline {
 		font-size:24px;
 		line-height:28px;

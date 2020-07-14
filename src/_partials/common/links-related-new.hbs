@@ -1,0 +1,40 @@
+<div class="row module__related-links-new">
+  <div class="col-md-2 hidden-sm"></div>
+  <div class="col-md-8">
+    <h2 class="article_headline">Additional resource</h2>
+    <hr />
+    {{#if links}}
+      <div class="row">
+        {{#each links}}
+          <div>
+            <div class="col col-xs-3">
+              <a class="" href="{{ link.href }}" target="_blank">&nbsp;</a>
+              <div></div>
+            </div>
+            <div class="col-xs-9">
+              <div class="">
+                <h2>{{ headline }}</h2>
+                <p>{{ copy }}</p>
+                <a href="{{ link.href }}" target="_blank">{{ link.text }}</a>
+              </div>
+            </div>
+          </div>
+        {{/each}}
+      </div>
+    {{/if}}
+    {{#if econ-links}}
+      <div class="row econ-essentials-links">
+        <div class="col col-xs-12">
+          <p class="body-tertiary">The following resource is from Econ Essentials, created in partnership with Discovery 
+          Education.</p>
+          <div class="row">
+            {{#each econ-links}}
+              {{> resource-card }}
+            {{/each}}
+          </div>
+        </div>
+      </div>
+    {{/if}}
+  </div>
+  <div class="col-md-2 hidden-sm"></div>
+</div>

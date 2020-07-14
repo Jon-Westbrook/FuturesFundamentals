@@ -12,7 +12,7 @@ pipelines:
             - yarn build
             - rsync -av build/ admin@futuresfundamentals.org:/var/w3/html/cme_ff_org/
   branches:
-    fix-this-repo:
+    dev:
       - step:
           name: deploy
           script:
