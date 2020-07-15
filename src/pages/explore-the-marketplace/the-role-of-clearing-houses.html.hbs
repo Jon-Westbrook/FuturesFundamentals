@@ -256,13 +256,10 @@ carousel:
       - inter_arrow_sm06
       - inter_arrow_sm07
 related-links:
-  -
-    headline: Clearing, plain and simple
-    copy: Get a big-picture look at the clearing process of a large global exchange.
-    icon-class: call-clearing-plain-simple-icon
-    link:
-      href: /assets/pdf/A_Counterparty_for_Every_Trade.pdf
-      text: Download PDF, 570KB
+  links:
+    -
+      data: pdf.clearing
+      layout: horizontal
 article-pagination:
   next:
     href: /explore-the-marketplace/protecting-the-futures-markets/how-to-clear-a-trade/
@@ -303,7 +300,9 @@ article-pagination:
 
       {{/carousel-container}}
 
-      {{> links-related links=page.related-links }}
+      {{#with page.related-links}}
+        {{> links-related-new }}
+      {{/with}}
 
     </div>
   </article>

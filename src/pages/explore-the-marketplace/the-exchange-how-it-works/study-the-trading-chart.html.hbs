@@ -10,13 +10,10 @@ hero:
 eyebrow: 'The Exchange: How it Works'
 headline: Study the Trading Chart
 related-links:
-  -
-    headline: ALREADY KNOW THE BASICS?
-    copy: Bypass the tutorial and start trading now using our practice simulator.
-    icon-class: call-trade-icon
-    link:
-      href: http://futures-fundamentals-ndjmr3dnam.elasticbeanstalk.com
-      text: Launch Simulator
+  links:
+    -
+      data: trading-simulator
+      layout: horizontal
 article-pagination:
   next:
     href: /explore-the-marketplace/the-exchange-how-it-works/assess-market-conditions/
@@ -142,7 +139,9 @@ article-pagination:
         <p>Understanding these charts will allow you to do <em class="glossary__term" data-term="technical analysis">technical analysis</em> of the corn market, which can help you spot trends and capitalize on potential opportunities.</p>
       {{/column-layout--default}}
 
-      {{> links-related links=page.related-links}}
+      {{#with page.related-links}}
+        {{> links-related-new }}
+      {{/with}}
 
     </div>
   </article>

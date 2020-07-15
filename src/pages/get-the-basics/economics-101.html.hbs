@@ -6,6 +6,17 @@ body:
 mainDivClass: article
 eyebrow: Get the Basics
 headline: A Macro Look at Microeconomics
+related-links:
+  econ-links:
+    -
+      data: video.farmers
+      layout: horizontal
+    -
+      data: learning.foundations-finance
+      layout: horizontal
+    -
+      data: lesson.intro
+      layout: horizontal
 article-pagination:
   next:
     name: Here's Why Futures Matter to You
@@ -38,6 +49,10 @@ article-pagination:
         <h3 class="article_headline">The bigger picture</h3>
         <p>The global economy is based on all sorts of things that are bought and sold every day. Futures exchanges provide markets for them – from agricultural crops and livestock; to metals and natural resources; to interest rates, stock indexes and foreign currencies. It truly is a global marketplace, and futures exchanges are among the world’s leading forums for buying and selling.</p>
       {{/column-layout--default}}
+
+      {{#with page.related-links}}
+        {{> links-related-new }}
+      {{/with}}
     </div>
   </article>
 

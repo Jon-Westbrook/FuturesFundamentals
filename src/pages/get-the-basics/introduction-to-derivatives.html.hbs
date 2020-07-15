@@ -10,14 +10,14 @@ hero:
 eyebrow: Get the Basics
 headline: The Global Derivatives Marketplace
 related-links:
-  -
-    headline: The book of risk
-    copy: Everything you want to know about risk, how it’s managed and why it matters
-    icon-class: call-book-of-risk-icon
-    link:
-      href: /assets/pdf/The_Book_of_Risk.pdf
-      text: Download PDF, 8.1 MB
-      type: pdf
+  links:
+    -
+      data: pdf.book-of-risk
+      layout: horizontal
+  econ-links:
+    -
+      data: learning.food-fuel-finance
+      layout: horizontal
 article-pagination:
   next:
     name: Futures and Options
@@ -73,7 +73,9 @@ article-pagination:
               
       {{/carousel-container}}
 
-      {{> links-related links=page.related-links }}
+      {{#with page.related-links}}
+        {{> links-related-new }}
+      {{/with}}
 
     </div>
   </article>

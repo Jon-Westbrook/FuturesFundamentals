@@ -6,6 +6,15 @@ body:
 mainDivClass: article
 eyebrow: Get the Basics
 headline: 'Futures and Options: Tools for Navigating Business and <span class="no-break">Financial Risk</span>'
+related-links:
+  links:
+    -
+      data: pdf.book-of-risk
+      layout: horizontal
+  econ-links:
+    -
+      data: lesson.intro
+      layout: horizontal
 article-pagination:
   next:
     name: Economics 101
@@ -39,6 +48,10 @@ article-pagination:
         <p class="caption_subtitle futures-icon">A real world example</p>
         <p>In the summer of 2012, the United States experienced its most severe drought since the Dust Bowl of the 1930s. The drought had perhaps the biggest impact in the Midwest Corn Belt. As the season became dryer and hotter, corn farmers and country elevators that store corn for later sale bought corn futures at a certain price, for a certain date of sale. This guaranteed a level of profit, which helped plan for a year in which production and supply of their crop would most certainly be lower than normal.</p>
       {{/callout-example}}
+
+      {{#with page.related-links}}
+        {{> links-related-new }}
+      {{/with}}
 
     </div>
   </article>

@@ -76,13 +76,17 @@ quiz:
       copy: He is protecting his investment by transferring risk to an insurance company willing to protect him from financial loss.
     see-results: true
 related-links:
-  -
-    headline: The truth about speculators
-    copy: Speculator activity often comes under scrutiny when the markets fluctuate.
-    icon-class: call-scales-icon
-    link:
-      href: /assets/pdf/Who_is_a_Speculator.pdf
-      text: Download PDF, 412KB
+  links:
+    - 
+      data: pdf.speculator
+      layout: horizontal
+  econ-links:
+    -
+      data: lesson.intro
+      layout: vertical
+    - 
+      data: lesson.preference
+      layout: vertical
 article-pagination:
   next:
     href: /explore-the-marketplace/the-exchange-how-it-works/
@@ -222,7 +226,9 @@ article-pagination:
 
       {{> brightcove-video id='hedgingandspeculating' vid-id='ref:1305CME_VisitorsCenter_Chapter04v3_2013' }}
 
-      {{> links-related links=page.related-links}}
+      {{#with page.related-links}}
+        {{> links-related-new }}
+      {{/with}}
 
     </div>
   </article>

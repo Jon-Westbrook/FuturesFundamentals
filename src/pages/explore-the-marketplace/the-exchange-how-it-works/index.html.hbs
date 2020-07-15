@@ -9,6 +9,11 @@ hero:
     id: exch_how_it_works
 eyebrow: Explore the Marketplace
 headline: 'The Exchange: How It Works'
+related-links:
+  econ-links:
+    - 
+      data: learning.foundations-finance
+      layout: horizontal
 article-pagination:
   next:
     href: /explore-the-marketplace/the-exchange-how-it-works/learn-how-to-trade/
@@ -65,6 +70,11 @@ article-pagination:
 
       <a name="liquidity"></a>
       {{> brightcove-video id='liquidity' vid-id='ref:131104vsarisk_liquidity' }}
+
+      {{#with page.related-links}}
+        {{> links-related-new }}
+      {{/with}}
+
     </div>
   </article>
   

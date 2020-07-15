@@ -11,15 +11,27 @@ hero:
 eyebrow: 'The Exchange: How it Works'
 headline: Place a Trade
 promo:
-  id: module_promo__You_have_the_basics
-  headline: You have the basics
-  copy: Now it's time to try it in real time. Think you're ready? Click here to launch the simulator and get trading.
-  image:
-    src: /assets/img/Simulator_promotion1@2x.png
-  links:
+  id: module_promo__The_Basics_of_Trading
+  headline: The Basics of Trading
+  copy: Use our comprehensive tutorial to teach your students the core concepts of trading.
+
+  block:
+    headline: The Basics of Trading
+    copy: Try out our trading tutorial and our true-to-life trading simulator.
+    image:
+      src: /assets/img/for-educators/simulator_promotion.png
+    links:
+      -
+        href: /explore-the-marketplace/the-exchange-how-it-works/learn-how-to-trade/
+        text: Explore the Tutorial
+related-links:
+  econ-links:
     -
-      href: http://futures-fundamentals-ndjmr3dnam.elasticbeanstalk.com/
-      text: Launch Simulator
+      data: learning.foundations-finance
+      layout: vertical
+    -
+      data: lesson.intro
+      layout: vertical
 article-pagination:
   next:
     href: /explore-the-marketplace/the-role-of-technology-in-futures-markets/
@@ -130,6 +142,10 @@ article-pagination:
       
       {{#with page.promo}}
         {{> for-educators--promo }}
+      {{/with}}
+
+      {{#with page.related-links}}
+        {{> links-related-new }}
       {{/with}}
 
     </div>

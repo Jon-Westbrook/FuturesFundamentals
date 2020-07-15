@@ -10,13 +10,10 @@ hero:
 eyebrow: 'The Exchange: How it Works'
 headline: Understand the Market Snapshot
 related-links:
-  -
-    headline: ALREADY KNOW THE BASICS?
-    copy: Bypass the tutorial and start trading now using our practice simulator.
-    icon-class: call-trade-icon
-    link:
-      href: http://futures-fundamentals-ndjmr3dnam.elasticbeanstalk.com
-      text: Launch Simulator
+  links:
+    -
+      data: trading-simulator
+      layout: horizontal
 article-pagination:
   next:
     href: /explore-the-marketplace/the-exchange-how-it-works/study-the-trading-chart/
@@ -235,7 +232,9 @@ article-pagination:
         <p>Now you know how to read the snapshot. The next step is understanding how that information allows you to look for trends in the corn market as you delve into the second piece of <em class="glossary__term" data-term="technical analysis">technical analysis</em> – the trading chart.</p>
       {{/column-layout--default}}
 
-      {{> links-related links=page.related-links}}
+      {{#with page.related-links}}
+        {{> links-related-new }}
+      {{/with}}
 
     </div>
   </article>

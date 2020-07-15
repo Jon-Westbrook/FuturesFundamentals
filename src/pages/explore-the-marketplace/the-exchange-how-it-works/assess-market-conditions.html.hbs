@@ -11,13 +11,14 @@ hero:
 eyebrow: 'The Exchange: How it Works'
 headline: Assess Market Conditions
 related-links:
-  -
-    headline: ALREADY KNOW THE BASICS?
-    copy: Bypass the tutorial and start trading now using our practice simulator.
-    icon-class: call-trade-icon
-    link:
-      href: http://futures-fundamentals-ndjmr3dnam.elasticbeanstalk.com/users/sign_in
-      text: Launch Simulator
+  links:
+    -
+      data: trading-simulator
+      layout: horizontal
+  econ-links:
+    -
+      data: lesson.choice
+      layout: horizontal
 article-pagination:
   next:
     href: /explore-the-marketplace/the-exchange-how-it-works/place-a-trade/
@@ -194,7 +195,9 @@ article-pagination:
         <p>Conversely, if reports indicate a mild summer and a bumper corn harvest, you might make the assumption that supply will outstrip demand, resulting in a price drop.</p>
       {{/column-layout--default}}
 
-      {{> links-related links=page.related-links}}
+      {{#with page.related-links}}
+        {{> links-related-new }}
+      {{/with}}
 
     </div>
   </article>

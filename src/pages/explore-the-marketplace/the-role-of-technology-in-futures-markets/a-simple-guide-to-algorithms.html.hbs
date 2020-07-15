@@ -9,6 +9,14 @@ hero:
     id: algo_made_simple
 eyebrow: The Role of Technology in Futures Markets
 headline: A Simple Guide to Algorithms
+related-links:
+  econ-links:
+    -
+      data: learning.foundations-finance
+      layout: vertical
+    -
+      data: lesson.intro
+      layout: vertical
 article-pagination:
   next:
     href: /explore-the-marketplace/protecting-the-futures-markets/
@@ -44,6 +52,10 @@ article-pagination:
         <p>Every day, <em class="glossary__term" data-term="institutional trader">institutional traders</em> buy and sell large numbers of futures contracts through the exchange. If they were to make each of these large trades in one fell swoop, the resulting price swings would influence the baseline market price and increase <em class="glossary__term" data-term="volatility">volatility</em> and price risk among all <em class="glossary__term" data-term="market participant">market participants</em>.</p>
         <p>A TWAP algorithm allows traders to break their trades into multiple small orders. The algorithm uses its own complex set of rules to determine the best time to buy or sell, while having the least impact on the market. By spreading out these trades strategically over time, the TWAP algorithm helps the markets maintain a stable amount of <em class="glossary__term" data-term="liquidity">liquidity</em>.</p>
       {{/column-layout--default}}
+
+      {{#with page.related-links}}
+        {{> links-related-new }}
+      {{/with}}
 
     </div>
   </article>

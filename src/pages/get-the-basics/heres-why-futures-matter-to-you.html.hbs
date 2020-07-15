@@ -6,6 +6,11 @@ body:
 mainDivClass: article
 eyebrow: Get the Basics
 headline: Here’s Why Futures Matter to You
+related-links:
+  econ-links:
+    -
+      data: learning.food-fuel-finance
+      layout: horizontal
 article-pagination:
   next:
     section: See the Impact
@@ -133,6 +138,10 @@ article-pagination:
         {{/carousel-item--lottie}}
       
       {{/carousel-container}}
+
+      {{#with page.related-links}}
+        {{> links-related-new }}
+      {{/with}}
     </div>
   </article>
   

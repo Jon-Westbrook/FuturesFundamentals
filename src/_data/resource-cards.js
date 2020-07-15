@@ -63,6 +63,38 @@ module.exports = {
     image: 'lesson-price.jpg',
     link: 'https://www.econessentialsinschool.com/behavioral-econ-lessons#lesson-four'
   },
+  'pdf.book-of-risk': {
+    eyebrow: 'Downloadable PDF',
+    headline: 'The Book of Risk',
+    copy: 'Everything you want to know about risk, how it’s managed and why it matters.',
+    icon: 'download',
+    link: '/assets/pdf/The_Book_of_Risk.pdf',
+    image: 'pdf-book-of-risk.png'
+  },
+  'pdf.clearing': {
+    eyebrow: 'Downloadable PDF',
+    headline: 'A Counterparty for Every Trade',
+    copy: 'Get a big-picture look at the clearing process of a large global exchange.',
+    icon: 'download',
+    link: '/assets/pdf/A_Counterparty_for_Every_Trade.pdf',
+    image: 'pdf-clearing.png'
+  },
+  'pdf.electronic-trade': {
+    eyebrow: 'Downloadable PDF',
+    headline: 'Market Protections of an Electronic Trade',
+    copy: 'Get a comprehensive look at the many steps of clearing a trade.',
+    icon: 'download',
+    link: '/assets/pdf/Market_Protections_of_an_Electronic_Trade.pdf',
+    image: 'pdf-electronic-trade.png'
+  },
+  'pdf.market-abuse': {
+    eyebrow: 'Downloadable PDF',
+    headline: 'Preventing Market Abuse',
+    copy: 'See how trading is monitored and protected on a day-to-day basis at a global futures exchange.',
+    icon: 'download',
+    link: '/assets/pdf/Preventing_Market_Abuse.pdf',
+    image: 'pdf-market-abuse.png'
+  },
   'pdf.prices-beef': {
     eyebrow: 'Downloadable PDF',
     headline: 'The Facts Behind Beef Prices',
@@ -102,6 +134,14 @@ module.exports = {
     icon: 'download',
     image: 'pdf-speculator.jpg',
     link: '/assets/pdf/Who_is_a_Speculator.pdf'
+  },
+  'trading-simulator': {
+    eyebrow: 'Trading simulator',
+    headline: 'Already Know the Basics?',
+    copy: 'Bypass the tutorial and start trading now using our practice simulator.',
+    icon: 'link-external',
+    link: 'http://futures-fundamentals-ndjmr3dnam.elasticbeanstalk.com',
+    image: 'trading-simulator.png'
   },
   'video.algae': {
     eyebrow: 'Video series',

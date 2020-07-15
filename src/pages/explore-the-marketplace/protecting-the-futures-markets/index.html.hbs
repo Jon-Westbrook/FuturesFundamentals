@@ -9,6 +9,11 @@ hero:
     id: protections
 eyebrow: Explore the Marketplace
 headline: Protecting the Futures Markets
+related-links:
+  econ-links:
+    -
+      data: learning.foundations-finance
+      layout: horizontal
 article-pagination:
   next:
     href: /explore-the-marketplace/the-role-of-clearing-houses/
@@ -44,6 +49,11 @@ article-pagination:
         <h3 class="article_headline">Market regulation: protecting market integrity</h3>
         <p>Futures exchanges are closely monitored and regulated by governmental agencies, as well as by regulatory group functions within each exchange.</p>
       {{/column-layout--default}}
+
+      {{#with page.related-links}}
+        {{> links-related-new }}
+      {{/with}}
+
     </div>
   </article>
   

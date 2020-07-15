@@ -10,19 +10,16 @@ hero:
 eyebrow: Protecting the Futures Markets
 headline: How to Clear a Trade
 related-links:
-  -
-    headline: Clearing a trade
-    copy: Get a comprehensive look at the many steps of clearing a trade.
-    icon-class: call-clearing-a-trade-icon
-    link:
-      href: /assets/pdf/Market_Protections_of_an_Electronic_Trade.pdf
-      text: Download PDF, 676KB
+  links:
+    -
+      data: pdf.electronic-trade
+      layout: horizontal
 article-pagination:
   next:
     href: /explore-the-marketplace/protecting-the-futures-markets/the-regulatory-measures/
     name: The Regulatory Measures
   prev:
-    href: /explore-the-marketplace/protecting-the-futures-markets/the-role-of-clearing-houses/
+    href: /explore-the-marketplace/the-role-of-clearing-houses/
     name: The Clearing House
 ---
 
@@ -576,7 +573,9 @@ article-pagination:
         </div>
       </div>
 
-      {{> links-related links=page.related-links}}
+      {{#with page.related-links}}
+        {{> links-related-new }}
+      {{/with}}
 
     </div>
   </article>
