@@ -6,7 +6,9 @@
     {{#if links}}
       <div class="row card-grid">
         {{#each links}}
-          {{> resource-card color='blue' }}
+          {{#with (lookup @root.site.resourceCards data) }}
+            {{> resource-card color='blue' layout=../layout }}
+          {{/with}}
         {{/each}}
       </div>
     {{/if}}
@@ -17,7 +19,9 @@
           Education.</p>
           <div class="row card-grid">
             {{#each econ-links}}
-              {{> resource-card }}
+              {{#with (lookup @root.site.resourceCards data) }}
+                {{> resource-card layout=../layout}}
+              {{/with}}
             {{/each}}
           </div>
         </div>

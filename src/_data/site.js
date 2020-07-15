@@ -1,9 +1,11 @@
 const nav = require('./nav')
 const footer = require('./footer')
+const resourceCards = require('./resource-cards')
 
 module.exports = {
   nav,
   footer,
+  resourceCards,
 
   // Site settings
   url: 'https://futuresfundamentals.org/',
