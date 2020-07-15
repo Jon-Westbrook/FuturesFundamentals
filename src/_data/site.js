@@ -9,7 +9,7 @@ module.exports = {
 
   // Site settings
   url: 'https://futuresfundamentals.org/',
-  title: 'Future Fundamentals',
+  title: 'Futures Fundamentals',
   email: 'info@vsapartners.com',
   description: 'A one-stop educational resource designed to explain the role of futures markets in everyday life and provide information on the derivatives industry as a whole.',
 
