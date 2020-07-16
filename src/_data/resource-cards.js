@@ -1,7 +1,7 @@
 module.exports = {
   'learning.food-facts': {
     eyebrow: 'Learning module',
-    headline: 'Facts about food',
+    headline: 'Facts About Food',
     copy: 'Take an interactive journey from the farm to the table with this educational resource.',
     link: 'https://www.econessentialsinschool.com/sites/all/themes/econ_ui/assets/modules/food/#slide1-1',
     image: 'learning-food-fact.png',
@@ -25,7 +25,7 @@ module.exports = {
   },
   'learning.fueling-future': {
     eyebrow: 'Learning module',
-    headline: 'Fueling the future',
+    headline: 'Fueling the Future',
     copy: 'See if you can predict future gas prices using our interactive, educational resource.',
     icon: 'link-external',
     image: 'learning-fueling-future.jpg',
