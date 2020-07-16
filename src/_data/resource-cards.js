@@ -18,7 +18,7 @@ module.exports = {
   'learning.foundations-finance': {
     eyebrow: 'Learning module',
     headline: 'Foundations of Finance',
-    copy: 'See if you can navigate tricky financial situations – like dealing with student loans and buying a car.',
+    copy: 'See if you can navigate tricky financial situations – like dealing with student loans and buying a car – with this interactive resource.',
     icon: 'link-external',
     link: 'https://www.econessentialsinschool.com/sites/default/files/InteractiveModules/foundations-of-finance/',
     image: 'learning-finance.jpg'
