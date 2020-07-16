@@ -1,105 +1,80 @@
 # CME Futures Fundamentals
+Ben Brown -- bbrown@vsapartners.com
 
-<---- NEW INFO STARTS 09/12 ---->
-
-https://www.futuresfundamentals.org/
-
-Staging url: http://static.ff.cme.vsadev.com/
-
-This is for Jekyll build only. The compiled static files are located in the `master` branch.
-
-### Installation
+## Quick start
 
 ```
+nvm use
 yarn
+yarn dev
 ```
 
-- Make changes to html files in `src/pages` folder. Add images and PDFs into appropriate folders inside `assets`.
-- Style changes go into `_sass`.
-- Run these commands:
+## Summary
+
++ gulp + metalsmith static site 
++ docker for heroku dev builds
+
+
+## Files
 
 ```
-// prepare .scss files
-gulp
-
-// compile everything
-bundle exec jekyll serve
-
-// go to server address http://127.0.0.1:4000
-```
---
-
-### Branches
-
-#### Master branch
-`master` URLs inside these branches are hard-coded to https://futuresfundamentals.org
-
-**DocumentRoot** `/var/www/html/cme_ff_org` (Not the `/var/w3`)
-
-futurefundamentals.cmegroup.com merely redirects (i.e.cname entry) to www.futurefundamentals.com. which is indeed on
-
-**aws instance:** i-012098231272219.
-
-**public dns:** ec2-52-90-137-85.compute-1.amazonaws.com
-
-**ip address:** 52.90.137.85
-
-The futurefundamentals.cmegroup.com dns name is not under our control but there is a redirect in the vhost settings that does a redirect to from futurefundamentals.cmegroup.com to www.futurefundamentals.org.
-
---
-
-
-`ffdotcom` https://futuresfundamentals.cmegroup.com
-
-`staticdev` https://futuresfundamentals.org (previously used for staging http://static.ff.cme.vsadev.com, but overridden with master's branch content)
-
-`jekyllbuild` relative path, contains Jekyll build process and Gulp command for CSS, missing compiling process for content folder, missing process that adds hard-coded URLs.
-
-#### Staging branch
-
-`staging` http://static.ff.cme.vsadev.com created 09/07/2018
-
-**DocumentRoot** `/var/w3/html/cme_ff_static`
-
-**public dns:** ec2-54-88-183-139.compute-1.amazonaws.com
-
-**ip address:** 54.88.183.139
-
---
-
-`tastor` https://futuresfundamentals.cmegroup.com
-
-<---- NEW INFO ENDS ---->
-
-Freelancer Jekyll theme  [![Build Status](https://api.travis-ci.org/jeromelachaud/freelancer-theme.svg?branch=master)](https://travis-ci.org/jeromelachaud/freelancer-theme/)
-=========================
-
-Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/)
-
-## How to use
- - Place a image in `/img/portfolio/`
- - Replace `your-email@domain.com` in `_config.yml` with your email address. Refer to [formspree](http://formspree.io/) for more information.
- - Create posts to display your projects. Use the follow as an example:
-```txt
----
-layout: default
-modal-id: 1
-date: 2014-07-18
-img: cabin.png
-alt: image-alt
-project-date: July 2014
-client: The Client
-category: Web Development
-description: The description of the project
-
----
+build/                    # gitignored local build
+jekyll_REFERENCE/         # reference for previous build system
+src/
+.[config-file-name]
+bitbucket-pipelines.yml
+Dockerfile                # only used for dev heroku builds
+gulpfile.js               # build configuration
+OLD_gulpfile.js           # reference to non-jekyll portion of old build system
+package.json
+README.md
+server.js                 # only used for dev heroku builds
+webpack.config.js         # js bundling config
+yarn.lock
 ```
 
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/freelancer-theme)
+### src/
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
+All files and directories are copied to build/ as-is unless otherwise noted.
 
----------
-For more details, read the [documentation](http://jekyllrb.com/)
+```
+_assets/             # directory name converted to assets/ in build/
+_data/               # not copied, provides global data to hbs templates
+  site.js              # exports global data, import other files
+_helpers/            # not copied, hbs helpers
+_js/                 # not copied, bundled via metalsmith and webpack
+_layouts/            # not copied, used for globals
+_partials/           # not copied, reusable components and modules
+_scss/               # not copied, compiled via metalsmith
+pages/               # file names converted from [name].html.hbs to [name]/index.html
+.htaccess            # production server .htaccess
+apple-touch-icon-*
+favicon.ico
+google[hash].html    # site ownership verficiation? google analytics?
+```
+
+
+## Branches
+
+**dev**
+
+**master**
+  + always production-ready
+
+**archive_production**
+  + archive of last production codebase before new build system (cerca 07/2020)
+
+
+## Deployments
+
+**dev**
+  + deploys are triggered on each push to dev
+  + [test-futures-fundamentals.herokuapp.com](test-futures-fundamentals.herokuapp.com)
+
+**master**
+  + no auto-deploys
+  + deploys are run manually through bitbucket
+  + in bitbucket:
+    1. click the hash for the commit you want to push (e.g. a83edf9)
+    2. click 'run pipeline'
+    3. select 'custom: production'
