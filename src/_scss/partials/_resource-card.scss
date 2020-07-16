@@ -46,6 +46,7 @@
 
   &__copy-container {
     padding: 30px;
+    position: relative;
   }
 
   &__copy-container &__eyebrow {
@@ -83,10 +84,6 @@
     }
   }
 
-  &--vertical &__copy-container {
-    position: relative;
-  }
-
   &--horizontal &__image-container,
   &--horizontal &__copy-container {
     @media (min-width: 575px) {
@@ -96,6 +93,12 @@
 
   &--horizontal &__image-container {
     align-self: stretch;
+  }
+
+  &--horizontal &__copy-container {
+    @media (min-width: 575px) {
+      position: static;
+    }
   }
 
   &--blue &__eyebrow,
