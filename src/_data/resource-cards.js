@@ -113,7 +113,7 @@ module.exports = {
   },
   'pdf.prices-oil': {
     eyebrow: 'Downloadable PDF',
-    headline: 'The Facts behind Oil Prices',
+    headline: 'The Facts Behind Oil Prices',
     copy: 'See a broad overview of the global factors that influence crude oil prices.',
     icon: 'download',
     link: '/assets/pdf/The_Facts_Behind_Oil_Prices.pdf',
