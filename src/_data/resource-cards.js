@@ -10,7 +10,7 @@ module.exports = {
   'learning.food-fuel-finance': {
     eyebrow: 'Learning modules',
     headline: 'Food, Fuel, and Finance',
-    copy: 'Use interactive tools to engage with real-world examples of core economic principles.',
+    copy: 'Engage with real-world examples of core economic principles through these interactive, educational resources.',
     image: 'food-fuel-finance.png',
     link: 'http://www.econessentialsinschool.com/interactive-modules',
     icon: 'link-external'
