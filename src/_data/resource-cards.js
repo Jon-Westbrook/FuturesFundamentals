@@ -50,7 +50,7 @@ module.exports = {
   'lesson.preference': {
     eyebrow: 'Economics lesson',
     headline: 'How We Are Affected by Preference',
-    copy: 'Gain an understanding of how concepts like loss aversion and the endowment effect factor into the financial decision making process.',
+    copy: 'Gain an understanding of how concepts like loss aversion and the endowment effect factor into the financial decision-making process.',
     link: 'https://www.econessentialsinschool.com/behavioral-econ-lessons#lesson-two',
     image: 'lesson-preference.jpg',
     icon: 'link-external'
