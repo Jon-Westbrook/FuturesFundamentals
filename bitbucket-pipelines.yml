@@ -9,7 +9,7 @@ pipelines:
           script:
             - apt-get update && apt-get install -y rsync
             - yarn install
-            - yarn build
+            - NODE_ENV=production yarn build
             - rsync -av build/ admin@futuresfundamentals.org:/var/w3/html/cme_ff_org/
   branches:
     dev:
