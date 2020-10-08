@@ -1,9 +1,11 @@
 import $ from 'jquery'
+import detectAnchor from '../util/detectAnchor'
 
 export default () => {
   setupSearchField()
   navTouchHandler()
   bannerShow()
+  detectAnchor()
 
   $('.main-nav__toggle').click(function () {
     const scrollPos = $(document).scrollTop()
