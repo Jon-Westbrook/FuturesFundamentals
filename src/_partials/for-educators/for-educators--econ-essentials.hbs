@@ -12,7 +12,7 @@
   <div class="col-md-2"></div>
   <div class="col-md-8">
     {{#each cards}}
-      <div class="card">
+      <div {{#if id}}id="{{ id }}" {{/if}}class="card">
         <div class="card_img">
           <img src="/assets/img/for-educators/{{image.src}}.jpg" />
         </div>
