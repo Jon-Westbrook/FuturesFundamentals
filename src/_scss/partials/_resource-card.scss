@@ -90,6 +90,12 @@
     position: absolute;
     top: -80px;
     width: 100%;
+    &#ff-food-fuel-finance {
+      top: -160px;
+      @media (min-width: 768px) {
+        top: -140px;
+      }
+    }
   }
 
   &--horizontal &__image-container,
