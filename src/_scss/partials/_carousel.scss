@@ -377,16 +377,23 @@
 		}
 	}
 }
-.interest-rate-container, .cereal-container {
-  .carousel-text {
-    padding: 50px 15px 30px 12px;
+
+.clearing-container,
+.interest-rate-container,
+.cereal-container {
+	.carousel-text {
+    padding-left: 0;
+    padding-right: 0;
   }
+}
+
+.interest-rate-container, .cereal-container {
   video {
     border-bottom: 1px solid transparent;
   }
   .icon {
     position: absolute;
-    left: -36px;
+    left: -43px;
     top: 74px;
 
     img {

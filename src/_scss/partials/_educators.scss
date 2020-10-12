@@ -218,6 +218,14 @@
 							top: 0;
 						}
 					}
+
+					.card_anchor-id {
+						height: 1rem;
+						left: 0;
+						position: absolute;
+						top: -40px;
+						width: 100%;
+					}	
 				}
 
 				&_content {

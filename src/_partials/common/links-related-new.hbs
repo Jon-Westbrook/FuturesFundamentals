@@ -20,7 +20,7 @@
           <div class="row card-grid">
             {{#each econ-links}}
               {{#with (lookup @root.site.resourceCards data) }}
-                {{> resource-card layout=../layout}}
+                {{> resource-card layout=../layout id=../id}}
               {{/with}}
             {{/each}}
           </div>

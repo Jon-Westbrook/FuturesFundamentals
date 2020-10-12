@@ -84,6 +84,14 @@
     }
   }
 
+  &__anchor-id {
+    height: 1rem;
+    left: 0;
+    position: absolute;
+    top: -80px;
+    width: 100%;
+  }
+
   &--horizontal &__image-container,
   &--horizontal &__copy-container {
     @media (min-width: 575px) {

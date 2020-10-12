@@ -1,4 +1,4 @@
-<div class="resource-card resource-card--{{ layout }} col-xs-12 {{#if (eq layout 'vertical')}}col-sm-6{{/if}} {{#if color}}resource-card--{{ color }}{{/if}}">
+<div class="resource-card resource-card--{{ layout }} col-xs-12{{#if (eq layout 'vertical')}} col-sm-6{{/if}}{{#if color}} resource-card--{{ color }}{{/if}}">
   <a class="resource-card__link" href="{{ link }}" target="_blank">
     <div class="resource-card__image-container">
       <div class="resource-card__image-placeholder"></div>
@@ -13,4 +13,7 @@
       </div>
     </div>
   </a>
+  {{#if id}} 
+    <div id="{{ id }}" class="resource-card__anchor-id">&nbsp;</div>
+  {{/if}}
 </div>

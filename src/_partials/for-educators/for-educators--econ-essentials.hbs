@@ -15,6 +15,9 @@
       <div class="card">
         <div class="card_img">
           <img src="/assets/img/for-educators/{{image.src}}.jpg" />
+          {{#if id}}
+            <div id="{{ id }}" class="card_anchor-id">&nbsp;</div>
+          {{/if}}
         </div>
         <div class="card_content">
           <p class="card_headline article_headline">{{headline}}</p>
