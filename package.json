@@ -4,6 +4,7 @@
   "title": "",
   "description": "",
   "author": "VSA Partners",
+  "license": "MIT",
   "main": "gulpfile.js",
   "engines": {
     "node": "10.13.0",
