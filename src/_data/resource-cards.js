@@ -69,7 +69,8 @@ module.exports = {
     copy: 'Everything you want to know about risk, how it’s managed and why it matters.',
     icon: 'download',
     link: '/assets/pdf/The_Book_of_Risk.pdf',
-    image: 'pdf-book-of-risk.png'
+    image: 'pdf-book-of-risk.png',
+    'small-copy': 'Contributed by CME Group'
   },
   'pdf.clearing': {
     eyebrow: 'Downloadable PDF',

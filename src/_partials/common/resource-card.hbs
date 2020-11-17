@@ -8,6 +8,9 @@
       <p class="resource-card__eyebrow">{{ eyebrow }}</p>
       <p class="resource-card__headline article_headline">{{ headline }}</p>
       <p class="resource-card__copy">{{ copy }}</p>
+      {{#if small-copy}}
+        <p class="resource-card__small-copy">{{small-copy}}</p>
+      {{/if}}
       <div class="resource-card__link-icon">
         <img src="/assets/img/icons/icon-{{ icon }}.png" />
       </div>

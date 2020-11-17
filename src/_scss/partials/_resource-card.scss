@@ -71,6 +71,14 @@
     line-height: 23px;
   }
 
+  &__copy-container &__small-copy {
+    font-family: "Benton Sans Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+
   &__link-icon {
     background-color: #6D6C6D;
     height: 40px;
@@ -117,7 +125,8 @@
 
   &--blue &__eyebrow,
   &--blue &__headline,
-  &--blue &__copy {
+  &--blue &__copy,
+  &--blue &__small-copy {
     color: #fff;
   }
 
