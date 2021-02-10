@@ -147,7 +147,7 @@ module.exports = {
   'video.algae': {
     eyebrow: 'Video series',
     headline: 'Algae as an Energy Source?',
-    copy: 'Learn how scientists in Hawaii use algae as an alternative fuel source. Continue learning with the three-part series by Seeker Stories.',
+    copy: 'Learn how scientists in Hawaii use algae as an alternative fuel source. Continue learning with this mini documentary series by Seeker Stories.',
     link: 'http://www.econessentialsinschool.com/videos',
     icon: 'link-external',
     image: 'video-algae.jpg'
@@ -163,7 +163,7 @@ module.exports = {
   'video.farmers': {
     eyebrow: 'Video series',
     headline: 'New Generation of Farmers',
-    copy: 'The future of the US food supply will soon be in the hands of millenials. Continue learning with the three-part series by Seeker Stories.',
+    copy: 'The future of the US food supply will soon be in the hands of millenials. Continue learning with this mini documentary series by Seeker Stories.',
     link: 'http://www.econessentialsinschool.com/videos',
     image: 'video-farmers.jpg',
     icon: 'link-external'
