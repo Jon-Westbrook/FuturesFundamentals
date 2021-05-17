@@ -3,7 +3,7 @@ module.exports = {
     eyebrow: 'Learning module',
     headline: 'Facts About Food',
     copy: 'Take an interactive journey from the farm to the table with this educational resource.',
-    link: 'https://www.econessentialsinschool.com/sites/all/themes/econ_ui/assets/modules/food/#slide1-1',
+    link: 'https://www.econessentialsinschool.com/files/InteractiveModules/food/#slide1-1',
     image: 'learning-food-fact.png',
     icon: 'link-external'
   },
@@ -20,7 +20,7 @@ module.exports = {
     headline: 'Foundations of Finance',
     copy: 'See if you can navigate tricky financial situations – like dealing with student loans and buying a car – with this interactive resource.',
     icon: 'link-external',
-    link: 'https://www.econessentialsinschool.com/sites/default/files/InteractiveModules/foundations-of-finance/',
+    link: 'https://www.econessentialsinschool.com/files/InteractiveModules/foundations-of-finance/',
     image: 'learning-finance.jpg'
   },
   'learning.fueling-future': {
@@ -29,7 +29,7 @@ module.exports = {
     copy: 'See if you can predict future gas prices using our interactive, educational resource.',
     icon: 'link-external',
     image: 'learning-fueling-future.jpg',
-    link: 'https://www.econessentialsinschool.com/sites/all/themes/econ_ui/assets/modules/fuel/#package.json:-1'
+    link: 'https://www.econessentialsinschool.com/files/InteractiveModules/fuel/#package.json:-1'
   },
   'lesson.choice': {
     eyebrow: 'Economics lesson',
