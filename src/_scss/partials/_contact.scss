@@ -1,23 +1,32 @@
+.module__special--social_media {
+	margin-top: 1rem;
+}
+
+.social-media__hashtag {
+	color: #337AB7;
+}
+
 .social_icon {
 	display: inline-block;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin-right: 15px;
+	margin-right: 3rem;
 	
 	.at-icon-wrapper { display: none; }
 
 	a {
-		width: 41px !important;
-		height: 41px;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 42px !important;
+		height: 42px;
 		display: inline-block;
 	}
 	
 	&--facebook a {
-		background-image: url('/assets/img/social-media-logos/icon-follow-inline-face-book.png');
+		background-image: url('/assets/img/social-media-logos/icon-follow-inline-facebook.svg');
 	}
 
 	&--twitter a {
-		background-image: url('/assets/img/social-media-logos/icon-follow-inline-twitter.png');
+		background-image: url('/assets/img/social-media-logos/icon-follow-inline-twitter.svg');
 	}
 
 	&--google a {
@@ -25,11 +34,11 @@
 	}
 
 	&--instagram a {
-		background-image: url('/assets/img/social-media-logos/icon-follow-inline-instagram.png');
+		background-image: url('/assets/img/social-media-logos/icon-follow-inline-instagram.svg');
 	}
 
 	&--linkedin a {
-		background-image: url('/assets/img/social-media-logos/icon-follow-inline-linked-in.png');
+		background-image: url('/assets/img/social-media-logos/icon-follow-inline-linkedin.svg');
 	}
 
 	&--pinterest a {
