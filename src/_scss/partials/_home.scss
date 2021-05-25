@@ -992,225 +992,72 @@
 }
 
 #home_footer {
-  padding: 73px 0 85px;
+  margin: 85px 0;
 
-  .container {
-    padding: 25px 0;
-    border: 1px solid $gray-20;
+  @include mq($until: medium) {
+    margin: 50px 0;
   }
 
-  p {
-    font: 23px/70px $benton-bold;
-    font-weight: bold;
+  .col {
+    border: 1px solid $gray-20;
+    padding: 40px 30px;
+
+    @include mq($until: medium) {
+      padding: 30px 20px;
+    }
+  }
+
+  .inner-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 75%;
+
+    @include mq($until: xlarge) {
+      max-width: 85%;
+    }
+
+    @include mq($until: medium) {
+      max-width: 90%;
+    }
+
+    @include mq($until: medium) {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  .h3 {
     color: $gray-30;
-    margin-bottom: 0;
+    margin: 0;
+
+    @include mq($until: medium) {
+      margin-bottom: 25px;
+    }
   }
 
   .share-buttons {
-    li {
-      &:first-child {
-        a {
-          margin-left: 0;
-        }
-      }
+    @include mq($until: medium) {
+      display: inline-block;
+      width: auto;
+    }
+  }
+
+  .social_icon {
+    margin-right: 40px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    @include mq($until: medium) {
+      margin-right: 25px;
     }
 
     a {
-      margin-left: 20px;
-
-      &.fb-icon {
-        padding: 23px 22px;
-
-        &:after {
-          top: 23px;
-        }
-      }
-
-      &.twitter-icon {
-        padding: 24px 15px;
-
-        &:after {
-          top: 24px;
-        }
-      }
-
-      &.gplus-icon {
-        padding: 23px 16px 9px 15px;
-
-        &:after {
-          top: 23px;
-        }
-      }
-
-      &.linkedin-icon {
-        padding: 24px 17px 25px 17px;
-
-        &:after {
-          top: 24px;
-        }
-      }
-
-      &.email-icon {
-        padding: 26px 14px 26px 15px;
-
-        &:after {
-          top: 26px;
-        }
-      }
-    }
-  }
-
-  @include mq($until: xlarge) {
-    padding: 63px 0 75px;
-
-    .container {
-      padding: 20px 0;
-    }
-
-    p {
-      font-size: 20px;
-    }
-
-    .share-buttons {
-      a {
-        margin-left: 10px;
-      }
-    }
-  }
-
-  @include mq($until: large) {
-    padding: 48px 0 60px;
-
-    .container {
-      padding: 18px 0;
-    }
-
-    p {
-      font-size: 17px;
-    }
-  }
-
-  @include mq($until: medium) {
-    padding: 23px 15px 35px;
-
-    .col {
-      padding: 0;
-    }
-
-    .container {
-      padding: 15px 15px 0px;
-      text-align: center;
-    }
-
-    p {
-      font-size: 17px;
-      margin-bottom: 0;
-      line-height: 50px;
-    }
-
-    .share-buttons {
-      display: inline-block;
-
-      a {
-        &.fb-icon {
-          padding: 13px 22px;
-
-          &:after {
-            top: 13px;
-          }
-        }
-
-        &.twitter-icon {
-          padding: 14px 15px;
-
-          &:after {
-            top: 14px;
-          }
-        }
-
-        &.gplus-icon {
-          padding: 13px 16px 9px 15px;
-
-          &:after {
-            top: 13px;
-          }
-        }
-
-        &.linkedin-icon {
-          padding: 14px 17px 25px 17px;
-
-          &:after {
-            top: 14px;
-          }
-        }
-
-        &.email-icon {
-          padding: 16px 14px 26px 15px;
-
-          &:after {
-            top: 16px;
-          }
-        }
-      }
-    }
-  }
-
-  @include mq($until: 625px) {
-    .col {
-      width: 100%;
-    }
-
-    p {
-      margin-top: 0;
-      line-height: 28px;
-    }
-  }
-
-  @include mq($until: 450px) {
-    .share-buttons {
-      a {
-        margin-left: 0;
-
-        &.fb-icon {
-          padding: 13px 16px 8px;
-
-          &:after {
-            left: 16px;
-          }
-        }
-
-        &.twitter-icon {
-          padding: 14px 9px 8px;
-
-          &:after {
-            left: 9px;
-          }
-        }
-
-        &.gplus-icon {
-          padding: 13px 10px 4px 9px;
-
-          &:after {
-            left: 9px;
-          }
-        }
-
-        &.linkedin-icon {
-          padding: 14px 11px 15px 11px;
-
-          &:after {
-            left: 11px;
-          }
-        }
-
-        &.email-icon {
-          padding: 16px 8px 21px 9px;
-
-          &:after {
-            left: 9px;
-          }
-        }
-      }
+      height: 24px;
+      width: 24px;
     }
   }
 }
