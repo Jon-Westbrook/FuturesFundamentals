@@ -6,7 +6,7 @@
 		margin-left:-15px;
 		margin-right:-15px;
 
-		img, video{
+		img, video {
 			width:auto; height:auto; max-height:100%; max-width:100%;
 		}
 
@@ -28,30 +28,31 @@
 
 
 	.carousel-text {
-		padding:10px 15px 0;
+		padding: 10px 15px 0;
+
 		h4, p {
-			font-size:18px;
-			line-height:1.5em;
-			font-family:$benton;
-			margin:0;
+			font-size: 18px;
+			line-height: 1.5em;
+			font-family: $benton;
+			margin: 0;
 		}
 
 		h4 {
-			font-family:$benton-bold;
-			font-weight:bold;
-			margin-bottom:10px;
+			font-family: $benton-bold;
+			font-weight: bold;
+			margin-bottom: 10px;
 		}
 
 		@include mq($until: xlarge) {
-			h4, p { font-size:14px; }
+			h4, p { font-size: 14px; }
 		}
 
 		@include mq($until: large) {
-			h4, p { font-size:16px; }
+			h4, p { font-size: 16px; }
 		}
 
 		@include mq($until: medium) {
-			h4, p { font-size:14px; }
+			h4, p { font-size: 14px; }
 		}
 	}
 
@@ -66,6 +67,7 @@
 
 	.carousel-title {
 		padding:130px 15px 0;
+
 		h3 {
 			margin:0;
 			font-size:18px;
@@ -104,6 +106,7 @@
 					background-color:$hover-overlay-gray;
 				}
 			}
+
 			&.right {
 				background:url('/assets/img/carousel_control.png') no-repeat center center $blue-20;
 				background-size:40px 40px;
@@ -127,6 +130,7 @@
 	}
 
 	.carousel-custom-slide {
+
 		.carousel-controls-container {
 			top:40px;
 			left:30px;
@@ -134,6 +138,7 @@
 	}
 
 	@include mq($until: large) {
+
 		.carousel-title {padding-top:30px;}
 
 		.carousel-text { padding:10px 15px 30px; }
@@ -159,6 +164,7 @@
 
 	@include mq($until: medium) {
 		margin-bottom:0;
+
 		.carousel-controls-container {
 			height:30px;
 
@@ -173,55 +179,70 @@
 }
 
 // IE set up for Datagram
-@media all and (-ms-high-contrast:none){
+@media all and (-ms-high-contrast:none) {
+
 	.datagram {
+
 		.carousel-image {
 			position: relative;
 			padding-top: 80%;
+
 			@include mq($from: medium) {
 				padding-top: 77%;
 			}
+
 			@include mq($from: large) {
 				padding-top: 70.35%;
 			}
+
 			@include mq($from: xlarge) {
 				padding-top: 66.5%;
 			}
+
 			.carousel-animate svg {
 				position: absolute;
+
 				@include mq($from: medium) {
 					margin-top: -77%;
 				}
+
 				@include mq($from: large) {
 					margin-top: -67.15%;
 				}
+
 				@include mq($from: xlarge) {
 					margin-top: -64%;
 				}
 			}
 		}
 		.carousel-text {
+
 			@include mq($until: large) {
 				margin-top: -5%;
 			}
 		}
 		.carousel-controls-container {
+
 			@include mq($until: large) {
 				margin-top: 5%;
 			}
 		}
 		&.title-slide {
+
 			.carousel-image {
 				padding-top: 0%;
+
 				@include mq($from: large) {
 					padding-top: 71.75%;
 				}
+
 				@include mq($from: xlarge) {
 					padding-top: 66.5%;
 				}
 
 				.carousel-animate svg {
 					margin-top: -76.5%;
+
 					@include mq($from: large) {
 						margin-top: -68.5%;
 					}
@@ -229,22 +250,31 @@
 			}
 		}
 	}
+
 	#cereal_infographic {
+
 		.datagram {
+
 			.carousel-image {
 				padding-top: 77%;
+
 				@include mq($from: large) {
 					padding-top: 70%;
 				}
+
 				@include mq($from: xlarge) {
 					padding-top: 65.95%;
 				}
+
 				.carousel-animate {
+
 					svg {
 						margin-top: -77%;
+
 						@include mq($from: large) {
 							margin-top: -66.75%;
 						}
+
 						@include mq($from: xlarge) {
 							margin-top: -63.5%;
 						}
@@ -252,19 +282,26 @@
 				}
 			}
 			&.title-slide {
+
 				.carousel-image {
 					padding-top: 77%;
+
 					@include mq($from: large) {
 						padding-top: 70%;
 					}
+
 					@include mq($from: xlarge) {
 						padding-top: 65.95%;
 					}
+
 					.carousel-animate {
+
 							svg {
+
 							@include mq($from: large) {
 								margin-top: -66.75%;
 							}
+
 							@include mq($from: xlarge) {
 								margin-top: -63.5%;
 							}
@@ -276,11 +313,15 @@
 	}
 
 	#interest_rate_infographic {
+
 		.datagram {
+
 			&.title-slide {
+
 				.carousel-image {
 					padding-top: 0%;
 				}
+
 				.carousel-text {
 					padding-top: 8%;
 				}
@@ -290,7 +331,9 @@
 }
 
 .carousel-fade {
+
     .carousel-inner {
+
         .item {
             transition-property: opacity;
             transition-duration:800ms;
@@ -323,12 +366,15 @@
 }
 
 .carousel-custom-slide {
+
 	.col-md-8, .col-md-4 {
 		overflow:hidden;
 	}
 
 	.carousel-inner>.item.next.left, .carousel-inner>.item.prev.right, .carousel-inner>.item.active {
+
 		@include animate(none);
+
 		@include transform(none);
 	}
 
@@ -337,7 +383,9 @@
 	}
 
 	.carousel-image, .carousel-text {
+
 		@include transform(translateX(100%));
+
 		@include animate(transform .5s);
 	}
 
@@ -353,26 +401,34 @@
 	}
 
 	.active {
+
 		.carousel-image, .carousel-text {@include transform(translateX(0));}
 
 		&.left {
+
 			.carousel-image, .carousel-text {@include transform(translateX(-100%));}
 		}
 
 		&.right {
+
 			.carousel-image, .carousel-text {@include transform(translateX(100%));}
 		}
 	}
 
 	.next {
+
 		&.left {
+
 			.carousel-image, .carousel-text {@include transform(translateX(0));}
 		}
 	}
 
 	.prev {
+
 		.carousel-image, .carousel-text {@include transform(translateX(-100%));}
+
 		&.right {
+
 			.carousel-image, .carousel-text {@include transform(translateX(0));}
 		}
 	}
