@@ -280,11 +280,17 @@
 
 		.fp-carousel-container {
 			margin-top:0;
+
 			.carousel-controls-container {
 				position:absolute;
 				left:15px;
 				bottom:10px;
+
+        @include mq($until: large) {
+          margin-bottom: 0;
+        }
 			}
+
 			.item, .carousel-image, .carousel-text {
 				height:auto;
 			}
@@ -293,6 +299,19 @@
 			}
 			.carousel-text {
 				margin-bottom:75px;
+
+        p {
+          font-size: 18px;
+          max-height: none;
+          overflow: visible;
+
+          @include mq($until: large) {
+            font-size: 12px !important;
+            max-height: 76px;
+            overflow: scroll;
+          }
+        }
+
 				.slide-num {display:none;}
 			}
 			.carousel-image {
