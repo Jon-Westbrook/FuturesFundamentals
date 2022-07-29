@@ -44,7 +44,7 @@
     "js-cookie": "1",
     "jstransformer-handlebars": "^1.1.0",
     "lottie-web": "^5.6.6",
-    "metalsmith": "^2.3.0",
+    "metalsmith": "2.3.0",
     "metalsmith-clean-css": "^6.0.0",
     "metalsmith-discover-helpers": "^0.1.1",
     "metalsmith-discover-partials": "^0.1.2",
