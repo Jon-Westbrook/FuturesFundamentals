@@ -21,16 +21,16 @@ pipelines:
             - yarn
             - yarn build
             - >
-                docker build
-                --build-arg USERNAME=$USERNAME
-                --build-arg PASSWORD=$PASSWORD
-                --build-arg PORT=$PORT
-                -t ${HEROKU_SERVER_ID}
-                .
+              docker build
+              --build-arg USERNAME=$USERNAME
+              --build-arg PASSWORD=$PASSWORD
+              --build-arg PORT=$PORT
+              -t ${HEROKU_SERVER_ID}
+              .
             - docker tag ${HEROKU_SERVER_ID} registry.heroku.com/${HEROKU_SERVER_ID}/web
             - docker push registry.heroku.com/${HEROKU_SERVER_ID}/web
             - heroku container:release web --app ${HEROKU_SERVER_ID}
 definitions:
   services:
     docker:
-      memory: 3072  # increase memory for docker-in-docker from 1GB to 3GB
+      memory: 3072 # increase memory for docker-in-docker from 1GB to 3GB
