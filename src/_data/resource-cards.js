@@ -178,7 +178,7 @@ module.exports = {
     eyebrow: 'Video series',
     headline: 'Algae as an Energy Source?',
     copy:
-      'Learn how scientists in Hawaii use algae as an alternative fuel source. Continue learning with this mini documentary series by Seeker Stories.',
+      'Learn how scientists in Hawaii use algae as an alternative fuel source. Continue learning with this three-part mini documentary series.',
     link: 'http://www.econessentialsinschool.com/videos',
     icon: 'link-external',
     image: 'video-algae.jpg'
