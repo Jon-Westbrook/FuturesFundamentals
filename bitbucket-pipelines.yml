@@ -1,6 +1,4 @@
 image: node:10.13.0
-options:
-  docker: true
 pipelines:
   custom:
     production:
@@ -11,25 +9,6 @@ pipelines:
             - yarn install
             - NODE_ENV=production yarn build
             - rsync -av build/ admin@futuresfundamentals.org:/var/w3/html/cme_ff_org/
-  branches:
-    dev:
-      - step:
-          name: deploy
-          script:
-            - curl https://cli-assets.heroku.com/install.sh | sh
-            - docker login --username=_ --password=$HEROKU_API_KEY registry.heroku.com
-            - yarn
-            - yarn build
-            - >
-              docker build
-              --build-arg USERNAME=$USERNAME
-              --build-arg PASSWORD=$PASSWORD
-              --build-arg PORT=$PORT
-              -t ${HEROKU_SERVER_ID}
-              .
-            - docker tag ${HEROKU_SERVER_ID} registry.heroku.com/${HEROKU_SERVER_ID}/web
-            - docker push registry.heroku.com/${HEROKU_SERVER_ID}/web
-            - heroku container:release web --app ${HEROKU_SERVER_ID}
 definitions:
   services:
     docker:
