@@ -9,7 +9,3 @@ pipelines:
             - yarn install
             - NODE_ENV=production yarn build
             - rsync -av build/ admin@futuresfundamentals.org:/var/w3/html/cme_ff_org/
-definitions:
-  services:
-    docker:
-      memory: 3072 # increase memory for docker-in-docker from 1GB to 3GB
