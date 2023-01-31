@@ -1,7 +1,7 @@
 image: node:10.13.0
 pipelines:
-  custom:
-    production:
+  branches:
+    master:
       - step:
           name: build and deploy
           script:
