@@ -78,15 +78,6 @@ module.exports = {
     link:
       'https://www.econessentialsinschool.com/behavioral-econ-lessons#lesson-four'
   },
-  'lesson.activity': {
-    eyebrow: 'Classroom activity',
-    headline: 'Changes in Supply and Demand',
-    copy:
-      'Help students connect economics concepts to current events with a timely activity examining real-world applications of extreme changes in supply or demand.',
-    icon: 'link-external',
-    image: 'hot-topic-resource.jpg',
-    link: 'https://www.econessentialsinschool.com/#hot-topic-activity'
-  },
   'pdf.book-of-risk': {
     eyebrow: 'Downloadable PDF',
     headline: 'The Book of Risk',
