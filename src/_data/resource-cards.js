@@ -80,11 +80,29 @@ module.exports = {
   },
   'lesson.activity': {
     eyebrow: 'Classroom activity',
-    headline: 'Changes in Supply and Demand',
+    headline: 'Rapid Changes in Supply and Demand',
     copy:
       'Help students connect economics concepts to current events with a timely activity examining real-world applications of extreme changes in supply or demand.',
     icon: 'link-external',
-    image: 'hot-topic-resource.jpg',
+    image: 'changes-in-supply-activity.jpg',
+    link: 'https://www.econessentialsinschool.com/#hot-topic-activity'
+  },
+  'lesson.supply-chain': {
+    eyebrow: 'Classroom activity',
+    headline: 'The Importance of Supply Chains and the Impact of Disruptions',
+    copy:
+      'Students can investigate the dynamic factors that contribute to supply chain disruptions, and the very real consequences these interruptions can have on everyday life.',
+    icon: 'link-external',
+    image: 'supply-chain-activity.jpg',
+    link: 'https://www.econessentialsinschool.com/#hot-topic-activity'
+  },
+  'lesson.disruptions': {
+    eyebrow: 'Video Series',
+    headline: 'The Impact of Supply Chain Disruptions',
+    copy:
+      'Students investigate factors that disrupt supply chains, and how to navigate the price fluctuations around them.',
+    icon: 'link-external',
+    image: 'supply-chain-video.jpg',
     link: 'https://www.econessentialsinschool.com/#hot-topic-activity'
   },
   'pdf.book-of-risk': {
