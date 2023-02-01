@@ -87,6 +87,15 @@ module.exports = {
     image: 'changes-in-supply-activity.jpg',
     link: 'https://www.econessentialsinschool.com/#hot-topic-activity'
   },
+  'lesson.supply-demand-disruption': {
+    eyebrow: 'Classroom activities',
+    headline: 'Supply, Demand, and Supply Chain Disruption',
+    copy:
+      'Help students connect economics concepts to current events. Try out timely activities that examine challenges and changes to the global supply chain.',
+    icon: 'link-external',
+    image: 'hot-topic-resource.jpg',
+    link: 'https://www.econessentialsinschool.com/#hot-topic-activity'
+  },
   'lesson.supply-chain': {
     eyebrow: 'Classroom activity',
     headline: 'The Importance of Supply Chains and the Impact of Disruptions',
