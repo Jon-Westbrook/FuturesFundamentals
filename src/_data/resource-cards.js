@@ -85,7 +85,7 @@ module.exports = {
       'Help students connect economics concepts to current events with a timely activity examining real-world applications of extreme changes in supply or demand.',
     icon: 'link-external',
     image: 'changes-in-supply-activity.jpg',
-    link: 'https://www.econessentialsinschool.com/#hot-topic-activity'
+    link: 'https://www.econessentialsinschool.com/hot-topic-activities'
   },
   'lesson.supply-demand-disruption': {
     eyebrow: 'Classroom activities',
@@ -94,7 +94,7 @@ module.exports = {
       'Help students connect economics concepts to current events. Try out timely activities that examine challenges and changes to the global supply chain.',
     icon: 'link-external',
     image: 'hot-topic-resource.jpg',
-    link: 'https://www.econessentialsinschool.com/#hot-topic-activity'
+    link: 'https://www.econessentialsinschool.com/hot-topic-activities'
   },
   'lesson.supply-chain': {
     eyebrow: 'Classroom activity',
@@ -103,7 +103,7 @@ module.exports = {
       'Students can investigate the dynamic factors that contribute to supply chain disruptions, and the very real consequences these interruptions can have on everyday life.',
     icon: 'link-external',
     image: 'supply-chain-activity.jpg',
-    link: 'https://www.econessentialsinschool.com/#hot-topic-activity'
+    link: 'https://www.econessentialsinschool.com/hot-topic-activities'
   },
   'lesson.disruptions': {
     eyebrow: 'Video Series',
@@ -112,7 +112,7 @@ module.exports = {
       'Students investigate factors that disrupt supply chains, and how to navigate the price fluctuations around them.',
     icon: 'link-external',
     image: 'supply-chain-video.jpg',
-    link: 'https://www.econessentialsinschool.com/#hot-topic-activity'
+    link: 'https://www.econessentialsinschool.com/videos/'
   },
   'pdf.book-of-risk': {
     eyebrow: 'Downloadable PDF',
