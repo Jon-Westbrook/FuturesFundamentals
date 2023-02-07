@@ -1,6 +1,5 @@
 const autoprefixer = require('autoprefixer')
 const gulp = require('gulp')
-// const debug = require('gulp-debug')
 const responsive = require('gulp-responsive')
 const metalsmith = require('metalsmith')
 const cleanCss = require('metalsmith-clean-css')
@@ -9,20 +8,17 @@ const partials = require('metalsmith-discover-partials')
 const msEnv = require('metalsmith-env')
 const ignore = require('metalsmith-ignore')
 const imagemin = require('metalsmith-imagemin')
-// const inlineSource = require('metalsmith-inline-source')
 const jstransformer = require('metalsmith-jstransformer')
 const frontmatter = require('metalsmith-matters')
-// const redirect = require('metalsmith-redirect')
 const sass = require('metalsmith-sass')
 const serve = require('metalsmith-serve')
 const watch = require('metalsmith-watch')
 const webpackMs = require('metalsmith-webpack')
 const each = require('metalsmith-each')
+
 const minimatch = require('minimatch')
 const postcss = require('postcss')
 const sassSyntax = require('postcss-scss')
-// const webpack = require('webpack')
-
 const webpackConfig = require('./webpack.config')
 const siteMetadata = require('./src/_data/site')
 
@@ -78,15 +74,6 @@ gulp.task('webp-images', ['responsive-images'], () =>
     )
     .pipe(gulp.dest(imageDir))
 )
-
-// const imageminOpts = {
-//   optimizationLevel: 3,
-//   jpegrecompress: null,
-//   mozjpeg: {
-//     progressive: true,
-//     quality: 100
-//   }
-// }
 
 const envs = ['prod', 'dev']
 
