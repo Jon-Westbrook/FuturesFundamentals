@@ -137,9 +137,8 @@
     .main-nav__dropdown,
     .main-nav__share-dropdown {
       visibility: visible;
-      max-height: 65px;
+      max-height: 600px;
       z-index: 400;
-      height: auto;
       @include animate(max-height 400ms ease-in-out);
 
       @include mq($from: large) {
@@ -230,24 +229,6 @@
     .main-nav-open & {
       left: 0;
     }
-
-    /*
-		&:before {
-			content:"Derivatives made simple";
-			display:block;
-			font:13px/19px $benton;
-			color:$white;
-			margin-left:87px;
-			height:30px;
-			width:100%;
-			text-transform:uppercase;
-
-			@include mq($until: 420px) {
-				text-align:center;
-				margin-left:0;
-			}
-		}
-	*/
   }
 
   @include mq($until: 420px) {
@@ -586,10 +567,9 @@
   overflow:hidden;
 
   ul {
-    display: flex;
-    justify-content: center;
+    float: left;
     width: 360px;
-    padding: 14px 0;
+    padding: 10px 0 20px;
   }
 
   li {
@@ -674,28 +654,22 @@
 }
 
 .main-nav__share-dropdown {
-  height: 70px;
   right: 60px;
-
-  .share-buttons {
-    width: 280px;
-  }
 
   @include mq($until: large) {
     a {
-      height: 70px;
-      padding: 12px 28px;
+      height: 50px;
     }
 
     ul {
-      padding: 10px 0 0;
+      padding: 0;
     }
+  }
 
-    .share-buttons {
-      li {
-        float: none;
-        padding-bottom: 0;
-      }
+  @include mq($from: large) {
+    ul {
+      height: 66px;
+      padding: 16px 0;
     }
   }
 }
@@ -828,4 +802,17 @@
   @include mq($from: large) {
     display: none;
   }
+}
+
+// AddThis Sharing Icons
+.at300b {
+  @include mq($until: large) {
+    padding: 11px 10px 0 11px !important;
+  }
+
+  @include mq($from: large) {
+    height: 32px !important;
+    padding: 0px 10px 2px 17px !important;
+  }
+
 }
