@@ -1,121 +1,118 @@
 .page-template-tpl_glossary {
 
-	.container {
-		padding-bottom: 40px;
-	}
+  .glossaryTerm {
 
-	.glossaryTerm {
+    padding-bottom: 50px;
 
-		padding-bottom: 50px;
+    @include mq($until: medium) {
+      padding-bottom: 30px;
+    }
 
-		@include mq($until: medium) {
-			padding-bottom: 30px;
-		}
+    &:first-child {
+      .glossaryTerm__term {
+        margin-top: 20px;
+      }
+    }
 
-		&:first-child {
-			.glossaryTerm__term {
-				margin-top: 20px;
-			}
-		}
+    &__term {
+      font-family: $whitman-bold;
+      font-weight: bold;
+      font-size: 24px;
+      color: #4A4A4A;
+      letter-spacing: 0px;
+      line-height: 24px;
+      border-top: 1px solid #979797;
+      padding-top: 20px;
+      margin-top: 0;
+      margin-bottom: 4px;
 
-		&__term {
-			font-family: $whitman-bold;
-			font-weight: bold;
-			font-size: 24px;
-			color: #4A4A4A;
-			letter-spacing: 0px;
-			line-height: 24px;
-			border-top: 1px solid #979797;
-			padding-top: 20px;
-			margin-top: 0;
-			margin-bottom: 4px;
+      @include mq($until: medium) {
+        font-size: 16px;
+        letter-spacing: -0.11px;
+        line-height: 24px;
+      }
 
-			@include mq($until: medium) {
-				font-size: 16px;
-				letter-spacing: -0.11px;
-				line-height: 24px;
-			}
+    }
 
-		}
+    &__definition {
+      /* Algorithm : */
+      font-family: $whitman;
+      font-size: 24px;
+      color: #6d6c6d;
+      letter-spacing: 0px;
+      line-height: 28px;
 
-		&__definition {
-			/* Algorithm : */
-			font-family: $whitman;
-			font-size: 24px;
-			color: #6d6c6d;
-			letter-spacing: 0px;
-			line-height: 28px;
+      @include mq($until: medium) {
+        font-size: 16px;
+        letter-spacing: -0.11px;
+        line-height: 24px;
+      }
+    }
 
-			@include mq($until: medium) {
-				font-size: 16px;
-				letter-spacing: -0.11px;
-				line-height: 24px;
-			}
-		}
+    &__seen-in {
+      /* AS SEEN IN: */
+      font-family: $benton-med;
+      font-size: 10px;
+      color: #9B9B9B;
+      letter-spacing: 0.75px;
+      line-height: 20px;
+      text-transform: uppercase;
+      display: block;
 
-		&__seen-in {
-			/* AS SEEN IN: */
-			font-family: $benton-med;
-			font-size: 10px;
-			color: #9B9B9B;
-			letter-spacing: 0.75px;
-			line-height: 20px;
-			text-transform: uppercase;
-			display: block;
+      @include mq($until: medium) {
+        font-size: 8px;
+        letter-spacing: 0.6px;
+        line-height: 10px;
+      }
 
-			@include mq($until: medium) {
-				font-size: 8px;
-				letter-spacing: 0.6px;
-				line-height: 10px;
-			}
+    }
 
-		}
+    &__locations {
 
-		&__locations {
+      border-top: 1px solid #979797;
+      padding-top: 20px;
 
-			border-top: 1px solid #979797;
-			padding-top: 20px;
+      @include mq($until: large) {
+        border-top: 0;
+        padding-top: 0;
 
-			@include mq($until: large) {
-				border-top: 0;
-				padding-top: 0;
-
-			}
+      }
 
 
 
-			li {
-				padding: 13px 0;
-				background: url(/assets/img/icons/gray-line-13px.png) bottom left no-repeat;
+      li {
+        padding: 13px 0;
+        background: url(/assets/img/icons/gray-line-13px.png) bottom left no-repeat;
 
-				&:last-child { background: transparent; }
+        &:last-child {
+          background: transparent;
+        }
 
-				@include mq($until: medium) {
-					padding: 10px 0;
-				}
-			}
+        @include mq($until: medium) {
+          padding: 10px 0;
+        }
+      }
 
-			a {
-				font-family: $benton-med;
-				font-size: 14px;
-				color: #337ab7;
-				letter-spacing: 0.3px;
-				line-height: 20px;
-				text-decoration: none;
+      a {
+        font-family: $benton-med;
+        font-size: 14px;
+        color: #337ab7;
+        letter-spacing: 0.3px;
+        line-height: 20px;
+        text-decoration: none;
 
-				&:hover {
-					color: #23527c;
-					text-decoration: underline;
-				}
+        &:hover {
+          color: #23527c;
+          text-decoration: underline;
+        }
 
-				@include mq($until: medium) {
-					font-size: 12px;
-					letter-spacing: 0px;
-					line-height: 16px;
-				}
+        @include mq($until: medium) {
+          font-size: 12px;
+          letter-spacing: 0px;
+          line-height: 16px;
+        }
 
-			}
-		}
-	}
+      }
+    }
+  }
 }
-
