@@ -1,16 +1,19 @@
 /* Related links make image clickable */
 .col-imagelink {
-	position: relative;
+  position: relative;
 }
 
 .module__related-links__imagelink {
-	width: 100%;
-	height: 100%;
-	position: absolute;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 
-	&,&:active,&:focus,&:hover {
-		text-decoration: none;
-	}
+  &,
+  &:active,
+  &:focus,
+  &:hover {
+    text-decoration: none;
+  }
 
 }
 
@@ -18,180 +21,181 @@
 /* Related Links Module */
 
 .callout-block {
-	border-top:1px solid $gray-20;
-	margin-top:40px;
+  border-top: 1px solid $gray-20;
+  margin-top: 40px;
 
-	.callout {
-		border-bottom:1px solid $gray-20;
-		margin-top:10px;
+  .callout {
+    border-bottom: 1px solid $gray-20;
+    margin-top: 10px;
 
-		.callout-icon {
-			border-right:1px solid $gray-20;
-			height:105px;
-			margin-bottom:10px;
+    .callout-icon {
+      border-right: 1px solid $gray-20;
+      height: 105px;
+      margin-bottom: 10px;
 
-			&.call-download-icon {
-				background:url('/assets/img/download_icon.png') no-repeat center center;
-				background-size:45px 84px;
-			}
+      &.call-download-icon {
+        // background:url('/assets/img/download_icon.png') no-repeat center center;
+        background-size: 45px 84px;
+      }
 
-			&.call-trade-icon {
-				background:url('/assets/img/Trade_Icon@2x.png') no-repeat center center;
-				background-size:124px 79px;
+      &.call-trade-icon {
+        background: url('/assets/img/Trade_Icon@2x.png') no-repeat center center;
+        background-size: 124px 79px;
 
-				@include mq($until: medium) {
-					background-size: 100%;
-				}
-			}
+        @include mq($until: medium) {
+          background-size: 100%;
+        }
+      }
 
-			&.call-scales-icon {
-				background:url('/assets/img/truth-p-d-f-icon@2x.png') no-repeat center center;
-				background-size:73px 89px;
+      &.call-scales-icon {
+        background: url('/assets/img/truth-p-d-f-icon@2x.png') no-repeat center center;
+        background-size: 73px 89px;
 
-				@include mq($until: 768px) {
-					background-size: auto 100%;
-				}
-
-
-				@include mq($until: 508px) {
-					background-size: 100%;
-				}
-
-			}
+        @include mq($until: 768px) {
+          background-size: auto 100%;
+        }
 
 
+        @include mq($until: 508px) {
+          background-size: 100%;
+        }
 
-			/* start */
-			&.call-sources-oil-prices-icon {
-				background:url('/assets/img/icons/call-icon-Oil_Prices@2x.png') no-repeat center center;
-				background-size:73px 90px; // 146 180
-
-				@include mq($until: 768px) {
-					background-size: 43px 54px;
-				}
-			}
-
-			&.call-understanding-oil-boom-icon {
-				background:url('/assets/img/call-icon-Oil_Boom@2x.png') no-repeat center center;
-				background-size:73px 90px; // 146 180
-
-				@include mq($until: 768px) {
-					background-size: 43px 54px;
-				}
-			}
-
-			&.call-beef-prices-icon {
-				background:url('/assets/img/pdf-icons/call-icon-Beef_Prices@2x.png') no-repeat center center;
-				background-size:73px 90px; // 146 180
-
-				@include mq($until: 768px) {
-					background-size: 43px 54px;
-				}
-			}
-
-			&.call-grain-prices-icon {
-				background:url('/assets/img/pdf-icons/call-icon-Grain_Prices@2x.png') no-repeat center center;
-				background-size:73px 90px; // 146 180
-
-				@include mq($until: 768px) {
-					background-size: 43px 54px;
-				}
-			}
-
-			&.call-pork-prices-icon {
-				background:url('/assets/img/pdf-icons/call-icon-Pork_Prices@2x.png') no-repeat center center;
-				background-size:73px 90px; // 146 180
-
-				@include mq($until: 768px) {
-					background-size: 43px 54px;
-				}
-			}
-
-			&.call-preventing-market-abuse-icon {
-				background:url('/assets/img/call-icon-Market_Abuse@2x.png') no-repeat center center;
-				background-size:73px 90px; // 146 180
-
-				@include mq($until: 768px) {
-					background-size: 43px 54px;
-				}
-			}
-
-			&.call-book-of-risk-icon {
-				background:url('/assets/img/call-icon-Book_of_Risk@2x.png') no-repeat center center;
-				background-size:73px 90px; // 146 180
-
-				@include mq($until: 768px) {
-					background-size: 43px 54px;
-				}
-			}
-
-			&.call-clearing-plain-simple-icon {
-				background:url('/assets/img/call-icon-Clearing_Plain_Simple@2x.png') no-repeat center center;
-				background-size:73px 90px; // 146 180
-
-				@include mq($until: 768px) {
-					background-size: 43px 54px;
-				}
-			}
-
-			&.call-clearing-a-trade-icon {
-				background:url('/assets/img/call-icon-Clearing_A_Trade@2x.png') no-repeat center center;
-				background-size:73px 90px; // 146 180
-
-				@include mq($until: 768px) {
-					background-size: 43px 54px;
-				}
-			}
+      }
 
 
-			/* end */
+
+      /* start */
+      &.call-sources-oil-prices-icon {
+        background: url('/assets/img/icons/call-icon-Oil_Prices@2x.png') no-repeat center center;
+        background-size: 73px 90px; // 146 180
+
+        @include mq($until: 768px) {
+          background-size: 43px 54px;
+        }
+      }
+
+      &.call-understanding-oil-boom-icon {
+        // background:url('/assets/img/call-icon-Oil_Boom@2x.png') no-repeat center center;
+        background-size: 73px 90px; // 146 180
+
+        @include mq($until: 768px) {
+          background-size: 43px 54px;
+        }
+      }
+
+      &.call-beef-prices-icon {
+        background: url('/assets/img/pdf-icons/call-icon-Beef_Prices@2x.png') no-repeat center center;
+        background-size: 73px 90px; // 146 180
+
+        @include mq($until: 768px) {
+          background-size: 43px 54px;
+        }
+      }
+
+      &.call-grain-prices-icon {
+        background: url('/assets/img/pdf-icons/call-icon-Grain_Prices@2x.png') no-repeat center center;
+        background-size: 73px 90px; // 146 180
+
+        @include mq($until: 768px) {
+          background-size: 43px 54px;
+        }
+      }
+
+      &.call-pork-prices-icon {
+        background: url('/assets/img/pdf-icons/call-icon-Pork_Prices@2x.png') no-repeat center center;
+        background-size: 73px 90px; // 146 180
+
+        @include mq($until: 768px) {
+          background-size: 43px 54px;
+        }
+      }
+
+      &.call-preventing-market-abuse-icon {
+        background: url('/assets/img/call-icon-Market_Abuse@2x.png') no-repeat center center;
+        background-size: 73px 90px; // 146 180
+
+        @include mq($until: 768px) {
+          background-size: 43px 54px;
+        }
+      }
+
+      &.call-book-of-risk-icon {
+        background: url('/assets/img/call-icon-Book_of_Risk@2x.png') no-repeat center center;
+        background-size: 73px 90px; // 146 180
+
+        @include mq($until: 768px) {
+          background-size: 43px 54px;
+        }
+      }
+
+      &.call-clearing-plain-simple-icon {
+        background: url('/assets/img/call-icon-Clearing_Plain_Simple@2x.png') no-repeat center center;
+        background-size: 73px 90px; // 146 180
+
+        @include mq($until: 768px) {
+          background-size: 43px 54px;
+        }
+      }
+
+      &.call-clearing-a-trade-icon {
+        background: url('/assets/img/call-icon-Clearing_A_Trade@2x.png') no-repeat center center;
+        background-size: 73px 90px; // 146 180
+
+        @include mq($until: 768px) {
+          background-size: 43px 54px;
+        }
+      }
 
 
+      /* end */
 
 
 
 
-			&.call-discovery-icon {
-				background:url('/assets/img/discovery_icon.png') no-repeat center center;
-				background-size:116px 96px;
 
-				@include mq($until: medium) {
-					background-size:70px 58px;
-				}
-			}
 
-			@include mq($until: medium) {
-				border-right:none;
-			}
-		}
+      &.call-discovery-icon {
+        background: url('/assets/img/discovery_icon.png') no-repeat center center;
+        background-size: 116px 96px;
 
-		.callout-section {
-			margin-bottom:18px;
-			h2 {
-				font-size:14px;
-				line-height:18px;
-				font-family:$benton-bold;
-				font-weight:bold;
-				color:$gray-40;
-				text-transform:uppercase;
-				margin-bottom:0;
-			}
+        @include mq($until: medium) {
+          background-size: 70px 58px;
+        }
+      }
 
-			p {
-				font-size:14px;
-				line-height:18px;
-				font-family:$benton;
-				color:$gray-30;
-				margin-top:0;
-			}
+      @include mq($until: medium) {
+        border-right: none;
+      }
+    }
 
-			a {
-				font-size:14px;
-				line-height:18px;
-				font-family:$benton;
-				text-transform:uppercase;
-				//text-decoration:underline;
-			}
-		}
-	}
+    .callout-section {
+      margin-bottom: 18px;
+
+      h2 {
+        font-size: 14px;
+        line-height: 18px;
+        font-family: $benton-bold;
+        font-weight: bold;
+        color: $gray-40;
+        text-transform: uppercase;
+        margin-bottom: 0;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 18px;
+        font-family: $benton;
+        color: $gray-30;
+        margin-top: 0;
+      }
+
+      a {
+        font-size: 14px;
+        line-height: 18px;
+        font-family: $benton;
+        text-transform: uppercase;
+        //text-decoration:underline;
+      }
+    }
+  }
 }

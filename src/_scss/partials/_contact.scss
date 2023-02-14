@@ -1,47 +1,49 @@
 .module__special--social_media {
-	margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .social_icon {
-	display: inline-block;
-	margin-right: 3rem;
-	
-	.at-icon-wrapper { display: none; }
+  display: inline-block;
+  margin-right: 3rem;
 
-	a {
-		background-position: 50% 50%;
-		background-repeat: no-repeat;
-		background-size: contain;
-		width: 42px !important;
-		height: 42px;
-		display: inline-block;
-	}
-	
-	&--facebook a {
-		background-image: url('/assets/img/social-media-logos/icon-follow-inline-facebook.svg');
-	}
+  .at-icon-wrapper {
+    display: none;
+  }
 
-	&--twitter a {
-		background-image: url('/assets/img/social-media-logos/icon-follow-inline-twitter.svg');
-	}
+  a {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 42px !important;
+    height: 42px;
+    display: inline-block;
+  }
 
-	&--google a {
-		background-image: url('/assets/img/social-media-logos/icon-follow-inline-googleplus.png');
-	}
+  &--facebook a {
+    background-image: url('/assets/img/social-media-logos/icon-follow-inline-facebook.svg');
+  }
 
-	&--instagram a {
-		background-image: url('/assets/img/social-media-logos/icon-follow-inline-instagram.svg');
-	}
+  &--twitter a {
+    background-image: url('/assets/img/social-media-logos/icon-follow-inline-twitter.svg');
+  }
 
-	&--linkedin a {
-		background-image: url('/assets/img/social-media-logos/icon-follow-inline-linkedin.svg');
-	}
+  // &--google a {
+  // 	background-image: url('/assets/img/social-media-logos/icon-follow-inline-googleplus.png');
+  // }
 
-	&--pinterest a {
-		background-image: url('/assets/img/social-media-logos/icon-follow-inline-pinterest.png');
-	}
+  &--instagram a {
+    background-image: url('/assets/img/social-media-logos/icon-follow-inline-instagram.svg');
+  }
 
-	&--weibo a {
-		background-image: url('/assets/img/social-media-logos/icon-follow-inline-weibo.png');
-	}
+  &--linkedin a {
+    background-image: url('/assets/img/social-media-logos/icon-follow-inline-linkedin.svg');
+  }
+
+  // &--pinterest a {
+  // 	background-image: url('/assets/img/social-media-logos/icon-follow-inline-pinterest.png');
+  // }
+
+  // &--weibo a {
+  // 	background-image: url('/assets/img/social-media-logos/icon-follow-inline-weibo.png');
+  // }
 }
